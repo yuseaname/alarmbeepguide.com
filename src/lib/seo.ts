@@ -211,31 +211,38 @@ export function getPageMeta(page: string): PageMeta {
   return pages[page] || pages.home
 }
 
-export function generateSitemap(): string {
+export function generateSitemap(blogPosts?: Array<{ slug: string; publishDate: string; lastUpdated?: string; featured: boolean }>): string {
   const today = new Date().toISOString().split('T')[0]
   
   const urls = [
-    { loc: 'https://alarmbeepguide.com', priority: '1.0', changefreq: 'daily' },
-    { loc: 'https://alarmbeepguide.com/blog', priority: '0.9', changefreq: 'daily' },
+    { loc: 'https://alarmbeepguide.com', priority: '1.0', changefreq: 'daily', lastmod: today },
+    { loc: 'https://alarmbeepguide.com/blog', priority: '0.9', changefreq: 'daily', lastmod: today },
     ...categories.map(cat => ({
       loc: `https://alarmbeepguide.com/${cat.slug}`,
       priority: '0.9',
-      changefreq: 'weekly'
+      changefreq: 'weekly',
+      lastmod: today
     })),
-    { loc: 'https://alarmbeepguide.com/about', priority: '0.6', changefreq: 'monthly' },
-    { loc: 'https://alarmbeepguide.com/disclosure', priority: '0.5', changefreq: 'monthly' },
-    { loc: 'https://alarmbeepguide.com/editorial-policy', priority: '0.5', changefreq: 'monthly' },
-    { loc: 'https://alarmbeepguide.com/corrections-policy', priority: '0.5', changefreq: 'monthly' },
-    { loc: 'https://alarmbeepguide.com/contact', priority: '0.6', changefreq: 'monthly' },
-    { loc: 'https://alarmbeepguide.com/privacy', priority: '0.5', changefreq: 'monthly' },
-    { loc: 'https://alarmbeepguide.com/accessibility', priority: '0.5', changefreq: 'monthly' }
+    ...(blogPosts || []).map(post => ({
+      loc: `https://alarmbeepguide.com/blog/${post.slug}`,
+      priority: post.featured ? '0.8' : '0.7',
+      changefreq: 'monthly',
+      lastmod: post.lastUpdated || post.publishDate
+    })),
+    { loc: 'https://alarmbeepguide.com/about', priority: '0.6', changefreq: 'monthly', lastmod: today },
+    { loc: 'https://alarmbeepguide.com/disclosure', priority: '0.5', changefreq: 'monthly', lastmod: today },
+    { loc: 'https://alarmbeepguide.com/editorial-policy', priority: '0.5', changefreq: 'monthly', lastmod: today },
+    { loc: 'https://alarmbeepguide.com/corrections-policy', priority: '0.5', changefreq: 'monthly', lastmod: today },
+    { loc: 'https://alarmbeepguide.com/contact', priority: '0.6', changefreq: 'monthly', lastmod: today },
+    { loc: 'https://alarmbeepguide.com/privacy', priority: '0.5', changefreq: 'monthly', lastmod: today },
+    { loc: 'https://alarmbeepguide.com/accessibility', priority: '0.5', changefreq: 'monthly', lastmod: today }
   ]
   
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(url => `  <url>
     <loc>${url.loc}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
     <priority>${url.priority}</priority>
   </url>`).join('\n')}

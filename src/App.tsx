@@ -8,9 +8,10 @@ import { BlogListPage } from './components/BlogListPage'
 import { BlogPostPage } from './components/BlogPostPage'
 import { useRouter } from './hooks/use-router'
 import { Toaster } from './components/ui/sonner'
-import { siteConfig, generateBreadcrumbSchema, categories } from './lib/seo'
+import { siteConfig, generateBreadcrumbSchema, categories, getPageMeta } from './lib/seo'
 import { useEffect } from 'react'
 import { trustPages } from './lib/content'
+import { getBlogPostBySlug } from './lib/blog'
 
 function App() {
   const { pathname } = useRouter()
@@ -51,6 +52,86 @@ function App() {
       breadcrumbScript.type = 'application/ld+json'
       breadcrumbScript.text = JSON.stringify(generateBreadcrumbSchema(breadcrumbItems))
       document.head.appendChild(breadcrumbScript)
+    }
+
+    let pageMeta
+    if (pathname === '/') {
+      pageMeta = getPageMeta('home')
+    } else if (pathname === '/blog') {
+      pageMeta = getPageMeta('blog')
+    } else if (pathname.startsWith('/blog/')) {
+      const slug = pathname.slice(6)
+      const post = getBlogPostBySlug(slug)
+      if (post) {
+        pageMeta = {
+          title: post.metaTitle,
+          description: post.metaDescription,
+          canonical: `https://alarmbeepguide.com/blog/${post.slug}`,
+          ogType: 'article'
+        }
+      }
+    } else {
+      const slug = pathname.slice(1)
+      const category = categories.find(c => c.slug === slug)
+      if (category) {
+        pageMeta = category.meta
+      } else {
+        pageMeta = getPageMeta(slug)
+      }
+    }
+
+    if (pageMeta) {
+      document.title = pageMeta.title
+      
+      let metaDescription = document.querySelector('meta[name="description"]')
+      if (!metaDescription) {
+        metaDescription = document.createElement('meta')
+        metaDescription.setAttribute('name', 'description')
+        document.head.appendChild(metaDescription)
+      }
+      metaDescription.setAttribute('content', pageMeta.description)
+
+      let ogTitle = document.querySelector('meta[property="og:title"]')
+      if (!ogTitle) {
+        ogTitle = document.createElement('meta')
+        ogTitle.setAttribute('property', 'og:title')
+        document.head.appendChild(ogTitle)
+      }
+      ogTitle.setAttribute('content', pageMeta.title)
+
+      let ogDescription = document.querySelector('meta[property="og:description"]')
+      if (!ogDescription) {
+        ogDescription = document.createElement('meta')
+        ogDescription.setAttribute('property', 'og:description')
+        document.head.appendChild(ogDescription)
+      }
+      ogDescription.setAttribute('content', pageMeta.description)
+
+      let ogUrl = document.querySelector('meta[property="og:url"]')
+      if (!ogUrl) {
+        ogUrl = document.createElement('meta')
+        ogUrl.setAttribute('property', 'og:url')
+        document.head.appendChild(ogUrl)
+      }
+      ogUrl.setAttribute('content', pageMeta.canonical)
+
+      let canonical = document.querySelector('link[rel="canonical"]')
+      if (!canonical) {
+        canonical = document.createElement('link')
+        canonical.setAttribute('rel', 'canonical')
+        document.head.appendChild(canonical)
+      }
+      canonical.setAttribute('href', pageMeta.canonical)
+
+      if (pageMeta.ogType) {
+        let ogType = document.querySelector('meta[property="og:type"]')
+        if (!ogType) {
+          ogType = document.createElement('meta')
+          ogType.setAttribute('property', 'og:type')
+          document.head.appendChild(ogType)
+        }
+        ogType.setAttribute('content', pageMeta.ogType)
+      }
     }
   }, [pathname])
 
