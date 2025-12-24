@@ -8,7 +8,7 @@ A comprehensive ad-driven digital publishing platform that decodes household ala
 3. **Engaging** - Interactive features like Top 3 comment leaderboards, seasonal tips, beep sound libraries, and quick-answer tables encourage repeat visits and extended session times
 
 **Complexity Level**: Complex Application (advanced functionality, likely with multiple views)
-This is a multi-page publishing system with dynamic content categorization, interactive engagement modules, comment systems, search functionality, retention features, comprehensive SEO infrastructure, and monetization optimization—requiring sophisticated state management and routing logic.
+This is a multi-page publishing system with dynamic content categorization, interactive engagement modules, comment systems, search functionality, retention features, comprehensive SEO infrastructure, blog publishing platform, and monetization optimization—requiring sophisticated state management and routing logic.
 
 ## Essential Features
 
@@ -54,7 +54,28 @@ This is a multi-page publishing system with dynamic content categorization, inte
 - **Progression**: User sees module → Clicks to learn more → Reads content → Bookmarks site for updates
 - **Success criteria**: Fresh content rotation logic, eye-catching design, clear update cadence messaging
 
-### 7. Trust & E-E-A-T Pages
+### 7. Blog Publishing System
+- **Functionality**: Full-featured blog with listing page, individual post pages, category filtering, featured posts, and SEO-optimized article schema
+- **Purpose**: Publish in-depth troubleshooting guides to build topical authority, increase organic search traffic, maximize ad impressions through long-form content, and establish E-E-A-T signals
+- **Trigger**: User navigates to /blog from main nav or clicks featured articles on homepage
+- **Progression**: Blog listing page → Filter by category (optional) → Select article → Read full guide with formatted content → View related articles → Navigate to related posts or back to listing
+- **Success criteria**: 
+  - Clean, readable article layout optimized for long-form content
+  - Category filtering on blog listing page
+  - Featured blog posts displayed on homepage
+  - JSON-LD Article schema for each post
+  - FAQ schema integration for posts with FAQs
+  - Related posts section to increase pageviews
+  - Breadcrumb navigation with category context
+  - Mobile-optimized reading experience
+  - Social sharing metadata (Open Graph)
+  - Safety disclaimers on all posts
+  - Read time estimates
+  - Publication and update dates displayed
+  - Tag system for content organization
+  - Sitemap includes /blog with high priority
+
+### 8. Trust & E-E-A-T Pages
 - **Functionality**: Fully written About, Disclosure, Editorial Policy, Corrections Policy, Contact, Privacy, Accessibility pages
 - **Purpose**: Build Google E-E-A-T signals, establish credibility, comply with ad network policies
 - **Trigger**: User clicks footer links or seeks transparency

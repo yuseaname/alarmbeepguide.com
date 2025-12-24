@@ -40,6 +40,9 @@ export function Header() {
                 ))}
               </div>
             </div>
+            <Link href="/blog" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+              Blog
+            </Link>
             <Link href="/about" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
               About
             </Link>
@@ -79,6 +82,9 @@ export function Header() {
                   {cat.name}
                 </Link>
               ))}
+              <Link href="/blog" className="text-sm font-medium text-foreground/80 hover:text-primary">
+                Blog
+              </Link>
               <Link href="/about" className="text-sm font-medium text-foreground/80 hover:text-primary">
                 About
               </Link>

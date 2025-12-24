@@ -2,11 +2,24 @@ import { Button } from './ui/button'
 import { CategoryCards } from './CategoryCards'
 import { TopCommentsLeaderboard } from './TopCommentsLeaderboard'
 import { SeasonalTipsModule } from './SeasonalTipsModule'
-import { Shield, CheckCircle, Megaphone } from '@phosphor-icons/react'
+import { Shield, CheckCircle, Megaphone, Clock, CaretRight } from '@phosphor-icons/react'
 import { Card } from './ui/card'
 import { Link } from './Link'
+import { Badge } from './ui/badge'
+import { getFeaturedBlogPosts } from '@/lib/blog'
 
 export function HomePage() {
+  const featuredPosts = getFeaturedBlogPosts()
+
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString)
+    return date.toLocaleDateString('en-US', { 
+      month: 'short', 
+      day: 'numeric', 
+      year: 'numeric' 
+    })
+  }
+
   return (
     <div className="min-h-screen">
       <section className="border-b border-border bg-gradient-to-br from-background via-background to-primary/5">
@@ -106,7 +119,82 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="border-b border-border bg-background">
+      {featuredPosts.length > 0 && (
+        <section className="border-b border-border bg-background">
+          <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+            <div className="mb-8 flex items-center justify-between">
+              <div>
+                <h2 className="mb-2 text-3xl font-bold text-foreground">
+                  Featured Troubleshooting Guides
+                </h2>
+                <p className="text-muted-foreground">
+                  In-depth solutions to the most common alarm and safety device problems
+                </p>
+              </div>
+              <Button variant="outline" asChild className="hidden md:inline-flex">
+                <Link href="/blog">
+                  View All Articles
+                  <CaretRight className="ml-1 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+            
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {featuredPosts.slice(0, 3).map((post) => (
+                <Card key={post.id} className="flex flex-col card-hover">
+                  <div className="flex-1 p-6">
+                    <Badge variant="secondary" className="mb-3 text-xs">
+                      Featured Guide
+                    </Badge>
+                    
+                    <h3 className="mb-3 text-xl font-semibold leading-tight text-foreground">
+                      <Link 
+                        href={`/blog/${post.slug}`}
+                        className="hover:text-primary transition-colors"
+                      >
+                        {post.title}
+                      </Link>
+                    </h3>
+                    
+                    <p className="mb-4 text-sm leading-relaxed text-muted-foreground line-clamp-3">
+                      {post.excerpt}
+                    </p>
+
+                    <div className="flex items-center gap-3 text-xs text-muted-foreground">
+                      <div className="flex items-center gap-1">
+                        <Clock className="h-3 w-3" />
+                        <span>{post.readTime} min read</span>
+                      </div>
+                      <span>•</span>
+                      <span>{formatDate(post.publishDate)}</span>
+                    </div>
+                  </div>
+
+                  <div className="border-t border-border p-4">
+                    <Button variant="ghost" size="sm" className="w-full" asChild>
+                      <Link href={`/blog/${post.slug}`}>
+                        Read Full Guide
+                        <CaretRight className="ml-1 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </div>
+                </Card>
+              ))}
+            </div>
+
+            <div className="mt-6 text-center md:hidden">
+              <Button variant="outline" asChild>
+                <Link href="/blog">
+                  View All Articles
+                  <CaretRight className="ml-1 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="border-b border-border bg-card">
         <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
           <div className="mb-12 text-center">
             <Megaphone className="mx-auto mb-4 h-12 w-12 text-primary" weight="duotone" />

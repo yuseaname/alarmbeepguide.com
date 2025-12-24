@@ -4,6 +4,8 @@ import { BeepMatcherWidget } from './components/BeepMatcherWidget'
 import { HomePage } from './components/HomePage'
 import { CategoryPage } from './components/CategoryPage'
 import { TrustPage } from './components/TrustPage'
+import { BlogListPage } from './components/BlogListPage'
+import { BlogPostPage } from './components/BlogPostPage'
 import { useRouter } from './hooks/use-router'
 import { Toaster } from './components/ui/sonner'
 import { siteConfig, generateBreadcrumbSchema, categories } from './lib/seo'
@@ -55,6 +57,15 @@ function App() {
   const renderPage = () => {
     if (pathname === '/') {
       return <HomePage />
+    }
+
+    if (pathname === '/blog') {
+      return <BlogListPage />
+    }
+
+    if (pathname.startsWith('/blog/')) {
+      const slug = pathname.slice(6)
+      return <BlogPostPage slug={slug} />
     }
 
     const slug = pathname.slice(1)

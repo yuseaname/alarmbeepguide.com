@@ -123,12 +123,52 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]) 
   }
 }
 
+export function generateArticleSchema(article: {
+  title: string
+  description: string
+  author: string
+  publishDate: string
+  lastUpdated?: string
+  url: string
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.description,
+    author: {
+      '@type': 'Organization',
+      name: article.author
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'AlarmBeepGuide',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://alarmbeepguide.com/logo.png'
+      }
+    },
+    datePublished: article.publishDate,
+    dateModified: article.lastUpdated || article.publishDate,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': article.url
+    }
+  }
+}
+
 export function getPageMeta(page: string): PageMeta {
   const pages: Record<string, PageMeta> = {
     home: {
       title: 'AlarmBeepGuide - Decode Alarm Beeps & Fix Safety Devices',
       description: 'Decode confusing alarm beeps, troubleshoot smoke detectors, fix chirping alerts, and solve household safety device problems without manuals. Fast, plain-English solutions.',
       canonical: 'https://alarmbeepguide.com',
+      ogType: 'website'
+    },
+    blog: {
+      title: 'AlarmBeepGuide Blog - Safety Device Troubleshooting Guides',
+      description: 'In-depth troubleshooting guides, safety tips, and plain-English explanations for household alarms, detectors, and safety devices.',
+      canonical: 'https://alarmbeepguide.com/blog',
       ogType: 'website'
     },
     about: {
@@ -176,6 +216,7 @@ export function generateSitemap(): string {
   
   const urls = [
     { loc: 'https://alarmbeepguide.com', priority: '1.0', changefreq: 'daily' },
+    { loc: 'https://alarmbeepguide.com/blog', priority: '0.9', changefreq: 'daily' },
     ...categories.map(cat => ({
       loc: `https://alarmbeepguide.com/${cat.slug}`,
       priority: '0.9',
