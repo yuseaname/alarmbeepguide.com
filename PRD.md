@@ -74,6 +74,18 @@ This is a multi-page publishing system with dynamic content categorization, inte
   - Publication and update dates displayed
   - Tag system for content organization
   - Sitemap includes /blog with high priority
+  - **Current Blog Posts** (12 comprehensive articles):
+    - Smoke Detector Chirping Low Battery (Chirp & Beep Codes)
+    - Carbon Monoxide Detector Beeping Patterns (Chirp & Beep Codes)
+    - Hardwired Smoke Detector Beeping Troubleshooting (Chirp & Beep Codes)
+    - Motion Sensor Light Won't Turn Off (Home Flood Lights)
+    - Fire Extinguisher Pressure Gauge Reading (Fire Extinguishers)
+    - Fire Extinguisher When to Replace (Fire Extinguishers)
+    - NOAA Weather Radio Alerts Setup Guide (Weather & Outage Alerts)
+    - Emergency Alert System Phone Sounds (Weather & Outage Alerts)
+    - Heat Detector vs Smoke Detector (Household Alert Fixes)
+    - Security System Beeping Codes (Household Alert Fixes)
+    - Smoke Detector False Alarms (Household Alert Fixes)
 
 ### 8. Trust & E-E-A-T Pages
 - **Functionality**: Fully written About, Disclosure, Editorial Policy, Corrections Policy, Contact, Privacy, Accessibility pages
