@@ -56,6 +56,30 @@ export function CategoryPage({ slug }: CategoryPageProps) {
 
       {categoryPosts.length > 0 ? (
         <>
+          <section className="border-b border-border bg-accent/10">
+            <div className="container mx-auto max-w-7xl px-4 py-8">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+                    <CheckCircle className="h-6 w-6" weight="fill" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium text-muted-foreground">Complete Resource Hub</p>
+                    <p className="text-lg font-semibold text-foreground">
+                      {categoryPosts.length} Expert {categoryPosts.length === 1 ? 'Guide' : 'Guides'} Available
+                    </p>
+                  </div>
+                </div>
+                <Button variant="outline" asChild className="hidden sm:flex">
+                  <Link href="/blog">
+                    View All Articles
+                    <CaretRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </section>
+
           <section className="border-b border-border bg-background">
             <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
               <div className="mb-8">
@@ -63,7 +87,7 @@ export function CategoryPage({ slug }: CategoryPageProps) {
                   Troubleshooting Guides & Resources
                 </h2>
                 <p className="text-muted-foreground">
-                  {categoryPosts.length} comprehensive {categoryPosts.length === 1 ? 'guide' : 'guides'} to help you solve {category.name.toLowerCase()} problems
+                  Comprehensive step-by-step guides to solve {category.name.toLowerCase()} problems
                 </p>
               </div>
               
@@ -133,7 +157,7 @@ export function CategoryPage({ slug }: CategoryPageProps) {
 
       <section className="bg-background">
         <div className="container mx-auto max-w-7xl px-4 py-12">
-          <div className="rounded-lg border border-primary/20 bg-primary/5 p-6 md:p-8">
+          <div className="mb-12 rounded-lg border border-primary/20 bg-primary/5 p-6 md:p-8">
             <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
               <div>
                 <h3 className="mb-2 text-xl font-semibold text-foreground">
@@ -145,6 +169,25 @@ export function CategoryPage({ slug }: CategoryPageProps) {
               </div>
               <Button size="lg" className="shrink-0">
                 Open Beep Decoder
+              </Button>
+            </div>
+          </div>
+
+          <div className="rounded-lg border border-border bg-card p-6 md:p-8">
+            <div className="mb-6 text-center">
+              <h3 className="mb-2 text-2xl font-semibold text-foreground">
+                Explore More Safety Guides
+              </h3>
+              <p className="text-muted-foreground">
+                Browse articles from all categories to expand your safety knowledge
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              <Button variant="outline" asChild>
+                <Link href="/blog">View All Blog Articles</Link>
+              </Button>
+              <Button variant="outline" asChild>
+                <Link href="/">Explore All Categories</Link>
               </Button>
             </div>
           </div>

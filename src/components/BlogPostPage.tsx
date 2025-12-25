@@ -69,6 +69,8 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
     .filter(p => p.id !== post.id)
     .slice(0, 3)
 
+  const category = categories.find(c => c.id === post.category)
+
   return (
     <div className="min-h-screen">
       <BlogPostBreadcrumbs post={post} />
@@ -76,6 +78,7 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
       <BlogPostContent post={post} />
       {post.faqs && post.faqs.length > 0 && <BlogPostFAQs faqs={post.faqs} />}
       {relatedPosts.length > 0 && <RelatedPosts posts={relatedPosts} currentPost={post} />}
+      {category && <CategoryCallToAction category={category} />}
     </div>
   )
 }
@@ -381,6 +384,41 @@ function RelatedPosts({ posts, currentPost }: { posts: BlogPost[]; currentPost: 
             </Card>
           ))}
         </div>
+      </div>
+    </section>
+  )
+}
+
+function CategoryCallToAction({ category }: { category: typeof categories[0] }) {
+  return (
+    <section className="border-t border-border bg-gradient-to-br from-background via-background to-primary/5">
+      <div className="container mx-auto max-w-4xl px-4 py-12">
+        <Card className="overflow-hidden">
+          <div className="p-8 text-center">
+            <Badge variant="secondary" className="mb-4">
+              {category.name}
+            </Badge>
+            <h3 className="mb-3 text-2xl font-semibold text-foreground">
+              More {category.name} Resources
+            </h3>
+            <p className="mb-6 text-muted-foreground">
+              {category.description}
+            </p>
+            <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
+              <Button asChild>
+                <Link href={`/${category.slug}`}>
+                  Browse All {category.name} Guides
+                  <CaretRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+              <Button variant="outline" asChild>
+                <Link href="/blog">
+                  View All Articles
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </Card>
       </div>
     </section>
   )

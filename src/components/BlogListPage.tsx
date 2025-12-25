@@ -51,25 +51,38 @@ export function BlogListPage() {
 
       <section className="bg-background">
         <div className="container mx-auto max-w-7xl px-4 py-12">
-          <div className="mb-8 flex flex-wrap items-center gap-3">
-            <span className="text-sm font-medium text-muted-foreground">Filter by category:</span>
-            <Button
-              variant={selectedCategory === null ? 'default' : 'outline'}
-              size="sm"
-              onClick={() => setSelectedCategory(null)}
-            >
-              All ({allPosts.length})
-            </Button>
-            {blogCategories.map(({ category, count }) => (
+          <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <h2 className="text-2xl font-semibold text-foreground">
+                {selectedCategory 
+                  ? `${getCategoryName(selectedCategory)} Articles` 
+                  : 'All Safety Guides'}
+              </h2>
+              <p className="mt-1 text-sm text-muted-foreground">
+                {filteredPosts.length} {filteredPosts.length === 1 ? 'article' : 'articles'} 
+                {selectedCategory && ' in this category'}
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-3">
+              <span className="text-sm font-medium text-muted-foreground">Filter:</span>
               <Button
-                key={category}
-                variant={selectedCategory === category ? 'default' : 'outline'}
+                variant={selectedCategory === null ? 'default' : 'outline'}
                 size="sm"
-                onClick={() => setSelectedCategory(category)}
+                onClick={() => setSelectedCategory(null)}
               >
-                {getCategoryName(category)} ({count})
+                All ({allPosts.length})
               </Button>
-            ))}
+              {blogCategories.map(({ category, count }) => (
+                <Button
+                  key={category}
+                  variant={selectedCategory === category ? 'default' : 'outline'}
+                  size="sm"
+                  onClick={() => setSelectedCategory(category)}
+                >
+                  {getCategoryName(category)} ({count})
+                </Button>
+              ))}
+            </div>
           </div>
 
           {filteredPosts.length === 0 ? (
@@ -83,6 +96,47 @@ export function BlogListPage() {
               ))}
             </div>
           )}
+        </div>
+      </section>
+
+      <section className="border-t border-border bg-card">
+        <div className="container mx-auto max-w-7xl px-4 py-12">
+          <div className="mb-8 text-center">
+            <h2 className="mb-2 text-2xl font-semibold text-foreground">
+              Browse Articles by Category
+            </h2>
+            <p className="text-muted-foreground">
+              Explore safety guides organized by device type and problem area
+            </p>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {categories.map((cat) => {
+              const catBlogCount = blogCategories.find(bc => bc.category === cat.id)?.count || 0
+              return (
+                <Card key={cat.id} className="flex flex-col card-hover">
+                  <div className="flex-1 p-6">
+                    <h3 className="mb-2 text-lg font-semibold text-foreground">
+                      {cat.name}
+                    </h3>
+                    <p className="mb-4 text-sm text-muted-foreground">
+                      {cat.description}
+                    </p>
+                    <p className="text-xs font-medium text-primary">
+                      {catBlogCount} {catBlogCount === 1 ? 'article' : 'articles'}
+                    </p>
+                  </div>
+                  <div className="border-t border-border p-4">
+                    <Button variant="ghost" size="sm" className="w-full" asChild>
+                      <Link href={`/${cat.slug}`}>
+                        View Category
+                        <CaretRight className="ml-1 h-4 w-4" />
+                      </Link>
+                    </Button>
+                  </div>
+                </Card>
+              )
+            })}
+          </div>
         </div>
       </section>
     </div>
