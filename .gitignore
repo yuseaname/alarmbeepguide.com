@@ -1,5 +1,6 @@
 # Logs
 logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,24 +8,38 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+node_modules/
+
+# Build outputs (kept ignored for main app)
 dist
 dist-ssr
 *-dist
 *.local
 
+# BUT: we intentionally commit prebuilt artifacts for Hostinger
+!hostinger-deploy/dist/
+!hostinger-deploy/dist/**
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+.vscode/
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.vs/
 
+# Env files
 .env
+.env.*
+
 **/agent-eval-report*
 packages
 pids
@@ -32,3 +47,10 @@ pids
 .devcontainer/
 
 .spark-workbench-id
+
+# Hostinger local artifacts
+hostinger-deploy/node_modules/
+hostinger-prebuilt/node_modules/
+
+# Optional: keep zips out of git
+*.zip

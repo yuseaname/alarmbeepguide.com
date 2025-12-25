@@ -1,0 +1,16 @@
+{
+  "name": "alarmbeepguide-hostinger",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18 <25"
+  },
+  "scripts": {
+    "build": "echo '✅ Prebuilt deploy: build already included in dist/'",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
