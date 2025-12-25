@@ -1,5 +1,14 @@
 export class BeepAudioGenerator {
   private audioContext: AudioContext | null = null
+  private volume: number = 0.5
+
+  setVolume(value: number): void {
+    this.volume = Math.max(0, Math.min(1, value))
+  }
+
+  getVolume(): number {
+    return this.volume
+  }
 
   private getAudioContext(): AudioContext {
     if (!this.audioContext) {
@@ -19,9 +28,11 @@ export class BeepAudioGenerator {
     oscillator.frequency.value = frequency
     oscillator.type = 'square'
 
+    const maxGain = 0.3 * this.volume
+
     gainNode.gain.setValueAtTime(0, startTime)
-    gainNode.gain.linearRampToValueAtTime(0.3, startTime + 0.01)
-    gainNode.gain.setValueAtTime(0.3, startTime + duration - 0.05)
+    gainNode.gain.linearRampToValueAtTime(maxGain, startTime + 0.01)
+    gainNode.gain.setValueAtTime(maxGain, startTime + duration - 0.05)
     gainNode.gain.linearRampToValueAtTime(0, startTime + duration)
 
     oscillator.start(startTime)

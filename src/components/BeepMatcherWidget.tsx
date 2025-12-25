@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { SpeakerHigh, X, Play } from '@phosphor-icons/react'
+import { useState, useEffect } from 'react'
+import { SpeakerHigh, X, Play, SpeakerLow, SpeakerSlash } from '@phosphor-icons/react'
 import { Button } from './ui/button'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from './ui/dialog'
 import { Card } from './ui/card'
@@ -7,16 +7,36 @@ import { beepPatterns } from '@/lib/content'
 import { Badge } from './ui/badge'
 import { Input } from './ui/input'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
+import { Slider } from './ui/slider'
 import { audioGenerator } from '@/lib/audio'
 import { toast } from 'sonner'
+import { useKV } from '@github/spark/hooks'
 
 export function BeepMatcherWidget() {
   const [isOpen, setIsOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const [deviceFilter, setDeviceFilter] = useState<string>('all')
   const [playingPattern, setPlayingPattern] = useState<string | null>(null)
+  const [volume, setVolume] = useKV<number>('beep-volume', 50)
 
   const devices = Array.from(new Set(beepPatterns.map(p => p.device)))
+
+  useEffect(() => {
+    audioGenerator.setVolume((volume ?? 50) / 100)
+  }, [volume])
+
+  const handleVolumeChange = (value: number[]) => {
+    setVolume(() => value[0])
+  }
+
+  const getVolumeIcon = () => {
+    const volumeValue = volume ?? 50
+    if (volumeValue === 0) return SpeakerSlash
+    if (volumeValue < 50) return SpeakerLow
+    return SpeakerHigh
+  }
+
+  const VolumeIcon = getVolumeIcon()
 
   const handlePlayAudio = async (patternType: string, patternName: string) => {
     try {
@@ -82,6 +102,19 @@ export function BeepMatcherWidget() {
                   ))}
                 </SelectContent>
               </Select>
+            </div>
+
+            <div className="flex items-center gap-3 rounded-lg border bg-muted/30 p-3">
+              <VolumeIcon className="h-5 w-5 text-muted-foreground shrink-0" weight="fill" />
+              <Slider
+                value={[volume ?? 50]}
+                onValueChange={handleVolumeChange}
+                max={100}
+                step={1}
+                className="flex-1"
+                id="volume-control"
+              />
+              <span className="text-sm font-medium text-muted-foreground w-10 text-right">{volume ?? 50}%</span>
             </div>
 
             <div className="space-y-3">
