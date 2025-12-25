@@ -25,19 +25,21 @@ export function Header() {
               Home
             </Link>
             <div className="group relative">
-              <button className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+              <button className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors py-2">
                 Categories
               </button>
-              <div className="absolute left-0 top-full mt-2 hidden w-64 rounded-lg border border-border bg-card p-2 shadow-lg group-hover:block">
-                {categories.map((cat) => (
-                  <Link
-                    key={cat.id}
-                    href={`/${cat.slug}`}
-                    className="block rounded-md px-3 py-2 text-sm text-foreground/80 hover:bg-accent hover:text-accent-foreground"
-                  >
-                    {cat.name}
-                  </Link>
-                ))}
+              <div className="absolute left-0 top-full pt-2 hidden group-hover:block">
+                <div className="w-64 rounded-lg border border-border bg-card p-2 shadow-lg">
+                  {categories.map((cat) => (
+                    <Link
+                      key={cat.id}
+                      href={`/${cat.slug}`}
+                      className="block rounded-md px-3 py-2 text-sm text-foreground/80 hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {cat.name}
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
             <Link href="/blog" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
