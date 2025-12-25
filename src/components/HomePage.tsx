@@ -7,7 +7,7 @@ import { Shield, CheckCircle, Megaphone, Clock, CaretRight, SpeakerHigh } from '
 import { Card } from './ui/card'
 import { Link } from './Link'
 import { Badge } from './ui/badge'
-import { getFeaturedBlogPosts } from '@/lib/blog'
+import { getFeaturedBlogPosts, getAllBlogPosts } from '@/lib/blog'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from './ui/dialog'
 import { Input } from './ui/input'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
@@ -15,6 +15,7 @@ import { beepPatterns } from '@/lib/content'
 
 export function HomePage() {
   const featuredPosts = getFeaturedBlogPosts()
+  const allPosts = getAllBlogPosts()
   const [isBeepMatcherOpen, setIsBeepMatcherOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const [deviceFilter, setDeviceFilter] = useState<string>('all')
@@ -138,37 +139,39 @@ export function HomePage() {
       </section>
 
       {featuredPosts.length > 0 && (
-        <section className="border-b border-border bg-background">
+        <section className="border-b border-border bg-gradient-to-br from-primary/5 via-background to-background">
           <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
-            <div className="mb-8 flex items-center justify-between">
-              <div>
-                <h2 className="mb-2 text-3xl font-bold text-foreground">
-                  Featured Troubleshooting Guides
-                </h2>
-                <p className="text-muted-foreground">
-                  In-depth solutions to the most common alarm and safety device problems
-                </p>
+            <div className="mb-10 text-center">
+              <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-semibold text-accent">
+                <Megaphone className="h-3.5 w-3.5" weight="fill" />
+                <span>EXPERT GUIDES</span>
               </div>
-              <Button variant="outline" asChild className="hidden md:inline-flex">
-                <Link href="/blog">
-                  View All Articles
-                  <CaretRight className="ml-1 h-4 w-4" />
-                </Link>
-              </Button>
+              <h2 className="mb-3 text-3xl font-bold text-foreground md:text-4xl">
+                Featured Troubleshooting Guides
+              </h2>
+              <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+                In-depth, step-by-step solutions to the most common alarm and safety device problems
+              </p>
             </div>
             
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {featuredPosts.slice(0, 3).map((post) => (
-                <Card key={post.id} className="flex flex-col card-hover">
+              {featuredPosts.slice(0, 3).map((post, index) => (
+                <Card key={post.id} className="group relative flex flex-col overflow-hidden border-2 transition-all duration-300 hover:border-primary/30 hover:shadow-xl">
+                  <div className="absolute right-4 top-4 z-10">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-sm font-bold text-primary backdrop-blur-sm">
+                      {index + 1}
+                    </div>
+                  </div>
+                  
                   <div className="flex-1 p-6">
-                    <Badge variant="secondary" className="mb-3 text-xs">
-                      Featured Guide
+                    <Badge variant="secondary" className="mb-4 border border-primary/20 bg-primary/5 text-xs font-medium text-primary">
+                      Featured
                     </Badge>
                     
-                    <h3 className="mb-3 text-xl font-semibold leading-tight text-foreground">
+                    <h3 className="mb-3 text-xl font-bold leading-tight text-foreground">
                       <Link 
                         href={`/blog/${post.slug}`}
-                        className="hover:text-primary transition-colors"
+                        className="transition-colors group-hover:text-primary"
                       >
                         {post.title}
                       </Link>
@@ -178,21 +181,26 @@ export function HomePage() {
                       {post.excerpt}
                     </p>
 
-                    <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                      <div className="flex items-center gap-1">
-                        <Clock className="h-3 w-3" />
-                        <span>{post.readTime} min read</span>
+                    <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+                      <div className="flex items-center gap-1.5">
+                        <Clock className="h-3.5 w-3.5" weight="bold" />
+                        <span className="font-medium">{post.readTime} min read</span>
                       </div>
-                      <span>•</span>
+                      <span className="text-border">•</span>
                       <span>{formatDate(post.publishDate)}</span>
                     </div>
                   </div>
 
-                  <div className="border-t border-border p-4">
-                    <Button variant="ghost" size="sm" className="w-full" asChild>
+                  <div className="border-t border-border bg-muted/30 p-4">
+                    <Button 
+                      variant="ghost" 
+                      size="sm" 
+                      className="w-full font-semibold transition-colors group-hover:bg-primary group-hover:text-primary-foreground" 
+                      asChild
+                    >
                       <Link href={`/blog/${post.slug}`}>
                         Read Full Guide
-                        <CaretRight className="ml-1 h-4 w-4" />
+                        <CaretRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                       </Link>
                     </Button>
                   </div>
@@ -200,11 +208,11 @@ export function HomePage() {
               ))}
             </div>
 
-            <div className="mt-6 text-center md:hidden">
-              <Button variant="outline" asChild>
+            <div className="mt-10 text-center">
+              <Button size="lg" variant="outline" asChild className="group">
                 <Link href="/blog">
-                  View All Articles
-                  <CaretRight className="ml-1 h-4 w-4" />
+                  View All {allPosts.length} Articles
+                  <CaretRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>
             </div>

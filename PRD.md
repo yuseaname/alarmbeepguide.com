@@ -16,8 +16,8 @@ This is a multi-page publishing system with dynamic content categorization, inte
 - **Functionality**: Landing page that clearly articulates the problem (confusing alarm beeps), positions the site as a guide, presents a 3-step solution, and drives action through CTAs
 - **Purpose**: Immediately communicate value, build trust, and guide visitors into content categories while maximizing time-on-site
 - **Trigger**: User lands on homepage from search or direct visit
-- **Progression**: Hero problem statement → Site as mentor/guide → 3-step solution preview → Primary CTA ("Decode My Beep") → Secondary features (Top 3 comments, seasonal tips) → Category cards → Footer
-- **Success criteria**: Clear value proposition within 3 seconds, sub-2s load time, mobile-optimized, compelling CTAs
+- **Progression**: Hero problem statement → Site as mentor/guide → 3-step solution preview → Primary CTA ("Decode My Beep") → Category cards → Featured articles section → Secondary features (Top 3 comments, seasonal tips) → Trust signals → Final CTA → Footer
+- **Success criteria**: Clear value proposition within 3 seconds, sub-2s load time, mobile-optimized, compelling CTAs, featured articles prominently displayed with visual hierarchy
 
 ### 2. Five Content Pillar Category System
 - **Functionality**: Organized content categories (Chirp & Beep Codes, Fire Extinguishers, Home Flood Lights, Weather & Outage Alerts, Household Alert Fixes) with breadcrumb navigation and JSON-LD schema
@@ -62,7 +62,14 @@ This is a multi-page publishing system with dynamic content categorization, inte
 - **Success criteria**: 
   - Clean, readable article layout optimized for long-form content
   - Category filtering on blog listing page
-  - Featured blog posts displayed on homepage
+  - **Featured blog posts displayed prominently on homepage with enhanced visual design**:
+    - Numbered ranking badges (1, 2, 3) for top featured articles
+    - Gradient background treatment with accent color highlighting
+    - "Expert Guides" badge with megaphone icon
+    - Hover effects with scale and color transitions
+    - Card rankings and clear visual hierarchy
+    - Group hover animations on CTA buttons
+    - Dynamic article count in "View All" button
   - JSON-LD Article schema for each post
   - FAQ schema integration for posts with FAQs
   - Related posts section to increase pageviews
@@ -75,17 +82,17 @@ This is a multi-page publishing system with dynamic content categorization, inte
   - Tag system for content organization
   - Sitemap includes /blog with high priority
   - **Current Blog Posts** (12 comprehensive articles):
-    - Smoke Detector Chirping Low Battery (Chirp & Beep Codes)
-    - Carbon Monoxide Detector Beeping Patterns (Chirp & Beep Codes)
-    - Hardwired Smoke Detector Beeping Troubleshooting (Chirp & Beep Codes)
+    - Smoke Detector Chirping Low Battery (Chirp & Beep Codes) - FEATURED
+    - Carbon Monoxide Detector Beeping Patterns (Chirp & Beep Codes) - FEATURED
+    - Hardwired Smoke Detector Beeping Troubleshooting (Chirp & Beep Codes) - FEATURED
+    - Fire Extinguisher Pressure Gauge Reading (Fire Extinguishers) - FEATURED
+    - Fire Extinguisher When to Replace (Fire Extinguishers) - FEATURED
+    - NOAA Weather Radio Alerts Setup Guide (Weather & Outage Alerts) - FEATURED
+    - Emergency Alert System Phone Sounds (Weather & Outage Alerts) - FEATURED
+    - Security System Beeping Codes (Household Alert Fixes) - FEATURED
+    - Smoke Detector False Alarms (Household Alert Fixes) - FEATURED
     - Motion Sensor Light Won't Turn Off (Home Flood Lights)
-    - Fire Extinguisher Pressure Gauge Reading (Fire Extinguishers)
-    - Fire Extinguisher When to Replace (Fire Extinguishers)
-    - NOAA Weather Radio Alerts Setup Guide (Weather & Outage Alerts)
-    - Emergency Alert System Phone Sounds (Weather & Outage Alerts)
     - Heat Detector vs Smoke Detector (Household Alert Fixes)
-    - Security System Beeping Codes (Household Alert Fixes)
-    - Smoke Detector False Alarms (Household Alert Fixes)
 
 ### 8. Trust & E-E-A-T Pages
 - **Functionality**: Fully written About, Disclosure, Editorial Policy, Corrections Policy, Contact, Privacy, Accessibility pages
