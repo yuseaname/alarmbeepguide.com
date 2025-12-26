@@ -12,7 +12,7 @@ export function setupCSP(req, res, next) {
     "default-src 'self'",
     
     // Scripts: Allow AdSense + inline (required for AdSense)
-    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagmanager.com https://www.google-analytics.com",
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://adservice.google.com https://www.googletagmanager.com https://www.google-analytics.com https://app.rybbit.io",
     
     // Styles: Allow inline (required for AdSense + Tailwind)
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
@@ -27,7 +27,7 @@ export function setupCSP(req, res, next) {
     "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com",
     
     // Connect: API calls
-    "connect-src 'self' https://pagead2.googlesyndication.com https://www.google-analytics.com",
+    "connect-src 'self' https://pagead2.googlesyndication.com https://www.google-analytics.com https://app.rybbit.io",
     
     // Media
     "media-src 'self'",
