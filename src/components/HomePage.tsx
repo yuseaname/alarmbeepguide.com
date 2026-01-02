@@ -43,25 +43,36 @@ export function HomePage() {
       <section className="border-b border-border bg-gradient-to-br from-background via-background to-primary/5">
         <div className="container mx-auto max-w-7xl px-4 py-16 md:py-24">
           <div className="mx-auto max-w-3xl text-center">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm font-medium text-primary">
-              <Shield className="h-4 w-4" weight="fill" />
-              <span>No Manuals Needed</span>
-            </div>
-            <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
-              Decode Alarm Beeps & Fix Safety Devices
-            </h1>
-            <p className="mb-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Stop the chirps. Understand the beeps. Fix household alerts without digging through manuals. 
-              Plain-English solutions for smoke detectors, CO alarms, motion lights, and more.
-            </p>
-            <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Button size="lg" className="w-full sm:w-auto text-base px-8 py-6" onClick={() => setIsBeepMatcherOpen(true)}>
-                <SpeakerHigh className="mr-2 h-5 w-5" weight="bold" />
-                Decode My Beep Now
-              </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto text-base px-8 py-6" asChild>
-                <Link href="/about">Learn How It Works</Link>
-              </Button>
+            <div className="rounded-2xl border border-border/50 bg-background/60 p-6 shadow-sm md:p-10">
+              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm font-medium text-primary">
+                <Shield className="h-4 w-4" weight="fill" />
+                <span>No Manuals Needed</span>
+              </div>
+              <h1 className="mb-6 text-4xl font-extrabold tracking-tight leading-none text-foreground md:text-6xl">
+                Decode Alarm Beeps & Fix Safety Devices
+              </h1>
+              <p className="mb-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
+                Stop the chirps. Understand the beeps. Fix household alerts without digging through manuals.
+                Plain-English solutions for smoke detectors, CO alarms, motion lights, and more.
+              </p>
+              <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <Button
+                  size="lg"
+                  className="w-full sm:w-auto text-base px-8 py-6 transition-transform hover:scale-[1.02]"
+                  onClick={() => setIsBeepMatcherOpen(true)}
+                >
+                  <SpeakerHigh className="mr-2 h-5 w-5" weight="bold" />
+                  Decode My Beep Now
+                </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="w-full sm:w-auto text-base px-8 py-6 transition-transform hover:scale-[1.02]"
+                  asChild
+                >
+                  <Link href="/about">Learn How It Works</Link>
+                </Button>
+              </div>
             </div>
           </div>
         </div>

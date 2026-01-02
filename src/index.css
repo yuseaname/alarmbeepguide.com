@@ -131,7 +131,7 @@
 
 @layer components {
   .section-surface {
-    @apply border-b border-border bg-card/60;
+    @apply border-b border-border bg-gradient-to-b from-background/40 via-background/20 to-primary/5;
   }
 
   .card-featured {
@@ -148,5 +148,17 @@
 
   .header-vibe-inner {
     @apply px-4 py-3 md:px-6 md:py-4;
+  }
+
+  .tile-card {
+    @apply h-full cursor-pointer overflow-hidden rounded-2xl border border-border/50 bg-background/60 p-6 shadow-sm transition-all;
+  }
+
+  .tile-icon {
+    @apply inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary shadow-sm transition-all group-hover:bg-primary group-hover:text-primary-foreground group-hover:shadow-md;
+  }
+
+  .editorial-rule {
+    @apply mt-4 h-px w-24 bg-gradient-to-r from-primary/30 via-border/40 to-transparent;
   }
 }

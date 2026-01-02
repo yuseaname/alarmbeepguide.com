@@ -23,26 +23,29 @@ export function CategoryCards() {
 
   return (
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {categories.map((category) => {
+      {categories.map((category, index) => {
         const articleCount = getCategoryArticleCount(category.id)
+        const isFeatured = index === 0
+        const staggerClass = index === 1 ? 'lg:-translate-y-1' : index === 2 ? 'lg:translate-y-1' : ''
+        const featuredClass = isFeatured ? 'border-primary/20 bg-primary/5 shadow-lg' : ''
         
         return (
           <Link key={category.id} href={`/${category.slug}`}>
-            <Card className="card-hover group h-full cursor-pointer p-6 transition-all hover:border-primary/50">
+            <Card className={`tile-card group card-hover ${staggerClass} ${featuredClass} hover:border-primary/50`}>
               <div className="mb-4 flex items-start justify-between">
-                <div className="inline-flex h-14 w-14 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                <div className={`tile-icon ${isFeatured ? 'bg-primary/15' : ''}`}>
                   {iconMap[category.icon]}
                 </div>
                 {articleCount > 0 && (
-                  <Badge variant="secondary" className="text-xs">
+                  <Badge variant="secondary" className="text-xs border border-border/50 bg-background/60">
                     {articleCount} {articleCount === 1 ? 'guide' : 'guides'}
                   </Badge>
                 )}
               </div>
-              <h3 className="mb-2 text-xl font-semibold text-foreground group-hover:text-primary">
+              <h3 className="mb-2 text-xl font-semibold tracking-tight text-foreground transition-colors group-hover:text-primary">
                 {category.name}
               </h3>
-              <p className="text-sm leading-relaxed text-muted-foreground">
+              <p className="text-sm leading-relaxed text-muted-foreground/90">
                 {category.description}
               </p>
             </Card>

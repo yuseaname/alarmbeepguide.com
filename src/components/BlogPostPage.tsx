@@ -9,6 +9,7 @@ import { Separator } from './ui/separator'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 import { useEffect } from 'react'
 import { generateFAQSchema, generateArticleSchema } from '@/lib/seo'
+import { getUniqueAnchorId, normalizeHeadingText } from '@/lib/anchors'
 
 interface BlogPostPageProps {
   slug: string
@@ -183,20 +184,29 @@ function BlogPostHeader({ post }: { post: BlogPost }) {
 function BlogPostContent({ post }: { post: BlogPost }) {
   const renderContent = (content: string) => {
     const sections = content.split('\n\n')
+    const usedAnchors = new Map<string, number>()
     
     return sections.map((section, index) => {
       if (section.startsWith('## ')) {
+        const headingText = normalizeHeadingText(section)
+        const id = getUniqueAnchorId(headingText, usedAnchors)
         return (
-          <h2 key={index} className="mb-4 mt-10 text-3xl font-semibold tracking-tight text-foreground first:mt-0">
-            {section.replace('## ', '')}
+          <h2
+            key={index}
+            id={id || undefined}
+            className="mb-4 mt-10 scroll-mt-24 text-3xl font-semibold tracking-tight text-foreground first:mt-0"
+          >
+            {headingText}
           </h2>
         )
       }
       
       if (section.startsWith('### ')) {
+        const headingText = normalizeHeadingText(section)
+        const id = getUniqueAnchorId(headingText, usedAnchors)
         return (
-          <h3 key={index} className="mb-3 mt-8 text-2xl font-medium text-foreground">
-            {section.replace('### ', '')}
+          <h3 key={index} id={id || undefined} className="mb-3 mt-8 scroll-mt-24 text-2xl font-medium text-foreground">
+            {headingText}
           </h3>
         )
       }
@@ -254,12 +264,62 @@ function BlogPostContent({ post }: { post: BlogPost }) {
 
   const renderInlineFormatting = (text: string) => {
     const parts = text.split(/(\*\*.*?\*\*)/)
-    
-    return parts.map((part, index) => {
-      if (part.startsWith('**') && part.endsWith('**')) {
-        return <strong key={index}>{part.replace(/\*\*/g, '')}</strong>
+
+    const renderLinks = (plain: string, keyPrefix: string) => {
+      const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/g
+      const nodes: Array<string | JSX.Element> = []
+
+      let lastIndex = 0
+      let match: RegExpExecArray | null
+      let linkIndex = 0
+
+      while ((match = linkPattern.exec(plain)) !== null) {
+        const [full, label, href] = match
+        const start = match.index
+        const end = start + full.length
+
+        if (start > lastIndex) {
+          nodes.push(plain.slice(lastIndex, start))
+        }
+
+        const isInternal = href.startsWith('/')
+        if (isInternal) {
+          nodes.push(
+            <Link key={`${keyPrefix}-link-${linkIndex}`} href={href} className="text-primary underline underline-offset-4 hover:text-primary/80">
+              {label}
+            </Link>
+          )
+        } else {
+          nodes.push(
+            <a
+              key={`${keyPrefix}-link-${linkIndex}`}
+              href={href}
+              className="text-primary underline underline-offset-4 hover:text-primary/80"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {label}
+            </a>
+          )
+        }
+
+        lastIndex = end
+        linkIndex += 1
       }
-      return part
+
+      if (lastIndex < plain.length) {
+        nodes.push(plain.slice(lastIndex))
+      }
+
+      return nodes
+    }
+    
+    return parts.flatMap((part, index) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return [<strong key={`b-${index}`}>{part.replace(/\*\*/g, '')}</strong>]
+      }
+
+      return renderLinks(part, `p-${index}`)
     })
   }
 
