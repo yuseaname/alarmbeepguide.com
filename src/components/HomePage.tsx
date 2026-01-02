@@ -67,48 +67,67 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="border-b border-border bg-card">
-        <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+      <section className="section-surface">
+        <div className="container mx-auto max-w-7xl px-4 py-14 md:py-20">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold text-foreground">
-              Your 3-Step Solution to Every Alert
-            </h2>
-            <p className="text-muted-foreground">
-              We've decoded thousands of beeps so you don't have to search for hours
-            </p>
+            <div className="header-vibe-band mx-auto max-w-3xl">
+              <div className="header-vibe-inner">
+                <div className="mb-4 flex justify-center">
+                  <div className="kicker-pill">
+                    Simple, fast, safe
+                  </div>
+                </div>
+
+                <h2 className="mb-3 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">
+                  Your 3-Step Solution to Every Alert
+                </h2>
+                <p className="mx-auto max-w-2xl text-muted-foreground">
+                  We've decoded thousands of beeps so you don't have to search for hours.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="grid gap-8 md:grid-cols-3">
-            <Card className="p-6 text-center">
+
+          <div className="grid gap-6 md:grid-cols-3">
+            <Card className="card-hover relative p-7 text-center bg-background/60 border shadow-sm">
               <div className="mb-4 flex justify-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary text-2xl font-bold">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 text-primary text-2xl font-extrabold shadow-sm">
                   1
                 </div>
               </div>
-              <h3 className="mb-2 text-xl font-semibold">Match the Pattern</h3>
-              <p className="text-sm text-muted-foreground">
-                Use our beep decoder to identify your device's specific chirp, beep, or flash pattern
+              <h3 className="mb-2 text-xl font-semibold tracking-tight">Match the Pattern</h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                Use our beep decoder to identify your device's specific chirp, beep, or flash pattern.
               </p>
             </Card>
-            <Card className="p-6 text-center">
+
+            <Card className="card-hover card-featured relative p-7 text-center shadow-lg md:-translate-y-1">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                <div className="rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground shadow">
+                  Most common
+                </div>
+              </div>
+
               <div className="mb-4 flex justify-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary text-2xl font-bold">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/15 text-primary text-2xl font-extrabold shadow-sm">
                   2
                 </div>
               </div>
-              <h3 className="mb-2 text-xl font-semibold">Understand What It Means</h3>
-              <p className="text-sm text-muted-foreground">
-                Get plain-English explanations—no technical jargon, just clear answers about what's happening
+              <h3 className="mb-2 text-xl font-semibold tracking-tight">Understand What It Means</h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                Get plain-English explanations—no technical jargon, just clear answers about what's happening.
               </p>
             </Card>
-            <Card className="p-6 text-center">
+
+            <Card className="card-hover relative p-7 text-center bg-background/60 border shadow-sm md:translate-y-1">
               <div className="mb-4 flex justify-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary text-2xl font-bold">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 text-primary text-2xl font-extrabold shadow-sm">
                   3
                 </div>
               </div>
-              <h3 className="mb-2 text-xl font-semibold">Fix It Safely</h3>
-              <p className="text-sm text-muted-foreground">
-                Follow tested step-by-step solutions designed for homeowners, with clear guidance on when to call a pro
+              <h3 className="mb-2 text-xl font-semibold tracking-tight">Fix It Safely</h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                Follow tested step-by-step solutions, with clear guidance on when to call a pro.
               </p>
             </Card>
           </div>
@@ -220,40 +239,57 @@ export function HomePage() {
         </section>
       )}
 
-      <section className="border-b border-border bg-card">
-        <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
+      <section className="section-surface">
+        <div className="container mx-auto max-w-7xl px-4 py-14 md:py-20">
           <div className="mb-12 text-center">
-            <Megaphone className="mx-auto mb-4 h-12 w-12 text-primary" weight="duotone" />
-            <h2 className="mb-4 text-3xl font-bold text-foreground">
+            <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 shadow-sm">
+              <Megaphone className="h-8 w-8 text-primary" weight="duotone" />
+            </div>
+            <h2 className="mb-2 text-3xl font-extrabold tracking-tight text-foreground md:text-4xl">
               Why Homeowners Trust AlarmBeepGuide
             </h2>
+            <p className="mx-auto max-w-2xl text-muted-foreground">
+              Clear answers, practical fixes, and safety-first guidance—without digging through manuals.
+            </p>
           </div>
+
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <Card className="p-6">
-              <CheckCircle className="mb-3 h-8 w-8 text-primary" weight="fill" />
-              <h3 className="mb-2 font-semibold">No Manuals Needed</h3>
-              <p className="text-sm text-muted-foreground">
+            <Card className="card-hover card-featured p-6 shadow-md">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
+                <CheckCircle className="h-6 w-6 text-primary" weight="fill" />
+              </div>
+              <h3 className="mb-2 font-semibold tracking-tight">No Manuals Needed</h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
                 Skip the 80-page PDF. Get instant answers in plain English.
               </p>
             </Card>
-            <Card className="p-6">
-              <CheckCircle className="mb-3 h-8 w-8 text-primary" weight="fill" />
-              <h3 className="mb-2 font-semibold">Tested Solutions</h3>
-              <p className="text-sm text-muted-foreground">
+
+            <Card className="card-hover p-6 bg-background/60 border shadow-sm">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
+                <CheckCircle className="h-6 w-6 text-primary" weight="fill" />
+              </div>
+              <h3 className="mb-2 font-semibold tracking-tight">Tested Solutions</h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
                 Every fix is verified and practical for real homeowners.
               </p>
             </Card>
-            <Card className="p-6">
-              <CheckCircle className="mb-3 h-8 w-8 text-primary" weight="fill" />
-              <h3 className="mb-2 font-semibold">Safety-First</h3>
-              <p className="text-sm text-muted-foreground">
+
+            <Card className="card-hover p-6 bg-background/60 border shadow-sm">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
+                <CheckCircle className="h-6 w-6 text-primary" weight="fill" />
+              </div>
+              <h3 className="mb-2 font-semibold tracking-tight">Safety-First</h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
                 Clear guidance on when DIY is safe and when to call a professional.
               </p>
             </Card>
-            <Card className="p-6">
-              <CheckCircle className="mb-3 h-8 w-8 text-primary" weight="fill" />
-              <h3 className="mb-2 font-semibold">Always Updated</h3>
-              <p className="text-sm text-muted-foreground">
+
+            <Card className="card-hover p-6 bg-background/60 border shadow-sm">
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
+                <CheckCircle className="h-6 w-6 text-primary" weight="fill" />
+              </div>
+              <h3 className="mb-2 font-semibold tracking-tight">Always Updated</h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
                 We continuously update guides with the latest device information.
               </p>
             </Card>

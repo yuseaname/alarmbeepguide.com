@@ -1,41 +1,34 @@
 /**
  * Robots.txt Route
- * Dynamically generates robots.txt
+ * Serves the single build-generated robots.txt
  */
 
+import { existsSync } from 'fs'
+import { dirname, join } from 'path'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+function findRobotsFile() {
+  const candidates = [
+    join(process.cwd(), 'dist', 'robots.txt'),
+    join(__dirname, '../../dist/robots.txt'),
+    join(__dirname, '../../hostinger-prebuilt/dist/robots.txt'),
+    join(__dirname, '../../hostinger-deploy/dist/robots.txt'),
+    join(__dirname, '../../public/robots.txt')
+  ]
+
+  return candidates.find(p => existsSync(p))
+}
+
 export function serveRobots(req, res) {
-  const baseUrl = process.env.BASE_URL || 'https://alarmbeepguide.com';
-  
-  const robotsTxt = `# AlarmBeepGuide.com - Robots.txt
-# Generated: ${new Date().toISOString()}
+  const filePath = findRobotsFile()
+  if (!filePath) {
+    return res.type('text/plain').send('User-agent: *\nAllow: /\n')
+  }
 
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: ${baseUrl}/sitemap.xml
-
-# Googlebot
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 0
-
-# Googlebot Images
-User-agent: Googlebot-Image
-Allow: /
-
-# Bingbot
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 0
-
-# Disallow admin/private areas (if any in future)
-# User-agent: *
-# Disallow: /admin/
-# Disallow: /api/private/
-`.trim();
-
-  res.header('Content-Type', 'text/plain');
-  res.header('Cache-Control', 'public, max-age=86400'); // Cache for 24 hours
-  res.send(robotsTxt);
+  res.header('Content-Type', 'text/plain')
+  res.header('Cache-Control', 'public, max-age=86400')
+  return res.sendFile(filePath)
 }

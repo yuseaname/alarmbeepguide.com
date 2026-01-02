@@ -22,6 +22,12 @@ export function BeepMatcherWidget() {
   const devices = Array.from(new Set(beepPatterns.map(p => p.device)))
 
   useEffect(() => {
+    const open = () => setIsOpen(true)
+    window.addEventListener('alarmbeepguide:open-beep-decoder', open)
+    return () => window.removeEventListener('alarmbeepguide:open-beep-decoder', open)
+  }, [])
+
+  useEffect(() => {
     audioGenerator.setVolume((volume ?? 50) / 100)
   }, [volume])
 

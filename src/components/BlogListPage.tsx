@@ -51,9 +51,12 @@ export function BlogListPage() {
 
       <section className="bg-background">
         <div className="container mx-auto max-w-7xl px-4 py-12">
-          <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <h2 className="text-2xl font-semibold text-foreground">
+              <div className="mb-2 inline-flex items-center rounded-full border border-border bg-muted/20 px-3 py-1 text-xs font-medium text-muted-foreground">
+                Browse & filter guides
+              </div>
+              <h2 className="text-2xl font-extrabold tracking-tight text-foreground">
                 {selectedCategory 
                   ? `${getCategoryName(selectedCategory)} Articles` 
                   : 'All Safety Guides'}
@@ -63,25 +66,34 @@ export function BlogListPage() {
                 {selectedCategory && ' in this category'}
               </p>
             </div>
-            <div className="flex flex-wrap items-center gap-3">
-              <span className="text-sm font-medium text-muted-foreground">Filter:</span>
-              <Button
-                variant={selectedCategory === null ? 'default' : 'outline'}
-                size="sm"
-                onClick={() => setSelectedCategory(null)}
-              >
-                All ({allPosts.length})
-              </Button>
-              {blogCategories.map(({ category, count }) => (
+
+            <div className="rounded-xl border border-border bg-muted/20 p-4 shadow-sm">
+              <div className="mb-2 text-xs font-medium text-muted-foreground">Filter</div>
+              <div className="flex flex-wrap items-center gap-2">
                 <Button
-                  key={category}
-                  variant={selectedCategory === category ? 'default' : 'outline'}
+                  variant={selectedCategory === null ? 'default' : 'outline'}
                   size="sm"
-                  onClick={() => setSelectedCategory(category)}
+                  className="min-h-9"
+                  onClick={() => setSelectedCategory(null)}
                 >
-                  {getCategoryName(category)} ({count})
+                  All <span className="ml-1 opacity-70">({allPosts.length})</span>
                 </Button>
-              ))}
+
+                {blogCategories.map(({ category, count }) => {
+                  const active = selectedCategory === category
+                  return (
+                    <Button
+                      key={category}
+                      variant={active ? 'default' : 'outline'}
+                      size="sm"
+                      className={`min-h-9 ${active ? 'shadow-sm' : ''}`}
+                      onClick={() => setSelectedCategory(category)}
+                    >
+                      {getCategoryName(category)} <span className="ml-1 opacity-70">({count})</span>
+                    </Button>
+                  )
+                })}
+              </div>
             </div>
           </div>
 

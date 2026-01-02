@@ -335,54 +335,68 @@ function RelatedPosts({ posts, currentPost }: { posts: BlogPost[]; currentPost: 
   }
 
   return (
-    <section className="border-t border-border bg-background">
-      <div className="container mx-auto max-w-7xl px-4 py-12">
+    <section className="border-t border-border bg-card/40">
+      <div className="container mx-auto max-w-7xl px-4 py-14">
         <div className="mb-8">
-          <h2 className="text-2xl font-semibold text-foreground">
-            More from {category?.name || 'this category'}
-          </h2>
-          <p className="mt-2 text-muted-foreground">
-            Related guides to help you troubleshoot safety devices
-          </p>
+          <div className="header-vibe-band max-w-3xl">
+            <div className="header-vibe-inner">
+              <div className="mb-2 inline-flex items-center rounded-full border border-border bg-background/60 px-3 py-1 text-xs font-medium text-muted-foreground">
+                Keep reading
+              </div>
+              <h2 className="text-2xl font-extrabold tracking-tight text-foreground">
+                More from {category?.name || 'this category'}
+              </h2>
+              <p className="mt-2 max-w-2xl text-muted-foreground">
+                Related guides to help you troubleshoot safely and faster.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="grid gap-6 md:grid-cols-3">
-          {posts.map((post) => (
-            <Card key={post.id} className="flex flex-col card-hover">
-              <div className="flex-1 p-6">
-                <h3 className="mb-2 text-lg font-semibold leading-tight text-foreground">
-                  <Link 
-                    href={`/blog/${post.slug}`}
-                    className="hover:text-primary transition-colors"
-                  >
-                    {post.title}
-                  </Link>
-                </h3>
-                
-                <p className="mb-4 text-sm leading-relaxed text-muted-foreground line-clamp-2">
-                  {post.excerpt}
-                </p>
+          {posts.map((post, index) => {
+            const featured = index === 0
+            return (
+              <Card
+                key={post.id}
+                className={[
+                  'flex flex-col card-hover',
+                  'bg-background/60 border shadow-sm',
+                  featured ? 'md:col-span-2 card-featured' : ''
+                ].join(' ')}
+              >
+                <div className="flex-1 p-6">
+                  <h3 className="mb-2 text-lg font-semibold leading-tight tracking-tight text-foreground">
+                    <Link href={`/blog/${post.slug}`} className="transition-colors hover:text-primary">
+                      {post.title}
+                    </Link>
+                  </h3>
 
-                <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                  <div className="flex items-center gap-1">
-                    <Clock className="h-3 w-3" />
-                    <span>{post.readTime} min</span>
+                  <p className="mb-4 text-sm leading-relaxed text-muted-foreground line-clamp-2">
+                    {post.excerpt}
+                  </p>
+
+                  <div className="flex items-center gap-3 text-xs text-muted-foreground">
+                    <div className="flex items-center gap-1">
+                      <Clock className="h-3 w-3" />
+                      <span>{post.readTime} min</span>
+                    </div>
+                    <span>•</span>
+                    <span>{formatDate(post.publishDate)}</span>
                   </div>
-                  <span>•</span>
-                  <span>{formatDate(post.publishDate)}</span>
                 </div>
-              </div>
 
-              <div className="border-t border-border p-4">
-                <Button variant="ghost" size="sm" className="w-full" asChild>
-                  <Link href={`/blog/${post.slug}`}>
-                    Read Article
-                    <CaretRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </Button>
-              </div>
-            </Card>
-          ))}
+                <div className="border-t border-border p-4">
+                  <Button variant={featured ? 'default' : 'ghost'} size="sm" className="w-full" asChild>
+                    <Link href={`/blog/${post.slug}`}>
+                      Read Article
+                      <CaretRight className="ml-1 h-4 w-4" />
+                    </Link>
+                  </Button>
+                </div>
+              </Card>
+            )
+          })}
         </div>
       </div>
     </section>

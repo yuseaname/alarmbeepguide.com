@@ -57,9 +57,9 @@ export function TopCommentsLeaderboard() {
   }
 
   const getBadgeIcon = (badge: 'gold' | 'silver' | 'bronze') => {
-    if (badge === 'gold') return <Trophy className="h-5 w-5 text-yellow-500" weight="fill" />
-    if (badge === 'silver') return <Medal className="h-5 w-5 text-gray-400" weight="fill" />
-    return <Star className="h-5 w-5 text-amber-600" weight="fill" />
+    if (badge === 'gold') return <Trophy className="h-5 w-5 text-primary" weight="fill" />
+    if (badge === 'silver') return <Medal className="h-5 w-5 text-muted-foreground" weight="fill" />
+    return <Star className="h-5 w-5 text-accent" weight="fill" />
   }
 
   const charCount = newComment.length

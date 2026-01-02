@@ -17,7 +17,7 @@ import compression from 'compression';
 import helmet from 'helmet';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import { existsSync } from 'fs';
+import { existsSync, readFileSync } from 'fs';
 import dotenv from 'dotenv';
 
 // Import middleware
@@ -43,13 +43,31 @@ const PORT = process.env.PORT || 3000;
 const ENV = process.env.NODE_ENV || 'development';
 
 const distCandidates = [
+  join(process.cwd(), 'dist'),
   join(__dirname, '../dist'),
-  join(__dirname, '../hostinger-deploy/dist'),
   join(__dirname, '../../dist'),
-  join(process.cwd(), 'dist')
+  join(__dirname, '../hostinger-deploy/dist'),
+  join(__dirname, '../hostinger-prebuilt/dist')
 ];
 
-const DIST_DIR = distCandidates.find(p => existsSync(p)) || distCandidates[0];
+function isLikelyProductionViteBuild(distDir) {
+  const indexPath = join(distDir, 'index.html');
+  const assetsDir = join(distDir, 'assets');
+  if (!existsSync(indexPath) || !existsSync(assetsDir)) return false;
+
+  try {
+    const headSample = readFileSync(indexPath, 'utf8').slice(0, 50000);
+    const hasAssets = headSample.includes('/assets/');
+    const referencesSrcEntry = headSample.includes('/src/main.tsx');
+    return hasAssets && !referencesSrcEntry;
+  } catch {
+    return false;
+  }
+}
+
+const DIST_DIR = distCandidates.find(isLikelyProductionViteBuild)
+  || distCandidates.find(p => existsSync(p))
+  || distCandidates[0];
 const INDEX_HTML = join(DIST_DIR, 'index.html');
 
 // ============================================
@@ -129,6 +147,53 @@ app.use(express.static(DIST_DIR, {
 app.get('/health', healthCheck);
 app.get('/api/health', healthCheck);
 
+// Contact form (posts to a configurable webhook)
+app.post('/api/contact', async (req, res) => {
+  const webhookUrl = process.env.CONTACT_WEBHOOK_URL;
+  if (!webhookUrl) {
+    return res.status(501).json({ ok: false, error: 'CONTACT_WEBHOOK_URL not configured' });
+  }
+
+  const name = typeof req.body?.name === 'string' ? req.body.name.trim() : '';
+  const email = typeof req.body?.email === 'string' ? req.body.email.trim() : '';
+  const subject = typeof req.body?.subject === 'string' ? req.body.subject.trim() : '';
+  const message = typeof req.body?.message === 'string' ? req.body.message.trim() : '';
+
+  if (!message || message.length < 5) {
+    return res.status(400).json({ ok: false, error: 'Message is required' });
+  }
+
+  if (typeof fetch !== 'function') {
+    return res.status(500).json({ ok: false, error: 'Server fetch() not available' });
+  }
+
+  try {
+    const response = await fetch(webhookUrl, {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'AlarmBeepGuide/ContactForm'
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        subject,
+        message,
+        page: req.headers.referer || null,
+        createdAt: new Date().toISOString()
+      })
+    });
+
+    if (!response.ok) {
+      return res.status(502).json({ ok: false, error: `Webhook error: ${response.status}` });
+    }
+
+    return res.json({ ok: true });
+  } catch (err) {
+    return res.status(500).json({ ok: false, error: 'Failed to submit contact form' });
+  }
+});
+
 // SEO routes
 app.get('/sitemap.xml', serveSitemap);
 app.get('/robots.txt', serveRobots);
@@ -141,8 +206,42 @@ app.use((req, res, next) => {
     return next();
   }
 
+  // Only serve HTML for real page navigations.
+  const acceptsHtml = req.accepts('html');
+  if (!acceptsHtml) {
+    return next();
+  }
+
+  // If the request looks like a file (has an extension), allow 404s instead of SPA.
+  if (req.path.includes('.')) {
+    return next();
+  }
+
+  // Prefer prerendered route HTML when present.
+  // (Express static is configured with index:false, so we need this explicitly.)
+  const requestPath = req.path.replace(/^\/+/, '').replace(/\/+$/, '');
+  const candidate = requestPath === ''
+    ? INDEX_HTML
+    : join(DIST_DIR, requestPath, 'index.html');
+
+  if (candidate !== INDEX_HTML && existsSync(candidate)) {
+    try {
+      const headSample = readFileSync(candidate, 'utf8').slice(0, 50000);
+      const safe = headSample.includes('/assets/') && !headSample.includes('/src/main.tsx');
+      if (safe) {
+        res.type('html');
+        res.setHeader('Cache-Control', ENV === 'production' ? 'public, max-age=0, must-revalidate' : 'no-store');
+        return res.sendFile(candidate);
+      }
+    } catch {
+      // ignore and fall back
+    }
+  }
+
   // Serve index.html for all other routes (SPA routing)
-  res.sendFile(INDEX_HTML);
+  res.type('html');
+  res.setHeader('Cache-Control', ENV === 'production' ? 'public, max-age=0, must-revalidate' : 'no-store');
+  return res.sendFile(INDEX_HTML);
 });
 
 // ============================================

@@ -167,7 +167,11 @@ export function CategoryPage({ slug }: CategoryPageProps) {
                   Use our beep pattern decoder to identify your device's alert sound instantly
                 </p>
               </div>
-              <Button size="lg" className="shrink-0">
+              <Button
+                size="lg"
+                className="shrink-0"
+                onClick={() => window.dispatchEvent(new CustomEvent('alarmbeepguide:open-beep-decoder'))}
+              >
                 Open Beep Decoder
               </Button>
             </div>

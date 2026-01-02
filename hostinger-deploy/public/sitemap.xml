@@ -2,14 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alarmbeepguide.com</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/blog</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alarmbeepguide.com/chirp-beep-codes</loc>
+    <lastmod>2026-01-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alarmbeepguide.com/fire-extinguishers</loc>
+    <lastmod>2026-01-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alarmbeepguide.com/home-flood-lights</loc>
+    <lastmod>2026-01-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alarmbeepguide.com/weather-outage-alerts</loc>
+    <lastmod>2026-01-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alarmbeepguide.com/household-alert-fixes</loc>
+    <lastmod>2026-01-02</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
@@ -20,133 +50,103 @@
   </url>
   <url>
     <loc>https://alarmbeepguide.com/blog/carbon-monoxide-detector-beeping-patterns</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alarmbeepguide.com/blog/hardwired-smoke-detector-beeping-troubleshooting</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://alarmbeepguide.com/blog/motion-sensor-light-stays-on</loc>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/blog/fire-extinguisher-pressure-gauge-reading</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/blog/fire-extinguisher-when-to-replace</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/blog/noaa-weather-radio-alerts-setup-guide</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alarmbeepguide.com/blog/hardwired-smoke-detector-beeping-troubleshooting</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alarmbeepguide.com/blog/heat-detector-vs-smoke-detector</loc>
+    <lastmod>2024-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/blog/emergency-alert-system-phone-sounds</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-02-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/blog/security-system-beeping-codes</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-02-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/blog/smoke-detector-false-alarms</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-02-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://alarmbeepguide.com/blog/motion-sensor-light-wont-turn-off</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://alarmbeepguide.com/blog/heat-detector-vs-smoke-detector</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://alarmbeepguide.com/chirp-beep-codes</loc>
-    <lastmod>2025-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://alarmbeepguide.com/fire-extinguishers</loc>
-    <lastmod>2025-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://alarmbeepguide.com/home-flood-lights</loc>
-    <lastmod>2025-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://alarmbeepguide.com/weather-outage-alerts</loc>
-    <lastmod>2025-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://alarmbeepguide.com/household-alert-fixes</loc>
-    <lastmod>2025-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/about</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/disclosure</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/editorial-policy</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/corrections-policy</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/contact</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/privacy</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://alarmbeepguide.com/accessibility</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

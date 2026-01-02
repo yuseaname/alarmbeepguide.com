@@ -3,6 +3,8 @@ import { Card } from './ui/card'
 import { House, CaretRight } from '@phosphor-icons/react'
 import { Link } from './Link'
 import { Button } from './ui/button'
+import { useState } from 'react'
+import { toast } from 'sonner'
 
 interface TrustPageProps {
   pageKey: keyof typeof trustPages
@@ -20,6 +22,12 @@ const pageKeyToSlug: Record<keyof typeof trustPages, string> = {
 
 export function TrustPage({ pageKey }: TrustPageProps) {
   const page = trustPages[pageKey]
+
+  const [contactName, setContactName] = useState('')
+  const [contactEmail, setContactEmail] = useState('')
+  const [contactSubject, setContactSubject] = useState('')
+  const [contactMessage, setContactMessage] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
   
   if (!page) {
     return (
@@ -98,7 +106,51 @@ export function TrustPage({ pageKey }: TrustPageProps) {
             {pageKey === 'contact' && (
               <div className="mt-8 rounded-lg border border-border bg-muted/30 p-6">
                 <h3 className="mb-4 text-lg font-semibold">Send Us a Message</h3>
-                <form className="space-y-4">
+                <form
+                  className="space-y-4"
+                  onSubmit={async (e) => {
+                    e.preventDefault()
+                    if (isSubmitting) return
+
+                    const payload = {
+                      name: contactName.trim(),
+                      email: contactEmail.trim(),
+                      subject: contactSubject.trim(),
+                      message: contactMessage.trim()
+                    }
+
+                    if (!payload.message || payload.message.length < 5) {
+                      toast.error('Please enter a message.')
+                      return
+                    }
+
+                    setIsSubmitting(true)
+                    try {
+                      const res = await fetch('/api/contact', {
+                        method: 'POST',
+                        headers: { 'content-type': 'application/json' },
+                        body: JSON.stringify(payload)
+                      })
+
+                      if (!res.ok) {
+                        const body = await res.json().catch(() => null)
+                        const error = typeof body?.error === 'string' ? body.error : 'Unable to send message'
+                        toast.error(error)
+                        return
+                      }
+
+                      toast.success('Message sent. Thanks for reaching out!')
+                      setContactName('')
+                      setContactEmail('')
+                      setContactSubject('')
+                      setContactMessage('')
+                    } catch {
+                      toast.error('Unable to send message')
+                    } finally {
+                      setIsSubmitting(false)
+                    }
+                  }}
+                >
                   <div>
                     <label htmlFor="contact-name" className="mb-2 block text-sm font-medium">Name</label>
                     <input
@@ -106,6 +158,8 @@ export function TrustPage({ pageKey }: TrustPageProps) {
                       type="text"
                       className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
                       placeholder="Your name"
+                      value={contactName}
+                      onChange={(e) => setContactName(e.target.value)}
                     />
                   </div>
                   <div>
@@ -115,6 +169,8 @@ export function TrustPage({ pageKey }: TrustPageProps) {
                       type="email"
                       className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
                       placeholder="your.email@example.com"
+                      value={contactEmail}
+                      onChange={(e) => setContactEmail(e.target.value)}
                     />
                   </div>
                   <div>
@@ -124,6 +180,8 @@ export function TrustPage({ pageKey }: TrustPageProps) {
                       type="text"
                       className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
                       placeholder="What's this about?"
+                      value={contactSubject}
+                      onChange={(e) => setContactSubject(e.target.value)}
                     />
                   </div>
                   <div>
@@ -132,10 +190,12 @@ export function TrustPage({ pageKey }: TrustPageProps) {
                       id="contact-message"
                       className="min-h-[120px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
                       placeholder="Your message..."
+                      value={contactMessage}
+                      onChange={(e) => setContactMessage(e.target.value)}
                     />
                   </div>
-                  <Button type="button" className="w-full" onClick={() => alert('Contact form submitted! (Demo only)')}>
-                    Send Message
+                  <Button type="submit" className="w-full" disabled={isSubmitting}>
+                    {isSubmitting ? 'Sending…' : 'Send Message'}
                   </Button>
                 </form>
               </div>

@@ -2800,6 +2800,42 @@ export function getBlogPostsByCategory(category: string): BlogPost[] {
   return blogPosts.filter(post => post.category === category)
 }
 
+export function getRelatedBlogPosts(post: BlogPost, limit = 3): BlogPost[] {
+  const postTags = new Set(post.tags.map(t => t.toLowerCase()))
+
+  const scored = blogPosts
+    .filter(p => p.id !== post.id)
+    .map(p => {
+      const tags = p.tags.map(t => t.toLowerCase())
+      const sharedTags = tags.filter(t => postTags.has(t)).length
+
+      let score = 0
+      if (p.category === post.category) score += 5
+      score += sharedTags * 2
+
+      // light recency tie-break
+      const recency = new Date(p.publishDate).getTime() / 1_000_000_000
+      return { post: p, score, recency }
+    })
+    .filter(x => x.score > 0)
+    .sort((a, b) => (b.score - a.score) || (b.recency - a.recency))
+    .map(x => x.post)
+
+  // If scoring yields too few, backfill with same category, then newest.
+  const backfill = blogPosts
+    .filter(p => p.id !== post.id)
+    .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime())
+
+  const unique = new Map<string, BlogPost>()
+  for (const p of scored) unique.set(p.id, p)
+  for (const p of backfill) {
+    if (unique.size >= limit) break
+    unique.set(p.id, p)
+  }
+
+  return Array.from(unique.values()).slice(0, limit)
+}
+
 export function getFeaturedBlogPosts(): BlogPost[] {
   return blogPosts.filter(post => post.featured)
 }

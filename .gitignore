@@ -48,6 +48,9 @@ pids
 
 .spark-workbench-id
 
+# Local scratch/patch exports
+.tmp/
+
 # Hostinger local artifacts
 hostinger-deploy/node_modules/
 hostinger-prebuilt/node_modules/

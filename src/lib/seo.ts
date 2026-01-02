@@ -205,6 +205,12 @@ export function getPageMeta(page: string): PageMeta {
       title: 'Accessibility Statement - AlarmBeepGuide',
       description: 'AlarmBeepGuide\'s commitment to web accessibility and inclusive design for all users.',
       canonical: 'https://alarmbeepguide.com/accessibility'
+    },
+    search: {
+      title: 'Search - AlarmBeepGuide',
+      description: 'Search AlarmBeepGuide troubleshooting guides and safety tips.',
+      canonical: 'https://alarmbeepguide.com/search',
+      ogType: 'website'
     }
   }
   

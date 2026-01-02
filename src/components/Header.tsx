@@ -54,8 +54,10 @@ export function Header() {
           </nav>
 
           <div className="flex items-center space-x-2">
-            <Button variant="ghost" size="icon" className="hidden md:inline-flex">
-              <MagnifyingGlass className="h-5 w-5" />
+            <Button variant="ghost" size="icon" className="hidden md:inline-flex" asChild>
+              <Link href="/search" aria-label="Search">
+                <MagnifyingGlass className="h-5 w-5" />
+              </Link>
             </Button>
             <Button
               variant="ghost"
