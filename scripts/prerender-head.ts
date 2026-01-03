@@ -9,7 +9,8 @@ import {
   siteConfig,
   generateArticleSchema,
   generateBreadcrumbSchema,
-  generateFAQSchema
+  generateFAQSchema,
+  generateWebPageSchema
 } from '../src/lib/seo'
 import { trustPages } from '../src/lib/content'
 
@@ -158,6 +159,10 @@ function makeBreadcrumb(items: { name: string; url: string }[]) {
   return { id: 'breadcrumb', json: generateBreadcrumbSchema(items), attrs: { 'data-app-schema': 'breadcrumb' } }
 }
 
+function makeWebPage(meta: { title: string; description: string; canonical: string }) {
+  return { id: 'webpage', json: generateWebPageSchema(meta), attrs: { 'data-app-schema': 'webpage' } }
+}
+
 function makeArticleSchemas(post: BlogPost) {
   const schemas: Array<{ id: string; json: unknown; attrs?: Record<string, string> }> = []
 
@@ -201,7 +206,11 @@ function buildRoutes(): Route[] {
         canonical: meta.canonical,
         ogType: meta.ogType ?? 'website',
         robots: defaultRobots,
-        jsonLd: makeBaseSchemas()
+        // WebPage schema is additive and keeps static HTML aligned with SPA head.
+        jsonLd: [
+          ...makeBaseSchemas(),
+          makeWebPage(meta)
+        ]
       }
     })
   }
@@ -219,6 +228,7 @@ function buildRoutes(): Route[] {
         robots: defaultRobots,
         jsonLd: [
           ...makeBaseSchemas(),
+          makeWebPage(meta),
           makeBreadcrumb([
             { name: 'Home', url: siteConfig.url },
             { name: 'Blog', url: `${siteConfig.url}/blog` }
@@ -240,6 +250,11 @@ function buildRoutes(): Route[] {
         robots: defaultRobots,
         jsonLd: [
           ...makeBaseSchemas(),
+          makeWebPage({
+            title: cat.meta.title,
+            description: cat.meta.description,
+            canonical: cat.meta.canonical
+          }),
           makeBreadcrumb([
             { name: 'Home', url: siteConfig.url },
             { name: cat.name, url: cat.meta.canonical }
@@ -254,6 +269,7 @@ function buildRoutes(): Route[] {
     'about',
     'disclosure',
     'editorial-policy',
+    'fact-checking',
     'corrections-policy',
     'contact',
     'privacy',
@@ -272,6 +288,7 @@ function buildRoutes(): Route[] {
         robots: defaultRobots,
         jsonLd: [
           ...makeBaseSchemas(),
+          makeWebPage(meta),
           makeBreadcrumb([
             { name: 'Home', url: siteConfig.url },
             { name: titleFromSlug(slug), url: meta.canonical }

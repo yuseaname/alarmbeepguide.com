@@ -330,6 +330,13 @@ function BlogPostContent({ post }: { post: BlogPost }) {
           {renderContent(post.content)}
         </article>
 
+        {/* Reserved ad slot container to prevent CLS when ads are introduced. */}
+        <div
+          className="my-10 min-h-[180px] rounded-lg border border-dashed border-border/60 bg-muted/20"
+          data-ad-slot="article-inline"
+          aria-hidden="true"
+        />
+
         <Separator className="my-12" />
 
         <div className="rounded-lg border border-border bg-muted/50 p-6">

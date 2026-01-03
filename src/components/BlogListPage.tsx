@@ -97,6 +97,13 @@ export function BlogListPage() {
             </div>
           </div>
 
+          {/* Reserved ad slot container to prevent CLS when ads are introduced. */}
+          <div
+            className="mb-10 min-h-[140px] rounded-lg border border-dashed border-border/60 bg-muted/20"
+            data-ad-slot="blog-index-inline"
+            aria-hidden="true"
+          />
+
           {filteredPosts.length === 0 ? (
             <Card className="p-12 text-center">
               <p className="text-muted-foreground">No blog posts found in this category yet.</p>

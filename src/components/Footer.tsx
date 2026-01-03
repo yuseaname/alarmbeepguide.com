@@ -63,6 +63,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/fact-checking" className="text-sm text-muted-foreground hover:text-primary">
+                  Fact-Checking Policy
+                </Link>
+              </li>
+              <li>
                 <Link href="/corrections-policy" className="text-sm text-muted-foreground hover:text-primary">
                   Corrections
                 </Link>
@@ -90,6 +95,10 @@ export function Footer() {
           <p>&copy; {new Date().getFullYear()} AlarmBeepGuide. All rights reserved.</p>
           <p className="mt-2">
             Educational resource for safety device troubleshooting. Not a substitute for professional inspection or emergency services.
+          </p>
+          {/* Safety disclaimer clarifies escalation paths without altering URLs or core content. */}
+          <p className="mt-2">
+            For gas, carbon monoxide, or electrical hazards, contact a qualified professional or emergency services immediately.
           </p>
         </div>
       </div>

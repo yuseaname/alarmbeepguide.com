@@ -2,17 +2,40 @@ import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 import { BeepMatcherWidget } from './components/BeepMatcherWidget'
 import { HomePage } from './components/HomePage'
-import { CategoryPage } from './components/CategoryPage'
-import { TrustPage } from './components/TrustPage'
-import { BlogListPage } from './components/BlogListPage'
-import { BlogPostPage } from './components/BlogPostPage'
-import { SearchPage } from './components/SearchPage'
 import { useRouter } from './hooks/use-router'
 import { Toaster } from './components/ui/sonner'
-import { siteConfig, generateBreadcrumbSchema, categories, getPageMeta } from './lib/seo'
-import { useEffect } from 'react'
+import { siteConfig, generateBreadcrumbSchema, categories, getPageMeta, generateWebPageSchema } from './lib/seo'
+import { useEffect, lazy, Suspense } from 'react'
 import { trustPages } from './lib/content'
 import { getBlogPostBySlug } from './lib/blog'
+
+const trustPageMap: Record<string, keyof typeof trustPages> = {
+  'about': 'about',
+  'disclosure': 'disclosure',
+  'editorial-policy': 'editorialPolicy',
+  'fact-checking': 'factChecking',
+  'corrections-policy': 'correctionsPolicy',
+  'contact': 'contact',
+  'privacy': 'privacy',
+  'accessibility': 'accessibility'
+}
+
+// Lazy route modules reduce initial JS without altering URLs or rendering behavior.
+const CategoryPage = lazy(() =>
+  import('./components/CategoryPage').then(mod => ({ default: mod.CategoryPage }))
+)
+const TrustPage = lazy(() =>
+  import('./components/TrustPage').then(mod => ({ default: mod.TrustPage }))
+)
+const BlogListPage = lazy(() =>
+  import('./components/BlogListPage').then(mod => ({ default: mod.BlogListPage }))
+)
+const BlogPostPage = lazy(() =>
+  import('./components/BlogPostPage').then(mod => ({ default: mod.BlogPostPage }))
+)
+const SearchPage = lazy(() =>
+  import('./components/SearchPage').then(mod => ({ default: mod.SearchPage }))
+)
 
 function App() {
   const { pathname } = useRouter()
@@ -65,6 +88,7 @@ function App() {
     }
 
     let pageMeta
+    let isNotFound = false
     if (pathname === '/') {
       pageMeta = getPageMeta('home')
     } else if (pathname === '/blog') {
@@ -81,21 +105,35 @@ function App() {
           canonical: `https://alarmbeepguide.com/blog/${post.slug}`,
           ogType: 'article'
         }
+      } else {
+        isNotFound = true
       }
     } else {
       const slug = pathname.slice(1)
       const category = categories.find(c => c.slug === slug)
       if (category) {
         pageMeta = category.meta
-      } else {
+      } else if (trustPageMap[slug]) {
         pageMeta = getPageMeta(slug)
+      } else {
+        isNotFound = true
+      }
+    }
+
+    if (!pageMeta) {
+      // Avoid defaulting to the homepage canonical on unknown routes.
+      pageMeta = {
+        title: 'Page Not Found | AlarmBeepGuide',
+        description: 'The page you are looking for does not exist.',
+        canonical: `${siteConfig.url}${pathname === '/' ? '' : pathname}`,
+        ogType: 'website'
       }
     }
 
     if (pageMeta) {
       document.title = pageMeta.title
 
-      const robotsValue = pathname === '/search'
+      const robotsValue = pathname === '/search' || isNotFound
         ? 'noindex, follow'
         : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
 
@@ -123,6 +161,14 @@ function App() {
       }
       ogTitle.setAttribute('content', pageMeta.title)
 
+      let ogSiteName = document.querySelector('meta[property="og:site_name"]')
+      if (!ogSiteName) {
+        ogSiteName = document.createElement('meta')
+        ogSiteName.setAttribute('property', 'og:site_name')
+        document.head.appendChild(ogSiteName)
+      }
+      ogSiteName.setAttribute('content', siteConfig.name)
+
       let ogDescription = document.querySelector('meta[property="og:description"]')
       if (!ogDescription) {
         ogDescription = document.createElement('meta')
@@ -147,14 +193,50 @@ function App() {
       }
       canonical.setAttribute('href', pageMeta.canonical)
 
-      if (pageMeta.ogType) {
-        let ogType = document.querySelector('meta[property="og:type"]')
-        if (!ogType) {
-          ogType = document.createElement('meta')
-          ogType.setAttribute('property', 'og:type')
-          document.head.appendChild(ogType)
-        }
-        ogType.setAttribute('content', pageMeta.ogType)
+      // Ensure a stable OG type even when page metadata omits it.
+      let ogType = document.querySelector('meta[property="og:type"]')
+      if (!ogType) {
+        ogType = document.createElement('meta')
+        ogType.setAttribute('property', 'og:type')
+        document.head.appendChild(ogType)
+      }
+      ogType.setAttribute('content', pageMeta.ogType || 'website')
+
+      let twitterCard = document.querySelector('meta[name="twitter:card"]')
+      if (!twitterCard) {
+        twitterCard = document.createElement('meta')
+        twitterCard.setAttribute('name', 'twitter:card')
+        document.head.appendChild(twitterCard)
+      }
+      twitterCard.setAttribute('content', 'summary_large_image')
+
+      let twitterTitle = document.querySelector('meta[name="twitter:title"]')
+      if (!twitterTitle) {
+        twitterTitle = document.createElement('meta')
+        twitterTitle.setAttribute('name', 'twitter:title')
+        document.head.appendChild(twitterTitle)
+      }
+      twitterTitle.setAttribute('content', pageMeta.title)
+
+      let twitterDescription = document.querySelector('meta[name="twitter:description"]')
+      if (!twitterDescription) {
+        twitterDescription = document.createElement('meta')
+        twitterDescription.setAttribute('name', 'twitter:description')
+        document.head.appendChild(twitterDescription)
+      }
+      twitterDescription.setAttribute('content', pageMeta.description)
+
+      // Add WebPage schema for non-post pages (additive, safe for SEO consistency).
+      if (!pathname.startsWith('/blog/') && pathname !== '/search' && !isNotFound) {
+        const webPageScript = document.createElement('script')
+        webPageScript.type = 'application/ld+json'
+        webPageScript.setAttribute('data-app-schema', 'webpage')
+        webPageScript.text = JSON.stringify(generateWebPageSchema({
+          title: pageMeta.title,
+          description: pageMeta.description,
+          canonical: pageMeta.canonical
+        }))
+        document.head.appendChild(webPageScript)
       }
     }
   }, [pathname])
@@ -184,16 +266,6 @@ function App() {
       return <CategoryPage slug={slug} />
     }
 
-    const trustPageMap: Record<string, keyof typeof trustPages> = {
-      'about': 'about',
-      'disclosure': 'disclosure',
-      'editorial-policy': 'editorialPolicy',
-      'corrections-policy': 'correctionsPolicy',
-      'contact': 'contact',
-      'privacy': 'privacy',
-      'accessibility': 'accessibility'
-    }
-
     const trustPageKey = trustPageMap[slug]
     if (trustPageKey) {
       return <TrustPage pageKey={trustPageKey} />
@@ -209,9 +281,18 @@ function App() {
 
   return (
     <div className="flex min-h-screen flex-col">
+      <a href="#main-content" className="skip-link">Skip to content</a>
       <Header />
-      <main className="flex-1">
-        {renderPage()}
+      <main id="main-content" className="flex-1">
+        <Suspense
+          fallback={
+            <div className="container mx-auto max-w-4xl px-4 py-16 text-sm text-muted-foreground">
+              Loading...
+            </div>
+          }
+        >
+          {renderPage()}
+        </Suspense>
       </main>
       <Footer />
       <BeepMatcherWidget />

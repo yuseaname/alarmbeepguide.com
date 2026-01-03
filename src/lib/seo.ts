@@ -123,6 +123,17 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]) 
   }
 }
 
+export function generateWebPageSchema(page: { title: string; description: string; canonical: string }) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: page.title,
+    description: page.description,
+    url: page.canonical,
+    isPartOf: siteConfig.websiteSchema
+  }
+}
+
 export function generateArticleSchema(article: {
   title: string
   description: string
@@ -133,7 +144,8 @@ export function generateArticleSchema(article: {
 }) {
   return {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    // BlogPosting is a more specific subtype of Article and is SEO-safe.
+    '@type': 'BlogPosting',
     headline: article.title,
     description: article.description,
     author: {
@@ -185,6 +197,11 @@ export function getPageMeta(page: string): PageMeta {
       title: 'Editorial Policy - Accuracy & Standards | AlarmBeepGuide',
       description: 'Our commitment to accurate, tested safety information. Learn about AlarmBeepGuide\'s editorial standards and review process.',
       canonical: 'https://alarmbeepguide.com/editorial-policy'
+    },
+    'fact-checking': {
+      title: 'Fact-Checking Policy - AlarmBeepGuide',
+      description: 'How AlarmBeepGuide verifies safety information, sources, and updates to keep guidance accurate and trustworthy.',
+      canonical: 'https://alarmbeepguide.com/fact-checking'
     },
     'corrections-policy': {
       title: 'Corrections Policy - AlarmBeepGuide',
@@ -238,6 +255,7 @@ export function generateSitemap(blogPosts?: Array<{ slug: string; publishDate: s
     { loc: 'https://alarmbeepguide.com/about', priority: '0.6', changefreq: 'monthly', lastmod: today },
     { loc: 'https://alarmbeepguide.com/disclosure', priority: '0.5', changefreq: 'monthly', lastmod: today },
     { loc: 'https://alarmbeepguide.com/editorial-policy', priority: '0.5', changefreq: 'monthly', lastmod: today },
+    { loc: 'https://alarmbeepguide.com/fact-checking', priority: '0.5', changefreq: 'monthly', lastmod: today },
     { loc: 'https://alarmbeepguide.com/corrections-policy', priority: '0.5', changefreq: 'monthly', lastmod: today },
     { loc: 'https://alarmbeepguide.com/contact', priority: '0.6', changefreq: 'monthly', lastmod: today },
     { loc: 'https://alarmbeepguide.com/privacy', priority: '0.5', changefreq: 'monthly', lastmod: today },
