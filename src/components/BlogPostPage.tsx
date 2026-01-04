@@ -231,7 +231,7 @@ function BlogPostContent({ post }: { post: BlogPost }) {
         return (
           <ListComponent key={index} className={listClass}>
             {items.map((item, i) => {
-              const cleanItem = item.replace(/^[-\d]+\.\s/, '')
+              const cleanItem = item.replace(/^\s*(?:[-*•–—]|\d+\.)\s+/, '')
               const isBold = cleanItem.startsWith('**')
               
               if (isBold) {
