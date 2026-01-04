@@ -282,8 +282,19 @@ function BlogPostContent({ post }: { post: BlogPost }) {
           nodes.push(plain.slice(lastIndex, start))
         }
 
+        const isHashLink = href.includes('#') && !href.startsWith('http')
         const isInternal = href.startsWith('/')
-        if (isInternal) {
+        if (isHashLink) {
+          nodes.push(
+            <a
+              key={`${keyPrefix}-link-${linkIndex}`}
+              href={href}
+              className="text-primary underline underline-offset-4 hover:text-primary/80"
+            >
+              {label}
+            </a>
+          )
+        } else if (isInternal) {
           nodes.push(
             <Link key={`${keyPrefix}-link-${linkIndex}`} href={href} className="text-primary underline underline-offset-4 hover:text-primary/80">
               {label}
