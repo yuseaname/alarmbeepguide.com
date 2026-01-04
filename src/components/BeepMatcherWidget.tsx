@@ -10,14 +10,40 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Slider } from './ui/slider'
 import { audioGenerator } from '@/lib/audio'
 import { toast } from 'sonner'
-import { useKV } from '@github/spark/hooks'
+function useLocalStorageNumber(key: string, defaultValue: number) {
+  const [value, setValueState] = useState<number>(() => {
+    if (typeof window === 'undefined') return defaultValue
+    const stored = window.localStorage.getItem(key)
+    if (stored === null) return defaultValue
+    const parsed = Number(stored)
+    return Number.isFinite(parsed) ? parsed : defaultValue
+  })
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    try {
+      window.localStorage.setItem(key, String(value))
+    } catch {
+      // Ignore storage errors (e.g., private mode or quota).
+    }
+  }, [key, value])
+
+  const setValue = (next: number | ((prev: number) => number)) => {
+    setValueState(prev => {
+      const resolved = typeof next === 'function' ? next(prev) : next
+      return Number.isFinite(resolved) ? resolved : prev
+    })
+  }
+
+  return [value, setValue] as const
+}
 
 export function BeepMatcherWidget() {
   const [isOpen, setIsOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const [deviceFilter, setDeviceFilter] = useState<string>('all')
   const [playingPattern, setPlayingPattern] = useState<string | null>(null)
-  const [volume, setVolume] = useKV<number>('beep-volume', 50)
+  const [volume, setVolume] = useLocalStorageNumber('beep-volume', 50)
 
   const devices = Array.from(new Set(beepPatterns.map(p => p.device)))
 
