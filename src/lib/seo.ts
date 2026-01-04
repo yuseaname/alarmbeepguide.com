@@ -15,7 +15,7 @@ export const siteConfig = {
     '@type': 'Organization',
     name: 'AlarmBeepGuide',
     url: 'https://alarmbeepguide.com',
-    logo: 'https://alarmbeepguide.com/logo.png',
+    logo: 'https://alarmbeepguide.com/assets/alarmbeepguide%20lgo.png',
     description: 'Educational resource for household alarm systems and safety device troubleshooting',
     sameAs: []
   },
@@ -157,7 +157,7 @@ export function generateArticleSchema(article: {
       name: 'AlarmBeepGuide',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://alarmbeepguide.com/logo.png'
+        url: 'https://alarmbeepguide.com/assets/alarmbeepguide%20lgo.png'
       }
     },
     datePublished: article.publishDate,
