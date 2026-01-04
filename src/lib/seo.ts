@@ -234,17 +234,28 @@ export function getPageMeta(page: string): PageMeta {
   return pages[page] || pages.home
 }
 
-export function generateSitemap(blogPosts?: Array<{ slug: string; publishDate: string; lastUpdated?: string; featured: boolean }>): string {
-  const today = new Date().toISOString().split('T')[0]
+export function generateSitemap(
+  blogPosts?: Array<{ slug: string; publishDate: string; lastUpdated?: string; featured: boolean }>
+): string {
+  const contentDates = (blogPosts || [])
+    .flatMap(post => [post.publishDate, post.lastUpdated].filter(Boolean) as string[])
+    .map(date => new Date(date))
+    .filter(date => !Number.isNaN(date.getTime()))
+
+  const latestContentDate = contentDates.length
+    ? new Date(Math.max(...contentDates.map(date => date.getTime())))
+    : new Date()
+
+  const siteLastMod = latestContentDate.toISOString().split('T')[0]
   
   const urls = [
-    { loc: 'https://alarmbeepguide.com', priority: '1.0', changefreq: 'daily', lastmod: today },
-    { loc: 'https://alarmbeepguide.com/blog', priority: '0.9', changefreq: 'daily', lastmod: today },
+    { loc: 'https://alarmbeepguide.com', priority: '1.0', changefreq: 'daily', lastmod: siteLastMod },
+    { loc: 'https://alarmbeepguide.com/blog', priority: '0.9', changefreq: 'daily', lastmod: siteLastMod },
     ...categories.map(cat => ({
       loc: `https://alarmbeepguide.com/${cat.slug}`,
       priority: '0.9',
       changefreq: 'weekly',
-      lastmod: today
+      lastmod: siteLastMod
     })),
     ...(blogPosts || []).map(post => ({
       loc: `https://alarmbeepguide.com/blog/${post.slug}`,
@@ -252,14 +263,14 @@ export function generateSitemap(blogPosts?: Array<{ slug: string; publishDate: s
       changefreq: 'monthly',
       lastmod: post.lastUpdated || post.publishDate
     })),
-    { loc: 'https://alarmbeepguide.com/about', priority: '0.6', changefreq: 'monthly', lastmod: today },
-    { loc: 'https://alarmbeepguide.com/disclosure', priority: '0.5', changefreq: 'monthly', lastmod: today },
-    { loc: 'https://alarmbeepguide.com/editorial-policy', priority: '0.5', changefreq: 'monthly', lastmod: today },
-    { loc: 'https://alarmbeepguide.com/fact-checking', priority: '0.5', changefreq: 'monthly', lastmod: today },
-    { loc: 'https://alarmbeepguide.com/corrections-policy', priority: '0.5', changefreq: 'monthly', lastmod: today },
-    { loc: 'https://alarmbeepguide.com/contact', priority: '0.6', changefreq: 'monthly', lastmod: today },
-    { loc: 'https://alarmbeepguide.com/privacy', priority: '0.5', changefreq: 'monthly', lastmod: today },
-    { loc: 'https://alarmbeepguide.com/accessibility', priority: '0.5', changefreq: 'monthly', lastmod: today }
+    { loc: 'https://alarmbeepguide.com/about', priority: '0.6', changefreq: 'monthly', lastmod: siteLastMod },
+    { loc: 'https://alarmbeepguide.com/disclosure', priority: '0.5', changefreq: 'monthly', lastmod: siteLastMod },
+    { loc: 'https://alarmbeepguide.com/editorial-policy', priority: '0.5', changefreq: 'monthly', lastmod: siteLastMod },
+    { loc: 'https://alarmbeepguide.com/fact-checking', priority: '0.5', changefreq: 'monthly', lastmod: siteLastMod },
+    { loc: 'https://alarmbeepguide.com/corrections-policy', priority: '0.5', changefreq: 'monthly', lastmod: siteLastMod },
+    { loc: 'https://alarmbeepguide.com/contact', priority: '0.6', changefreq: 'monthly', lastmod: siteLastMod },
+    { loc: 'https://alarmbeepguide.com/privacy', priority: '0.5', changefreq: 'monthly', lastmod: siteLastMod },
+    { loc: 'https://alarmbeepguide.com/accessibility', priority: '0.5', changefreq: 'monthly', lastmod: siteLastMod }
   ]
   
   return `<?xml version="1.0" encoding="UTF-8"?>
