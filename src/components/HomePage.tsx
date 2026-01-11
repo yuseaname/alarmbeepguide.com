@@ -178,7 +178,7 @@ export function HomePage() {
             </div>
 
             <figure
-              className="mb-6 overflow-hidden rounded-2xl border border-border/70 bg-card/80 shadow-lg"
+              className="mb-6 aspect-[16/9] overflow-hidden rounded-2xl border border-border/70 shadow-lg"
               data-slot-id="d54c62cf891c"
             >
               <img
@@ -189,7 +189,7 @@ export function HomePage() {
                 loading="eager"
                 decoding="async"
                 fetchPriority="high"
-                className="h-auto w-full"
+                className="h-full w-full object-cover"
                 data-slot-id="d54c62cf891c"
               />
             </figure>

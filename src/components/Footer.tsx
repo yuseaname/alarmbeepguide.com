@@ -16,21 +16,6 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               Decode alarm beeps and troubleshoot safety devices without manuals. Plain-English solutions for homeowners.
             </p>
-            <figure
-              className="mt-4 overflow-hidden rounded-xl border border-border/60 shadow-sm"
-              data-slot-id="c9d06a3297b7"
-            >
-              <img
-                src="/images/generated/c9d06a3297b7.png"
-                alt="Photo of Categories"
-                width={1600}
-                height={900}
-                loading="lazy"
-                decoding="async"
-                className="h-auto w-full"
-                data-slot-id="c9d06a3297b7"
-              />
-            </figure>
           </div>
 
           <div>
