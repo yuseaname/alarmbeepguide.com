@@ -1,0 +1,31 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Photo of tooltip",
+  "anchor_index": 1,
+  "anchor_selector": "h1:contains(\\\"tooltip\\\")",
+  "anchor_text": "tooltip",
+  "aspect_ratio": "16:9",
+  "audience_hint": "general audience",
+  "constraints": {},
+  "discovered_at": "2026-01-10T18:43:01Z",
+  "insertion_mode": "hero-container",
+  "page_path": "src/components/ui/tooltip.tsx",
+  "priority_level": "IMPORTANT",
+  "prompt": "Photoreal hero image illustrating: Establish the topic: tooltip.",
+  "purpose": "Establish the topic: tooltip",
+  "realism_profile": "strict_photoreal",
+  "recommended_size": "1600x900",
+  "refined_at": "2026-01-10T18:59:43Z",
+  "risk_factors": [
+    "thin_content"
+  ],
+  "risk_score": 3.0,
+  "slot_id": "7c1aa2fd9461",
+  "slot_key": "hero-1",
+  "source_context": "TooltipPrimitive from \"@radix-ui/react-tooltip\" import { cn } from \"@/lib/utils\" function TooltipProvider({ delayDuration = 0, ...props }: ComponentProps<typeof TooltipPrimitive.Provider>) { return ( <TooltipPrimitive.Provider data-slot=\"tooltip-provider\" delayDuration={delayDuration} {...props} /> ) } function Tooltip({ ...props }: ComponentProps<typeof TooltipPrimitive.Root>) { return ( <TooltipProvider> <TooltipPrimitive.Root data-slot=\"tooltip\" {...props} /> </TooltipProvider> ) } function TooltipTrigger({ ...props }: ComponentProps<typeof TooltipPrimitive.Trigger>) { return <TooltipPrimitive.Trigger data-slot=\"tooltip-trigger\" {...props} /> } function TooltipContent({ className, sideOffset = 0, children, ...props }",
+  "status": "draft",
+  "super_prompt": "Photoreal hero image illustrating: Establish the topic: tooltip. Scene details: TooltipPrimitive from \"@radix-ui/react-tooltip\" import { cn } from \"@/lib/utils\" function TooltipProvider({ delayDuration = 0, ...props }: ComponentProps<typeof TooltipPrimitive.Provider>) { return ( <TooltipPrimitive.Provider data-slot=\"tooltip-provider\" delayDuration={delayDuration} {...props} /> ) } function Tooltip({ ...props }: ComponentProps<typeof TooltipPrimitive.Root>) { return ( <TooltipProvider> <TooltipPrimitive.Root data-slot=\"tooltip\" {...props} /> </TooltipProvider> ) } function TooltipTrigger({ ...props }: ComponentProps<typeof TooltipPrimitive.Trigger>) { return <TooltipPrimitive.Trigger data-slot=\"tooltip-trigger\" {...props} /> } function TooltipContent({ className, sideOffset = 0, children, ...props } Camera: full-frame, 35mm lens, balanced composition, natural depth of field. Lighting: realistic, soft natural or practical lighting, no harsh artificial glow. Strict realism: natural textures, accurate proportions, realistic lighting, no CGI look, no surreal symmetry. Avoid: logos, watermarks, fake UI buttons, text overlays. Style: photoreal.",
+  "technical_constraints": "Aspect ratio 16:9. Target size 1600x900.",
+  "updated_at": "2026-01-11T16:42:57Z",
+  "usage": "hero"
+}

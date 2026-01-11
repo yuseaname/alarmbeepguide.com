@@ -72,6 +72,21 @@ export function TopCommentsLeaderboard() {
         <p className="text-sm text-muted-foreground">
           Share your best alarm troubleshooting tip (200 chars max). The community's favorites rise to the top!
         </p>
+        <figure
+          className="mt-4 overflow-hidden rounded-xl border border-border/60 shadow-sm"
+          data-slot-id="45036d3d0a51"
+        >
+          <img
+            src="/images/generated/45036d3d0a51.png"
+            alt="Photo of Top 3 Hall of Fame"
+            width={1600}
+            height={900}
+            loading="lazy"
+            decoding="async"
+            className="h-auto w-full"
+            data-slot-id="45036d3d0a51"
+          />
+        </figure>
       </div>
 
       {topThree.length > 0 ? (

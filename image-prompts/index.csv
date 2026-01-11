@@ -1,0 +1,10 @@
+slot_id,page_path,slot_key,usage,priority_level,anchor_text,anchor_selector,anchor_index,insertion_mode,ad_proximity_risk,risk_score,status
+40f030a788ca,src/components/BlogListPage.tsx,hero-1,hero,IMPORTANT,AlarmBeepGuide Blog,"h1:contains(\""AlarmBeepGuide Blog\"")",1,hero-container,med,3.0,draft
+6ffe02130ca9,src/components/BlogPostPage.tsx,hero-1,hero,IMPORTANT,Frequently Asked Questions,"h2:contains(\""Frequently Asked Questions\"")",1,after-heading,med,3.0,draft
+71fb68f4f306,src/components/CategoryPage.tsx,hero-1,hero,IMPORTANT,Troubleshooting Guides & Resources,"h2:contains(\""Troubleshooting Guides & Resources\"")",1,after-heading,low,3.0,draft
+c9d06a3297b7,src/components/Footer.tsx,hero-1,hero,IMPORTANT,Categories,"h3:contains(\""Categories\"")",1,after-heading,low,3.0,draft
+d54c62cf891c,src/components/HomePage.tsx,hero-1,hero,CRITICAL,Decode Alarm Beeps &amp; Fix Safety Devices,"h1:contains(\""Decode Alarm Beeps &amp; Fix Safety Devices\"")",1,hero-container,low,0.0,draft
+f91f4f6b24d6,src/components/HomePage.tsx,inline-1,inline,IMPORTANT,"Scan a pattern, route the next step","h2:contains(\""Scan a pattern, route the next step\"")",1,after-heading,low,0.0,draft
+b624df1e8b3f,src/components/SearchPage.tsx,hero-1,hero,IMPORTANT,Search,"h1:contains(\""Search\"")",1,hero-container,low,3.0,draft
+45036d3d0a51,src/components/TopCommentsLeaderboard.tsx,hero-1,hero,IMPORTANT,Top 3 Hall of Fame,"h2:contains(\""Top 3 Hall of Fame\"")",1,after-heading,low,3.0,draft
+b2af70f4f140,src/components/TrustPage.tsx,hero-1,hero,IMPORTANT,Send Us a Message,"h3:contains(\""Send Us a Message\"")",1,after-heading,low,3.0,draft

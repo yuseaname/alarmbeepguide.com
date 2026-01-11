@@ -1,0 +1,133 @@
+{
+  "entries": [
+    {
+      "generated_image": true,
+      "generated_prompt_hash": "c90809ef287466637abecd162cffc121e973ca101b01f1230bb307a3408a646a",
+      "has_prompt": true,
+      "has_super_prompt": true,
+      "page_path": "src/components/BlogListPage.tsx",
+      "placed": false,
+      "priority_level": "IMPORTANT",
+      "prompt_hash": "c90809ef287466637abecd162cffc121e973ca101b01f1230bb307a3408a646a",
+      "slot_id": "40f030a788ca",
+      "status": "GENERATED_READY_TO_PLACE",
+      "usage": "hero"
+    },
+    {
+      "generated_image": true,
+      "generated_prompt_hash": "023b490e9a9f9a7549dbc90a4b12e7bea00a9de6b9f268693fc2c8999eae9140",
+      "has_prompt": true,
+      "has_super_prompt": true,
+      "page_path": "src/components/BlogPostPage.tsx",
+      "placed": false,
+      "priority_level": "IMPORTANT",
+      "prompt_hash": "023b490e9a9f9a7549dbc90a4b12e7bea00a9de6b9f268693fc2c8999eae9140",
+      "slot_id": "6ffe02130ca9",
+      "status": "GENERATED_READY_TO_PLACE",
+      "usage": "hero"
+    },
+    {
+      "generated_image": true,
+      "generated_prompt_hash": "2462779ed779fa3ba1cb3e5667405d9c107a693b3f4f1342b4d1e56f1fd784cc",
+      "has_prompt": true,
+      "has_super_prompt": true,
+      "page_path": "src/components/CategoryPage.tsx",
+      "placed": false,
+      "priority_level": "IMPORTANT",
+      "prompt_hash": "2462779ed779fa3ba1cb3e5667405d9c107a693b3f4f1342b4d1e56f1fd784cc",
+      "slot_id": "71fb68f4f306",
+      "status": "GENERATED_READY_TO_PLACE",
+      "usage": "hero"
+    },
+    {
+      "generated_image": true,
+      "generated_prompt_hash": "d1c1dcee178709b111409e11ccce42878ef4b4d83f905d64e3c5b2faaf158aa7",
+      "has_prompt": true,
+      "has_super_prompt": true,
+      "page_path": "src/components/Footer.tsx",
+      "placed": false,
+      "priority_level": "IMPORTANT",
+      "prompt_hash": "d1c1dcee178709b111409e11ccce42878ef4b4d83f905d64e3c5b2faaf158aa7",
+      "slot_id": "c9d06a3297b7",
+      "status": "GENERATED_READY_TO_PLACE",
+      "usage": "hero"
+    },
+    {
+      "generated_image": true,
+      "generated_prompt_hash": "6090c5a76a270a790b61309f9ee6f23522c7245d2ff835f67d1e2fd2cb40011d",
+      "has_prompt": true,
+      "has_super_prompt": true,
+      "page_path": "src/components/HomePage.tsx",
+      "placed": false,
+      "priority_level": "CRITICAL",
+      "prompt_hash": "6090c5a76a270a790b61309f9ee6f23522c7245d2ff835f67d1e2fd2cb40011d",
+      "slot_id": "d54c62cf891c",
+      "status": "GENERATED_READY_TO_PLACE",
+      "usage": "hero"
+    },
+    {
+      "generated_image": true,
+      "generated_prompt_hash": "bd9ee8c4cb1972fdecb9c8deaa3cf207cc116ba425a665b7f649288b76eafc0d",
+      "has_prompt": true,
+      "has_super_prompt": true,
+      "page_path": "src/components/HomePage.tsx",
+      "placed": false,
+      "priority_level": "IMPORTANT",
+      "prompt_hash": "bd9ee8c4cb1972fdecb9c8deaa3cf207cc116ba425a665b7f649288b76eafc0d",
+      "slot_id": "f91f4f6b24d6",
+      "status": "GENERATED_READY_TO_PLACE",
+      "usage": "inline"
+    },
+    {
+      "generated_image": true,
+      "generated_prompt_hash": "0ca5c1ba8909c5db41fa5134a1310b88edd77f939e194652b9ba05b1d226f240",
+      "has_prompt": true,
+      "has_super_prompt": true,
+      "page_path": "src/components/SearchPage.tsx",
+      "placed": false,
+      "priority_level": "IMPORTANT",
+      "prompt_hash": "0ca5c1ba8909c5db41fa5134a1310b88edd77f939e194652b9ba05b1d226f240",
+      "slot_id": "b624df1e8b3f",
+      "status": "GENERATED_READY_TO_PLACE",
+      "usage": "hero"
+    },
+    {
+      "generated_image": true,
+      "generated_prompt_hash": "cab9cd34c862cacbce64c548c61d04fe9edadcf68619aa59f99b6227575e5e32",
+      "has_prompt": true,
+      "has_super_prompt": true,
+      "page_path": "src/components/TopCommentsLeaderboard.tsx",
+      "placed": false,
+      "priority_level": "IMPORTANT",
+      "prompt_hash": "cab9cd34c862cacbce64c548c61d04fe9edadcf68619aa59f99b6227575e5e32",
+      "slot_id": "45036d3d0a51",
+      "status": "GENERATED_READY_TO_PLACE",
+      "usage": "hero"
+    },
+    {
+      "generated_image": true,
+      "generated_prompt_hash": "65cdaaff72457af37279051d42ee54d1910ec9717134fb10cb39ea19fea34666",
+      "has_prompt": true,
+      "has_super_prompt": true,
+      "page_path": "src/components/TrustPage.tsx",
+      "placed": false,
+      "priority_level": "IMPORTANT",
+      "prompt_hash": "65cdaaff72457af37279051d42ee54d1910ec9717134fb10cb39ea19fea34666",
+      "slot_id": "b2af70f4f140",
+      "status": "GENERATED_READY_TO_PLACE",
+      "usage": "hero"
+    }
+  ],
+  "generated_at": "2026-01-11T20:24:45Z",
+  "summary": {
+    "failed_last_run": 0,
+    "generated_ready_to_place": 9,
+    "locked": 0,
+    "needs_generation": 0,
+    "placed": 0,
+    "stale_prompt_changed": 0,
+    "total_slots": 9
+  },
+  "top_n": 20,
+  "top_n_placed": 0
+}

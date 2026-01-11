@@ -50,6 +50,29 @@ export function CategoryPage({ slug }: CategoryPageProps) {
             <p className="text-lg leading-relaxed text-muted-foreground">
               {category.description}
             </p>
+            <figure
+              className="mt-6 overflow-hidden rounded-2xl border border-border/60 shadow-md"
+              data-slot-id="71fb68f4f306"
+            >
+              <img
+                src={category.heroImage}
+                alt={`Photo of ${category.name}`}
+                width={1600}
+                height={900}
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+                className="h-auto w-full"
+                data-slot-id="71fb68f4f306"
+                onError={(event) => {
+                  const target = event.currentTarget
+                  if (target.dataset.imageMissing) return
+                  target.dataset.imageMissing = 'true'
+                  target.classList.add('hidden')
+                  target.closest('figure')?.classList.add('hidden')
+                }}
+              />
+            </figure>
           </div>
         </div>
       </section>

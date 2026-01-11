@@ -1,0 +1,31 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Photo of Security",
+  "anchor_index": 1,
+  "anchor_selector": "h1:contains(\\\"Security\\\")",
+  "anchor_text": "Security",
+  "aspect_ratio": "16:9",
+  "audience_hint": "general audience",
+  "constraints": {},
+  "discovered_at": "2026-01-10T18:43:01Z",
+  "insertion_mode": "hero-container",
+  "page_path": "SECURITY.md",
+  "priority_level": "IMPORTANT",
+  "prompt": "Photoreal hero image illustrating: Establish the topic: Security.",
+  "purpose": "Establish the topic: Security",
+  "realism_profile": "strict_photoreal",
+  "recommended_size": "1600x900",
+  "refined_at": "2026-01-10T18:59:43Z",
+  "risk_factors": [
+    "light_content"
+  ],
+  "risk_score": 2.0,
+  "slot_id": "878d8f5a994d",
+  "slot_key": "hero-1",
+  "source_context": "Security GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub). Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. ## Reporting Security Issues If you believe you have found a security vulnerability in any GitHub-owned repository, please report it to us through coordinated disclosure.",
+  "status": "draft",
+  "super_prompt": "Photoreal hero image illustrating: Establish the topic: Security. Scene details: Security GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub). Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. ## Reporting Security Issues If you believe you have found a security vulnerability in any GitHub-owned repository, please report it to us through coordinated disclosure. Camera: full-frame, 35mm lens, balanced composition, natural depth of field. Lighting: realistic, soft natural or practical lighting, no harsh artificial glow. Strict realism: natural textures, accurate proportions, realistic lighting, no CGI look, no surreal symmetry. Avoid: logos, watermarks, fake UI buttons, text overlays. Style: photoreal.",
+  "technical_constraints": "Aspect ratio 16:9. Target size 1600x900.",
+  "updated_at": "2026-01-11T16:42:57Z",
+  "usage": "hero"
+}

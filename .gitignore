@@ -57,3 +57,6 @@ hostinger-prebuilt/node_modules/
 
 # Optional: keep zips out of git
 *.zip
+# Image pipeline outputs
+/generated-images/
+__pycache__/

@@ -1,0 +1,31 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Photo of badge",
+  "anchor_index": 1,
+  "anchor_selector": "h1:contains(\\\"badge\\\")",
+  "anchor_text": "badge",
+  "aspect_ratio": "16:9",
+  "audience_hint": "general audience",
+  "constraints": {},
+  "discovered_at": "2026-01-10T18:43:01Z",
+  "insertion_mode": "hero-container",
+  "page_path": "src/components/ui/badge.tsx",
+  "priority_level": "IMPORTANT",
+  "prompt": "Photoreal hero image illustrating: Establish the topic: badge.",
+  "purpose": "Establish the topic: badge",
+  "realism_profile": "strict_photoreal",
+  "recommended_size": "1600x900",
+  "refined_at": "2026-01-10T18:59:42Z",
+  "risk_factors": [
+    "thin_content"
+  ],
+  "risk_score": 3.0,
+  "slot_id": "1db6c38bd96c",
+  "slot_key": "hero-1",
+  "source_context": "badgeVariants = cva( \"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden\", { variants: { variant: { default: \"border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90\", secondary: \"border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90\", destructive: \"border-transparent bg-destructive text-white [a&]:hover:bg-destructive/90 focus-",
+  "status": "draft",
+  "super_prompt": "Photoreal hero image illustrating: Establish the topic: badge. Scene details: badgeVariants = cva( \"inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden\", { variants: { variant: { default: \"border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90\", secondary: \"border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90\", destructive: \"border-transparent bg-destructive text-white [a&]:hover:bg-destructive/90 focus- Camera: full-frame, 35mm lens, balanced composition, natural depth of field. Lighting: realistic, soft natural or practical lighting, no harsh artificial glow. Strict realism: natural textures, accurate proportions, realistic lighting, no CGI look, no surreal symmetry. Avoid: logos, watermarks, fake UI buttons, text overlays. Style: photoreal.",
+  "technical_constraints": "Aspect ratio 16:9. Target size 1600x900.",
+  "updated_at": "2026-01-11T16:42:57Z",
+  "usage": "hero"
+}

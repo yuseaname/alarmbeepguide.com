@@ -38,6 +38,7 @@ export const categories = [
     name: 'Chirp & Beep Codes',
     slug: 'chirp-beep-codes',
     description: 'Decode smoke detector chirps, CO alarm beeps, and security system alert patterns. Learn what each beep means and how to fix it.',
+    heroImage: '/images/categories/chirp-beep-codes.png',
     icon: 'SpeakerHigh',
     meta: {
       title: 'Chirp & Beep Codes - Decode Alarm Sounds | AlarmBeepGuide',
@@ -50,6 +51,7 @@ export const categories = [
     name: 'Fire Extinguishers',
     slug: 'fire-extinguishers',
     description: 'Fix fire extinguisher indicator lights, reset pressure gauges, troubleshoot inspection alerts, and understand safety certification dates.',
+    heroImage: '/images/categories/fire-extinguishers.png',
     icon: 'FireExtinguisher',
     meta: {
       title: 'Fire Extinguisher Troubleshooting & Alerts | AlarmBeepGuide',
@@ -62,6 +64,7 @@ export const categories = [
     name: 'Home Flood Lights',
     slug: 'home-flood-lights',
     description: 'Troubleshoot motion sensor lights, fix blinking flood lights, adjust sensitivity settings, and solve common outdoor lighting issues.',
+    heroImage: '/images/categories/home-flood-lights.png',
     icon: 'Lightbulb',
     meta: {
       title: 'Motion Light & Flood Light Troubleshooting | AlarmBeepGuide',
@@ -74,6 +77,7 @@ export const categories = [
     name: 'Weather & Outage Alerts',
     slug: 'weather-outage-alerts',
     description: 'Understand weather radio alerts, decode NOAA emergency tones, fix battery backup beeps, and manage storm warning systems.',
+    heroImage: '/images/categories/weather-outage-alerts.png',
     icon: 'Lightning',
     meta: {
       title: 'Weather Radio & Outage Alert Troubleshooting | AlarmBeepGuide',
@@ -86,6 +90,7 @@ export const categories = [
     name: 'Household Alert Fixes',
     slug: 'household-alert-fixes',
     description: 'Quick fixes for thermostat alerts, appliance error beeps, doorbell chimes, garage door sensors, and common home device notifications.',
+    heroImage: '/images/categories/household-alert-fixes.png',
     icon: 'House',
     meta: {
       title: 'Household Alert Fixes - Appliances & Devices | AlarmBeepGuide',

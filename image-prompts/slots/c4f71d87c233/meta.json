@@ -1,0 +1,31 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Photo of aspect-ratio",
+  "anchor_index": 1,
+  "anchor_selector": "h1:contains(\\\"aspect-ratio\\\")",
+  "anchor_text": "aspect-ratio",
+  "aspect_ratio": "16:9",
+  "audience_hint": "general audience",
+  "constraints": {},
+  "discovered_at": "2026-01-10T18:43:01Z",
+  "insertion_mode": "hero-container",
+  "page_path": "src/components/ui/aspect-ratio.tsx",
+  "priority_level": "IMPORTANT",
+  "prompt": "Photoreal hero image illustrating: Establish the topic: aspect-ratio.",
+  "purpose": "Establish the topic: aspect-ratio",
+  "realism_profile": "strict_photoreal",
+  "recommended_size": "1600x900",
+  "refined_at": "2026-01-10T18:59:43Z",
+  "risk_factors": [
+    "thin_content"
+  ],
+  "risk_score": 3.0,
+  "slot_id": "c4f71d87c233",
+  "slot_key": "hero-1",
+  "source_context": "aspect-ratio\" function AspectRatio({ ...props }: ComponentProps<typeof AspectRatioPrimitive.Root>) { return <AspectRatioPrimitive.Root data-slot=\"aspect-ratio\" {...props} /> } export { AspectRatio }",
+  "status": "draft",
+  "super_prompt": "Photoreal hero image illustrating: Establish the topic: aspect-ratio. Scene details: aspect-ratio\" function AspectRatio({ ...props }: ComponentProps<typeof AspectRatioPrimitive.Root>) { return <AspectRatioPrimitive.Root data-slot=\"aspect-ratio\" {...props} /> } export { AspectRatio } Camera: full-frame, 35mm lens, balanced composition, natural depth of field. Lighting: realistic, soft natural or practical lighting, no harsh artificial glow. Strict realism: natural textures, accurate proportions, realistic lighting, no CGI look, no surreal symmetry. Avoid: logos, watermarks, fake UI buttons, text overlays. Style: photoreal.",
+  "technical_constraints": "Aspect ratio 16:9. Target size 1600x900.",
+  "updated_at": "2026-01-11T16:42:57Z",
+  "usage": "hero"
+}

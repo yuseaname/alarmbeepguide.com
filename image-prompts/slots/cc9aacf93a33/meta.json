@@ -1,0 +1,31 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Photo of alert",
+  "anchor_index": 1,
+  "anchor_selector": "h1:contains(\\\"alert\\\")",
+  "anchor_text": "alert",
+  "aspect_ratio": "16:9",
+  "audience_hint": "general audience",
+  "constraints": {},
+  "discovered_at": "2026-01-10T18:43:01Z",
+  "insertion_mode": "hero-container",
+  "page_path": "src/components/ui/alert.tsx",
+  "priority_level": "IMPORTANT",
+  "prompt": "Photoreal hero image illustrating: Establish the topic: alert.",
+  "purpose": "Establish the topic: alert",
+  "realism_profile": "strict_photoreal",
+  "recommended_size": "1600x900",
+  "refined_at": "2026-01-10T18:59:43Z",
+  "risk_factors": [
+    "thin_content"
+  ],
+  "risk_score": 3.0,
+  "slot_id": "cc9aacf93a33",
+  "slot_key": "hero-1",
+  "source_context": "alertVariants = cva( \"relative w-full rounded-lg border px-4 py-3 text-sm grid has-[>svg]:grid-cols-[calc(var(--spacing)*4)_1fr] grid-cols-[0_1fr] has-[>svg]:gap-x-3 gap-y-0.5 items-start [&>svg]:size-4 [&>svg]:translate-y-0.5 [&>svg]:text-current\", { variants: { variant: { default: \"bg-card text-card-foreground\", destructive: \"text-destructive bg-card [&>svg]:text-current *:data-[slot=alert-description]:text-destructive/90\", }, }, defaultVariants: { variant: \"default\", }, } ) function Alert({ className, variant, ...props }: ComponentProps<\"div\"> & VariantProps<typeof alertVariants>) { return ( <div data-slot=\"alert\" role=\"alert\" className={cn(alertVariants({ variant }), className)} {...p",
+  "status": "draft",
+  "super_prompt": "Photoreal hero image illustrating: Establish the topic: alert. Scene details: alertVariants = cva( \"relative w-full rounded-lg border px-4 py-3 text-sm grid has-[>svg]:grid-cols-[calc(var(--spacing)*4)_1fr] grid-cols-[0_1fr] has-[>svg]:gap-x-3 gap-y-0.5 items-start [&>svg]:size-4 [&>svg]:translate-y-0.5 [&>svg]:text-current\", { variants: { variant: { default: \"bg-card text-card-foreground\", destructive: \"text-destructive bg-card [&>svg]:text-current *:data-[slot=alert-description]:text-destructive/90\", }, }, defaultVariants: { variant: \"default\", }, } ) function Alert({ className, variant, ...props }: ComponentProps<\"div\"> & VariantProps<typeof alertVariants>) { return ( <div data-slot=\"alert\" role=\"alert\" className={cn(alertVariants({ variant }), className)} {...p Camera: full-frame, 35mm lens, balanced composition, natural depth of field. Lighting: realistic, soft natural or practical lighting, no harsh artificial glow. Strict realism: natural textures, accurate proportions, realistic lighting, no CGI look, no surreal symmetry. Avoid: logos, watermarks, fake UI buttons, text overlays. Style: photoreal.",
+  "technical_constraints": "Aspect ratio 16:9. Target size 1600x900.",
+  "updated_at": "2026-01-11T16:42:57Z",
+  "usage": "hero"
+}

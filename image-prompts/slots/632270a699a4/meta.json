@@ -1,0 +1,31 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Photo of toggle-group",
+  "anchor_index": 1,
+  "anchor_selector": "h1:contains(\\\"toggle-group\\\")",
+  "anchor_text": "toggle-group",
+  "aspect_ratio": "16:9",
+  "audience_hint": "general audience",
+  "constraints": {},
+  "discovered_at": "2026-01-10T18:43:01Z",
+  "insertion_mode": "hero-container",
+  "page_path": "src/components/ui/toggle-group.tsx",
+  "priority_level": "IMPORTANT",
+  "prompt": "Photoreal hero image illustrating: Establish the topic: toggle-group.",
+  "purpose": "Establish the topic: toggle-group",
+  "realism_profile": "strict_photoreal",
+  "recommended_size": "1600x900",
+  "refined_at": "2026-01-10T18:59:43Z",
+  "risk_factors": [
+    "thin_content"
+  ],
+  "risk_score": 3.0,
+  "slot_id": "632270a699a4",
+  "slot_key": "hero-1",
+  "source_context": "toggle-group\" import { type VariantProps } from \"class-variance-authority\" import { cn } from \"@/lib/utils\" import { toggleVariants } from \"@/components/ui/toggle\" const ToggleGroupContext = createContext< VariantProps<typeof toggleVariants> >({ size: \"default\", variant: \"default\", }) function ToggleGroup({ className, variant, size, children, ...props }: ComponentProps<typeof ToggleGroupPrimitive.Root> & VariantProps<typeof toggleVariants>) { return ( <ToggleGroupPrimitive.Root data-slot=\"toggle-group\" data-variant={variant} data-size={size} className={cn( \"group/toggle-group flex w-fit items-center rounded-md data-[variant=outline]:shadow-xs\", className )} {...props} > <ToggleGroupContext.Provider val",
+  "status": "draft",
+  "super_prompt": "Photoreal hero image illustrating: Establish the topic: toggle-group. Scene details: toggle-group\" import { type VariantProps } from \"class-variance-authority\" import { cn } from \"@/lib/utils\" import { toggleVariants } from \"@/components/ui/toggle\" const ToggleGroupContext = createContext< VariantProps<typeof toggleVariants> >({ size: \"default\", variant: \"default\", }) function ToggleGroup({ className, variant, size, children, ...props }: ComponentProps<typeof ToggleGroupPrimitive.Root> & VariantProps<typeof toggleVariants>) { return ( <ToggleGroupPrimitive.Root data-slot=\"toggle-group\" data-variant={variant} data-size={size} className={cn( \"group/toggle-group flex w-fit items-center rounded-md data-[variant=outline]:shadow-xs\", className )} {...props} > <ToggleGroupContext.Provider val Camera: full-frame, 35mm lens, balanced composition, natural depth of field. Lighting: realistic, soft natural or practical lighting, no harsh artificial glow. Strict realism: natural textures, accurate proportions, realistic lighting, no CGI look, no surreal symmetry. Avoid: logos, watermarks, fake UI buttons, text overlays. Style: photoreal.",
+  "technical_constraints": "Aspect ratio 16:9. Target size 1600x900.",
+  "updated_at": "2026-01-11T16:42:57Z",
+  "usage": "hero"
+}

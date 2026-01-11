@@ -1,0 +1,31 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Photo of Top 3 Hall of Fame",
+  "anchor_index": 1,
+  "anchor_selector": "h2:contains(\\\"Top 3 Hall of Fame\\\")",
+  "anchor_text": "Top 3 Hall of Fame",
+  "aspect_ratio": "16:9",
+  "audience_hint": "general audience",
+  "constraints": {},
+  "discovered_at": "2026-01-10T18:58:10Z",
+  "insertion_mode": "after-heading",
+  "page_path": "src/components/TopCommentsLeaderboard.tsx",
+  "priority_level": "IMPORTANT",
+  "prompt": "Photoreal hero image illustrating: Establish the topic: Top 3 Hall of Fame.",
+  "purpose": "Establish the topic: Top 3 Hall of Fame",
+  "realism_profile": "strict_photoreal",
+  "recommended_size": "1600x900",
+  "refined_at": "2026-01-11T19:46:45Z",
+  "risk_factors": [
+    "thin_content"
+  ],
+  "risk_score": 3.0,
+  "slot_id": "45036d3d0a51",
+  "slot_key": "hero-1",
+  "source_context": "The community's favorites rise to the top!",
+  "status": "draft",
+  "super_prompt": "Photorealistic hero image representing the real-world meaning of the topic: Top 3 Hall of Fame.\n\nFirst, interpret what this topic implies to a general audience in everyday life (e.g., confusion, problem-solving, reassurance, discovery, resolution). Then visually represent that meaning through a realistic moment or situation.\n\nThe scene must depict a believable, real-life scenario where the topic would naturally apply, not a staged setup or symbolic arrangement of objects.\n\nShow a single, specific moment in time that a human would immediately recognize as related to the topic, such as a pause during problem-solving, a moment of inspection or realization, a before-or-after state, or subtle signs that an issue is being addressed.\n\nAvoid generic desk setups, flat-lay compositions, or repeated object arrangements.\n\nPeople (if shown):\nRepresent typical United States demographics.\n70% male, 30% female distribution.\nShow diverse American backgrounds reflecting the US population.\n\nCamera:\nFull-frame camera, 35mm lens.\nNatural perspective, slight imperfections allowed.\nHuman eye-level or contextual angle (not overhead).\n\nLighting:\nNatural or practical indoor lighting.\nTime-of-day cues allowed.\nNo dramatic, cinematic, or studio lighting.\n\nStrict constraints:\n- No visible text.\n- No UI elements or readable screens.\n- No diagrams, icons, or symbols.\n- No branding, logos, or overlays.\n- No symmetry-heavy or stock-photo compositions.\n\nStyle:\nStrict photorealism.\nNo CGI, no illustration, no surreal elements.\n\nThe image should feel like a real photograph taken during an authentic moment related to the topic, clearly understandable without explanation.\n\nDo not reuse visual compositions, object groupings, or scene layouts from previous images. Each image must feel like a different household and a different moment.",
+  "technical_constraints": "Aspect ratio 16:9. Target size 1600x900.",
+  "updated_at": "2026-01-11T19:46:31Z",
+  "usage": "hero"
+}

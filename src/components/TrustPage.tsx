@@ -61,6 +61,22 @@ export function TrustPage({ pageKey }: TrustPageProps) {
             <h1 className="mb-8 text-3xl font-bold text-foreground md:text-4xl">
               {page.title}
             </h1>
+            <figure
+              className="mb-8 overflow-hidden rounded-2xl border border-border/60 shadow-md"
+              data-slot-id="b2af70f4f140"
+            >
+              <img
+                src="/images/generated/b2af70f4f140.png"
+                alt="Photo of Send Us a Message"
+                width={1600}
+                height={900}
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+                className="h-auto w-full"
+                data-slot-id="b2af70f4f140"
+              />
+            </figure>
             <div className="prose prose-slate max-w-none">
               {page.content.split('\n\n').map((paragraph, index) => {
                 if (paragraph.startsWith('**') && paragraph.endsWith('**')) {

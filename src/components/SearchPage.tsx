@@ -89,6 +89,22 @@ export function SearchPage() {
       <p className="mb-6 text-muted-foreground">
         Search troubleshooting guides and safety tips.
       </p>
+      <figure
+        className="mb-8 overflow-hidden rounded-2xl border border-border/60 shadow-md"
+        data-slot-id="b624df1e8b3f"
+      >
+        <img
+          src="/images/generated/b624df1e8b3f.png"
+          alt="Photo of Search"
+          width={1600}
+          height={900}
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
+          className="h-auto w-full"
+          data-slot-id="b624df1e8b3f"
+        />
+      </figure>
 
       <Card className="mb-8 p-4">
         <div className="flex flex-col gap-3 sm:flex-row">

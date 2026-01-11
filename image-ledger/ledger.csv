@@ -1,0 +1,10 @@
+slot_id,page_path,usage,priority_level,status,has_prompt,has_super_prompt,generated_image,placed
+40f030a788ca,src/components/BlogListPage.tsx,hero,IMPORTANT,GENERATED_READY_TO_PLACE,True,True,True,False
+6ffe02130ca9,src/components/BlogPostPage.tsx,hero,IMPORTANT,GENERATED_READY_TO_PLACE,True,True,True,False
+71fb68f4f306,src/components/CategoryPage.tsx,hero,IMPORTANT,GENERATED_READY_TO_PLACE,True,True,True,False
+c9d06a3297b7,src/components/Footer.tsx,hero,IMPORTANT,GENERATED_READY_TO_PLACE,True,True,True,False
+d54c62cf891c,src/components/HomePage.tsx,hero,CRITICAL,GENERATED_READY_TO_PLACE,True,True,True,False
+f91f4f6b24d6,src/components/HomePage.tsx,inline,IMPORTANT,GENERATED_READY_TO_PLACE,True,True,True,False
+b624df1e8b3f,src/components/SearchPage.tsx,hero,IMPORTANT,GENERATED_READY_TO_PLACE,True,True,True,False
+45036d3d0a51,src/components/TopCommentsLeaderboard.tsx,hero,IMPORTANT,GENERATED_READY_TO_PLACE,True,True,True,False
+b2af70f4f140,src/components/TrustPage.tsx,hero,IMPORTANT,GENERATED_READY_TO_PLACE,True,True,True,False

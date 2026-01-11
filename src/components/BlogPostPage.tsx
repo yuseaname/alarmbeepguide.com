@@ -149,6 +149,22 @@ function BlogPostHeader({ post }: { post: BlogPost }) {
         <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
           {post.excerpt}
         </p>
+        <figure
+          className="mb-6 overflow-hidden rounded-2xl border border-border/60 shadow-md"
+          data-slot-id="6ffe02130ca9"
+        >
+          <img
+            src="/images/generated/6ffe02130ca9.png"
+            alt="Photo of Frequently Asked Questions"
+            width={1600}
+            height={900}
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
+            className="h-auto w-full"
+            data-slot-id="6ffe02130ca9"
+          />
+        </figure>
 
         <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">

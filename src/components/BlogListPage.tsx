@@ -45,6 +45,22 @@ export function BlogListPage() {
             <p className="text-lg leading-relaxed text-muted-foreground">
               In-depth troubleshooting guides, safety tips, and plain-English explanations for every household alarm and alert system.
             </p>
+            <figure
+              className="mt-6 overflow-hidden rounded-2xl border border-border/60 shadow-md"
+              data-slot-id="40f030a788ca"
+            >
+              <img
+                src="/images/generated/40f030a788ca.png"
+                alt="Photo of AlarmBeepGuide Blog"
+                width={1600}
+                height={900}
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+                className="h-auto w-full"
+                data-slot-id="40f030a788ca"
+              />
+            </figure>
           </div>
         </div>
       </section>

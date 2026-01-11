@@ -177,6 +177,22 @@ export function HomePage() {
               </div>
             </div>
 
+            <figure
+              className="mb-6 overflow-hidden rounded-2xl border border-border/70 bg-card/80 shadow-lg"
+              data-slot-id="d54c62cf891c"
+            >
+              <img
+                src="/images/generated/d54c62cf891c.png"
+                alt="Photo of Decode Alarm Beeps & Fix Safety Devices"
+                width={1600}
+                height={900}
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+                className="h-auto w-full"
+                data-slot-id="d54c62cf891c"
+              />
+            </figure>
             <Card className="border-border/70 bg-card/80 p-6 shadow-xl backdrop-blur">
               <div className="flex items-center justify-between">
                 <div>
@@ -228,6 +244,21 @@ export function HomePage() {
                   <p className="mt-2 text-sm text-muted-foreground">
                     Visual mode keeps things lightweight. Open the full decoder to hear audio samples.
                   </p>
+                  <figure
+                    className="mt-4 overflow-hidden rounded-xl border border-primary/10 bg-background/60"
+                    data-slot-id="f91f4f6b24d6"
+                  >
+                    <img
+                      src="/images/generated/f91f4f6b24d6.png"
+                      alt="Photo of Scan a pattern, route the next step"
+                      width={1200}
+                      height={900}
+                      loading="lazy"
+                      decoding="async"
+                      className="h-auto w-full"
+                      data-slot-id="f91f4f6b24d6"
+                    />
+                  </figure>
                   <div className="mt-4 flex items-center gap-3 text-xs text-muted-foreground" aria-hidden="true">
                     <span className="rounded-full border border-primary/30 bg-primary/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-primary">
                       Waveform
