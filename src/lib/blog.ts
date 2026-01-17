@@ -14,13 +14,31 @@ export interface BlogPost {
   lastUpdated?: string
   readTime: number
   featured: boolean
+  featuredImage: string
+  imageAlt: string
   tags: string[]
   metaTitle: string
   metaDescription: string
   faqs?: { question: string; answer: string }[]
 }
 
-export const blogPosts: BlogPost[] = [
+type RawBlogPost = Omit<BlogPost, 'featuredImage' | 'imageAlt'> & {
+  featuredImage?: string
+  imageAlt?: string
+}
+
+const DEFAULT_FEATURED_IMAGE = '/images/categories/chirp-beep-codes.png'
+
+const CATEGORY_FALLBACK_IMAGES: Record<string, string> = {
+  'chirp-beep-codes': '/images/categories/chirp-beep-codes.png',
+  'fire-extinguishers': '/images/categories/fire-extinguishers.png',
+  'home-flood-lights': '/images/categories/home-flood-lights.png',
+  'weather-outage-alerts': '/images/categories/weather-outage-alerts.png',
+  'household-alert-fixes': '/images/categories/household-alert-fixes.png',
+  'alarm-lifespan-replacement-maintenance': '/images/categories/alarm-lifespan-replacement-maintenance.svg'
+}
+
+const rawBlogPosts: RawBlogPost[] = [
   {
     id: 'smoke-detector-chirping-low-battery',
     slug: 'smoke-detector-chirping-low-battery',
@@ -1142,7 +1160,7 @@ Chemical agents break down, seals age, and pressure vessels weaken. Even if the 
 **Rechargeable Extinguishers**:
 Can be serviced beyond 12 years but require hydrostatic testing every 12 years. If your extinguisher fails this test, replace it.
 
-## Warning Sign #1: Pressure Gauge in Red Zone
+## Warning Sign 1: Pressure Gauge in Red Zone
 
 **What It Looks Like**: The needle points to the red "recharge" zone on the left side of the gauge.
 
@@ -1152,7 +1170,7 @@ Can be serviced beyond 12 years but require hydrostatic testing every 12 years. 
 
 **Why It Happens**: Slow seal leakage, temperature changes, or previous partial discharge.
 
-## Warning Sign #2: Physical Damage to Cylinder
+## Warning Sign 2: Physical Damage to Cylinder
 
 **What to Look For**:
 - Dents or dings anywhere on the cylinder
@@ -1167,7 +1185,7 @@ Can be serviced beyond 12 years but require hydrostatic testing every 12 years. 
 
 **What to Do**: Replace it as soon as practical. Avoid using a damaged fire extinguisher. Even small dents can weaken the cylinder.
 
-## Warning Sign #3: Damaged Hose or Nozzle
+## Warning Sign 3: Damaged Hose or Nozzle
 
 **What to Check**:
 - Cracks in the rubber hose
@@ -1180,7 +1198,7 @@ Can be serviced beyond 12 years but require hydrostatic testing every 12 years. 
 
 **Cost Consideration**: Hose replacement sometimes costs more than a new disposable extinguisher. Run the numbers.
 
-## Warning Sign #4: Broken or Missing Safety Pin
+## Warning Sign 4: Broken or Missing Safety Pin
 
 **What the Pin Does**: The safety pin prevents accidental discharge. It must be intact with a tamper seal.
 
@@ -1192,7 +1210,7 @@ Can be serviced beyond 12 years but require hydrostatic testing every 12 years. 
 
 **What to Do**: If the tamper seal is broken but the extinguisher appears full, have it professionally inspected. If the pin is missing, replace the extinguisher—you can't verify it hasn't been partially used.
 
-## Warning Sign #5: Unclear or Missing Instructions
+## Warning Sign 5: Unclear or Missing Instructions
 
 **What to Look For**:
 - Faded instruction label you can't read
@@ -1204,7 +1222,7 @@ Can be serviced beyond 12 years but require hydrostatic testing every 12 years. 
 
 **The Fix**: Replace the entire extinguisher. Trying to add new labels or memorize instructions adds unnecessary risk.
 
-## Warning Sign #6: Weight Loss (For Disposable Units)
+## Warning Sign 6: Weight Loss (For Disposable Units)
 
 **How to Check**:
 1. Find the weight specification on the label
@@ -1220,7 +1238,7 @@ Can be serviced beyond 12 years but require hydrostatic testing every 12 years. 
 
 **What to Do**: If weight is off by more than 10%, replace the extinguisher.
 
-## Warning Sign #7: Failed Annual Inspection
+## Warning Sign 7: Failed Annual Inspection
 
 **Professional Inspector Will Check**:
 - Pressure gauge accuracy
@@ -1238,7 +1256,7 @@ Can be serviced beyond 12 years but require hydrostatic testing every 12 years. 
 
 **What to Do**: If a certified inspector says replace it, replace it. Follow the guidance and document the service date.
 
-## Warning Sign #8: Changed Color of Chemical Powder
+## Warning Sign 8: Changed Color of Chemical Powder
 
 **How to Check** (Disposable units only):
 1. Turn the extinguisher upside down
@@ -2004,7 +2022,7 @@ Heat detectors beep for different reasons than smoke detectors, and knowing the 
 
 ## Common Heat Detector Problems
 
-**Problem #1: Triggers When Oven is Used**
+**Problem 1: Triggers When Oven is Used**
 
 **Why It Happens**: Heat detector placed too close to oven or stove, or temperature threshold is too low.
 
@@ -2014,7 +2032,7 @@ Heat detectors beep for different reasons than smoke detectors, and knowing the 
 - Relocate detector to cooler area of kitchen
 - Ensure proper ventilation reduces ambient heat
 
-**Problem #2: Never Triggers During Testing**
+**Problem 2: Never Triggers During Testing**
 
 **Important note**: Unlike smoke detectors with test buttons, heat detectors are harder to test.
 
@@ -2027,7 +2045,7 @@ Heat detectors beep for different reasons than smoke detectors, and knowing the 
 
 **Why DIY Heat Testing Is Risky**: Applying direct heat can melt plastic components, damage sensors, or create fire hazards.
 
-**Problem #3: Chirping in Garage During Winter**
+**Problem 3: Chirping in Garage During Winter**
 
 **Why It Happens**: Extreme cold can affect battery performance, similar to smoke detectors.
 
@@ -2133,16 +2151,16 @@ Visit cpsc.gov and search for your model. Some detectors have been recalled.
 
 ## Heat Detector Placement Mistakes
 
-**Mistake #1: Using Heat Detector in Bedroom**
+**Mistake 1: Using Heat Detector in Bedroom**
 Bedrooms REQUIRE smoke detectors. Heat detectors respond too slowly to save you from smoke inhalation while sleeping.
 
-**Mistake #2: Placing Too Close to Heat Source**
+**Mistake 2: Placing Too Close to Heat Source**
 Heat detectors within 5 feet of furnaces, water heaters, or ovens may false alarm.
 
-**Mistake #3: Attic Detector Wrong Temperature Rating**
+**Mistake 3: Attic Detector Wrong Temperature Rating**
 135°F detector in hot attic = constant false alarms in summer. Use 194°F rated units.
 
-**Mistake #4: Garage Detector Placed Wrong**
+**Mistake 4: Garage Detector Placed Wrong**
 Heat detectors in garages should be away from garage door (cold air rushes in) and away from car exhaust path.
 
 ## Code Requirements and Legal Considerations
@@ -2588,7 +2606,7 @@ Your home security system is beeping and you don't know why. Unlike smoke detect
 - Trouble condition detected
 - Check keypad display for trouble code
 - Could be sensor fault, communication error, or power issue
-- Press * or # to silence temporarily (must still fix problem)
+- Press * or the pound key to silence temporarily (must still fix problem)
 
 **Two Beeps Every Few Seconds**:
 - Tamper alert
@@ -2621,7 +2639,7 @@ Many panels have a button that displays current system status and trouble condit
 - "i" button
 - "STATUS" button
 - "*" + "2" combination
-- "#" + "5" combination
+- pound key + 5 combination
 
 ## Low Battery: The Most Common Cause
 
@@ -2640,7 +2658,7 @@ Large sealed lead-acid battery inside main panel box.
 4. Install new battery (match voltage—usually 12V)
 5. Reconnect wires (red to red, black to black)
 6. Close panel
-7. Clear trouble code (often *2 or #2)
+7. Clear trouble code (often *2 or pound key + 2)
 
 **Battery Type**: Usually 12V 4Ah to 12V 18Ah sealed lead-acid. Check label on existing battery.
 
@@ -2849,7 +2867,7 @@ Most systems: *2, or "OFF" twice
 
 **How to Clear**:
 1. Disarm with PIN
-2. Enter alarm memory clear code (check manual, often *3 or #6)
+2. Enter alarm memory clear code (check manual, often *3 or pound key + 6)
 3. Check system log to see which sensor triggered
 4. Verify that sensor is working properly
 
@@ -2935,7 +2953,7 @@ Smoke detector false alarms are so annoying that people disconnect detectors ent
 
 **The Problem**: Most homes have ionization detectors because they're cheaper, but these trigger more false alarms.
 
-## Fix #1: Replace Ionization with Photoelectric
+## Fix 1: Replace Ionization with Photoelectric
 
 **The Single Best Fix**: Swap ionization detectors for photoelectric models, especially in kitchens and near bathrooms.
 
@@ -2953,7 +2971,7 @@ Smoke detector false alarms are so annoying that people disconnect detectors ent
 
 **NFPA Recommendation**: Use BOTH types in your home—photoelectric near kitchens/baths, ionization in bedrooms and living areas.
 
-## Fix #2: Relocate Detectors Away from Triggers
+## Fix 2: Relocate Detectors Away from Triggers
 
 **Minimum Distance Rules**:
 - **20 feet from kitchens**: Ideally, but 10-15 feet minimum
@@ -2967,7 +2985,7 @@ Instead of detector in kitchen, place in hallway just outside kitchen entrance. 
 **Ceiling vs. Wall Mount**:
 If you must mount near kitchen, high on wall (6-12 inches below ceiling) may have fewer false alarms than ceiling mount because less cooking smoke rises that high.
 
-## Fix #3: Use the "Hush" Feature Correctly
+## Fix 3: Use the "Hush" Feature Correctly
 
 **What "Hush" Does**:
 Temporarily reduces detector sensitivity for 8-10 minutes, then auto-restores.
@@ -2985,7 +3003,7 @@ Most detectors made after 2000. Look for button labeled "HUSH," "SILENCE," or "T
 
 **What NOT to Do**: Remove battery to silence alarm. You'll forget to replace it, leaving you unprotected.
 
-## Fix #4: Improve Kitchen Ventilation
+## Fix 4: Improve Kitchen Ventilation
 
 **The Root Cause**: Cooking smoke spreads through house, triggering detectors far from kitchen.
 
@@ -3000,7 +3018,7 @@ Most detectors made after 2000. Look for button labeled "HUSH," "SILENCE," or "T
 - Replace charcoal filters every 6 months (recirculating hoods)
 - Vent to exterior if possible (more effective than recirculating)
 
-## Fix #5: Clean Detectors Thoroughly
+## Fix 5: Clean Detectors Thoroughly
 
 **Dust = False Alarms**: Dust particles inside detector chamber mimic smoke.
 
@@ -3021,7 +3039,7 @@ Most detectors made after 2000. Look for button labeled "HUSH," "SILENCE," or "T
 
 **Painting or Renovation Nearby**: Cover detectors with plastic bags during dusty work, then clean thoroughly after.
 
-## Fix #6: Control Humidity and Steam
+## Fix 6: Control Humidity and Steam
 
 **Bathroom Steam Problem**: Hot shower steam triggers detectors in bathrooms or hallways.
 
@@ -3034,7 +3052,7 @@ Most detectors made after 2000. Look for button labeled "HUSH," "SILENCE," or "T
 **Basement Humidity**:
 Damp basements cause false alarms from moisture in detector. Use dehumidifier to maintain 30-50% humidity.
 
-## Fix #7: Address Insect and Spider Infestations
+## Fix 7: Address Insect and Spider Infestations
 
 **Bugs Inside Detector**: Insects crawling inside sensor chamber trigger alarms.
 
@@ -3051,7 +3069,7 @@ Damp basements cause false alarms from moisture in detector. Use dehumidifier to
 
 **If Bugs Persistent**: Some detectors have built-in insect screens. Consider upgrading.
 
-## Fix #8: Fix Electrical Issues (Hardwired Detectors)
+## Fix 8: Fix Electrical Issues (Hardwired Detectors)
 
 **Voltage Fluctuations Cause False Alarms**:
 
@@ -3070,7 +3088,7 @@ Damp basements cause false alarms from moisture in detector. Use dehumidifier to
 **When to Call Electrician**:
 If you suspect electrical issues, don't DIY. Faulty detector wiring is a fire hazard itself.
 
-## Fix #9: Replace Old Detectors
+## Fix 9: Replace Old Detectors
 
 **Age = More False Alarms**: Detector sensors degrade over time, becoming oversensitive or erratic.
 
@@ -6591,6 +6609,15 @@ Keep it simple to keep stress low and everyone on the same page. A consistent pl
     ]
   }
 ]
+
+export const blogPosts: BlogPost[] = rawBlogPosts.map((post) => ({
+  ...post,
+  featuredImage:
+    post.featuredImage ||
+    CATEGORY_FALLBACK_IMAGES[post.category] ||
+    DEFAULT_FEATURED_IMAGE,
+  imageAlt: post.imageAlt || post.title
+}))
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return blogPosts.find(post => post.slug === slug)

@@ -13,22 +13,22 @@ export interface BlogPostMetadata {
 export const blogPostsMetadata: BlogPostMetadata[] = [
   {
     slug: 'smoke-detector-chirping-low-battery',
-    publishDate: '2025-01-15',
+    publishDate: '2026-01-15',
     featured: true
   },
   {
     slug: 'how-long-do-smoke-detectors-last',
-    publishDate: '2025-01-15',
+    publishDate: '2026-01-15',
     featured: true
   },
   {
     slug: 'when-to-replace-a-carbon-monoxide-detector',
-    publishDate: '2025-01-15',
+    publishDate: '2026-01-15',
     featured: true
   },
   {
     slug: 'smoke-alarm-end-of-life-beeps',
-    publishDate: '2025-01-15',
+    publishDate: '2026-01-15',
     featured: false
   }
 ]

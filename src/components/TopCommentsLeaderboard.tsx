@@ -98,7 +98,7 @@ export function TopCommentsLeaderboard() {
             >
               <div className="flex flex-col items-center gap-1">
                 {getBadgeIcon(comment.badge)}
-                <span className="text-xs font-medium text-muted-foreground">#{comment.rank}</span>
+                <span className="text-xs font-medium text-muted-foreground">Rank {comment.rank}</span>
               </div>
               <div className="flex-1">
                 <p className="text-sm text-foreground">{comment.text}</p>
