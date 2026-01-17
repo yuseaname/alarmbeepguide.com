@@ -203,6 +203,34 @@ function BlogPostContent({ post }: { post: BlogPost }) {
     const usedAnchors = new Map<string, number>()
     
     return sections.map((section, index) => {
+      const imageMatch = section.match(/^!\[(.*?)]\((\S+?)(?:\s+"(.*)")?\)$/)
+      if (imageMatch) {
+        const [, alt, src, title] = imageMatch
+        const sizeMatch = title?.match(/(\d{3,4}x\d{3,4})/)
+        const slotMatch = title?.match(/slot:([a-f0-9]{12})/)
+        const [width, height] = sizeMatch ? sizeMatch[1].split('x') : []
+        const slotId = slotMatch?.[1]
+
+        return (
+          <figure
+            key={index}
+            className="my-8 overflow-hidden rounded-2xl border border-border/60 shadow-md"
+            data-slot-id={slotId || undefined}
+          >
+            <img
+              src={src}
+              alt={alt}
+              loading="lazy"
+              decoding="async"
+              data-slot-id={slotId || undefined}
+              width={width || undefined}
+              height={height || undefined}
+              className="h-auto w-full"
+            />
+          </figure>
+        )
+      }
+
       if (section.startsWith('## ')) {
         const headingText = normalizeHeadingText(section)
         const id = getUniqueAnchorId(headingText, usedAnchors)

@@ -1,0 +1,19 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Back of a smoke alarm showing where a date label is typically found.",
+  "anchor_index": 1,
+  "anchor_selector": "h2:contains(\\\"How to find the manufacture date on your alarm\\\")",
+  "anchor_text": "How to find the manufacture date on your alarm",
+  "aspect_ratio": "4:3",
+  "insertion_mode": "after-heading",
+  "page_path": "src/content/blog/how-long-do-smoke-detectors-last.md",
+  "priority_level": "IMPORTANT",
+  "prompt_hash": "d25b8f06ddb0a8f572b9bd52f1ad3ca931e6da3c79c0cf235ac275e73a55d63e",
+  "recommended_size": "1200x900",
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "3b9c80916c48",
+  "slot_key": "inline-2",
+  "super_prompt": "Photorealistic close-up of the back of a generic smoke alarm, label area subtly outlined with a thin, translucent highlight (no text), neutral indoor lighting, no logos.",
+  "usage": "inline"
+}

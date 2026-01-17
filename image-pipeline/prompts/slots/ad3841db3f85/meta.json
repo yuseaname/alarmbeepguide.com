@@ -1,0 +1,19 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Visual summary of common CO detector replacement signs.",
+  "anchor_index": 1,
+  "anchor_selector": "h2:contains(\\\"Common warning signs that replacement is due\\\")",
+  "anchor_text": "Common warning signs that replacement is due",
+  "aspect_ratio": "16:9",
+  "insertion_mode": "after-heading",
+  "page_path": "src/content/blog/when-to-replace-a-carbon-monoxide-detector.md",
+  "priority_level": "IMPORTANT",
+  "prompt_hash": "d62a1c3b58b1630969ef6d0882ba0ad6ddca9fc48d0728670575e01d451db6ef",
+  "recommended_size": "1600x900",
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "ad3841db3f85",
+  "slot_key": "inline-2",
+  "super_prompt": "Minimal illustration of a CO detector with three abstract warning cues (age ring, chirp wave, small status light), icon-only shapes, no text, muted palette.",
+  "usage": "inline"
+}

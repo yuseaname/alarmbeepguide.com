@@ -1,43 +1,65 @@
-# AdSense-Safe Image Pipeline
+# AdSense Safe Image Pipeline (Portable v4)
 
-This pipeline installs a repo-agnostic image workflow that is deterministic, idempotent, and AdSense-safe.
-It discovers image slots, refines prompts, generates the highest-priority images, places them safely,
-and audits the result for performance and compliance.
+This pipeline is deterministic, idempotent, reversible, and safe for AdSense. It discovers image slots, refines prompts, generates images using GPT Image models, and plans placement with CLS-safe markup. It is designed to be portable across repos by copying the `/image-pipeline/` folder.
 
 ## Non-negotiables
-- Compliance-first: no deceptive UI, no ad-like imagery, and no ad code modifications.
-- Performance-first: reserve space to avoid CLS; lazy-load inline images.
-- Idempotent: reruns do not duplicate or break pages.
-- Deterministic: same repo state produces the same slot IDs and Top 20 selection.
-- Reversible: backups available for placement changes.
-- Secrets: use `OPENAI_API_KEY` from environment only.
+- Compliance first: no ad-like imagery, no deceptive UI, no misleading buttons.
+- Performance first: avoid CLS/LCP regressions; inline images lazy-load; hero can be eager.
+- Deterministic slot IDs and selection.
+- Idempotent scripts (no duplicates on rerun unless inputs change).
+- No secrets in code; uses `OPENAI_API_KEY` from env.
+- Reversible: backups for edits; git-friendly diffs.
+- Do not edit site files unless explicitly requested with `--apply`.
 
-## Dependencies
-- Python 3.8+
-- `pip install pyyaml beautifulsoup4`
-- Optional for optimization: `pip install pillow`
+## Requirements
+- Python 3.10+
+- Install dependencies:
+  - `python -m venv .venv`
+  - `source .venv/bin/activate` (macOS/Linux)
+  - `.venv\Scripts\activate` (Windows)
+  - `pip install -r image-pipeline/requirements.txt`
 
-## Runbook
-1) Discover slots:
-   `python scripts/01_discover_slots.py`
-2) Refine prompts:
-   `python scripts/02_refine_prompts.py`
-3) Generate Top 20 (safe default):
-   `python scripts/03_generate_images.py --priority-only --quality medium --model gpt-image-1`
-4) Place Top 20:
-   `python scripts/04_place_images.py --manifest generated-images/manifest.json --limit 20 --backup`
-   Dry run preview:
-   `python scripts/04_place_images.py --manifest generated-images/manifest.json --limit 20 --dry-run`
-5) Build ledger anytime:
-   `python scripts/build_image_ledger.py --scan-html`
-6) Polish + audit:
-   `python scripts/05_polish_audit.py`
+## Environment
+Copy `.env.example` to `.env` and set your API key.
 
-## How to avoid duplicates
-- The ledger is canonical.
-- `image-ledger/locked_slots.json` prevents regeneration unless `--force`.
-- Generator marks existing-valid images as success in the manifest to allow placement without re-generation.
+```
+OPENAI_API_KEY=put_your_key_here
+OPENAI_IMAGE_MODEL=gpt-image-1
+OPENAI_IMAGE_QUALITY=medium
+OPENAI_IMAGE_SIZE=1536x1024
+```
+
+## Run sequence
+1) Discover slots
+```
+python image-pipeline/scripts/01_discover_slots.py
+```
+
+2) Refine prompts
+```
+python image-pipeline/scripts/02_refine_prompts.py --priority-only --max-slots 10
+```
+
+3) Generate images
+```
+python image-pipeline/scripts/03_generate_images.py --priority-only --quality medium --model gpt-image-1 --size 1536x1024 --max-slots 10 --force
+```
+
+4) Build ledger
+```
+python image-pipeline/scripts/build_image_ledger.py --scan-html
+```
+
+5) Placement plan (default plan-only)
+```
+python image-pipeline/scripts/04_place_images.py --limit 20
+```
+
+6) Polish + audit
+```
+python image-pipeline/scripts/05_polish_audit.py
+```
 
 ## Notes
-- HTML placement is implemented. For Markdown/MDX or template-only sources, the placement script writes a plan file instead of editing.
-- The pipeline never inserts images inside ad containers or immediately adjacent to ads.
+- Placement defaults to plan-only. Use `--apply` to modify HTML files and create backups.
+- Generated assets live under `image-pipeline/generated/` and are ignored by git.

@@ -1,0 +1,19 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Visual checklist for confirming end-of-life beeps.",
+  "anchor_index": 1,
+  "anchor_selector": "h2:contains(\\\"Quick verification checklist\\\")",
+  "anchor_text": "Quick verification checklist",
+  "aspect_ratio": "4:3",
+  "insertion_mode": "after-heading",
+  "page_path": "src/content/blog/smoke-alarm-end-of-life-beeps.md",
+  "priority_level": "IMPORTANT",
+  "prompt_hash": "165c6934b574decd9e2ddc6993214d2a880abdd925a0c6246bde9cdc50e609a0",
+  "recommended_size": "1200x900",
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "bfac1f450e72",
+  "slot_key": "inline-4",
+  "super_prompt": "Instructional illustration of a smoke alarm with three numbered callout circles indicating check steps, no text, clean indoor ceiling background.",
+  "usage": "inline"
+}

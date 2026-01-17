@@ -1,0 +1,19 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Hands replacing a ceiling-mounted smoke alarm safely.",
+  "anchor_index": 1,
+  "anchor_selector": "h2:contains(\\\"Safe, simple replacement checklist\\\")",
+  "anchor_text": "Safe, simple replacement checklist",
+  "aspect_ratio": "4:3",
+  "insertion_mode": "after-heading",
+  "page_path": "src/content/blog/how-long-do-smoke-detectors-last.md",
+  "priority_level": "IMPORTANT",
+  "prompt_hash": "14a2e4d0981f9635868a9f0e686578fad07dfaacb21474430ed58ce290bd4a14",
+  "recommended_size": "1200x900",
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "af37b3edb85c",
+  "slot_key": "inline-4",
+  "super_prompt": "Instructional illustration of anatomically correct hands twisting a ceiling-mounted smoke alarm off its bracket and replacing it, numbered callout circles without text, neutral indoor ceiling, brand-agnostic.",
+  "usage": "inline"
+}

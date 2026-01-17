@@ -1,0 +1,19 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Comparison of plug-in, battery-only, and combo CO detector types.",
+  "anchor_index": 1,
+  "anchor_selector": "h2:contains(\\\"Differences between plug-in, battery, and combo units\\\")",
+  "anchor_text": "Differences between plug-in, battery, and combo units",
+  "aspect_ratio": "16:9",
+  "insertion_mode": "after-heading",
+  "page_path": "src/content/blog/when-to-replace-a-carbon-monoxide-detector.md",
+  "priority_level": "IMPORTANT",
+  "prompt_hash": "75129f08b79348a8a02dd733dc8a9cfa1d44555eff4b80856f9bc70c7010ef66",
+  "recommended_size": "1600x900",
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "f1792be3293e",
+  "slot_key": "inline-3",
+  "super_prompt": "Side-by-side illustration of three generic CO detector types: plug-in, battery-only, and combo smoke/CO, clean background, no logos, no readable text, consistent scale.",
+  "usage": "inline"
+}

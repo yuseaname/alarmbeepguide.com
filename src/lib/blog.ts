@@ -1,3 +1,7 @@
+import smokeDetectorLifespanContent from '@/content/blog/how-long-do-smoke-detectors-last.md?raw'
+import coDetectorReplacementContent from '@/content/blog/when-to-replace-a-carbon-monoxide-detector.md?raw'
+import smokeAlarmEolBeepContent from '@/content/blog/smoke-alarm-end-of-life-beeps.md?raw'
+
 export interface BlogPost {
   id: string
   slug: string
@@ -6493,6 +6497,96 @@ Keep it simple to keep stress low and everyone on the same page. A consistent pl
       {
         question: 'Do I need multiple extinguishers?',
         answer: 'In larger homes, multiple units make access easier. Focus on key areas like kitchens, garages, and hallways.'
+      }
+    ]
+  },
+  {
+    id: 'how-long-do-smoke-detectors-last',
+    slug: 'how-long-do-smoke-detectors-last',
+    title: 'How Long Do Smoke Detectors Last? 7-Year vs 10-Year Alarms Explained',
+    excerpt: 'Smoke alarms are designed to last about 7 to 10 years. Learn how to check the date label, tell end-of-life signals from low-battery chirps, and replace with confidence.',
+    content: smokeDetectorLifespanContent,
+    category: 'alarm-lifespan-replacement-maintenance',
+    author: 'AlarmBeepGuide Team',
+    publishDate: '2026-01-15',
+    lastUpdated: '2026-01-15',
+    readTime: 14,
+    featured: false,
+    tags: ['smoke alarm lifespan', 'replacement timeline', 'end-of-life', 'maintenance'],
+    metaTitle: 'How Long Do Smoke Detectors Last? 7-Year vs 10-Year Alarms',
+    metaDescription: 'Learn the typical lifespan of smoke alarms, how to check the manufacture date, and how to tell end-of-life signals from low-battery chirps.',
+    faqs: [
+      {
+        question: 'Do smoke alarms expire even if they still test?',
+        answer: 'Yes. The test button checks sound and power, not sensor accuracy. Most alarms should be replaced after 7 to 10 years.'
+      },
+      {
+        question: 'Where do I find the manufacture date on a smoke alarm?',
+        answer: 'Most labels are on the back or inside the battery compartment. If you cannot confirm the date, replacement is the safest choice.'
+      },
+      {
+        question: 'Does changing the battery reset the alarm lifespan?',
+        answer: 'No. A new battery keeps the alarm powered but does not reset sensor aging.'
+      }
+    ]
+  },
+  {
+    id: 'when-to-replace-a-carbon-monoxide-detector',
+    slug: 'when-to-replace-a-carbon-monoxide-detector',
+    title: 'When to Replace a Carbon Monoxide Detector (Signs, Age Limits, and Safety Rules)',
+    excerpt: 'CO detectors have a limited sensor lifespan. Learn typical age limits, how to read the date label, and the calm signs that replacement is due.',
+    content: coDetectorReplacementContent,
+    category: 'alarm-lifespan-replacement-maintenance',
+    author: 'AlarmBeepGuide Team',
+    publishDate: '2026-01-16',
+    lastUpdated: '2026-01-16',
+    readTime: 14,
+    featured: false,
+    tags: ['carbon monoxide', 'replacement timing', 'sensor lifespan', 'home safety'],
+    metaTitle: 'When to Replace a Carbon Monoxide Detector: Signs and Age Limits',
+    metaDescription: 'Find CO detector lifespan ranges, end-of-life signs, and how to check the manufacture date so you can replace with confidence.',
+    faqs: [
+      {
+        question: 'How long do carbon monoxide detectors usually last?',
+        answer: 'Most are designed for about 5 to 10 years. The label on the unit is the best guide.'
+      },
+      {
+        question: 'Is the purchase date the same as the manufacture date?',
+        answer: 'No. A detector can sit on a shelf before purchase, so the manufacture date is what matters.'
+      },
+      {
+        question: 'Do plug-in CO detectors last longer than battery models?',
+        answer: 'Not necessarily. The sensor life is similar, so replacement is still needed on a timeline.'
+      }
+    ]
+  },
+  {
+    id: 'smoke-alarm-end-of-life-beeps',
+    slug: 'smoke-alarm-end-of-life-beeps',
+    title: 'Smoke Alarm End-of-Life Beeps: What They Sound Like and What to Do Next',
+    excerpt: 'End-of-life beeps can sound like low-battery chirps but do not stop after a new battery. Learn the difference and the calm next steps.',
+    content: smokeAlarmEolBeepContent,
+    category: 'alarm-lifespan-replacement-maintenance',
+    author: 'AlarmBeepGuide Team',
+    publishDate: '2026-01-17',
+    lastUpdated: '2026-01-17',
+    readTime: 13,
+    featured: false,
+    tags: ['end-of-life beep', 'smoke alarm chirp', 'replacement', 'troubleshooting'],
+    metaTitle: 'Smoke Alarm End-of-Life Beeps: What They Mean',
+    metaDescription: 'Learn how end-of-life beeps differ from low-battery chirps and what to do when your smoke alarm reaches its age limit.',
+    faqs: [
+      {
+        question: 'What does an end-of-life beep sound like?',
+        answer: 'It varies by model, but it is often a repeated pattern that returns after a battery change.'
+      },
+      {
+        question: 'Can I silence end-of-life beeps without replacing the alarm?',
+        answer: 'Some models allow a temporary hush, but replacement is still required.'
+      },
+      {
+        question: 'How do I confirm my alarm is at end of life?',
+        answer: 'Check the manufacture date. If the unit is past its service life and keeps chirping, replacement is the correct fix.'
       }
     ]
   }

@@ -1,20 +1,7 @@
 # Style Guide
 
-## Visual direction
-- Photoreal imagery only.
-- Natural lighting, realistic materials, and accurate proportions.
-- No surreal symmetry or CGI artifacts.
-
-## Composition
-- Clean, uncluttered frames.
-- Camera perspective suited to the subject (wide for environments, medium for objects).
-- Avoid dramatic blur unless it adds realism.
-
-## Prohibited
-- Logos or watermarks.
-- Text overlays or labels.
-- Fake UI buttons or ad-like elements.
-
-## Accessibility
-- Alt text should be literal and descriptive, not keyword spam.
-- Images should support, not replace, critical content.
+- Primary style: photorealistic editorial.
+- Neutral gray-green palette; warm, natural lighting.
+- No text overlays; no logos; no UI elements.
+- Avoid stock-photo symmetry; prefer real-world imperfections.
+- Hands are allowed if anatomically correct and helpful.

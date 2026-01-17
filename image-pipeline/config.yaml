@@ -3,16 +3,16 @@ site:
   content_roots: ["./index.html", "./pages", "./src/pages", "./src", "./content"]
   build_dirs: ["./dist", "./out", "./build", "./hostinger-deploy/dist", "./hostinger-prebuilt", "./hostinger-upload"]
   exclude_dirs: [".git", "node_modules", ".vs", ".vscode", "generated-images", "image-ledger", "image-pipeline", "image-prompts"]
-  jsx_include_name_patterns: ["Page", "Home", "Blog", "Category", "Search", "Trust", "Footer", "Header", "Matcher", "Seasonal", "TopComments"]
-  jsx_exclude_path_patterns: ["components/ui"]
   exclude_page_path_patterns: ["notfound", "404", "error", "fallback", "maintenance", "loading", "dev", "test"]
   exclude_page_heading_patterns: ["not found", "error", "fallback", "maintenance", "loading", "access denied"]
   preferred_source_over_build: true
+
 assets:
   images_dest_candidates:
     - "assets/images/generated"
     - "public/images/generated"
     - "images/generated"
+
 adsense:
   ad_markers:
     - "adsbygoogle"
@@ -20,16 +20,47 @@ adsense:
     - "data-ad-slot"
     - "googlesyndication"
   min_dom_separation_from_ads: 1
+
 images:
+  default_output_formats: ["webp", "png"]
   default_output_format: "png"
-  default_quality_non_priority: "low"
-  default_quality_priority: "medium"
   max_inline_images_per_1200_words: 2
+
 pipeline:
   top_n: 20
   allow_markdown_placement: "plan-only"
+
 brand:
   style: "photoreal"
   notes: ""
   unique_composition_guardrail: true
   prohibited: ["logos", "watermarks", "fake UI buttons", "text overlays"]
+
+models:
+  default_model: "gpt-image-1"
+  default_quality: "medium"
+  default_size: "1536x1024"
+
+constraints:
+  alarm_domain_keywords:
+    - "smoke alarm"
+    - "smoke detector"
+    - "co detector"
+    - "carbon monoxide"
+    - "fire alarm"
+    - "alarm"
+    - "beep"
+    - "beeping"
+    - "chirp"
+    - "detector"
+    - "troubleshooting"
+  alarm_domain_rules:
+    reality_constraints:
+      - "Smoke/CO alarms are ceiling- or wall-mounted only."
+      - "Do not place alarms on ovens, stoves, countertops, or appliances."
+      - "Alarms appear as real, round or square white plastic devices with a test button."
+      - "If a kitchen is visible, the alarm is mounted on a ceiling or high wall."
+    not_allowed:
+      - "Alarm mounted on an oven door, stovetop, countertop, or cabinet."
+      - "Alarm used as a handheld device or tool."
+      - "Ad-like or button-like imagery."

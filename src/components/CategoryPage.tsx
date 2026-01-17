@@ -379,6 +379,26 @@ function CategoryQuickGuide({ categoryId }: { categoryId: string }) {
         'Label circuit breakers for easier troubleshooting',
         'Create home maintenance calendar for battery changes'
       ]
+    },
+    'alarm-lifespan-replacement-maintenance': {
+      common: [
+        'End-of-life chirps = Replace the whole unit',
+        'Low battery chirps = Replace battery and retest',
+        'Date label missing = Treat alarm as old and replace',
+        'Install date unknown = Start a new timeline'
+      ],
+      safety: [
+        'Replace smoke alarms every 7-10 years',
+        'Replace CO detectors on the manufacturer timeline',
+        'Test alarms monthly using the test button',
+        'Use matching power type for replacements'
+      ],
+      tips: [
+        'Write the install month and year inside the cover',
+        'Keep a simple home safety log',
+        'Change batteries during seasonal checks',
+        'Vacuum alarm vents twice a year'
+      ]
     }
   }
 

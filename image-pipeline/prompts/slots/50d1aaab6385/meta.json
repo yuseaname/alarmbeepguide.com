@@ -1,0 +1,19 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Timing comparison of low-battery chirps versus end-of-life beep patterns.",
+  "anchor_index": 1,
+  "anchor_selector": "h2:contains(\\\"End-of-life signals vs low-battery chirps\\\")",
+  "anchor_text": "End-of-life signals vs low-battery chirps",
+  "aspect_ratio": "16:9",
+  "insertion_mode": "after-heading",
+  "page_path": "src/content/blog/how-long-do-smoke-detectors-last.md",
+  "priority_level": "IMPORTANT",
+  "prompt_hash": "eebbb05d49395290ff8ee248af6bc74203d70c984320d1788af44cba59c3327e",
+  "recommended_size": "1600x900",
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "50d1aaab6385",
+  "slot_key": "inline-3",
+  "super_prompt": "Minimal infographic timing comparison using dots and lines to show two beep patterns (single periodic vs clustered pattern), no readable text, soft neutral palette, clean grid alignment.",
+  "usage": "inline"
+}

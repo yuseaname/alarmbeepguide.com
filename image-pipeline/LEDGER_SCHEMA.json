@@ -2,43 +2,32 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Image Ledger",
   "type": "object",
-  "required": ["generated_at", "summary", "entries"],
+  "required": ["summary", "items"],
   "properties": {
-    "generated_at": {"type": "string"},
     "summary": {
       "type": "object",
       "properties": {
-        "total_slots": {"type": "number"},
-        "placed": {"type": "number"},
-        "generated_ready_to_place": {"type": "number"},
-        "needs_generation": {"type": "number"},
-        "stale_prompt_changed": {"type": "number"},
-        "failed_last_run": {"type": "number"},
-        "locked": {"type": "number"}
-      },
-      "additionalProperties": true
+        "total_slots": {"type": "integer"},
+        "placed": {"type": "integer"},
+        "generated_ready": {"type": "integer"},
+        "needs_generation": {"type": "integer"},
+        "stale_prompt_changed": {"type": "integer"},
+        "failed_last_run": {"type": "integer"},
+        "locked": {"type": "integer"}
+      }
     },
-    "entries": {
+    "items": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["slot_id", "page_path", "usage", "priority_level", "status"],
         "properties": {
           "slot_id": {"type": "string"},
+          "status": {"type": "string"},
           "page_path": {"type": "string"},
           "usage": {"type": "string"},
-          "priority_level": {"type": "string"},
-          "status": {"type": "string"},
-          "has_prompt": {"type": "boolean"},
-          "has_super_prompt": {"type": "boolean"},
-          "generated_image": {"type": "boolean"},
-          "placed": {"type": "boolean"},
-          "prompt_hash": {"type": "string"},
-          "generated_prompt_hash": {"type": "string"}
-        },
-        "additionalProperties": true
+          "prompt_hash": {"type": "string"}
+        }
       }
     }
-  },
-  "additionalProperties": true
+  }
 }

@@ -2,7 +2,7 @@ import { Card } from './ui/card'
 import { Badge } from './ui/badge'
 import { categories } from '@/lib/seo'
 import { getBlogCategories } from '@/lib/blog'
-import { SpeakerHigh, FireExtinguisher, Lightbulb, Lightning, House } from '@phosphor-icons/react'
+import { SpeakerHigh, FireExtinguisher, Lightbulb, Lightning, House, Clock } from '@phosphor-icons/react'
 import { Link } from './Link'
 import { ReactNode } from 'react'
 
@@ -11,7 +11,8 @@ const iconMap: Record<string, ReactNode> = {
   FireExtinguisher: <FireExtinguisher className="h-8 w-8" weight="duotone" />,
   Lightbulb: <Lightbulb className="h-8 w-8" weight="duotone" />,
   Lightning: <Lightning className="h-8 w-8" weight="duotone" />,
-  House: <House className="h-8 w-8" weight="duotone" />
+  House: <House className="h-8 w-8" weight="duotone" />,
+  Clock: <Clock className="h-8 w-8" weight="duotone" />
 }
 
 export function CategoryCards() {

@@ -1,0 +1,19 @@
+{
+  "ad_proximity_risk": "low",
+  "alt_text": "Abstract timing pattern representing an end-of-life beep sequence.",
+  "anchor_index": 1,
+  "anchor_selector": "h2:contains(\\\"What end-of-life beeps usually sound like\\\")",
+  "anchor_text": "What end-of-life beeps usually sound like",
+  "aspect_ratio": "16:9",
+  "insertion_mode": "after-heading",
+  "page_path": "src/content/blog/smoke-alarm-end-of-life-beeps.md",
+  "priority_level": "IMPORTANT",
+  "prompt_hash": "7e17b48413205b82e4dac7c169cc0d3b53e771c7bf7d8205f1989c45a0e9a51c",
+  "recommended_size": "1600x900",
+  "risk_factors": [],
+  "risk_score": 0,
+  "slot_id": "3900cf1f285e",
+  "slot_key": "inline-1",
+  "super_prompt": "Minimal infographic timing graphic using dots and lines to show a clustered beep pattern, no text, muted neutral palette, clean spacing.",
+  "usage": "inline"
+}

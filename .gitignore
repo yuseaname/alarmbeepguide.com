@@ -39,6 +39,7 @@ Thumbs.db
 # Env files
 .env
 .env.*
+!.env.example
 
 **/agent-eval-report*
 packages
@@ -59,4 +60,6 @@ hostinger-prebuilt/node_modules/
 *.zip
 # Image pipeline outputs
 /generated-images/
+/image-pipeline/generated/
 __pycache__/
+*.pyc

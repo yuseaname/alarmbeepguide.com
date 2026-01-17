@@ -97,6 +97,19 @@ export const categories = [
       description: 'Fix thermostat alerts, appliance error beeps, doorbell chimes, and garage sensors. Fast troubleshooting for common home alerts.',
       canonical: 'https://alarmbeepguide.com/household-alert-fixes'
     }
+  },
+  {
+    id: 'alarm-lifespan-replacement-maintenance',
+    name: 'Alarm Lifespan, Replacement & Maintenance',
+    slug: 'alarm-lifespan-replacement-maintenance',
+    description: 'Understand alarm aging, replacement timelines, end-of-life signals, and simple upkeep that keeps safety devices reliable.',
+    heroImage: '/images/categories/alarm-lifespan-replacement-maintenance.svg',
+    icon: 'Clock',
+    meta: {
+      title: 'Alarm Lifespan & Replacement Timelines | AlarmBeepGuide',
+      description: 'Learn when to replace smoke alarms and CO detectors, how end-of-life signals sound, and simple maintenance that keeps devices reliable.',
+      canonical: 'https://alarmbeepguide.com/alarm-lifespan-replacement-maintenance'
+    }
   }
 ]
 
