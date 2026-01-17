@@ -2,7 +2,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import path from 'node:path'
 
-import { blogPosts, getBlogPostBySlug, type BlogPost } from '../src/lib/blog'
+import { blogPosts, getBlogPostBySlug, type BlogPost } from '../src/lib/blog-build.js'
 import {
   categories,
   getPageMeta,

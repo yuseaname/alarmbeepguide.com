@@ -1,7 +1,7 @@
 import { writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
 
-import { blogPosts } from '../src/lib/blog'
+import { blogPostsMetadata } from '../src/lib/blog-metadata'
 import { generateSitemap, generateRobotsTxt } from '../src/lib/seo'
 
 type OutputTarget = {
@@ -21,7 +21,7 @@ async function writeTextFile(filePath: string, contents: string) {
 }
 
 async function main() {
-  const sitemapXml = generateSitemap(blogPosts)
+  const sitemapXml = generateSitemap(blogPostsMetadata)
   const robotsTxt = generateRobotsTxt()
 
   await Promise.all(
