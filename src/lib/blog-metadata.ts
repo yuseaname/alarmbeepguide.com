@@ -140,7 +140,7 @@ export const blogPostsMetadata: BlogPostMetadata[] = [
     slug: 'smoke-alarm-end-of-life-beeps',
     publishDate: '2026-01-17',
     featured: false
-  }
+  },
   {
     slug: 'smoke-detector-beeping-every-30-seconds',
     publishDate: '2026-03-06',
