@@ -141,4 +141,119 @@ export const blogPostsMetadata: BlogPostMetadata[] = [
     publishDate: '2026-01-17',
     featured: false
   }
+  {
+    slug: 'smoke-detector-beeping-every-30-seconds',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'smoke-detector-chirping-at-night',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'hardwired-smoke-detector-keeps-chirping',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'smoke-detector-low-battery-chirp-wont-stop',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'smoke-detector-false-alarm-and-chirping',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'smoke-detector-end-of-life-chirp',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'kidde-smoke-detector-chirping-after-battery-change',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'first-alert-smoke-detector-chirping',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'first-alert-hardwired-smoke-detector-chirping',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'kidde-hardwired-smoke-alarm-beeping',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'first-alert-green-light-blinking-and-chirping',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'nest-protect-chirping',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'smoke-detector-3-beeps-meaning',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'smoke-detector-5-beeps-meaning',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'carbon-monoxide-detector-beeping-every-30-seconds',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'carbon-monoxide-detector-4-beeps',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'co-detector-5-beeps-end-of-life',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'smoke-and-carbon-monoxide-detector-beeping',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'best-smoke-detector-replacement-hardwired',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'best-battery-smoke-detector-for-bedrooms',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'smoke-detector-replacement-cost',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'how-often-replace-smoke-detectors',
+    publishDate: '2026-03-06',
+    featured: false
+  },
+  {
+    slug: 'smoke-detector-placement-in-house',
+    publishDate: '2026-03-06',
+    featured: false
+  },
 ]
