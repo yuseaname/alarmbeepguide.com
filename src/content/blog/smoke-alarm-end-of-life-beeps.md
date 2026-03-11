@@ -104,7 +104,7 @@ Combo smoke and CO units are common, but they can add confusion because one devi
 
 If your unit is a combo model, check the label for the alert pattern key. If the label is missing, use the manufacture date and the behavior after a battery change as your main clues. If the unit is old, replacement is still the simplest answer because both sensors age over time.
 
-For pattern help, [Combination Smoke + CO Alarm Beeping Patterns](/blog/combo-smoke-co-alarm-beeping-patterns) breaks down the common signals in plain language.
+For pattern help, [Combination Smoke + CO Alarm Beeping Patterns](/blog/smoke-and-carbon-monoxide-detector-beeping) breaks down the common signals in plain language.
 
 ## Other chirps that can mimic end-of-life
 
@@ -117,7 +117,7 @@ Not every repeating chirp is end of life. A few other issues can sound similar, 
 
 If the alarm is newer and the date label shows it is well within its service life, it is worth checking these basics before replacing. Remove the battery, reseat it firmly, and hold the test button for a full reset. Lightly clean vents with a soft brush or vacuum. If the chirp continues and the alarm is old, replacement is still the correct step.
 
-For troubleshooting steps, [Smoke Detector Chirping After Battery Change](/blog/smoke-detector-chirping-after-battery-change) offers a clear fix flow.
+For troubleshooting steps, [Smoke Alarm Chirping After Battery Change](/blog/smoke-alarm-chirping-after-battery-change) offers a clear fix flow.
 
 If the alarm is under five years old and you still hear repeated chirps, check for a loose mounting connection or a battery tab that was not fully removed. Those small issues are common and easy to miss.
 

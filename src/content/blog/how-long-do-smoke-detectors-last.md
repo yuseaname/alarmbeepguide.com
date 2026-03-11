@@ -99,7 +99,7 @@ Low-battery chirps are often a single chirp every 30 to 60 seconds. End-of-life 
 
 If you replace the battery and the chirp returns quickly, check the manufacture date. If the alarm is near the end of its service life, replacement is the correct step.
 
-For help decoding sounds, see [Why Is My Smoke Detector Chirping? The Low Battery Fix](/blog/why-is-my-smoke-detector-chirping) and [Smoke Detector Chirping After Battery Change](/blog/smoke-detector-chirping-after-battery-change).
+For help decoding sounds, see [Why Is My Smoke Detector Chirping? The Low Battery Fix](/blog/why-is-my-smoke-detector-chirping) and [Smoke Alarm Chirping After Battery Change](/blog/smoke-alarm-chirping-after-battery-change).
 
 ## Planning replacements in homes with multiple alarms
 

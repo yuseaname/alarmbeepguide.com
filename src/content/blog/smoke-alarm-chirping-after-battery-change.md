@@ -128,7 +128,7 @@ If your system is hardwired and chirping continues:
 - Identify whether one unit is causing network chirps.
 - Isolate and service the first chirping unit.
 
-For deeper hardwired flow: [Hardwired Smoke Detector Keeps Chirping? Full Troubleshooting Checklist](/blog/hardwired-smoke-detector-beeping-troubleshooting)
+For deeper hardwired flow: [Hardwired Smoke Detector Keeps Chirping? Full Troubleshooting Checklist](/blog/hardwired-smoke-detector-keeps-chirping)
 
 ## How to confirm end-of-life vs battery issue
 

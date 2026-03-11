@@ -4,7 +4,7 @@
 
 Carbon monoxide detectors are easy to forget because they are quiet when everything is normal. But CO detectors do not last forever. Their sensors age over time, and that aging can reduce reliability. This guide explains how long CO detectors last, how to check the date label, and the calm signs that replacement is due.
 
-If you are hearing a beep pattern and want to decode it, start with [Carbon Monoxide Detector Beeping: What Each Pattern Means](/blog/carbon-monoxide-detector-beeping-patterns). If you want a clear replacement timeline, keep reading.
+If you are hearing a beep pattern and want to decode it, start with [Carbon Monoxide Detector Beeping: What Each Pattern Means](/blog/carbon-monoxide-detector-beeping-every-30-seconds). If you want a clear replacement timeline, keep reading.
 
 ## TWA - What This Guide Covers
 
@@ -71,7 +71,7 @@ Age is the primary signal, but there are other clues that replacement is likely:
 - It has been exposed to heavy humidity, grease, or dust for years.
 - You have no record of replacement in the last decade.
 
-If you are also troubleshooting noise, see [Combination Smoke + CO Alarm Beeping Patterns](/blog/combo-smoke-co-alarm-beeping-patterns) for combo units.
+If you are also troubleshooting noise, see [Combination Smoke + CO Alarm Beeping Patterns](/blog/smoke-and-carbon-monoxide-detector-beeping) for combo units.
 
 ## Differences between plug-in, battery, and combo units
 
@@ -85,7 +85,7 @@ CO detectors come in a few common types. The lifespan rule is the same, but the 
 
 **Combination smoke and CO units** are convenient, but the CO sensor often determines the replacement timeline. If the CO side reaches end of life, the whole combo unit should be replaced.
 
-If you have a hardwired combo unit and hear beeps, [Hardwired Smoke Detector Beeping? 6 Fixes Beyond Battery](/blog/hardwired-smoke-detector-beeping) provides a clear troubleshooting flow.
+If you have a hardwired combo unit and hear beeps, [Hardwired Smoke Detector Beeping? 6 Fixes Beyond Battery](/blog/hardwired-smoke-detector-keeps-chirping) provides a clear troubleshooting flow.
 
 ## Placement and environment tips that affect reliability
 
@@ -101,7 +101,7 @@ This guide is about replacement timing, but many people find it while a CO alarm
 
 Once everyone is safe, you can use the alarm pattern, the date label, and the unit type to decide if the detector needs replacement or further evaluation. If the alarm was a low-battery chirp, replacing the battery usually stops it. If the alarm was a full alert, focus on safety first and then replace the detector if it is near the end of its service life.
 
-For help decoding alarm patterns, see [Carbon Monoxide Detector Beeping: What Each Pattern Means](/blog/carbon-monoxide-detector-beeping-patterns). This can help you separate a true alarm from a maintenance signal without guessing.
+For help decoding alarm patterns, see [Carbon Monoxide Detector Beeping: What Each Pattern Means](/blog/carbon-monoxide-detector-beeping-every-30-seconds). This can help you separate a true alarm from a maintenance signal without guessing.
 
 ## Common misconceptions and calm corrections
 

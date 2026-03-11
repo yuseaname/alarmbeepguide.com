@@ -74,7 +74,7 @@ If chirp remains after full sequence, replacement is usually safer and faster th
 **Hardwired:** Backup battery + AC power + harness/interconnect all matter. A single faulted unit can create system-wide confusion.
 
 If hardwired troubleshooting is needed, use:
-[Hardwired Smoke Detector Keeps Chirping? Full Troubleshooting Checklist](/blog/hardwired-smoke-detector-beeping-troubleshooting)
+[Hardwired Smoke Detector Keeps Chirping? Full Troubleshooting Checklist](/blog/hardwired-smoke-detector-keeps-chirping)
 
 ## How to identify end-of-life beeps
 
