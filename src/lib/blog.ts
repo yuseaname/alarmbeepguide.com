@@ -1,6 +1,8 @@
 import smokeDetectorLifespanContent from '@/content/blog/how-long-do-smoke-detectors-last.md?raw'
 import coDetectorReplacementContent from '@/content/blog/when-to-replace-a-carbon-monoxide-detector.md?raw'
 import smokeAlarmEolBeepContent from '@/content/blog/smoke-alarm-end-of-life-beeps.md?raw'
+import firstAlertSc5ReviewContent from '@/content/blog/first-alert-sc5-review.md?raw'
+import firstAlertSc5VsNestProtectContent from '@/content/blog/first-alert-sc5-vs-nest-protect.md?raw'
 
 export interface BlogPost {
   id: string
@@ -6605,6 +6607,66 @@ Keep it simple to keep stress low and everyone on the same page. A consistent pl
       {
         question: 'How do I confirm my alarm is at end of life?',
         answer: 'Check the manufacture date. If the unit is past its service life and keeps chirping, replacement is the correct fix.'
+      }
+    ]
+  },
+  {
+    id: 'first-alert-sc5-review',
+    slug: 'first-alert-sc5-review',
+    title: 'First Alert SC5 Review: Features, Performance, and Nest Protect Alternatives',
+    excerpt: 'The First Alert SC5 is a battery-powered smart smoke and CO alarm designed for Google Home. Learn about its features, performance, and how it compares to alternatives.',
+    content: firstAlertSc5ReviewContent,
+    category: 'alarm-lifespan-replacement-maintenance',
+    author: 'AlarmBeepGuide Team',
+    publishDate: '2026-03-20',
+    lastUpdated: '2026-03-20',
+    readTime: 15,
+    featured: false,
+    tags: ['first alert sc5', 'smart smoke detector', 'nest protect replacement', 'google home'],
+    metaTitle: 'First Alert SC5 Review: Complete Guide to Features and Performance',
+    metaDescription: 'Comprehensive review of the First Alert SC5 smart smoke and CO alarm. Features, performance analysis, and comparison with Nest Protect alternatives.',
+    faqs: [
+      {
+        question: 'Is the First Alert SC5 a good Nest Protect replacement?',
+        answer: 'Yes, the SC5 is designed as an official replacement for the discontinued Nest Protect, offering similar smart features and Google Home integration.'
+      },
+      {
+        question: 'Does the First Alert SC5 require a hub?',
+        answer: 'The SC5 connects directly to Google Home via Bluetooth and Wi-Fi, so no separate hub is required for basic smart features.'
+      },
+      {
+        question: 'How long does the First Alert SC5 battery last?',
+        answer: 'The SC5 uses a sealed 10-year lithium battery designed to last the full lifespan of the alarm.'
+      }
+    ]
+  },
+  {
+    id: 'first-alert-sc5-vs-nest-protect',
+    slug: 'first-alert-sc5-vs-nest-protect',
+    title: 'First Alert SC5 vs Nest Protect: The Definitive Replacement Guide',
+    excerpt: 'The First Alert SC5 is the officially recommended replacement for the discontinued Nest Protect. Compare features, installation, and migration options.',
+    content: firstAlertSc5VsNestProtectContent,
+    category: 'alarm-lifespan-replacement-maintenance',
+    author: 'AlarmBeepGuide Team',
+    publishDate: '2026-03-20',
+    lastUpdated: '2026-03-20',
+    readTime: 18,
+    featured: false,
+    tags: ['first alert sc5', 'nest protect', 'comparison', 'smart smoke detector', 'replacement guide'],
+    metaTitle: 'First Alert SC5 vs Nest Protect: Complete Comparison Guide',
+    metaDescription: 'Compare the First Alert SC5 and Nest Protect smoke detectors. Features, pricing, migration options, and which is right for your home.',
+    faqs: [
+      {
+        question: 'Why did Google discontinue the Nest Protect?',
+        answer: 'Google discontinued the Nest Protect in April 2024 to focus on newer technologies and partnerships, including the First Alert SC5 collaboration.'
+      },
+      {
+        question: 'Can I use Nest Protect and First Alert SC5 together?',
+        answer: 'The SC5 and Nest Protect use different interconnection systems. For best results, replace all units in an interconnected system at the same time.'
+      },
+      {
+        question: 'Will my existing Nest Protect data transfer to the SC5?',
+        answer: 'No, the SC5 uses Google Home directly rather than the Nest app. You will need to set up the SC5 as a new device in Google Home.'
       }
     ]
   }
