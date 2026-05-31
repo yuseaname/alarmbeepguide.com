@@ -1,0 +1,83 @@
+baseURL = 'https://alarmbeepguide.com/'
+languageCode = 'en-us'
+title = 'AlarmBeepGuide'
+theme = 'adsense-base'
+
+[params]
+  site_name = 'AlarmBeepGuide'
+  description = 'Decode confusing alarm beeps, troubleshoot smoke detectors, fix chirping alerts, and solve household safety device problems without manuals.'
+  tagline = 'Decode the beep. Fix the problem.'
+  author = 'AlarmBeepGuide'
+  favicon = '/images/categories/chirp-beep-codes.png'
+  og_image = '/images/categories/chirp-beep-codes.png'
+  google_site_verification = ''
+
+  [params.adsense]
+    client_id = 'ca-pub-5566942094411042'
+    [params.adsense.slots]
+      below_title = { id = '', format = 'auto', responsive = 'true' }
+      mid_article = { id = '', format = 'auto', responsive = 'true' }
+      end_article = { id = '', format = 'auto', responsive = 'true' }
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[permalinks]
+  blog = '/blog/:slug'
+
+[permalinks.term]
+  categories = '/:slug'
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menus.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 2
+  [[menus.main]]
+    name = "About"
+    url = "/about"
+    weight = 3
+  [[menus.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 4
+
+  [[menus.footer]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menus.footer]]
+    name = "Privacy"
+    url = "/privacy/"
+    weight = 20
+  [[menus.footer]]
+    name = "Disclosure"
+    url = "/disclosure/"
+    weight = 30
+  [[menus.footer]]
+    name = "Editorial Policy"
+    url = "/editorial-policy/"
+    weight = 40
