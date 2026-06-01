@@ -1,22 +1,40 @@
-{{/* Related Posts: show up to 3 posts from the same section, excluding current */}}
+{{/* Related Posts: show up to 3 related posts from the same section, excluding current */}}
 {{ $current := . }}
-{{ $allPages := where .Site.RegularPages ".Permalink" "!=" $current.Permalink }}
-{{ $related := $allPages | first 3 }}
+{{ $related := where .Site.RegularPages ".Permalink" "!=" $current.Permalink }}
+
+{{/* Prefer same-section articles */}}
+{{ $sectionPages := where $related ".CurrentSection.Title" $current.CurrentSection.Title }}
+{{ if gt (len $sectionPages) 0 }}
+  {{ $related = $sectionPages }}
+{{ end }}
+
+{{ $related = $related | first 3 }}
 
 {{ if gt (len $related) 0 }}
-  <section class="mt-12 pt-8 border-t border-gray-200" aria-label="Related articles">
-    <h2 class="text-xl font-bold text-gray-900 mb-6">Related Articles</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+  <section class="related-section" aria-label="Related articles">
+    <h2 class="related-title">Related Articles</h2>
+    <div class="section-grid">
       {{ range $related }}
-        <article class="group">
+        <article class="card">
           <a href="{{ .RelPermalink }}" class="block">
             {{ with .Params.image }}
-              <div class="aspect-video bg-gray-100 rounded-lg overflow-hidden mb-3">
-                <img src="{{ . }}" alt="{{ $.Title }}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" loading="lazy">
+              <div class="overflow-hidden">
+                <img src="{{ . }}" alt="{{ $.Title }}" class="card-image" loading="lazy">
               </div>
             {{ end }}
-            <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2">{{ .Title }}</h3>
-            {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}" class="text-xs text-gray-400 mt-1 block">{{ .Format "January 2, 2006" }}</time>{{ end }}
+            <div class="card-body">
+              {{ with .CurrentSection }}
+                {{ if and (not .IsHome) (ne .Title "Blog") }}
+                  <span class="badge badge-primary mb-2 inline-block">{{ .Title }}</span>
+                {{ end }}
+              {{ end }}
+              <h3 class="card-title">{{ .Title }}</h3>
+              <p class="card-text">{{ .Params.description | default (truncate 100 .Plain) }}</p>
+              <div class="flex items-center gap-3 mt-2">
+                <time datetime="{{ .Date.Format "2006-01-02" }}" class="card-meta">{{ .Date.Format "Jan 2, 2006" }}</time>
+                <span class="text-xs text-gray-400">{{ .ReadingTime }} min read</span>
+              </div>
+            </div>
           </a>
         </article>
       {{ end }}
