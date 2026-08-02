@@ -5,6 +5,7 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
+image: "/images/categories/home-flood-lights.png"
 ---
 
 # The Ultimate Guide to Finding the Best Home Security System with No Monthly Fee

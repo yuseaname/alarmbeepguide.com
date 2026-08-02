@@ -5,6 +5,7 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # End-of-Life Smoke Detector Chirp: How To Confirm and Replace Safely

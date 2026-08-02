@@ -10,6 +10,7 @@ tags: ["mounting height", "placement", "fire extinguisher", "home safety"]
 keywords: ["mounting height", "placement", "fire extinguisher", "home safety"]
 readTime: 10
 featured: false
+image: "/images/categories/fire-extinguishers.png"
 ---
 
 # Fire Extinguisher Mounting Height and Placement

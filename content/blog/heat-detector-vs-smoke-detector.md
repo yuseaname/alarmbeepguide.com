@@ -10,6 +10,7 @@ tags: ["heat detector", "smoke detector", "beeping", "fire safety", "kitchen saf
 keywords: ["heat detector", "smoke detector", "beeping", "fire safety", "kitchen safety"]
 readTime: 7
 featured: false
+image: "/images/categories/household-alert-fixes.png"
 ---
 
 # Heat Detector Beeping: When to Use Heat Sensors vs Smoke Alarms

@@ -5,6 +5,7 @@ description: "Decode NOAA emergency tones, fix battery backup beeps, and manage 
 date: 2025-01-01
 layout: "category"
 aliases: ["/weather-outage-alerts"]
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 Understand weather radio alerts, decode NOAA emergency tones, fix battery backup beeps, and manage storm warning systems.

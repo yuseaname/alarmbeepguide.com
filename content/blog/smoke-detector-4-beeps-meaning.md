@@ -5,6 +5,7 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Smoke Detector 4 Beeps: What the 4-Beep Pattern Means

@@ -10,6 +10,7 @@ tags: ["first alert", "kidde", "smoke alarms", "comparison", "home safety"]
 keywords: ["first alert", "kidde", "smoke alarms", "comparison", "home safety"]
 readTime: 11
 featured: false
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # First Alert vs Kidde Smoke Alarms: What’s the Difference?

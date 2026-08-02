@@ -10,6 +10,7 @@ tags: ["first alert sc5", "nest protect", "comparison", "smart smoke detector", 
 keywords: ["first alert sc5", "nest protect", "comparison", "smart smoke detector", "replacement guide"]
 readTime: 18
 featured: false
+image: "/images/categories/alarm-lifespan-replacement-maintenance.svg"
 ---
 
 ![First Alert SC5 vs Nest Protect: The Definitive Replacement Guide](/images/generated/placeholder.webp "1600x900 slot:placeholder")

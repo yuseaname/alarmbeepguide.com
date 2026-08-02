@@ -5,6 +5,7 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Why Is My Smoke Alarm Beeping Even With a New Battery? A Complete Troubleshooting Guide

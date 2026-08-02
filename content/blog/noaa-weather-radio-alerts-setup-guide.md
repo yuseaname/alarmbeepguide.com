@@ -10,6 +10,7 @@ tags: ["NOAA weather radio", "SAME codes", "weather alerts", "setup guide"]
 keywords: ["NOAA weather radio", "SAME codes", "weather alerts", "setup guide"]
 readTime: 8
 featured: true
+image: "/images/categories/weather-outage-alerts.png"
 ---
 
 # NOAA Weather Radio Alert Setup: SAME Codes and Smart Settings

@@ -5,6 +5,7 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # The Ultimate Guide: ADT Alarm Beeping—How to Stop the Noise and Fix the Issue

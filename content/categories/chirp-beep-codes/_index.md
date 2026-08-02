@@ -5,6 +5,7 @@ description: "Decode smoke detector chirps, CO alarm beeps, and security system 
 date: 2025-01-01
 layout: "category"
 aliases: ["/chirp-beep-codes"]
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 Decode smoke detector chirps, CO alarm beeps, and security system alert patterns. Learn what each beep means and how to fix it.

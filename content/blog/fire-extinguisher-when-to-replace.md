@@ -10,6 +10,7 @@ tags: ["fire extinguisher", "replacement", "safety", "maintenance"]
 keywords: ["fire extinguisher", "replacement", "safety", "maintenance"]
 readTime: 7
 featured: true
+image: "/images/categories/fire-extinguishers.png"
 ---
 
 # When to Replace a Fire Extinguisher: 8 Key Warning Signs

@@ -10,6 +10,7 @@ tags: ["refrigerator", "fridge", "beeping", "door alarm", "filter alert"]
 keywords: ["refrigerator", "fridge", "beeping", "door alarm", "filter alert"]
 readTime: 10
 featured: false
+image: "/images/categories/household-alert-fixes.png"
 ---
 
 # Refrigerator Beeping: Meaning and Simple Fixes

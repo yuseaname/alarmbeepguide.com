@@ -10,6 +10,7 @@ tags: ["fire extinguisher types", "abc extinguisher", "class k", "home safety", 
 keywords: ["fire extinguisher types", "abc extinguisher", "class k", "home safety", "kitchen"]
 readTime: 10
 featured: false
+image: "/images/categories/fire-extinguishers.png"
 ---
 
 # Fire Extinguisher Types Explained: ABC, BC, and K

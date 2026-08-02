@@ -10,6 +10,7 @@ tags: ["motion sensor", "flood light", "troubleshooting", "outdoor lighting"]
 keywords: ["motion sensor", "flood light", "troubleshooting", "outdoor lighting"]
 readTime: 10
 featured: false
+image: "/images/categories/home-flood-lights.png"
 ---
 
 # Motion Sensor Light Won't Turn Off? 7 Quick Fixes

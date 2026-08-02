@@ -10,6 +10,7 @@ tags: ["security system", "beeping codes", "alarm panel", "troubleshooting", "ho
 keywords: ["security system", "beeping codes", "alarm panel", "troubleshooting", "home security"]
 readTime: 8
 featured: true
+image: "/images/categories/household-alert-fixes.png"
 ---
 
 # Security System Beeping Codes: Decode Panel Sounds Fast

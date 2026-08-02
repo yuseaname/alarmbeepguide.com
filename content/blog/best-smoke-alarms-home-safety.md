@@ -10,6 +10,7 @@ tags: ["smoke alarm", "smoke detector", "home safety", "battery", "brands"]
 keywords: ["smoke alarm", "smoke detector", "home safety", "battery", "brands"]
 readTime: 11
 featured: false
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Best Smoke Alarms for Home Safety (What Actually Matters)

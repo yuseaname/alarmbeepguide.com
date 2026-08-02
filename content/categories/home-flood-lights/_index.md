@@ -5,6 +5,7 @@ description: "Fix motion sensor lights, troubleshoot blinking flood lights, and 
 date: 2025-01-01
 layout: "category"
 aliases: ["/home-flood-lights"]
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 Troubleshoot motion sensor lights, fix blinking flood lights, adjust sensitivity settings, and solve common outdoor lighting issues.

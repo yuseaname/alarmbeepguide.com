@@ -10,6 +10,7 @@ tags: ["nest protect", "smart smoke alarm", "home safety", "smoke detector", "al
 keywords: ["nest protect", "smart smoke alarm", "home safety", "smoke detector", "alerts"]
 readTime: 10
 featured: false
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Are Smart Smoke Alarms Worth It? A Practical Look at Nest Protect

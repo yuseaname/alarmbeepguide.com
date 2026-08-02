@@ -5,6 +5,7 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Best Battery Smoke Detectors for Bedrooms: Quiet, Reliable, Code-Friendly

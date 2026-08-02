@@ -10,6 +10,7 @@ tags: ["emergency alerts", "WEA", "phone alerts", "amber alert", "wireless emerg
 keywords: ["emergency alerts", "WEA", "phone alerts", "amber alert", "wireless emergency alerts"]
 readTime: 7
 featured: true
+image: "/images/categories/weather-outage-alerts.png"
 ---
 
 # Emergency Alert Sounds on Your Phone: What Each One Means

@@ -10,6 +10,7 @@ tags: ["smoke alarm lifespan", "replacement timeline", "end-of-life", "maintenan
 keywords: ["smoke alarm lifespan", "replacement timeline", "end-of-life", "maintenance"]
 readTime: 14
 featured: false
+image: "/images/categories/alarm-lifespan-replacement-maintenance.svg"
 ---
 
 ![Smoke alarm mounted in a calm hallway, representing device lifespan.](/images/generated/8779096484a8.webp "1600x900 slot:8779096484a8")

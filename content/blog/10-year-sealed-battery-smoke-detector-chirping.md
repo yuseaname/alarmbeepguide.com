@@ -10,6 +10,7 @@ tags: ["10 year smoke detector", "sealed battery", "chirping", "end of life", "r
 keywords: ["10 year smoke detector", "sealed battery", "chirping", "end of life", "replacement"]
 readTime: 10
 featured: false
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # 10-Year Sealed Battery Smoke Detector Chirping: What It Means, What You Can Try, and When to Replace

@@ -5,6 +5,7 @@ description: ""
 date: 2025-01-01
 layout: "single"
 aliases: ["/guides/first-alert-sc5-vs-nest-protect/"]
+image: "/images/categories/weather-outage-alerts.png"
 ---
 
 {{< rawhtml >}}

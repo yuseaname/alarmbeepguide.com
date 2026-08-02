@@ -10,6 +10,7 @@ tags: ["carbon monoxide", "replacement timing", "sensor lifespan", "home safety"
 keywords: ["carbon monoxide", "replacement timing", "sensor lifespan", "home safety"]
 readTime: 14
 featured: false
+image: "/images/categories/alarm-lifespan-replacement-maintenance.svg"
 ---
 
 ![Carbon monoxide detector on a hallway wall in soft daylight.](/images/generated/b15c5925bac5.webp "1600x900 slot:b15c5925bac5")

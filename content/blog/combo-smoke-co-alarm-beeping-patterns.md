@@ -10,6 +10,7 @@ tags: ["combo smoke co", "carbon monoxide", "beep patterns", "alarm", "safety"]
 keywords: ["combo smoke co", "carbon monoxide", "beep patterns", "alarm", "safety"]
 readTime: 10
 featured: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Combination Smoke + CO Alarm Beeping Patterns: What’s Urgent vs Fixable (3 Beeps vs 4 Beeps and More)

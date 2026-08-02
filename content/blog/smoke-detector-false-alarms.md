@@ -10,6 +10,7 @@ tags: ["smoke detector", "false alarms", "cooking", "photoelectric", "ionization
 keywords: ["smoke detector", "false alarms", "cooking", "photoelectric", "ionization"]
 readTime: 8
 featured: true
+image: "/images/categories/household-alert-fixes.png"
 ---
 
 # Stop Smoke Detector False Alarms: 9 Proven Fixes

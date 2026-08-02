@@ -10,6 +10,7 @@ tags: ["fire extinguisher", "pressure gauge", "safety inspection", "maintenance"
 keywords: ["fire extinguisher", "pressure gauge", "safety inspection", "maintenance"]
 readTime: 10
 featured: true
+image: "/images/categories/fire-extinguishers.png"
 ---
 
 # Fire Extinguisher Pressure Gauge: How to Read It Correctly

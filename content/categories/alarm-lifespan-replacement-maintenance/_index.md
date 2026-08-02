@@ -5,6 +5,7 @@ description: "Learn when to replace smoke alarms and CO detectors, how end-of-li
 date: 2025-01-01
 layout: "category"
 aliases: ["/alarm-lifespan-replacement-maintenance"]
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 Understand alarm aging, replacement timelines, end-of-life signals, and simple upkeep that keeps safety devices reliable.

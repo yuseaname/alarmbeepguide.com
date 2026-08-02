@@ -5,6 +5,7 @@ description: "Fix fire extinguisher indicator lights, reset pressure gauges, and
 date: 2025-01-01
 layout: "category"
 aliases: ["/fire-extinguishers"]
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 Fix fire extinguisher indicator lights, reset pressure gauges, troubleshoot inspection alerts, and understand safety certification dates.

@@ -10,6 +10,7 @@ tags: ["inspection checklist", "fire extinguisher", "maintenance", "safety"]
 keywords: ["inspection checklist", "fire extinguisher", "maintenance", "safety"]
 readTime: 10
 featured: false
+image: "/images/categories/fire-extinguishers.png"
 ---
 
 # Fire Extinguisher Inspection Checklist

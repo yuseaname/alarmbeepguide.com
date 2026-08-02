@@ -5,6 +5,7 @@ description: "Fix thermostat alerts, appliance error beeps, doorbell chimes, and
 date: 2025-01-01
 layout: "category"
 aliases: ["/household-alert-fixes"]
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 Quick fixes for thermostat alerts, appliance error beeps, doorbell chimes, garage door sensors, and common home device notifications.

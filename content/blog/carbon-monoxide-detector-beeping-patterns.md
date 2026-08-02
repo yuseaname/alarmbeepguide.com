@@ -10,6 +10,7 @@ tags: ["carbon monoxide", "CO detector", "beep patterns", "safety"]
 keywords: ["carbon monoxide", "CO detector", "beep patterns", "safety"]
 readTime: 10
 featured: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Carbon Monoxide Detector Beeping: What Each Pattern Means

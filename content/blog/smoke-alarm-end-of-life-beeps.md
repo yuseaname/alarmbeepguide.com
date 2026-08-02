@@ -10,6 +10,7 @@ tags: ["end-of-life beep", "smoke alarm chirp", "replacement", "troubleshooting"
 keywords: ["end-of-life beep", "smoke alarm chirp", "replacement", "troubleshooting"]
 readTime: 13
 featured: false
+image: "/images/categories/alarm-lifespan-replacement-maintenance.svg"
 ---
 
 ![Smoke alarm on a ceiling in soft, calm light.](/images/generated/fc43bc319eb1.webp "1600x900 slot:fc43bc319eb1")

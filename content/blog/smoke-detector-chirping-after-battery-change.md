@@ -10,6 +10,7 @@ tags: ["smoke detector", "chirping", "battery change", "hard reset", "troublesho
 keywords: ["smoke detector", "chirping", "battery change", "hard reset", "troubleshooting"]
 readTime: 10
 featured: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Smoke Detector Chirping After Battery Change? A Step-by-Step Fix Flow (That Actually Stops It)

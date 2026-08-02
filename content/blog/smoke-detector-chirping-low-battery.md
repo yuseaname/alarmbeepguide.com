@@ -10,6 +10,7 @@ tags: ["smoke detector", "low battery", "chirping", "troubleshooting"]
 keywords: ["smoke detector", "low battery", "chirping", "troubleshooting"]
 readTime: 10
 featured: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Why Is My Smoke Detector Chirping? The Low Battery Fix

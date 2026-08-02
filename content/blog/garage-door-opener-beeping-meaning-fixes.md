@@ -10,6 +10,7 @@ tags: ["garage door opener", "beeping", "battery backup", "sensor", "liftmaster"
 keywords: ["garage door opener", "beeping", "battery backup", "sensor", "liftmaster"]
 readTime: 10
 featured: false
+image: "/images/categories/household-alert-fixes.png"
 ---
 
 # Garage Door Opener Beeping: Meaning and Fixes

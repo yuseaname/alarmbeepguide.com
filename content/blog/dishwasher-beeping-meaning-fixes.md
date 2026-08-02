@@ -10,6 +10,7 @@ tags: ["dishwasher", "beeping", "door latch", "not starting", "troubleshooting"]
 keywords: ["dishwasher", "beeping", "door latch", "not starting", "troubleshooting"]
 readTime: 10
 featured: false
+image: "/images/categories/household-alert-fixes.png"
 ---
 
 # Dishwasher Beeping: Meaning and Fixes for Common Patterns

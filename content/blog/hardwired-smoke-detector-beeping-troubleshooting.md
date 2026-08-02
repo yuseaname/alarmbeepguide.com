@@ -10,6 +10,7 @@ tags: ["hardwired smoke detector", "beeping", "interconnected alarms", "troubles
 keywords: ["hardwired smoke detector", "beeping", "interconnected alarms", "troubleshooting"]
 readTime: 10
 featured: true
+image: "/images/categories/chirp-beep-codes.png"
 ---
 
 # Hardwired Smoke Detector Beeping? 6 Fixes Beyond Battery
