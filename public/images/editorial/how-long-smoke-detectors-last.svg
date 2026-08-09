@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+<title id="t">How long do smoke detectors last</title><desc id="d">A timeline showing 10-year smoke detector lifespan.</desc>
+<rect width="1200" height="630" fill="#0f172a"/><path d="M0 0h1200v142H0z" fill="#1e3a5f"/><path d="M0 142h1200" stroke="#3b82f6" stroke-width="8"/>
+<g transform="translate(100 350)"><rect width="900" height="60" rx="30" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+<rect width="540" height="60" rx="30" fill="#22c55e" opacity="0.2"/>
+<rect x="540" width="180" height="60" rx="0" fill="#fbbf24" opacity="0.2"/>
+<rect x="720" width="180" height="60" rx="30" fill="#ef4444" opacity="0.2"/>
+<text x="270" y="38" text-anchor="middle" fill="#4ade80" font-family="Arial" font-size="18" font-weight="700">Full Sensitivity</text>
+<text x="630" y="38" text-anchor="middle" fill="#fcd34d" font-family="Arial" font-size="16" font-weight="700">Aging</text>
+<text x="810" y="38" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="16" font-weight="700">Replace</text></g>
+<g transform="translate(100 350)" font-family="Arial" font-size="14" fill="#64748b"><text x="0" y="90">Year 0</text><text x="540" y="90">Year 6</text><text x="720" y="90">Year 8</text><text x="900" y="90">Year 10</text></g>
+<g transform="translate(1050 300)"><circle r="55" fill="none" stroke="#ef4444" stroke-width="5"/><circle r="42" fill="#0f172a" stroke="#991b1b" stroke-width="2"/>
+<circle r="14" fill="#ef4444" opacity="0.5"/><text y="100" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="14" font-weight="700">EXPIRED</text></g>
+<text x="94" y="535" fill="#f1f5f9" font-family="Arial, sans-serif" font-size="36" font-weight="700">HOW LONG THEY LAST</text>
+<text x="94" y="578" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">10 years from manufacture date. Per NFPA 72 and UL 217.</text></svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+<title id="t">Combination smoke and CO alarm beeping patterns</title><desc id="d">A combination smoke CO alarm with 3-beep smoke and 4-beep CO indicators.</desc>
+<rect width="1200" height="630" fill="#0f172a"/><path d="M0 0h1200v142H0z" fill="#1e1b4b"/><path d="M0 142h1200" stroke="#6366f1" stroke-width="8"/>
+<g transform="translate(600 360)"><circle r="110" fill="none" stroke="#6366f1" stroke-width="8"/><circle r="90" fill="#0f172a" stroke="#4f46e5" stroke-width="2"/>
+<circle r="40" fill="#1e1b4b" stroke="#6366f1" stroke-width="2"/><circle r="12" fill="#22c55e"/></g>
+<g transform="translate(280 300)"><text text-anchor="middle" fill="#ef4444" font-family="Arial" font-size="42" font-weight="700">3 BEEPS</text>
+<text x="0" y="30" text-anchor="middle" fill="#f87171" font-family="Arial" font-size="18">= SMOKE</text>
+<path d="M-50 50 L-20 50 M20 50 L50 50" stroke="#ef4444" stroke-width="3" opacity="0.4"/></g>
+<g transform="translate(920 300)"><text text-anchor="middle" fill="#fbbf24" font-family="Arial" font-size="42" font-weight="700">4 BEEPS</text>
+<text x="0" y="30" text-anchor="middle" fill="#fcd34d" font-family="Arial" font-size="18">= CO</text>
+<path d="M-50 50 L-20 50 M20 50 L50 50" stroke="#fbbf24" stroke-width="3" opacity="0.4"/></g>
+<g transform="translate(280 480)"><text text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="28" font-weight="700">1 chirp</text>
+<text x="0" y="25" text-anchor="middle" fill="#64748b" font-family="Arial" font-size="15">= low battery / EOL</text></g>
+<g transform="translate(920 480)"><text text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="28" font-weight="700">Check</text>
+<text x="0" y="25" text-anchor="middle" fill="#64748b" font-family="Arial" font-size="15">model manual</text></g>
+<text x="94" y="535" fill="#f1f5f9" font-family="Arial, sans-serif" font-size="36" font-weight="700">COMBO ALARM BEEPING</text>
+<text x="94" y="578" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Treat loud repeating alarms as urgent. Check the model manual for chirp meanings.</text></svg>

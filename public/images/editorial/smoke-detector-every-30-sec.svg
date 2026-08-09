@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+<title id="t">Smoke detector beeping every 30 seconds</title><desc id="d">A smoke alarm with a 30-second chirp interval diagnostic chart.</desc>
+<rect width="1200" height="630" fill="#0f172a"/><path d="M0 0h1200v142H0z" fill="#7c2d12"/><path d="M0 142h1200" stroke="#f97316" stroke-width="8"/>
+<g transform="translate(600 360)"><circle r="100" fill="none" stroke="#f97316" stroke-width="8"/><circle r="80" fill="#0f172a" stroke="#9a3412" stroke-width="2"/>
+<circle r="30" fill="#431407" stroke="#f97316" stroke-width="2"/><circle r="10" fill="#fbbf24"/></g>
+<g transform="translate(250 320)"><text text-anchor="middle" fill="#f97316" font-family="Arial" font-size="36" font-weight="700">30 sec</text>
+<path d="M-40 20 A40 40 0 0 1 40 20" fill="none" stroke="#f97316" stroke-width="4"/>
+<polygon points="40,20 50,10 50,30" fill="#f97316"/><text x="0" y="60" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="14">chirp interval</text></g>
+<g transform="translate(950 280)"><rect width="130" height="100" rx="10" fill="#1e293b" stroke="#f97316" stroke-width="2"/>
+<text x="65" y="25" text-anchor="middle" fill="#fb923c" font-family="Arial" font-size="12" font-weight="700">CHECK</text>
+<text x="65" y="45" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="11">1. Battery</text>
+<text x="65" y="60" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="11">2. Date</text>
+<text x="65" y="75" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="11">3. Manual</text>
+<text x="65" y="90" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="11">4. Clean</text></g>
+<text x="94" y="535" fill="#f1f5f9" font-family="Arial, sans-serif" font-size="36" font-weight="700">BEEPING EVERY 30 SEC</text>
+<text x="94" y="578" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">Low battery, end of life, or sensor fault. Check model manual for exact meaning.</text></svg>

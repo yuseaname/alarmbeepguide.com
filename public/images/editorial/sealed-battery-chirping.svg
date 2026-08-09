@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+<title id="t">10-year sealed battery smoke detector chirping</title><desc id="d">A sealed smoke alarm with no replaceable battery showing end of life signal.</desc>
+<rect width="1200" height="630" fill="#0f172a"/><path d="M0 0h1200v142H0z" fill="#7c2d12"/><path d="M0 142h1200" stroke="#f97316" stroke-width="8"/>
+<g transform="translate(600 360)"><circle r="100" fill="none" stroke="#f97316" stroke-width="6"/><circle r="80" fill="#0f172a" stroke="#9a3412" stroke-width="2"/>
+<circle r="30" fill="#431407" stroke="#f97316" stroke-width="2"/><circle r="10" fill="#ef4444"/></g>
+<g transform="translate(300 300)"><rect width="70" height="100" rx="8" fill="#1e293b" stroke="#f97316" stroke-width="2"/>
+<rect x="18" y="12" width="34" height="60" rx="4" fill="#22c55e"/><text x="35" y="90" text-anchor="middle" fill="#475569" font-family="Arial" font-size="10">SEALED</text>
+<path d="M20 10 L50 72" stroke="#dc2626" stroke-width="3"/></g>
+<g transform="translate(900 320)"><text text-anchor="middle" fill="#fbbf24" font-family="Arial" font-size="32" font-weight="700">NO</text>
+<text x="0" y="30" text-anchor="middle" fill="#fb923c" font-family="Arial" font-size="24" font-weight="700">REPLACE</text>
+<text x="0" y="55" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="14">entire unit</text></g>
+<text x="94" y="535" fill="#f1f5f9" font-family="Arial, sans-serif" font-size="36" font-weight="700">SEALED BATTERY CHIRPING</text>
+<text x="94" y="578" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24">No replaceable battery. Chirp = end of life. Replace entire unit.</text></svg>
