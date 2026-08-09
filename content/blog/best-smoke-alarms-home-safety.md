@@ -10,7 +10,8 @@ tags: ["smoke alarm", "smoke detector", "home safety", "battery", "brands"]
 keywords: ["smoke alarm", "smoke detector", "home safety", "battery", "brands"]
 readTime: 11
 featured: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/best-smoke-alarms-guide.png"
+image_alt: "Illustration of four smoke alarm types: battery, 10-year sealed, hardwired, and smart"
 ---
 
 Choosing a smoke alarm is less about hype and more about fit: the right sensor type for your space, a battery that does not chirp constantly, and a brand that feels straightforward to live with. This guide breaks down the parts that actually matter so you can make a calm, informed choice and avoid the common mistakes that lead to nuisance alarms.

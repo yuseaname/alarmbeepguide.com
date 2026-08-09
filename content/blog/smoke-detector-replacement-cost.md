@@ -5,7 +5,8 @@ description: "How much does it cost to replace smoke detectors in 2026? This gui
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/smoke-detector-replacement-cost.png"
+image_alt: "Bar chart comparing smoke detector replacement costs by type"
 ---
 
 Replacing smoke detectors in a US home in 2026 costs between $20 and $400 per detector, depending on the type and whether you hire an electrician. A typical 3-bedroom home needs 6-8 detectors, so total replacement costs range from $120 for a basic DIY battery-only system to $3,000+ for a smart interconnected system installed by a licensed electrician.

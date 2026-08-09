@@ -5,7 +5,8 @@ description: "Smoke detectors don't last forever. Here is the exact replacement 
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/how-often-replace-detectors.png"
+image_alt: "Chart showing replacement timelines by detector type: smoke, combo, CO-only, and smart"
 ---
 
 Smoke detectors need replacement on a regular schedule, not just when they stop working. The sensors degrade over time, and even a detector that passes its self-test may not detect smoke reliably after a certain number of years. This guide covers the replacement timeline for every type of smoke detector and the warning signs that mean you should replace yours now.

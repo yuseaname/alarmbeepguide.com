@@ -10,7 +10,8 @@ tags: ["first alert", "kidde", "smoke alarms", "comparison", "home safety"]
 keywords: ["first alert", "kidde", "smoke alarms", "comparison", "home safety"]
 readTime: 11
 featured: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/first-alert-vs-kidde.png"
+image_alt: "Illustration comparing First Alert and Kidde smoke alarms side by side"
 ---
 
 First Alert and Kidde are two names many people recognize when shopping for smoke alarms. This guide keeps the comparison practical and human, focusing on the parts that affect day-to-day life: alarm type, battery style, maintenance, and how a model fits your home. It does not attempt to rank one brand over the other.

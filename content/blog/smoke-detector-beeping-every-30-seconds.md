@@ -5,7 +5,8 @@ description: "A smoke detector chirping every 30 seconds has specific causes. He
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/smoke-detector-every-30-sec.png"
+image_alt: "Illustration of a smoke alarm with a 30-second chirp interval diagnostic chart"
 ---
 
 A smoke detector chirping every 30 seconds is signaling a specific type of trouble — different from the more common 60-second low-battery chirp. The 30-second interval usually indicates a sensor fault, end-of-life warning, or internal component issue. This guide decodes what the 30-second chirp pattern means and gives you the exact fix for each cause.
