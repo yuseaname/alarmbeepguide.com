@@ -10,7 +10,9 @@ tags: ["nest protect", "smart smoke alarm", "home safety", "smoke detector", "al
 keywords: ["nest protect", "smart smoke alarm", "home safety", "smoke detector", "alerts"]
 readTime: 10
 featured: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/smart-smoke-alarm-worth-it.svg"
+social_image: "/images/editorial/smart-smoke-alarm-worth-it.png"
+image_alt: "Smart smoke alarm connected to a phone app with notification alert"
 ---
 
 Smart smoke alarms add features like app alerts, remote notifications, and clearer status indicators. For some households, that convenience is valuable. For others, a traditional alarm is simpler and just as effective. This guide breaks down what smart alarms actually do, what they do not do, and when the extra features make sense.

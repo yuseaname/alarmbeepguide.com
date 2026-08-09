@@ -10,7 +10,9 @@ tags: ["dishwasher", "beeping", "door latch", "not starting", "troubleshooting"]
 keywords: ["dishwasher", "beeping", "door latch", "not starting", "troubleshooting"]
 readTime: 10
 featured: false
-image: "/images/categories/household-alert-fixes.png"
+image: "/images/editorial/dishwasher-beeping-fixes.svg"
+social_image: "/images/editorial/dishwasher-beeping-fixes.png"
+image_alt: "Dishwasher control panel with END cycle indicator and beeping warning"
 ---
 
 Dishwasher beeping is usually a status signal. In many cases it points to a door that is not latched, a cycle that is paused, or a drain issue that needs a simple reset. This guide explains the common patterns, what they mean, and the safe troubleshooting steps you can do without tools.

@@ -1,0 +1,21 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a2a3a"/><stop offset="100%" stop-color="#243447"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#e67e22"/>
+  <rect x="0" y="100" width="1200" height="430" fill="#ffffff11"/>
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="#ffffff22" stroke-width="2"/>
+  <rect x="460" y="200" width="80" height="12" rx="4" fill="#7f8c8d"/>
+  <rect x="460" y="380" width="80" height="12" rx="4" fill="#7f8c8d"/>
+  <ellipse cx="500" cy="200" rx="30" ry="15" fill="#e67e22"/>
+  <rect x="470" y="200" width="60" height="190" rx="14" fill="#e67e22"/>
+  <rect x="490" y="165" width="20" height="30" rx="4" fill="#7f8c8d"/>
+  <rect x="480" y="158" width="40" height="12" rx="4" fill="#95a5a6"/>
+  <line x1="350" y1="100" x2="350" y2="200" stroke="#3498db" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="345" y1="100" x2="420" y2="100" stroke="#3498db" stroke-width="2"/>
+  <line x1="345" y1="200" x2="420" y2="200" stroke="#3498db" stroke-width="2"/>
+  <text x="360" y="160" fill="#3498db" font-size="16" font-family="Arial">48"</text>
+  <rect x="200" y="490" width="800" height="4" fill="#ffffff33"/>
+  <text x="180" y="155" fill="#3498db" font-size="12" font-family="Arial">Max: 5 ft</text>
+  <text x="180" y="470" fill="#3498db" font-size="12" font-family="Arial">Min: 4 in</text>
+  <text x="600" y="595" text-anchor="middle" fill="#ffffff66" font-size="20" font-family="Arial">AlarmBeepGuide.com</text>
+</svg>

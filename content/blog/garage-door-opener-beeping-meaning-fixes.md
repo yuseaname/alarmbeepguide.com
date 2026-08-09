@@ -10,7 +10,9 @@ tags: ["garage door opener", "beeping", "battery backup", "sensor", "liftmaster"
 keywords: ["garage door opener", "beeping", "battery backup", "sensor", "liftmaster"]
 readTime: 10
 featured: false
-image: "/images/categories/household-alert-fixes.png"
+image: "/images/editorial/garage-door-opener-beeping.svg"
+social_image: "/images/editorial/garage-door-opener-beeping.png"
+image_alt: "Garage door opener motor unit with warning indicator and beep waves"
 ---
 
 Garage door opener beeping is usually a warning about power, backup batteries, or safety sensors. Many openers beep on a schedule to let you know the battery needs attention or the system experienced an outage. This guide explains the common patterns, what they mean, and the safe steps you can take first.

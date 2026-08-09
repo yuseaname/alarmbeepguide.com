@@ -10,7 +10,9 @@ tags: ["refrigerator", "fridge", "beeping", "door alarm", "filter alert"]
 keywords: ["refrigerator", "fridge", "beeping", "door alarm", "filter alert"]
 readTime: 10
 featured: false
-image: "/images/categories/household-alert-fixes.png"
+image: "/images/editorial/refrigerator-beeping-fixes.svg"
+social_image: "/images/editorial/refrigerator-beeping-fixes.png"
+image_alt: "Refrigerator with digital display panel and beeping warning indicator"
 ---
 
 Refrigerator beeping is usually a reminder, not a breakdown. Most alerts point to a door that is not fully closed, a temperature that drifted after restocking, or a filter timer that needs a reset. This guide explains the common beep patterns, what they mean, and the calm, safe steps you can try first.

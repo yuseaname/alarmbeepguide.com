@@ -10,7 +10,9 @@ tags: ["mounting height", "placement", "fire extinguisher", "home safety"]
 keywords: ["mounting height", "placement", "fire extinguisher", "home safety"]
 readTime: 10
 featured: false
-image: "/images/categories/fire-extinguishers.png"
+image: "/images/editorial/fire-extinguisher-mounting.svg"
+social_image: "/images/editorial/fire-extinguisher-mounting.png"
+image_alt: "Fire extinguisher mounted on wall bracket with height measurement guide"
 ---
 
 Placement matters as much as extinguisher type. A well-placed extinguisher is easy to reach, visible, and safe to use. This guide explains practical mounting height and placement tips for homes without getting overly technical.

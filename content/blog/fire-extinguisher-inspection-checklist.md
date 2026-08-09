@@ -10,7 +10,9 @@ tags: ["inspection checklist", "fire extinguisher", "maintenance", "safety"]
 keywords: ["inspection checklist", "fire extinguisher", "maintenance", "safety"]
 readTime: 10
 featured: false
-image: "/images/categories/fire-extinguishers.png"
+image: "/images/editorial/fire-extinguisher-inspection.svg"
+social_image: "/images/editorial/fire-extinguisher-inspection.png"
+image_alt: "Fire extinguisher next to an inspection checklist clipboard"
 ---
 
 A quick inspection keeps a fire extinguisher ready when you need it. Most checks take less than two minutes and help you spot problems early. This guide gives you a simple, home-friendly checklist and explains what to do if you find an issue.

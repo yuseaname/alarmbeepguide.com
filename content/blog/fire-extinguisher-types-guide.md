@@ -10,7 +10,9 @@ tags: ["fire extinguisher types", "abc extinguisher", "class k", "home safety", 
 keywords: ["fire extinguisher types", "abc extinguisher", "class k", "home safety", "kitchen"]
 readTime: 10
 featured: false
-image: "/images/categories/fire-extinguishers.png"
+image: "/images/editorial/fire-extinguisher-types.svg"
+social_image: "/images/editorial/fire-extinguisher-types.png"
+image_alt: "Three fire extinguisher types: Class A water, BC CO2, and K kitchen"
 ---
 
 Fire extinguishers are labeled by class to show what kinds of fires they can handle. The right type matters more than brand. This guide explains the common extinguisher types in plain language and helps you choose the safest option for your home.

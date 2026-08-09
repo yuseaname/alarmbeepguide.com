@@ -5,7 +5,9 @@ description: "A green blinking light on your First Alert detector has specific m
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/first-alert-green-light-blinking.svg"
+social_image: "/images/editorial/first-alert-green-light-blinking.png"
+image_alt: "First Alert smoke alarm with green LED indicator and diagnostic panel"
 ---
 
 **Important:** LED patterns vary by First Alert model and manufacture year. The patterns described below are common across many models, but always verify against your specific model's user manual. Find your model number printed on the back of the detector.
