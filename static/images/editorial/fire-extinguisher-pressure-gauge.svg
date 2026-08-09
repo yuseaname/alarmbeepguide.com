@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a2a3a"/><stop offset="100%" stop-color="#243447"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#e74c3c"/>
+  <!-- Large pressure gauge -->
+  <circle cx="600" cy="300" r="160" fill="#ffffff" stroke="#bdc3c7" stroke-width="4"/>
+  <!-- Green zone (operable) -->
+  <path d="M 600 300 L 600 180 A 120 120 0 0 1 740 260 Z" fill="#2ecc7133"/>
+  <!-- Red zone (recharge) -->
+  <path d="M 600 300 L 740 260 A 120 120 0 0 1 720 380 Z" fill="#e74c3c33"/>
+  <!-- Needle -->
+  <line x1="600" y1="300" x2="670" y="200" stroke="#e74c3c" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="600" cy="300" r="12" fill="#2c3e50"/>
+  <!-- Labels -->
+  <text x="560" y="210" fill="#27ae60" font-size="14" font-weight="bold" font-family="Arial">CHARGED</text>
+  <text x="680" y="240" fill="#e74c3c" font-size="12" font-weight="bold" font-family="Arial">OVER</text>
+  <text x="480" y="370" fill="#f39c12" font-size="12" font-weight="bold" font-family="Arial">RECHARGE</text>
+  <!-- Zone ticks -->
+  <line x1="600" y1="180" x2="600" y2="165" stroke="#27ae60" stroke-width="3"/>
+  <line x1="720" y1="380" x2="735" y2="390" stroke="#e74c3c" stroke-width="3"/>
+  <line x1="480" y1="360" x2="465" y2="370" stroke="#f39c12" stroke-width="3"/>
+  <!-- Mini extinguisher -->
+  <rect x="820" y="250" width="40" height="120" rx="10" fill="#c0392b"/>
+  <circle cx="840" cy="240" r="20" fill="#e74c3c"/>
+  <line x1="840" y1="240" x2="900" y2="220" stroke="#7f8c8d" stroke-width="6"/>
+  <text x="600" y="595" text-anchor="middle" fill="#ffffff66" font-size="20" font-family="Arial">AlarmBeepGuide.com</text>
+</svg>

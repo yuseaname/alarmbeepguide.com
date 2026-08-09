@@ -10,7 +10,9 @@ tags: ["security system", "beeping codes", "alarm panel", "troubleshooting", "ho
 keywords: ["security system", "beeping codes", "alarm panel", "troubleshooting", "home security"]
 readTime: 8
 featured: true
-image: "/images/categories/household-alert-fixes.png"
+image: "/images/editorial/security-system-beeping-codes.svg"
+social_image: "/images/editorial/security-system-beeping-codes.png"
+image_alt: "Security system keypad panel displaying trouble code with status LEDs"
 ---
 
 Your home security system is beeping and you don't know why. Unlike smoke detectors with simple patterns, security panels use complex beep codes that signal everything from low batteries to sensor malfunctions. Here's how to decode them and fix the problem without calling tech support.

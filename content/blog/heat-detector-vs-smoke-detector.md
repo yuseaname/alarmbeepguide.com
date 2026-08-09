@@ -10,7 +10,9 @@ tags: ["heat detector", "smoke detector", "beeping", "fire safety", "kitchen saf
 keywords: ["heat detector", "smoke detector", "beeping", "fire safety", "kitchen safety"]
 readTime: 7
 featured: false
-image: "/images/categories/household-alert-fixes.png"
+image: "/images/editorial/heat-detector-vs-smoke-detector.svg"
+social_image: "/images/editorial/heat-detector-vs-smoke-detector.png"
+image_alt: "Side-by-side comparison of heat detector and smoke detector"
 ---
 
 Heat detectors beep for different reasons than smoke detectors, and knowing the difference could save you from a false sense of security. Here's when to use heat detectors, what their beep patterns mean, and why they're not interchangeable with smoke alarms.

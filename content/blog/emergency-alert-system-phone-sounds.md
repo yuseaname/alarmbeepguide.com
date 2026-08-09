@@ -10,7 +10,9 @@ tags: ["emergency alerts", "WEA", "phone alerts", "amber alert", "wireless emerg
 keywords: ["emergency alerts", "WEA", "phone alerts", "amber alert", "wireless emergency alerts"]
 readTime: 7
 featured: true
-image: "/images/categories/weather-outage-alerts.png"
+image: "/images/editorial/emergency-alert-phone-sounds.svg"
+social_image: "/images/editorial/emergency-alert-phone-sounds.png"
+image_alt: "Smartphone displaying emergency alert with sound waves emanating from speakers"
 ---
 
 Your phone's emergency alert system (Wireless Emergency Alerts or WEA) can blast loud tones at any time for various emergencies. Here's what each alert type means, when you can silence them, and why you should keep most enabled.

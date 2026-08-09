@@ -5,7 +5,9 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
-image: "/images/categories/home-flood-lights.png"
+image: "/images/editorial/do-you-need-home-security.svg"
+social_image: "/images/editorial/do-you-need-home-security.png"
+image_alt: "House silhouette with question mark and checklist of pros and cons"
 ---
 
 You hear a heavy thud in the backyard, or perhaps a window clicks in the middle of the night, and your heart instantly races. You glance at your security keypad, hoping for a notification, but nothing happens. This moment of uncertainty leads to the most pressing question every homeowner faces: **do you need a single, robust home security system, or is my current setup simply failing me?**

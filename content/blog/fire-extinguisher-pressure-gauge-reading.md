@@ -10,7 +10,9 @@ tags: ["fire extinguisher", "pressure gauge", "safety inspection", "maintenance"
 keywords: ["fire extinguisher", "pressure gauge", "safety inspection", "maintenance"]
 readTime: 10
 featured: true
-image: "/images/categories/fire-extinguishers.png"
+image: "/images/editorial/fire-extinguisher-pressure-gauge.svg"
+social_image: "/images/editorial/fire-extinguisher-pressure-gauge.png"
+image_alt: "Close-up of fire extinguisher pressure gauge showing green charged zone and red recharge zone"
 ---
 
 A fire extinguisher pressure gauge is a quick readiness check. It tells you whether the extinguisher can discharge properly if you ever need it. This guide explains what the needle positions mean, how to read the gauge safely, and when to service or replace the unit.

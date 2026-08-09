@@ -10,7 +10,9 @@ tags: ["NOAA weather radio", "SAME codes", "weather alerts", "setup guide"]
 keywords: ["NOAA weather radio", "SAME codes", "weather alerts", "setup guide"]
 readTime: 8
 featured: true
-image: "/images/categories/weather-outage-alerts.png"
+image: "/images/editorial/noaa-weather-radio-guide.svg"
+social_image: "/images/editorial/noaa-weather-radio-guide.png"
+image_alt: "NOAA weather radio with frequency display, SAME code, and signal indicator"
 ---
 
 NOAA weather radios can alert you at night for nearby warnings or stay quiet for local alerts depending on your setup. Here is how to configure yours so you get warnings that matter without alert fatigue.

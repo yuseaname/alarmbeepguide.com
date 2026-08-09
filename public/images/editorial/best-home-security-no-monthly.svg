@@ -1,0 +1,25 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a2a3a"/><stop offset="100%" stop-color="#243447"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#2ecc71"/>
+  <!-- House silhouette -->
+  <polygon points="600,120 380,280 380,480 820,480 820,280" fill="#ffffff11" stroke="#ffffff33" stroke-width="2"/>
+  <!-- Roof accent -->
+  <polygon points="600,120 380,280 820,280" fill="none" stroke="#2ecc71" stroke-width="3"/>
+  <!-- No monthly fee badge -->
+  <circle cx="600" cy="300" r="70" fill="#2ecc71"/>
+  <text x="600" y="290" text-anchor="middle" fill="white" font-size="16" font-weight="bold" font-family="Arial">NO</text>
+  <text x="600" y="320" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">MONTHLY</text>
+  <!-- Security camera -->
+  <rect x="400" y="310" width="50" height="30" rx="4" fill="#34495e"/>
+  <circle cx="425" cy="325" r="8" fill="#e74c3c"/>
+  <rect x="395" y="315" width="10" height="20" rx="2" fill="#7f8c8d"/>
+  <!-- Door sensor -->
+  <rect x="440" y="400" width="30" height="60" rx="4" fill="#f39c12"/>
+  <!-- Window sensor -->
+  <rect x="700" y="310" width="40" height="30" rx="4" fill="#3498db"/>
+  <!-- Phone with app -->
+  <rect x="750" y="370" width="50" height="90" rx="8" fill="#ffffff22" stroke="#ffffff44" stroke-width="1"/>
+  <circle cx="775" cy="395" r="8" fill="#2ecc71"/>
+  <text x="600" y="595" text-anchor="middle" fill="#ffffff66" font-size="20" font-family="Arial">AlarmBeepGuide.com</text>
+</svg>

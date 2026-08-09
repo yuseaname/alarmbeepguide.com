@@ -10,7 +10,9 @@ tags: ["motion sensor", "flood light", "troubleshooting", "outdoor lighting"]
 keywords: ["motion sensor", "flood light", "troubleshooting", "outdoor lighting"]
 readTime: 10
 featured: false
-image: "/images/categories/home-flood-lights.png"
+image: "/images/editorial/motion-sensor-light-stays-on.svg"
+social_image: "/images/editorial/motion-sensor-light-stays-on.png"
+image_alt: "Outdoor motion sensor floodlight with detection zone arcs and timer indicator"
 ---
 
 Motion sensor lights that stay on are frustrating and wasteful. The good news is that most causes are simple: a sensitivity setting is too high, the timer is set to maximum, or the sensor is reading constant motion. This guide walks you through calm, safe fixes before you replace the fixture.
