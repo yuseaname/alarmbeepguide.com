@@ -117,5 +117,6 @@ Most jurisdictions do not charge for the first response to a residential alarm. 
 - [CO Detector 4 Beeps: Treat a Repeating Alarm as an Emergency](/blog/carbon-monoxide-detector-4-beeps/)
 - [Smoke Alarm Chirping: Check the Battery, Date, and Manual](/blog/smoke-detector-chirping-low-battery/)
 - [Combination Smoke + CO Alarm Beeping Patterns](/blog/combo-smoke-co-alarm-beeping-patterns/)
+- [Smoke Detector 2 Beeps: Meaning](/blog/smoke-detector-2-beeps-meaning/) — what two beeps means
 - [Stop Smoke Detector False Alarms](/blog/smoke-detector-false-alarms/)
 - [Smoke Detector Placement Guide](/blog/smoke-detector-placement-in-house/)

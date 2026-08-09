@@ -184,3 +184,9 @@ A beeping radon detector is not an emergency in the way a fire or CO alarm is. R
 If your detector shows elevated levels: verify with a second test, ventilate as a temporary measure, and contact a certified radon mitigation contractor if levels are consistently above 4 pCi/L. The fix is proven, permanent, and typically costs less than a major appliance repair.
 
 For more on beeping safety devices in your home, see our guides on [CO detector beeping patterns](/blog/carbon-monoxide-detector-beeping-patterns/) and [smoke and CO detector beeping](/blog/combo-smoke-co-alarm-beeping-patterns/). If you're hearing beeping you can't identify, our [find which detector is beeping guide](/blog/find-which-smoke-detector-is-beeping/) can help you isolate the source. And for a comprehensive look at when to replace all your home safety detectors, see our [smoke detector replacement timeline](/blog/how-often-replace-smoke-detectors/) and [CO detector replacement guide](/blog/when-to-replace-a-carbon-monoxide-detector/).
+## Related Articles
+
+- [Carbon Monoxide Detector Placement Guide](/blog/carbon-monoxide-detector-placement-guide/) — CO detector placement
+- [When to Replace a Carbon Monoxide Detector](/blog/when-to-replace-a-carbon-monoxide-detector/) — CO detector lifespan
+- [Water Leak Detector Beeping](/blog/water-leak-detector-beeping/) — another home safety sensor
+- [Carbon Monoxide Detector Beeping Patterns](/blog/carbon-monoxide-detector-beeping-patterns/) — CO alert patterns

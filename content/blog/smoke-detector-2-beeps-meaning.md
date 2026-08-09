@@ -196,3 +196,10 @@ Not necessarily. After a battery swap, some units need a full reset to clear the
 **How often should I replace smoke detector batteries?**
 
 Replace smoke detector batteries at least once per year. Many fire safety organizations recommend changing batteries when you change your clocks for daylight saving time. Sealed 10-year battery units eliminate this maintenance requirement entirely — consider upgrading if your current units are due for replacement.
+
+## Related Articles
+
+- [Smoke Detector Beeping 3 Times: Meaning](/blog/smoke-detector-beeping-3-times-meaning/) — what three beeps means
+- [CO Detector 5 Beeps: End of Life](/blog/co-detector-5-beeps-end-of-life/) — five-beep EOL patterns
+- [Smoke Alarm Chirping: Check the Battery, Date, and Manual](/blog/smoke-detector-chirping-low-battery/) — general chirp guide
+- [How to Reset a Smoke Detector](/blog/how-to-reset-smoke-detector/) — reset procedures by type

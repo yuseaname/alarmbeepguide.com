@@ -238,3 +238,9 @@ No. Fire extinguisher recharging requires specialized equipment and certificatio
 Check the pressure gauge monthly during your routine safety check. Also check after any temperature extremes or if the extinguisher has been moved or bumped.
 {{< /faq >}}
 
+
+## Related Articles
+
+- [Fire Extinguisher Types Guide](/blog/fire-extinguisher-types-guide/) — matching type to fire hazard
+- [Fire Extinguisher Inspection Checklist](/blog/fire-extinguisher-inspection-checklist/) — full inspection procedure
+- [When to Replace a Fire Extinguisher](/blog/fire-extinguisher-when-to-replace/) — signs it is time for a new unit

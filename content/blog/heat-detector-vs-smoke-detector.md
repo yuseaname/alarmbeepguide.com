@@ -325,3 +325,9 @@ Most residential heat detectors trigger at 135°F (57°C) or 194°F (90°C). Use
 Yes. Heat detectors expire after 10 years from manufacture date. Check the date on the back and replace the entire unit when it reaches 10 years, even if it appears to work fine.
 {{< /faq >}}
 
+
+## Related Articles
+
+- [Best Smoke Alarms for Home Safety](/blog/best-smoke-alarms-home-safety/) — choosing the right alarm type
+- [Smoke Detector Placement in House](/blog/smoke-detector-placement-in-house/) — where heat vs smoke alarms go
+- [Smoke Detector False Alarms: Proven Fixes](/blog/smoke-detector-false-alarms/) — reducing nuisance triggers

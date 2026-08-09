@@ -147,3 +147,4 @@ Don't wait for a security breach to realize your system is inadequate. Start you
 - [Security System Beeping Codes](/blog/security-system-beeping-codes/) — troubleshoot panel beeping
 - [Ring Alarm vs ADT](/blog/ring-alarm-vs-adt/) — compare two popular options
 - [SimpliSafe vs Ring Alarm](/blog/simplisafe-vs-ring-alarm/) — DIY system comparison
+- [Motion Sensor Light Stays On](/blog/motion-sensor-light-stays-on/) — outdoor light troubleshooting

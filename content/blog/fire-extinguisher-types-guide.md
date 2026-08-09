@@ -272,3 +272,10 @@ Yes, ABC extinguishers are rated for Class C electrical fires.
 Yes. The type is about the fire class, while size is about how much agent the extinguisher holds.
 {{< /faq >}}
 
+
+## Related Articles
+
+- [Fire Extinguisher Inspection Checklist](/blog/fire-extinguisher-inspection-checklist/) — monthly and annual inspection steps
+- [Fire Extinguisher Mounting Height and Placement](/blog/fire-extinguisher-mounting-height-placement/) — wall mounting requirements
+- [Fire Extinguisher Pressure Gauge Reading](/blog/fire-extinguisher-pressure-gauge-reading/) — how to check the gauge
+- [When to Replace a Fire Extinguisher](/blog/fire-extinguisher-when-to-replace/) — lifespan and replacement timing

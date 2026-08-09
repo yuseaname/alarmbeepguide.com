@@ -298,3 +298,8 @@ Check batteries every 6 months, test on Wednesdays, and trust your radio to aler
 No. Enable key warnings (tornado, severe thunderstorm, flash flood) but consider disabling watches and advisories, especially at night. Too many alerts lead to ignoring all alerts.
 {{< /faq >}}
 
+
+## Related Articles
+
+- [Emergency Alert System Phone Sounds](/blog/emergency-alert-system-phone-sounds/) — WEA alerts on your phone
+- [Smoke Detector Laws by State](/blog/smoke-detector-laws-by-state/) — state requirements for alarms

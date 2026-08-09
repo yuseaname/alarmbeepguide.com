@@ -256,3 +256,10 @@ It depends. If you are home most of the time, a traditional alarm may be enough.
 Yes, but keep the experience consistent. Some people prefer to keep the same style throughout a home.
 {{< /faq >}}
 
+
+## Related Articles
+
+- [First Alert SC5 vs Nest Protect](/blog/first-alert-sc5-vs-nest-protect/) — the Nest replacement comparison
+- [Nest Protect Discontinued Replacement Guide](/blog/nest-protect-discontinued-replacement-guide/) — what to do about Nest EOL
+- [Best Smoke Alarms for Home Safety](/blog/best-smoke-alarms-home-safety/) — traditional alarm buying guide
+- [Smoke Detector Replacement Cost](/blog/smoke-detector-replacement-cost/) — pricing overview

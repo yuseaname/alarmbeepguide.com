@@ -235,3 +235,9 @@ No. After 12 years, the chemical agents break down and seals deteriorate, making
 Discharge it completely in a safe outdoor area, remove the head, and check with your local recycling center about metal cylinder recycling. Many fire departments and hazardous waste collection events also accept old extinguishers.
 {{< /faq >}}
 
+
+## Related Articles
+
+- [Fire Extinguisher Types Guide](/blog/fire-extinguisher-types-guide/) — what to buy as a replacement
+- [Fire Extinguisher Inspection Checklist](/blog/fire-extinguisher-inspection-checklist/) — check before replacing
+- [Fire Extinguisher Pressure Gauge Reading](/blog/fire-extinguisher-pressure-gauge-reading/) — gauge in the red means replace

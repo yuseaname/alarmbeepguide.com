@@ -287,3 +287,7 @@ If Amber Alerts feel too frequent, disable those specifically. But consider keep
 Check your settings when you have a moment. Verify Extreme Alerts are enabled, and consider keeping test alerts on. Keep your phone charged during severe weather so you can receive alerts.
 
 The alarm sound is designed to stand out. If you can, leave it enabled.
+## Related Articles
+
+- [NOAA Weather Radio Alerts Setup Guide](/blog/noaa-weather-radio-alerts-setup-guide/) — dedicated weather radio setup
+- [Security System Beeping Codes](/blog/security-system-beeping-codes/) — home security panel alerts

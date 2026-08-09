@@ -262,3 +262,10 @@ It can be, but only if it is easy to reach and clearly labeled. Many people pref
 You might miss a pressure or damage issue and only discover it when you need the extinguisher.
 {{< /faq >}}
 
+
+## Related Articles
+
+- [Fire Extinguisher Types Guide](/blog/fire-extinguisher-types-guide/) — Class A, B, C, K explained
+- [Fire Extinguisher Pressure Gauge Reading](/blog/fire-extinguisher-pressure-gauge-reading/) — verify the gauge is in the green
+- [When to Replace a Fire Extinguisher](/blog/fire-extinguisher-when-to-replace/) — know when to service or replace
+- [Fire Extinguisher Mounting Height and Placement](/blog/fire-extinguisher-mounting-height-placement/) — proper wall bracket height
