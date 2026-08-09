@@ -361,5 +361,5 @@ Yes, if the smart detector is hardwired-compatible. The First Alert SC5 is hardw
 - [Best Battery Smoke Detectors for Bedrooms](/blog/best-battery-smoke-detector-for-bedrooms/) — for battery-only installations
 - [Smoke Detector Replacement Cost](/blog/smoke-detector-replacement-cost/) — DIY vs electrician pricing
 - [Smoke Detector Placement in US Homes](/blog/smoke-detector-placement-in-house/) — where to install
-- [Hardwired Smoke Detector Keeps Chirping](/blog/hardwired-smoke-detector-keeps-chirping) — troubleshooting hardwired chirps
+- [Hardwired Smoke Detector Beeping](/blog/hardwired-smoke-detector-beeping-troubleshooting) — troubleshooting hardwired chirps
 - [Nest Protect Discontinued Replacement Guide](/blog/nest-protect-discontinued-replacement-guide/) — smart detector options

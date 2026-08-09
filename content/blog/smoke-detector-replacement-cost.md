@@ -260,7 +260,7 @@ If your new detector is a different brand or model than the old one, the wiring 
 
 Smart detectors install the same way as basic hardwired detectors — the only difference is the Wi-Fi setup. After physical installation:
 
-1. **Download the app.** Most smart detectors require a smartphone app for setup (Google Home for SC5, etc.).
+1. **Download the app.** Most smart detectors require a smartphone app for setup (First Alert app for the SC5, which then links to Google Home, etc.).
 
 2. **Create an account.** Some apps require an account, which may include a subscription for advanced features.
 

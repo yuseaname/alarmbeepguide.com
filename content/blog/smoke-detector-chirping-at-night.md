@@ -322,6 +322,6 @@ Press and hold the test/hush button for 5 seconds. This silences the chirp for 8
 
 - [Why Is My Smoke Detector Chirping? 9 Common Causes](/blog/smoke-detector-chirping-low-battery/) — broad troubleshooting for any chirp
 - [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-chirping-after-battery-change) — specific fix for persistent low-battery chirps
-- [Hardwired Smoke Detector Keeps Chirping](/blog/hardwired-smoke-detector-keeps-chirping) — for hardwired systems
+- [Hardwired Smoke Detector Beeping](/blog/hardwired-smoke-detector-beeping-troubleshooting) — for hardwired systems
 - [How Often to Replace Smoke Detectors](/blog/how-often-replace-smoke-detectors) — replacement timeline
 - [Nest Protect Chirping](/blog/nest-protect-chirping) — brand-specific guide for Nest Protect owners

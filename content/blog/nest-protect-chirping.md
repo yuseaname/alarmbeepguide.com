@@ -211,7 +211,7 @@ Replace your Nest Protect immediately if any of the following apply:
 - The unit has been exposed to a fire or extreme heat
 - The app shows "Hardware error" or "Internal error" persistently
 
-Nest Protect is no longer being manufactured. Google stopped production in March 2024. If you need a replacement, consider the First Alert SC5 (the closest available alternative) or another smart smoke detector. See our [Nest Protect Discontinued Replacement Guide](/blog/nest-protect-discontinued-replacement-guide/) for full details.
+Nest Protect is no longer being manufactured. Google stopped production in March 2025 and partnered with First Alert to develop the SC5 as a replacement. If you need a replacement, consider the First Alert SC5 (the recommended alternative) or another smart smoke detector. See our [Nest Protect Discontinued Replacement Guide](/blog/nest-protect-discontinued-replacement-guide/) for full details.
 
 ## FAQ
 
@@ -253,4 +253,4 @@ Hardwired Nest Protects use the household AC power for normal operation and the 
 - [Nest Protect End-of-Life: How to Check Expiration](/blog/nest-protect-end-of-life-expiration/) — detailed expiration date guide
 - [Why Is My Smoke Detector Chirping? 9 Common Causes and Fixes](/blog/smoke-detector-chirping-low-battery/) — broad troubleshooting for any brand
 - [Smoke Detector Beeping 3 Times](/blog/smoke-detector-beeping-3-times-meaning/) — what a real fire alarm sounds like vs a chirp
-- [Hardwired Smoke Detector Keeps Chirping](/blog/hardwired-smoke-detector-keeps-chirping/) — for hardwired Nest Protect units
+- [Hardwired Smoke Detector Beeping](/blog/hardwired-smoke-detector-beeping-troubleshooting/) — for hardwired Nest Protect units

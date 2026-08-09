@@ -321,7 +321,7 @@ Stop using the alarm immediately. Contact Kidde for a free replacement. For the 
 
 ## Related Articles
 
-- [Hardwired Smoke Detector Keeps Chirping](/blog/hardwired-smoke-detector-keeps-chirping) — comprehensive hardwired troubleshooting
+- [Hardwired Smoke Detector Beeping](/blog/hardwired-smoke-detector-beeping-troubleshooting) — comprehensive hardwired troubleshooting
 - [Kidde Smoke Detector Chirping After Battery Change](/blog/kidde-smoke-detector-chirping-after-battery-change/) — Kidde battery change specifics
 - [Smoke Detector Chirping at Night](/blog/smoke-detector-chirping-at-night/) — nighttime beeping
 - [Kidde Smoke Detector Recall Guide](/blog/kidde-smoke-detector-recall-guide/) — check for active recalls

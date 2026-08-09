@@ -314,7 +314,7 @@ Time the interval between chirps. If it's exactly 60 seconds, it's low battery. 
 ## Related Articles
 
 - [First Alert Smoke Detector Chirping](/blog/first-alert-smoke-detector-chirping/) — comprehensive chirp troubleshooting
-- [Hardwired Smoke Detector Keeps Chirping](/blog/hardwired-smoke-detector-keeps-chirping) — for hardwired systems generally
+- [Hardwired Smoke Detector Beeping](/blog/hardwired-smoke-detector-beeping-troubleshooting) — for hardwired systems generally
 - [Smoke Detector Chirping at Night](/blog/smoke-detector-chirping-at-night/) — for nighttime chirps
 - [First Alert Green Light Blinking and Chirping](/blog/first-alert-green-light-blinking-and-chirping) — LED pattern guide
 - [Smoke Detector Replacement Cost](/blog/smoke-detector-replacement-cost/) — replacement pricing

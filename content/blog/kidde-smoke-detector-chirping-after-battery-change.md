@@ -295,5 +295,5 @@ Yes. Kidde detectors expire 10 years after manufacture. The chirp is the same as
 - [Smoke Detector Chirping at Night](/blog/smoke-detector-chirping-at-night/) — why chirping happens at specific times
 - [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-chirping-after-battery-change/) — persistent low-battery chirps
 - [Kidde Smoke Detector Recall Guide](/blog/kidde-smoke-detector-recall-guide/) — check for active recalls
-- [Hardwired Smoke Detector Keeps Chirping](/blog/hardwired-smoke-detector-keeps-chirping/) — for hardwired Kidde units
+- [Hardwired Smoke Detector Beeping](/blog/hardwired-smoke-detector-beeping-troubleshooting/) — for hardwired Kidde units
 - [First Alert Smoke Detector Chirping](/blog/first-alert-smoke-detector-chirping/) — comparison with First Alert
