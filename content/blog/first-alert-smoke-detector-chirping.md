@@ -60,7 +60,7 @@ The most common reasons are, in order of frequency:
 
 ### 1. Low Battery (70% of chirps)
 
-The single most common cause. Even with a relatively new battery, voltage can drop below threshold due to temperature changes, age, or a defective battery. See our [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-low-battery-chirp-wont-stop/) guide for details.
+The single most common cause. Even with a relatively new battery, voltage can drop below threshold due to temperature changes, age, or a defective battery. See our [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-chirping-after-battery-change/) guide for details.
 
 ### 2. End of Life (15% of chirps)
 
@@ -268,7 +268,7 @@ For sensor trouble chirps, cleaning may resolve the issue. For end-of-life chirp
 ## Related Articles
 
 - [Smoke Detector Chirping at Night](/blog/smoke-detector-chirping-at-night/) — why chirping happens at specific times
-- [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-low-battery-chirp-wont-stop/) — persistent low-battery chirps
+- [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-chirping-after-battery-change/) — persistent low-battery chirps
 - [First Alert Hardwired Smoke Detector Chirping](/blog/first-alert-hardwired-smoke-detector-chirping/) — for hardwired First Alert units
 - [First Alert Green Light Blinking and Chirping](/blog/first-alert-green-light-blinking-and-chirping) — LED indicator guide
 - [First Alert vs Kidde Smoke Alarms](/blog/first-alert-vs-kidde-smoke-alarms/) — comparing the two brands

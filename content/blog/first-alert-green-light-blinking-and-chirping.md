@@ -289,6 +289,6 @@ Yes. Press and hold the test button for 5 seconds. The green light should bright
 
 - [First Alert Smoke Detector Chirping](/blog/first-alert-smoke-detector-chirping/) — comprehensive chirp troubleshooting
 - [Smoke Detector Chirping at Night](/blog/smoke-detector-chirping-at-night/) — why chirps happen at night
-- [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-low-battery-chirp-wont-stop/) — for persistent low-battery chirps
+- [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-chirping-after-battery-change/) — for persistent low-battery chirps
 - [First Alert Hardwired Smoke Detector Chirping](/blog/first-alert-hardwired-smoke-detector-chirping/) — for hardwired units
 - [How Often to Replace Smoke Detectors](/blog/how-often-replace-smoke-detectors/) — replacement timeline

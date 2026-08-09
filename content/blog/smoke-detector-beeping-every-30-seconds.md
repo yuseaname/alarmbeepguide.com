@@ -298,7 +298,7 @@ The chirp itself is not dangerous — it's a warning that your detector is not w
 ## Related Articles
 
 - [How Often to Replace Smoke Detectors](/blog/how-often-replace-smoke-detectors/) — replacement timeline
-- [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-low-battery-chirp-wont-stop/) — for 60-second chirps
+- [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-chirping-after-battery-change/) — for 60-second chirps
 - [Smoke Detector Chirping at Night](/blog/smoke-detector-chirping-at-night/) — for time-specific chirps
 - [Nest Protect Chirping](/blog/nest-protect-chirping/) — for smart detectors
 - [Smoke Detector End-of-Life Chirp](/blog/smoke-alarm-end-of-life-beeps/) — for end-of-life chirps
