@@ -107,7 +107,7 @@ For a full breakdown of every beep pattern, see our [combination smoke and CO al
 
 Once you know which detector is the source and what the beep pattern means, here's how to fix it:
 
-**Low battery:** Replace with a fresh battery of the correct type (most use 9V or AA). For sealed 10-year units, the battery isn't replaceable — the [entire unit needs replacing](/blog/smoke-detector-end-of-life-chirp/).
+**Low battery:** Replace with a fresh battery of the correct type (most use 9V or AA). For sealed 10-year units, the battery isn't replaceable — the [entire unit needs replacing](/blog/smoke-alarm-end-of-life-beeps/).
 
 **End-of-life:** If the detector is more than 10 years old, it's reached its certified lifespan. Check the [replacement cost guide](/blog/smoke-detector-replacement-cost/) for pricing, then replace the unit.
 
@@ -144,7 +144,7 @@ If they're all the same age (usually installed as a set), they'll all reach end-
 Technically, many brands use the same interconnect protocol and will work together. However, manufacturers strongly recommend using the same brand throughout. Mixing brands can cause unpredictable chirping behavior, false alarms, and may void warranties. If you're replacing one unit, try to match the existing brand.
 
 **What if only one detector is beeping and the others aren't?**
-If you have hardwired detectors but only one is chirping, it's likely not an interconnect issue — that specific unit has a problem. It could be a low backup battery, dust in the sensor, or end-of-life. Follow the [hardwired detector troubleshooting steps](/blog/how-to-stop-hardwired-smoke-alarm-beeping/) for that specific unit.
+If you have hardwired detectors but only one is chirping, it's likely not an interconnect issue — that specific unit has a problem. It could be a low backup battery, dust in the sensor, or end-of-life. Follow the [hardwired detector troubleshooting steps](/blog/hardwired-smoke-detector-beeping-troubleshooting/) for that specific unit.
 
 **Why does my detector chirp once after I replace the battery?**
 This is normal. Most detectors emit a single confirmation chirp when power is restored. If it continues chirping after 30 seconds, there may be another issue — see our guide on [chirping after a battery change](/blog/smoke-detector-chirping-after-battery-change/).

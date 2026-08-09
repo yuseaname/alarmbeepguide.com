@@ -13,8 +13,6 @@ featured: true
 image: "/images/categories/household-alert-fixes.png"
 ---
 
-# Security System Beeping Codes: Decode Panel Sounds Fast
-
 Your home security system is beeping and you don't know why. Unlike smoke detectors with simple patterns, security panels use complex beep codes that signal everything from low batteries to sensor malfunctions. Here's how to decode them and fix the problem without calling tech support.
 
 ## Common Security System Beep Patterns

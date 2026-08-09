@@ -1,7 +1,7 @@
 ---
 title: "Fact-Checking Policy"
 slug: "fact-checking"
-description: ""
+description: "Learn how AlarmBeepGuide checks home-safety information and handles uncertain or model-specific alarm guidance."
 date: 2025-01-01
 layout: "single"
 ---

@@ -10,6 +10,12 @@
   </header>
 
   {{/* Ad: top of list */}}
+  {{ with .Content }}
+  <div class="article-content max-w-3xl mt-8 mb-10">
+    {{ . }}
+  </div>
+  {{ end }}
+
   {{ if .Site.Params.adsense.client_id }}{{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}{{ end }}
 
   <!-- Articles Grid -->

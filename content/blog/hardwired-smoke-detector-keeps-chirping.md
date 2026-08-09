@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Hardwired Smoke Detector Keeps Chirping? Full Troubleshooting Checklist
-
 If your hardwired smoke detector keeps chirping, you're not alone — this is one of the most common smoke detector problems. The chirp usually indicates a backup battery issue, but it can also signal a wiring fault, end-of-life sensor, or interconnection problem. This guide provides a step-by-step checklist that resolves 95% of hardwired chirping issues.
 
 ## Why Hardwired Detectors Chirp

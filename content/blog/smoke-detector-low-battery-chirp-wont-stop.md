@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Low-Battery Chirp Won't Stop? Reset Steps That Actually Work
-
 A persistent low-battery chirp after battery replacement is frustrating but fixable. The chirp usually indicates that the detector's error memory still has the old low-battery state stored. A proper reset clears this memory and stops the chirp. This guide covers the exact reset steps that work for every major smoke detector brand.
 
 ## Why the Chirp Continues After Battery Replacement

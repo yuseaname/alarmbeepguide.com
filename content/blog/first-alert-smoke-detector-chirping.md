@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# First Alert Smoke Detector Chirping? Decode the Beeps and Fix Fast
-
 First Alert is the most common smoke detector brand in US homes, and its chirps follow specific patterns that tell you exactly what's wrong. This guide decodes every First Alert chirp pattern, identifies the cause, and gives you the exact fix for each one. Most First Alert chirping is resolved within 5 minutes using the steps below.
 
 ## First Alert Chirp Patterns and What They Mean

@@ -13,24 +13,8 @@ featured: false
 image: "/images/categories/home-flood-lights.png"
 ---
 
-# Motion Sensor Light Won't Turn Off? 7 Quick Fixes
-
 Motion sensor lights that stay on are frustrating and wasteful. The good news is that most causes are simple: a sensitivity setting is too high, the timer is set to maximum, or the sensor is reading constant motion. This guide walks you through calm, safe fixes before you replace the fixture.
 
-## TWA - What This Guide Covers
-
-- [Problem explanation](#problem-explanation)
-- [Why this usually happens](#why-this-usually-happens)
-- [Common motion sensor light types](#common-motion-sensor-light-types)
-- [What the behavior typically means](#what-the-behavior-typically-means)
-- [When it's usually safe to ignore](#when-its-usually-safe-to-ignore)
-- [When it's worth checking further](#when-its-worth-checking-further)
-- [Seven quick fixes](#seven-quick-fixes)
-- [Quick checklist](#quick-checklist)
-- [Keeping it from happening again](#keeping-it-from-happening-again)
-- [Related alert guides](#related-alert-guides)
-- [FAQ](#faq)
-- [Calm summary](#calm-summary)
 
 ## Problem Explanation
 

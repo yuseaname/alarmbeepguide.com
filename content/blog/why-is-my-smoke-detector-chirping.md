@@ -8,27 +8,12 @@ draft: true
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Why Is My Smoke Detector Chirping? 9 Common Causes and Fixes (US Guide)
-
 If your smoke detector is chirping, it is usually warning you about maintenance-not an active fire. The most common cause is low battery, but age, wiring issues, humidity, dust, and end-of-life signals can sound similar.
 
 This guide gives you a safe, step-by-step way to identify the cause fast and stop the chirp without disabling protection.
 
 > **Quick safety note:** A single periodic chirp is usually a maintenance signal. A **full loud alarm pattern** is different and should be treated as a real fire emergency.
 
-## TWA - What This Guide Covers
-
-- [The short answer](#the-short-answer)
-- [First, identify chirp vs full alarm](#first-identify-chirp-vs-full-alarm)
-- [The 9 most common chirping causes](#the-9-most-common-chirping-causes)
-- [Fix order that works in most US homes](#fix-order-that-works-in-most-us-homes)
-- [Hardwired smoke detector chirping checklist](#hardwired-smoke-detector-chirping-checklist)
-- [Nighttime chirping: why it happens more at night](#nighttime-chirping-why-it-happens-more-at-night)
-- [How to find which detector is chirping](#how-to-find-which-detector-is-chirping)
-- [When to replace instead of troubleshoot](#when-to-replace-instead-of-troubleshoot)
-- [US safety standards to keep in mind](#us-safety-standards-to-keep-in-mind)
-- [FAQ](#faq)
-- [Calm next step](#calm-next-step)
 
 ## The short answer
 
@@ -53,7 +38,7 @@ If you hear a full alarm pattern, follow your home fire safety plan first.
 
 For pattern-specific decoding, see:
 - [Smoke Detector Beeping Every 30 Seconds: What It Means and What To Do](/blog/smoke-detector-beeping-every-30-seconds)
-- [Smoke + CO Detector Beeping: How To Tell Which Danger Signal You're Hearing](/blog/smoke-and-carbon-monoxide-detector-beeping)
+- [Smoke + CO Detector Beeping: How To Tell Which Danger Signal You're Hearing](/blog/combo-smoke-co-alarm-beeping-patterns/)
 
 ## The 9 most common chirping causes
 
@@ -75,7 +60,7 @@ Many units store trouble state until reset.
 
 **Fix:** Remove battery (and AC power for hardwired units), hold test button 10-20 seconds, reinstall power, retest.
 
-Related: [Smoke Alarm Chirping After Battery Change? Here's the Exact Fix Order](/blog/smoke-alarm-chirping-after-battery-change)
+Related: [Smoke Alarm Chirping After Battery Change? Here's the Exact Fix Order](/blog/smoke-detector-chirping-after-battery-change/)
 
 ## 4) End-of-life sensor warning
 
@@ -230,4 +215,4 @@ It is common due to cooler temperatures and voltage drop in weak batteries, but 
 
 Start with battery + reset + date check on the identified unit. If chirping persists and the detector is near or past service life, replace it now and log the install date for future maintenance.
 
-If you want the exact decision tree, continue with [Smoke Alarm Chirping After Battery Change? Here's the Exact Fix Order](/blog/smoke-alarm-chirping-after-battery-change).
+If you want the exact decision tree, continue with [Smoke Alarm Chirping After Battery Change? Here's the Exact Fix Order](/blog/smoke-detector-chirping-after-battery-change/).

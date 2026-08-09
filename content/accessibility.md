@@ -1,7 +1,7 @@
 ---
 title: "Accessibility Statement"
 slug: "accessibility"
-description: ""
+description: "Read AlarmBeepGuide’s accessibility statement and how to report barriers when using the site."
 date: 2025-01-01
 layout: "single"
 ---

@@ -13,8 +13,6 @@ featured: false
 image: "/images/categories/household-alert-fixes.png"
 ---
 
-# Heat Detector Beeping: When to Use Heat Sensors vs Smoke Alarms
-
 Heat detectors beep for different reasons than smoke detectors, and knowing the difference could save you from a false sense of security. Here's when to use heat detectors, what their beep patterns mean, and why they're not interchangeable with smoke alarms.
 
 ## Heat Detectors vs. Smoke Detectors: Critical Differences

@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Smoke Detector Placement in US Homes: Code Basics and Practical Setup
-
 Proper smoke detector placement can be the difference between early warning and tragedy. A smoke detector in the wrong location may not detect smoke in time, may trigger false alarms that cause you to disable it, or may fail building code inspection. This guide explains the placement rules based on NFPA 72 (the US national fire alarm code), how to apply them room by room in a typical US home, and the practical pitfalls to avoid.
 
 ## Quick Placement Reference

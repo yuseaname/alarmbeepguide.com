@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Kidde Hardwired Smoke Alarm Beeping: Troubleshooting Guide (US)
-
 Kidde hardwired smoke alarms have specific quirks that differ from First Alert and other brands. The beeping pattern, reset procedure, and interconnect behavior all have Kidde-specific characteristics. This guide covers Kidde's brand-specific troubleshooting steps that resolve beeping in hardwired interconnected systems.
 
 ## Why Kidde Hardwired Alarms Beep

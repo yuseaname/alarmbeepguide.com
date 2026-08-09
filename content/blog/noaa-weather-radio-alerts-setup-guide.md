@@ -13,8 +13,6 @@ featured: true
 image: "/images/categories/weather-outage-alerts.png"
 ---
 
-# NOAA Weather Radio Alert Setup: SAME Codes and Smart Settings
-
 NOAA weather radios can alert you at night for nearby warnings or stay quiet for local alerts depending on your setup. Here is how to configure yours so you get warnings that matter without alert fatigue.
 
 ## Why Your Weather Radio Setup Matters

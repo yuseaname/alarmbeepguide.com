@@ -13,32 +13,8 @@ featured: true
 image: "/images/categories/fire-extinguishers.png"
 ---
 
-# Fire Extinguisher Pressure Gauge: How to Read It Correctly
-
 A fire extinguisher pressure gauge is a quick readiness check. It tells you whether the extinguisher can discharge properly if you ever need it. This guide explains what the needle positions mean, how to read the gauge safely, and when to service or replace the unit.
 
-## TWA - What This Guide Covers
-
-- [Problem explanation](#problem-explanation)
-- [Why pressure gauges matter](#why-pressure-gauges-matter)
-- [The three gauge zones](#the-three-gauge-zones)
-- [How to read the gauge correctly](#how-to-read-the-gauge-correctly)
-- [Temperature effects on pressure](#temperature-effects-on-pressure)
-- [Common reasons the needle moves](#common-reasons-the-needle-moves)
-- [Gauge reading vs extinguisher weight](#gauge-reading-vs-extinguisher-weight)
-- [Extinguishers without gauges](#extinguishers-without-gauges)
-- [Service tags and dates](#service-tags-and-dates)
-- [Common gauge mistakes](#common-gauge-mistakes)
-- [Age and lifespan considerations](#age-and-lifespan-considerations)
-- [Disposal basics](#disposal-basics)
-- [When it's usually safe to ignore](#when-its-usually-safe-to-ignore)
-- [When it's worth checking further](#when-its-worth-checking-further)
-- [Basic non-technical troubleshooting](#basic-non-technical-troubleshooting)
-- [What service typically includes](#what-service-typically-includes)
-- [Quick checklist](#quick-checklist)
-- [Related extinguisher guides](#related-extinguisher-guides)
-- [FAQ](#faq)
-- [Calm summary](#calm-summary)
 
 ## Problem Explanation
 

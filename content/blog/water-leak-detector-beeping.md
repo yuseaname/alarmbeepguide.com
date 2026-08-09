@@ -169,4 +169,4 @@ Not directly. Slab leaks happen under the concrete foundation and won't reach a 
 
 A $25 water leak detector can prevent $25,000 in water damage. The key is placement — put detectors where water is most likely to accumulate, test them monthly (most have a test button), and respond immediately when they beep. Don't silence the alarm and go back to sleep; the water will still be there in the morning.
 
-If you're hearing other beeping devices in your home and can't identify them, check our guides on [smoke and CO detector beeping](/blog/smoke-and-carbon-monoxide-detector-beeping/) and [appliance beeping](/blog/dishwasher-beeping-meaning-fixes/). Knowing which device is making which sound is the first step to fixing the problem.
+If you're hearing other beeping devices in your home and can't identify them, check our guides on [smoke and CO detector beeping](/blog/combo-smoke-co-alarm-beeping-patterns/) and [appliance beeping](/blog/dishwasher-beeping-meaning-fixes/). Knowing which device is making which sound is the first step to fixing the problem.

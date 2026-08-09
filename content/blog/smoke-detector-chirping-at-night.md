@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Smoke Detector Chirping at Night: Why It Happens and How To Stop It
-
 If your smoke detector chirps at night, you're not imagining things — there's a real reason it happens at 2 AM and not during the day. The combination of cooler nighttime temperatures, lower humidity, and reduced battery voltage creates the perfect conditions for a low-battery chirp. This guide explains exactly why nighttime chirping happens and gives you a step-by-step fix that works the same night.
 
 ## Why Smoke Detectors Chirp at Night
@@ -322,7 +320,7 @@ Press and hold the test/hush button for 5 seconds. This silences the chirp for 8
 
 ## Related Articles
 
-- [Why Is My Smoke Detector Chirping? 9 Common Causes](/blog/why-is-my-smoke-detector-chirping) — broad troubleshooting for any chirp
+- [Why Is My Smoke Detector Chirping? 9 Common Causes](/blog/smoke-detector-chirping-low-battery/) — broad troubleshooting for any chirp
 - [Smoke Detector Low Battery Chirp Won't Stop](/blog/smoke-detector-low-battery-chirp-wont-stop) — specific fix for persistent low-battery chirps
 - [Hardwired Smoke Detector Keeps Chirping](/blog/hardwired-smoke-detector-keeps-chirping) — for hardwired systems
 - [How Often to Replace Smoke Detectors](/blog/how-often-replace-smoke-detectors) — replacement timeline

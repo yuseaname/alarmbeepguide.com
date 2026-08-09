@@ -13,35 +13,8 @@ featured: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Are Smart Smoke Alarms Worth It? A Practical Look at Nest Protect
-
 Smart smoke alarms add features like app alerts, remote notifications, and clearer status indicators. For some households, that convenience is valuable. For others, a traditional alarm is simpler and just as effective. This guide breaks down what smart alarms actually do, what they do not do, and when the extra features make sense.
 
-## TWA – What This Guide Covers
-
-- [Why some people consider smart smoke alarms](#why-some-people-consider-smart-smoke-alarms)
-- [What makes a smoke alarm smart](#what-makes-a-smoke-alarm-smart)
-- [What smart alarms do not do](#what-smart-alarms-do-not-do)
-- [Connectivity and app expectations](#connectivity-and-app-expectations)
-- [Notification settings and alert fatigue](#notification-settings-and-alert-fatigue)
-- [Privacy and data considerations](#privacy-and-data-considerations)
-- [Google Nest Protect overview](#google-nest-protect-overview)
-- [Smart vs traditional smoke alarms](#smart-vs-traditional-smoke-alarms)
-- [Power and battery options](#power-and-battery-options)
-- [Maintenance expectations without numbers](#maintenance-expectations-without-numbers)
-- [Interconnect and whole-home awareness](#interconnect-and-whole-home-awareness)
-- [What to expect during outages](#what-to-expect-during-outages)
-- [Everyday use expectations](#everyday-use-expectations)
-- [App-free backup habits](#app-free-backup-habits)
-- [Example setups](#example-setups)
-- [When smart alarms make sense](#when-smart-alarms-make-sense)
-- [When smart alarms may not be worth it](#when-smart-alarms-may-not-be-worth-it)
-- [When it’s usually safe to ignore](#when-its-usually-safe-to-ignore)
-- [When to check further](#when-to-check-further)
-- [Quick troubleshooting checklist](#quick-troubleshooting-checklist)
-- [A simple decision checklist](#a-simple-decision-checklist)
-- [FAQ](#faq)
-- [Calm summary](#calm-summary)
 
 ## Why Some People Consider Smart Smoke Alarms
 

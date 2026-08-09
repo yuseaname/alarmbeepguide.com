@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# CO Detector 5 Beeps End of Life: Replacement Timeline and Best Options
-
 Five beeps from a carbon monoxide detector typically signals end of life. The CO sensor inside the detector has a finite lifespan of 5-7 years, after which it must be replaced. This guide explains why CO detectors expire faster than smoke detectors, what the 5-beep pattern means, and how to choose a replacement CO detector in 2026.
 
 ## Why 5 Beeps Means End of Life

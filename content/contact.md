@@ -1,7 +1,7 @@
 ---
 title: "Contact AlarmBeepGuide"
 slug: "contact"
-description: ""
+description: "Contact AlarmBeepGuide to report a correction, flag an outdated page, or suggest a home-alarm troubleshooting topic. Do not use this page for emergencies."
 date: 2025-01-01
 layout: "single"
 ---

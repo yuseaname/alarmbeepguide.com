@@ -19,23 +19,6 @@ Smoke alarms make different sounds for different reasons. One of the most confus
 
 This guide explains what end-of-life beeps usually sound like, how they differ from low-battery chirps, and the calm next steps to take. If you want a broader replacement timeline, see [How Long Do Smoke Detectors Last?](/blog/how-long-do-smoke-detectors-last).
 
-## TWA - What This Guide Covers
-
-- [The short answer](#the-short-answer)
-- [What end-of-life beeps usually sound like](#what-end-of-life-beeps-usually-sound-like)
-- [How to check the manufacture date quickly](#how-to-check-the-manufacture-date-quickly)
-- [How end-of-life beeps differ from low-battery chirps](#how-end-of-life-beeps-differ-from-low-battery-chirps)
-- [Why end-of-life happens even if the alarm seems fine](#why-end-of-life-happens-even-if-the-alarm-seems-fine)
-- [How to find the chirping unit in multi-alarm homes](#how-to-find-the-chirping-unit-in-multi-alarm-homes)
-- [Quick verification checklist](#quick-verification-checklist)
-- [What if you have a combo smoke and CO unit](#what-if-you-have-a-combo-smoke-and-co-unit)
-- [Other chirps that can mimic end-of-life](#other-chirps-that-can-mimic-end-of-life)
-- [What to do next: replacement-first steps](#what-to-do-next-replacement-first-steps)
-- [Preventing confusion next time](#preventing-confusion-next-time)
-- [When to ask for help](#when-to-ask-for-help)
-- [Common misconceptions and calm corrections](#common-misconceptions-and-calm-corrections)
-- [FAQ](#faq)
-- [Calm next step](#calm-next-step)
 
 ## The short answer
 
@@ -75,7 +58,7 @@ Low-battery chirps are typically a single chirp every 30 to 60 seconds. End-of-l
 
 If the chirp stops and stays quiet after a battery change, it was likely a battery issue. If it returns quickly, end of life is a stronger possibility.
 
-For more sound decoding, see [Why Is My Smoke Detector Chirping? The Low Battery Fix](/blog/why-is-my-smoke-detector-chirping) and [Smoke Detector Chirping After Battery Change](/blog/smoke-detector-chirping-after-battery-change).
+For more sound decoding, see [Why Is My Smoke Detector Chirping? The Low Battery Fix](/blog/smoke-detector-chirping-low-battery/) and [Smoke Detector Chirping After Battery Change](/blog/smoke-detector-chirping-after-battery-change).
 
 ## Why end-of-life happens even if the alarm seems fine
 
@@ -117,7 +100,7 @@ Combo smoke and CO units are common, but they can add confusion because one devi
 
 If your unit is a combo model, check the label for the alert pattern key. If the label is missing, use the manufacture date and the behavior after a battery change as your main clues. If the unit is old, replacement is still the simplest answer because both sensors age over time.
 
-For pattern help, [Combination Smoke + CO Alarm Beeping Patterns](/blog/smoke-and-carbon-monoxide-detector-beeping) breaks down the common signals in plain language.
+For pattern help, [Combination Smoke + CO Alarm Beeping Patterns](/blog/combo-smoke-co-alarm-beeping-patterns/) breaks down the common signals in plain language.
 
 ## Other chirps that can mimic end-of-life
 
@@ -130,7 +113,7 @@ Not every repeating chirp is end of life. A few other issues can sound similar, 
 
 If the alarm is newer and the date label shows it is well within its service life, it is worth checking these basics before replacing. Remove the battery, reseat it firmly, and hold the test button for a full reset. Lightly clean vents with a soft brush or vacuum. If the chirp continues and the alarm is old, replacement is still the correct step.
 
-For troubleshooting steps, [Smoke Alarm Chirping After Battery Change](/blog/smoke-alarm-chirping-after-battery-change) offers a clear fix flow.
+For troubleshooting steps, [Smoke Alarm Chirping After Battery Change](/blog/smoke-detector-chirping-after-battery-change/) offers a clear fix flow.
 
 If the alarm is under five years old and you still hear repeated chirps, check for a loose mounting connection or a battery tab that was not fully removed. Those small issues are common and easy to miss.
 
@@ -145,7 +128,7 @@ Once an alarm reaches end of life, replacement is the safest and simplest fix. H
 - Install the new alarm and test it once.
 - Record the new install date in your phone or a home log.
 
-If you are not comfortable with hardwired alarms, a licensed professional can help. If you are unsure which models to choose, [Best Smoke Alarms for Home Safety](/blog/best-smoke-alarms-for-home-safety) covers the basics.
+If you are not comfortable with hardwired alarms, a licensed professional can help. If you are unsure which models to choose, [Best Smoke Alarms for Home Safety](/blog/best-smoke-alarms-home-safety) covers the basics.
 
 If your alarm is part of a larger system, consider replacing alarms in the same area at the same time. It creates one clear timeline and reduces confusion later.
 

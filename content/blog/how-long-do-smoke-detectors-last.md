@@ -19,22 +19,6 @@ You are not alone if a smoke alarm chirp wakes you up and leaves you wondering i
 
 Here is the short version: most modern smoke alarms are designed to last about 7 to 10 years. The exact timing depends on the sensor type, whether the battery is sealed, and what the manufacturer specifies. A test button cannot tell you how much sensor life remains.
 
-## TWA - What This Guide Covers
-
-- [The short answer most people need](#the-short-answer-most-people-need)
-- [Why smoke alarms age out even if they still beep](#why-smoke-alarms-age-out-even-if-they-still-beep)
-- [What affects lifespan beyond the calendar](#what-affects-lifespan-beyond-the-calendar)
-- [7-year vs 10-year models: what is actually different](#7-year-vs-10-year-models-what-is-actually-different)
-- [Sealed battery vs replaceable battery: what changes](#sealed-battery-vs-replaceable-battery-what-changes)
-- [How to find the manufacture date on your alarm](#how-to-find-the-manufacture-date-on-your-alarm)
-- [End-of-life signals vs low-battery chirps](#end-of-life-signals-vs-low-battery-chirps)
-- [Planning replacements in homes with multiple alarms](#planning-replacements-in-homes-with-multiple-alarms)
-- [Common misconceptions and calm corrections](#common-misconceptions-and-calm-corrections)
-- [Safe, simple replacement checklist](#safe-simple-replacement-checklist)
-- [When to ask for help or notify your landlord](#when-to-ask-for-help-or-notify-your-landlord)
-- [What to do with old alarms](#what-to-do-with-old-alarms)
-- [FAQ](#faq)
-- [Calm next step](#calm-next-step)
 
 ## The short answer most people need
 
@@ -112,7 +96,7 @@ Low-battery chirps are often a single chirp every 30 to 60 seconds. End-of-life 
 
 If you replace the battery and the chirp returns quickly, check the manufacture date. If the alarm is near the end of its service life, replacement is the correct step.
 
-For help decoding sounds, see [Why Is My Smoke Detector Chirping? The Low Battery Fix](/blog/why-is-my-smoke-detector-chirping) and [Smoke Alarm Chirping After Battery Change](/blog/smoke-alarm-chirping-after-battery-change).
+For help decoding sounds, see [Why Is My Smoke Detector Chirping? The Low Battery Fix](/blog/smoke-detector-chirping-low-battery/) and [Smoke Alarm Chirping After Battery Change](/blog/smoke-detector-chirping-after-battery-change/).
 
 ## Planning replacements in homes with multiple alarms
 
@@ -154,7 +138,7 @@ Replacing a smoke alarm is usually quick. This checklist keeps it simple and saf
 5. Test the new alarm once installed.
 6. Note the installation date in your phone or a home log.
 
-If you are not comfortable with hardwired units, a licensed professional can help. If you are unsure which alarm type you need, our guide to [Best Smoke Alarms for Home Safety](/blog/best-smoke-alarms-for-home-safety) can help you compare options.
+If you are not comfortable with hardwired units, a licensed professional can help. If you are unsure which alarm type you need, our guide to [Best Smoke Alarms for Home Safety](/blog/best-smoke-alarms-home-safety) can help you compare options.
 
 ## When to ask for help or notify your landlord
 

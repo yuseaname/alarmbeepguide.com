@@ -1,7 +1,7 @@
 ---
 title: "About AlarmBeepGuide"
 slug: "about"
-description: ""
+description: "Learn how AlarmBeepGuide researches and organizes source-led guidance for home alarm chirps, warning signals, and basic safety questions."
 date: 2025-01-01
 layout: "single"
 ---

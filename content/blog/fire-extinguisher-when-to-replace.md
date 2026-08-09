@@ -13,8 +13,6 @@ featured: true
 image: "/images/categories/fire-extinguishers.png"
 ---
 
-# When to Replace a Fire Extinguisher: 8 Key Warning Signs
-
 Fire extinguishers feel sturdy, but they still have service lives and warning signs worth noting. Here is when replacement is recommended and why it improves reliability.
 
 ## The 12-Year Recommended Limit

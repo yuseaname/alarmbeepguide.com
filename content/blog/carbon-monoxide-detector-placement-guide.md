@@ -152,7 +152,7 @@ Combination detectors (which detect both smoke and CO in one unit) are increasin
 
 If you can't find a single location that works for both smoke and CO detection, install separate detectors. A smoke detector that can't go where it needs to go is no better than no detector at all.
 
-For more on choosing and maintaining combination detectors, see our guide on [when to replace a CO detector](/blog/when-to-replace-a-carbon-monoxide-detector/) and the [CO detector beeping guide](/blog/carbon-monoxide-detector-beeping/).
+For more on choosing and maintaining combination detectors, see our guide on [when to replace a CO detector](/blog/when-to-replace-a-carbon-monoxide-detector/) and the [CO detector beeping guide](/blog/carbon-monoxide-detector-beeping-patterns/).
 
 ## FAQ
 
@@ -166,7 +166,7 @@ If your home has no fuel-burning appliances (no gas furnace, gas stove, gas wate
 CO detectors typically last 5-7 years (shorter than smoke detectors' 10 years). The electrochemical sensor degrades over time. Check the manufacture date on the back and replace accordingly. See our [CO detector replacement guide](/blog/when-to-replace-a-carbon-monoxide-detector/) for full details.
 
 **Why does my CO detector chirp every 30 seconds?**
-A chirp every 30 seconds usually means the battery is low or the detector has reached end of life. Check our [CO detector chirping guide](/blog/carbon-monoxide-detector-chirping-every-30-seconds/) for the specific meaning and how to fix it.
+A chirp every 30 seconds usually means the battery is low or the detector has reached end of life. Check our [CO detector chirping guide](/blog/carbon-monoxide-detector-beeping-patterns/) for the specific meaning and how to fix it.
 
 **Can I place a CO detector near my gas fireplace?**
 Yes, but keep it at least 10 feet away. Gas fireplaces produce small amounts of CO during normal operation, and a detector placed too close will give false alarms. Place the detector in the same room as the fireplace, but not directly above or next to it.

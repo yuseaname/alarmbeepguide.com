@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# How Often Should You Replace Smoke Detectors? US Safety Timeline
-
 Smoke detectors need replacement on a regular schedule, not just when they stop working. The sensors degrade over time, and even a detector that passes its self-test may not detect smoke reliably after a certain number of years. This guide covers the replacement timeline for every type of smoke detector and the warning signs that mean you should replace yours now.
 
 ## The 10-Year Rule (Most Detectors)

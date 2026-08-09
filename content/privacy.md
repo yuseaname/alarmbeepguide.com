@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 slug: "privacy"
-description: ""
+description: "Read the AlarmBeepGuide privacy policy, including information about analytics, advertising, and contact submissions."
 date: 2025-01-01
 layout: "single"
 ---

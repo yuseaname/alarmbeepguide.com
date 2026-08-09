@@ -84,7 +84,7 @@ Key features:
 
 The SC5 isn't a direct Nest Protect clone. It lacks the Nest's Split Spectrum sensor (which used both blue and violet LEDs for faster detection), the path light feature (the soft glow when you walk under it at night), and the Nest's signature design aesthetic. But it covers the essentials — phone alerts, voice warnings, and smart home integration — and it's available right now.
 
-If you want a deeper comparison, we've written a [full First Alert SC5 vs Nest Protect guide](/blog/first-alert-sc5-vs-nest-protect/) that covers every feature difference in detail.
+If you want a deeper comparison, we've written a [full First Alert SC5 vs Nest Protect guide](/guides/first-alert-sc5-vs-nest-protect/) that covers every feature difference in detail.
 
 ### X-Sense Smart Smoke Detectors
 
@@ -99,7 +99,7 @@ A few other options exist in the smart smoke alarm space:
 - **Roost Smart Battery:** This is a 9V battery with built-in Wi-Fi that turns any compatible smoke detector into a "smart" one. It's a budget option, but the company has faced some connectivity issues.
 - **Kidde RemoteLync:** Another retrofit option, but Kidde's smart features are more limited and the company has had recall issues (see our [Kidde recall guide](/blog/kidde-smoke-detector-recall-guide/) for details).
 
-For most Nest Protect owners, the [First Alert SC5](/blog/first-alert-sc5-review/) is the most straightforward replacement — it works with the Google Home app you're already using, and it's the option Google itself points toward.
+For most Nest Protect owners, the [First Alert SC5](/guides/first-alert-sc5-review/) is the most straightforward replacement — it works with the Google Home app you're already using, and it's the option Google itself points toward.
 
 ## How to Swap Nest Protect for a New Alarm
 
@@ -151,7 +151,7 @@ If your Nest Protect hasn't expired yet and is working normally, there's no safe
 No. Discontinued means Google stopped making new ones — not that existing units stop working. Your Nest Protect will continue to function normally until its 10-year expiration date. The app will continue to receive notifications.
 
 **Is the First Alert SC5 really as good as the Nest Protect?**
-For core safety features (smoke detection, CO detection, phone alerts, voice warnings), yes. The SC5 is UL listed and meets all the same safety standards. It lacks some Nest features like the path light and Split Spectrum sensor, but it adds a sealed 10-year battery. For a detailed comparison, see our [SC5 vs Nest Protect guide](/blog/first-alert-sc5-vs-nest-protect/).
+For core safety features (smoke detection, CO detection, phone alerts, voice warnings), yes. The SC5 is UL listed and meets all the same safety standards. It lacks some Nest features like the path light and Split Spectrum sensor, but it adds a sealed 10-year battery. For a detailed comparison, see our [SC5 vs Nest Protect guide](/guides/first-alert-sc5-vs-nest-protect/).
 
 **What if I have multiple Nest Protects — do they all expire at the same time?**
 Not necessarily. Each unit has its own manufacture date. Check each one individually in the app. If you bought them as a set, they were likely manufactured around the same time, but verify each one.
@@ -164,7 +164,7 @@ Yes, as of 2026, Google continues to support Nest Protect in the Google Home app
 
 ## Bottom Line
 
-The Nest Protect was ahead of its time — a smart smoke detector that actually made people *want* to install one. Its discontinuation is a loss, but it's not an emergency. Your existing units are safe to use until they expire. When it's time to replace them, the [First Alert SC5](/blog/first-alert-sc5-review/) is the most logical successor, especially if you're already in the Google Home ecosystem.
+The Nest Protect was ahead of its time — a smart smoke detector that actually made people *want* to install one. Its discontinuation is a loss, but it's not an emergency. Your existing units are safe to use until they expire. When it's time to replace them, the [First Alert SC5](/guides/first-alert-sc5-review/) is the most logical successor, especially if you're already in the Google Home ecosystem.
 
 The most important thing you can do right now: **check your Nest Protect's expiration date**. Open the app, look at the expiration, and set a calendar reminder. Don't wait until it starts chirping at 2 a.m. to figure out what to do. And if you have multiple Nest Protects, check each one individually — they may have been manufactured months apart, meaning different expiration dates. Replace the oldest one first, and plan a timeline for the others.
 

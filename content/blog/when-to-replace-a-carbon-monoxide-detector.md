@@ -17,24 +17,8 @@ image: "/images/categories/alarm-lifespan-replacement-maintenance.svg"
 
 Carbon monoxide detectors are easy to forget because they are quiet when everything is normal. But CO detectors do not last forever. Their sensors age over time, and that aging can reduce reliability. This guide explains how long CO detectors last, how to check the date label, and the calm signs that replacement is due.
 
-If you are hearing a beep pattern and want to decode it, start with [Carbon Monoxide Detector Beeping: What Each Pattern Means](/blog/carbon-monoxide-detector-beeping-every-30-seconds). If you want a clear replacement timeline, keep reading.
+If you are hearing a beep pattern and want to decode it, start with [Carbon Monoxide Detector Beeping: What Each Pattern Means](/blog/carbon-monoxide-detector-beeping-patterns). If you want a clear replacement timeline, keep reading.
 
-## TWA - What This Guide Covers
-
-- [The quick answer and why the range varies](#the-quick-answer-and-why-the-range-varies)
-- [What end-of-life means for CO detectors](#what-end-of-life-means-for-co-detectors)
-- [Why CO sensors age even without alarms](#why-co-sensors-age-even-without-alarms)
-- [How to check your detector age](#how-to-check-your-detector-age)
-- [Common warning signs that replacement is due](#common-warning-signs-that-replacement-is-due)
-- [Differences between plug-in, battery, and combo units](#differences-between-plug-in-battery-and-combo-units)
-- [Placement and environment tips that affect reliability](#placement-and-environment-tips-that-affect-reliability)
-- [If your CO alarm sounds: calm, general guidance](#if-your-co-alarm-sounds-calm-general-guidance)
-- [Common misconceptions and calm corrections](#common-misconceptions-and-calm-corrections)
-- [Replacement steps that reduce false alarms](#replacement-steps-that-reduce-false-alarms)
-- [How to keep a simple replacement schedule](#how-to-keep-a-simple-replacement-schedule)
-- [Choosing a replacement model that fits your home](#choosing-a-replacement-model-that-fits-your-home)
-- [FAQ](#faq)
-- [Calm next step](#calm-next-step)
 
 ## The quick answer and why the range varies
 
@@ -84,7 +68,7 @@ Age is the primary signal, but there are other clues that replacement is likely:
 - It has been exposed to heavy humidity, grease, or dust for years.
 - You have no record of replacement in the last decade.
 
-If you are also troubleshooting noise, see [Combination Smoke + CO Alarm Beeping Patterns](/blog/smoke-and-carbon-monoxide-detector-beeping) for combo units.
+If you are also troubleshooting noise, see [Combination Smoke + CO Alarm Beeping Patterns](/blog/combo-smoke-co-alarm-beeping-patterns/) for combo units.
 
 ## Differences between plug-in, battery, and combo units
 
@@ -114,7 +98,7 @@ This guide is about replacement timing, but many people find it while a CO alarm
 
 Once everyone is safe, you can use the alarm pattern, the date label, and the unit type to decide if the detector needs replacement or further evaluation. If the alarm was a low-battery chirp, replacing the battery usually stops it. If the alarm was a full alert, focus on safety first and then replace the detector if it is near the end of its service life.
 
-For help decoding alarm patterns, see [Carbon Monoxide Detector Beeping: What Each Pattern Means](/blog/carbon-monoxide-detector-beeping-every-30-seconds). This can help you separate a true alarm from a maintenance signal without guessing.
+For help decoding alarm patterns, see [Carbon Monoxide Detector Beeping: What Each Pattern Means](/blog/carbon-monoxide-detector-beeping-patterns). This can help you separate a true alarm from a maintenance signal without guessing.
 
 ## Common misconceptions and calm corrections
 
@@ -163,7 +147,7 @@ When it is time to replace, the best choice is usually the simplest one that fit
 
 Combination smoke and CO units can be a good fit in areas where you want both protections but only have space for one device. Just remember that the CO sensor often defines the replacement timeline for the entire unit. If the CO side reaches end of life, the whole combo unit should be replaced even if the smoke sensor still seems fine.
 
-If you are upgrading, focus on practical features rather than flashy add-ons. A clear alarm, easy testing, and a visible date label are more important than extra modes most people will never use. You can see how different smoke alarms compare in [Best Smoke Alarms for Home Safety](/blog/best-smoke-alarms-for-home-safety) and decide whether a combo unit makes sense for your rooms.
+If you are upgrading, focus on practical features rather than flashy add-ons. A clear alarm, easy testing, and a visible date label are more important than extra modes most people will never use. You can see how different smoke alarms compare in [Best Smoke Alarms for Home Safety](/blog/best-smoke-alarms-home-safety) and decide whether a combo unit makes sense for your rooms.
 
 If you are unsure, choose a model with straightforward instructions and a clear end-of-life signal. That one small detail reduces confusion years from now. It is the easiest future-proofing step you can take.
 

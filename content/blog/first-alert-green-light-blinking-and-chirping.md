@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# First Alert Green Light Blinking and Chirping: What the Signal Means
-
 A green blinking light on a First Alert smoke detector usually indicates normal operation — but combined with a chirp, it can signal a specific issue. This guide explains every First Alert LED pattern involving green light and chirping, what each combination means, and how to fix the underlying issue.
 
 ## What Green Light Means on First Alert Detectors

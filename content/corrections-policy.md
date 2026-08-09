@@ -1,7 +1,7 @@
 ---
 title: "Corrections Policy"
 slug: "corrections-policy"
-description: ""
+description: "Read how AlarmBeepGuide accepts, reviews, and corrects factual errors or outdated safety information."
 date: 2025-01-01
 layout: "single"
 ---

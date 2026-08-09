@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# First Alert Hardwired Smoke Detector Chirping: Reset and Re-Sync Instructions
-
 Hardwired First Alert detectors chirp for specific reasons that differ from battery-only units. The chirp usually indicates a backup battery issue, wiring fault, or interconnection problem. This guide covers the exact reset procedures, brand-specific quirks, and fixes that work for First Alert hardwired detectors.
 
 ## Why Hardwired Detectors Chirp

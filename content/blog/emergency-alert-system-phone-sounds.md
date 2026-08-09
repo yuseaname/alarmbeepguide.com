@@ -13,8 +13,6 @@ featured: true
 image: "/images/categories/weather-outage-alerts.png"
 ---
 
-# Emergency Alert Sounds on Your Phone: What Each One Means
-
 Your phone's emergency alert system (Wireless Emergency Alerts or WEA) can blast loud tones at any time for various emergencies. Here's what each alert type means, when you can silence them, and why you should keep most enabled.
 
 ## The Three Alert Levels (And Which You Can Disable)

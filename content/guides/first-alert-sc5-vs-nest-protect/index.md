@@ -1,7 +1,7 @@
 ---
 title: "First Alert SC5 vs Nest Protect: The Definitive Replacement Guide"
 slug: "first-alert-sc5-vs-nest-protect"
-description: ""
+description: "Compare First Alert SC5 and Nest Protect features with current manufacturer documentation before choosing a replacement alarm."
 date: 2025-01-01
 layout: "single"
 aliases: ["/guides/first-alert-sc5-vs-nest-protect/"]
@@ -9,8 +9,6 @@ image: "/images/categories/weather-outage-alerts.png"
 ---
 
 {{< rawhtml >}}
-<h1>First Alert SC5 vs Nest Protect: The Definitive Replacement Guide</h1>
-
 <p>The First Alert SC5 is the officially recommended replacement for the discontinued Google Nest Protect smoke and carbon monoxide alarm. While the Nest Protect is no longer in production, the First Alert SC5 9th Generation alarm retains the signature voice alerts and mounting compatibility, allowing homeowners to transition seamlessly without replacing existing wall brackets. If you are looking for a direct substitute that maintains safety standards and smart features, the First Alert SC5 is the current market leader for this specific upgrade path in 2026.</p>
 
 <figure class="article-image article-image--photorealistic"><img src="/assets/images/first-alert-sc5-vs-nest-protect/first-alert-sc5-vs-nest-protect-hero.jpg" alt="First Alert SC5 vs Nest Protect smoke detector comparison photo" loading="lazy" decoding="async"></figure>

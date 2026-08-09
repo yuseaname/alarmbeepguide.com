@@ -16,8 +16,6 @@ description: "To stop a hardwired smoke alarm beeping immediately, you must disc
 slug: "how-to-stop-hardwired-smoke-alarm-beeping"
 ---
 
-# How to Stop Hardwired Smoke Alarm Beeping: 7 Steps to Silence the Noise
-
 To stop a hardwired smoke alarm beeping immediately, you must disconnect the unit from its mounting bracket and remove the 9-volt or AA backup battery. For a permanent fix, turn off the power at the circuit breaker, clean the sensor of dust, and verify the unit hasn't reached its 10-year expiration date. Most intermittent chirps indicate a failing battery or sensor contamination, while continuous alarms signal a potential fire hazard.
 
 A beeping smoke detector is more than an annoyance; it is a critical safety signal that often points to a compromised defense system in your home. Hardwired smoke alarms are designed to operate on 120-volt AC power with a battery backup to ensure functionality during power outages. However, the complexity of these dual-power systems often leads to confusion when they begin to chirp. Whether it is a single beep every minute or a continuous siren, understanding the root cause is essential for maintaining home safety compliance.

@@ -119,7 +119,7 @@ A good habit: clean your detectors when you change your clocks for daylight savi
 
 Cleaning resolves dust-related false alarms and chirping. But if the detector continues to misbehave after a thorough cleaning, the problem is something else:
 
-- **End of life:** If the detector is more than 10 years old (or more than 5-7 years for a CO detector), the sensor is at the end of its certified lifespan. No amount of cleaning will fix it. See our [end-of-life chirp guide](/blog/smoke-detector-end-of-life-chirp/) to confirm and replace.
+- **End of life:** If the detector is more than 10 years old (or more than 5-7 years for a CO detector), the sensor is at the end of its certified lifespan. No amount of cleaning will fix it. See our [end-of-life chirp guide](/blog/smoke-alarm-end-of-life-beeps/) to confirm and replace.
 - **Insect infestation:** Spiders and small insects can crawl into the sensor chamber and build webs that trigger false alarms. If you see webbing or dead insects when you remove the cover, clean them out with the vacuum brush and consider placing insect traps near the detector (not inside it).
 - **Sensor degradation:** Over time, the photoelectric sensor or ionization chamber degrades even without dust. This is normal aging — the sensor simply becomes less reliable. If the detector tests fine but still gives false alarms after cleaning, the sensor is likely degraded.
 - **Humidity or steam:** If the detector is near a bathroom or kitchen, steam and humidity can trigger false alarms. This isn't a dust problem — it's a [placement issue](/blog/smoke-detector-placement-in-house/). Consider relocating the detector.

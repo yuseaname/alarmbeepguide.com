@@ -13,6 +13,12 @@
     </header>
   </div>
 
+  {{ with .Content }}
+  <div class="article-content max-w-3xl mt-8 mb-10">
+    {{ . }}
+  </div>
+  {{ end }}
+
   {{/* Show sub-sections if they exist */}}
   {{ with .Sections }}
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">

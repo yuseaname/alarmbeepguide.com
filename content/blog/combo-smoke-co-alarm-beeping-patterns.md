@@ -13,29 +13,8 @@ featured: true
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Combination Smoke + CO Alarm Beeping Patterns: What’s Urgent vs Fixable (3 Beeps vs 4 Beeps and More)
-
 Combination smoke + CO alarms are helpful, but the beeps can be confusing. One device can signal smoke, carbon monoxide, low battery, end-of-life, or a trouble state. The patterns sound similar, yet the next step can be very different. This guide breaks down what the common patterns mean and how to respond calmly.
 
-## TWA – What This Guide Covers
-
-- [Why combo alarms beep](#why-combo-alarms-beep)
-- [How combo alarms communicate](#how-combo-alarms-communicate)
-- [Common devices that use these patterns](#common-devices-that-use-these-patterns)
-- [Pattern guide: what the sounds usually mean](#pattern-guide-what-the-sounds-usually-mean)
-- [Smoke vs CO: practical clues](#smoke-vs-co-practical-clues)
-- [How to count beeps accurately](#how-to-count-beeps-accurately)
-- [When it’s usually safe to ignore](#when-its-usually-safe-to-ignore)
-- [When to check further](#when-to-check-further)
-- [Basic troubleshooting flow](#basic-troubleshooting-flow)
-- [Placement mistakes that trigger false alarms](#placement-mistakes-that-trigger-false-alarms)
-- [Interconnect considerations](#interconnect-considerations)
-- [Real-world scenarios](#real-world-scenarios)
-- [Quick decision flow](#quick-decision-flow)
-- [When to call a professional](#when-to-call-a-professional)
-- [Related alarm guides](#related-alarm-guides)
-- [FAQ](#faq)
-- [Calm summary](#calm-summary)
 
 ## Why Combo Alarms Beep
 

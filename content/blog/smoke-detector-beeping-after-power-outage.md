@@ -69,7 +69,7 @@ Twist the detector counterclockwise to remove it from the mounting plate. Discon
 Open the battery compartment and remove the old battery. Replace it with a fresh battery of the correct type:
 - Most hardwired detectors use a **9V battery** or **AA batteries**
 - Some newer models use a **CR123A lithium battery**
-- Sealed 10-year units don't have a replaceable battery — if these chirp after an outage, the unit itself needs [replacement](/blog/smoke-detector-end-of-life-chirp/)
+- Sealed 10-year units don't have a replaceable battery — if these chirp after an outage, the unit itself needs [replacement](/blog/smoke-alarm-end-of-life-beeps/)
 
 Use a name-brand alkaline or lithium battery. Cheap batteries can cause chirping even when new.
 

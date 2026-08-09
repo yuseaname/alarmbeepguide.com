@@ -1,7 +1,7 @@
 ---
 title: "Editorial Policy"
 slug: "editorial-policy"
-description: ""
+description: "Learn the editorial standards AlarmBeepGuide uses for source selection, safety guidance, updates, and product coverage."
 date: 2025-01-01
 layout: "single"
 ---

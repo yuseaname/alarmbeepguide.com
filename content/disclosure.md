@@ -1,7 +1,7 @@
 ---
 title: "Advertising Disclosure"
 slug: "disclosure"
-description: ""
+description: "Read AlarmBeepGuide’s advertising disclosure and how advertising supports the site’s free educational content."
 date: 2025-01-01
 layout: "single"
 ---

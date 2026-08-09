@@ -126,7 +126,7 @@ If you're tempted to keep using an expired Nest Protect because "it still works,
 
 The [full Nest Protect replacement guide](/blog/nest-protect-discontinued-replacement-guide/) covers all the options in detail. The short version:
 
-- **First Alert SC5:** Google's recommended replacement. Works with Google Home, has a 10-year sealed battery, and supports voice alerts. See our [First Alert SC5 review](/blog/first-alert-sc5-review/) for a full breakdown.
+- **First Alert SC5:** Google's recommended replacement. Works with Google Home, has a 10-year sealed battery, and supports voice alerts. See our [First Alert SC5 review](/guides/first-alert-sc5-review/) for a full breakdown.
 - **X-Sense smart detectors:** More affordable, good smart features, but less Google Home integration.
 - **Any UL-listed smoke/CO detector:** If you don't need smart features, a basic $20-40 detector from [First Alert or Kidde](/blog/first-alert-vs-kidde-smoke-alarms/) meets all safety requirements. See our [smoke detector replacement cost guide](/blog/smoke-detector-replacement-cost/) for pricing.
 

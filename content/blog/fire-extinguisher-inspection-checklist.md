@@ -13,31 +13,8 @@ featured: false
 image: "/images/categories/fire-extinguishers.png"
 ---
 
-# Fire Extinguisher Inspection Checklist
-
 A quick inspection keeps a fire extinguisher ready when you need it. Most checks take less than two minutes and help you spot problems early. This guide gives you a simple, home-friendly checklist and explains what to do if you find an issue.
 
-## TWA - What This Guide Covers
-
-- [Problem explanation](#problem-explanation)
-- [Why inspections matter](#why-inspections-matter)
-- [Monthly quick check](#monthly-quick-check)
-- [Annual deeper check](#annual-deeper-check)
-- [What the gauge should show](#what-the-gauge-should-show)
-- [Record keeping tips](#record-keeping-tips)
-- [After any use or drop](#after-any-use-or-drop)
-- [Rechargeable vs disposable notes](#rechargeable-vs-disposable-notes)
-- [Seasonal and storage considerations](#seasonal-and-storage-considerations)
-- [CO2 and specialty units](#co2-and-specialty-units)
-- [Common problems to watch for](#common-problems-to-watch-for)
-- [When it's usually safe to ignore](#when-its-usually-safe-to-ignore)
-- [When it's worth checking further](#when-its-worth-checking-further)
-- [Basic non-technical troubleshooting](#basic-non-technical-troubleshooting)
-- [What not to do](#what-not-to-do)
-- [Quick checklist](#quick-checklist)
-- [Related extinguisher guides](#related-extinguisher-guides)
-- [FAQ](#faq)
-- [Calm summary](#calm-summary)
 
 ## Problem Explanation
 

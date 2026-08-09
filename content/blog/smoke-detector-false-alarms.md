@@ -13,8 +13,6 @@ featured: true
 image: "/images/categories/household-alert-fixes.png"
 ---
 
-# Stop Smoke Detector False Alarms: 9 Proven Fixes
-
 Smoke detector false alarms are so annoying that people disconnect detectors entirely—reducing protection in the home. Here's how to stop false alarms from cooking, showers, and dust without removing your fire protection.
 
 ## Why False Alarms Happen

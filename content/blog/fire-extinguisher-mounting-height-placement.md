@@ -13,30 +13,8 @@ featured: false
 image: "/images/categories/fire-extinguishers.png"
 ---
 
-# Fire Extinguisher Mounting Height and Placement
-
 Placement matters as much as extinguisher type. A well-placed extinguisher is easy to reach, visible, and safe to use. This guide explains practical mounting height and placement tips for homes without getting overly technical.
 
-## TWA - What This Guide Covers
-
-- [Problem explanation](#problem-explanation)
-- [Why placement matters](#why-placement-matters)
-- [Common home placement rules](#common-home-placement-rules)
-- [Recommended mounting height](#recommended-mounting-height)
-- [Distance and travel path](#distance-and-travel-path)
-- [Where to place extinguishers in the home](#where-to-place-extinguishers-in-the-home)
-- [Where not to place them](#where-not-to-place-them)
-- [Mounting hardware basics](#mounting-hardware-basics)
-- [Renters and small spaces](#renters-and-small-spaces)
-- [Outdoor placement](#outdoor-placement)
-- [Visibility and access tips](#visibility-and-access-tips)
-- [Open floor plans](#open-floor-plans)
-- [When it's usually safe to ignore](#when-its-usually-safe-to-ignore)
-- [When it's worth checking further](#when-its-worth-checking-further)
-- [Basic non-technical checklist](#basic-non-technical-checklist)
-- [Related extinguisher guides](#related-extinguisher-guides)
-- [FAQ](#faq)
-- [Calm summary](#calm-summary)
 
 ## Problem Explanation
 

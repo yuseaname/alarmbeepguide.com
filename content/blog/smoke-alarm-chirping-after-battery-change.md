@@ -8,24 +8,12 @@ draft: true
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Smoke Alarm Chirping After Battery Change? Here’s the Exact Fix Order
-
 Changed the battery and the chirping is still there? You’re not crazy—this is one of the most common smoke alarm issues in US homes.
 
 In most cases, the alarm still chirps because it needs a full reset, has a battery contact issue, is hardwired with a separate power/interconnect problem, or has reached end-of-life.
 
 This guide gives you the exact troubleshooting order so you can stop the chirp without guessing.
 
-## TWA — What This Guide Covers
-
-- [The short answer](#the-short-answer)
-- [Why chirping can continue after a battery change](#why-chirping-can-continue-after-a-battery-change)
-- [Exact fix order (do not skip steps)](#exact-fix-order-do-not-skip-steps)
-- [Hardwired alarms: extra checks](#hardwired-alarms-extra-checks)
-- [How to confirm end-of-life vs battery issue](#how-to-confirm-end-of-life-vs-battery-issue)
-- [When to replace immediately](#when-to-replace-immediately)
-- [FAQ](#faq)
-- [Calm next step](#calm-next-step)
 
 ## The short answer
 
@@ -194,4 +182,4 @@ Yes. Combo units may chirp for CO-side trouble or end-of-life patterns. Check la
 
 ## Calm next step
 
-Run the fix order exactly once on the identified chirping unit. If the chirp returns and the detector is older, replace it and log the install date. For full root-cause coverage, continue with [Why Is My Smoke Detector Chirping? 9 Common Causes and Fixes (US Guide)](/blog/why-is-my-smoke-detector-chirping).
+Run the fix order exactly once on the identified chirping unit. If the chirp returns and the detector is older, replace it and log the install date. For full root-cause coverage, continue with [Why Is My Smoke Detector Chirping? 9 Common Causes and Fixes (US Guide)](/blog/smoke-detector-chirping-low-battery/).

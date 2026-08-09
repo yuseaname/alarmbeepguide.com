@@ -13,33 +13,8 @@ featured: false
 image: "/images/categories/fire-extinguishers.png"
 ---
 
-# Fire Extinguisher Types Explained: ABC, BC, and K
-
 Fire extinguishers are labeled by class to show what kinds of fires they can handle. The right type matters more than brand. This guide explains the common extinguisher types in plain language and helps you choose the safest option for your home.
 
-## TWA - What This Guide Covers
-
-- [Problem explanation](#problem-explanation)
-- [Why extinguisher type matters](#why-extinguisher-type-matters)
-- [How to read the label](#how-to-read-the-label)
-- [Class A fires](#class-a-fires)
-- [Class B fires](#class-b-fires)
-- [Class C fires](#class-c-fires)
-- [Class K fires](#class-k-fires)
-- [Common extinguisher types](#common-extinguisher-types)
-- [Specialty and compact options](#specialty-and-compact-options)
-- [Ratings and size basics](#ratings-and-size-basics)
-- [Residue and cleanup considerations](#residue-and-cleanup-considerations)
-- [How to choose for each area](#how-to-choose-for-each-area)
-- [Common selection mistakes](#common-selection-mistakes)
-- [Basic use reminder](#basic-use-reminder)
-- [Vehicles and travel use](#vehicles-and-travel-use)
-- [When it's usually safe to ignore](#when-its-usually-safe-to-ignore)
-- [When it's worth checking further](#when-its-worth-checking-further)
-- [Basic non-technical checklist](#basic-non-technical-checklist)
-- [Related extinguisher guides](#related-extinguisher-guides)
-- [FAQ](#faq)
-- [Calm summary](#calm-summary)
 
 ## Problem Explanation
 

@@ -8,8 +8,6 @@ draft: false
 image: "/images/categories/chirp-beep-codes.png"
 ---
 
-# Smoke Detector Replacement Cost in the US: DIY vs Electrician Pricing
-
 Replacing smoke detectors in a US home in 2026 costs between $20 and $400 per detector, depending on the type and whether you hire an electrician. A typical 3-bedroom home needs 6-8 detectors, so total replacement costs range from $120 for a basic DIY battery-only system to $3,000+ for a smart interconnected system installed by a licensed electrician.
 
 This guide breaks down the actual costs for each type of replacement, when you can do it yourself, and when you need a professional. By the end, you'll know exactly what to budget for your home.

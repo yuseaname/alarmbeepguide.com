@@ -16,8 +16,15 @@
 {{ end }}
 
 {{/* Primary meta tags */}}
+{{- $description := .Params.description -}}
+{{- if not $description -}}
+  {{- $description = .Summary | plainify -}}
+{{- end -}}
+{{- if not $description -}}
+  {{- $description = .Site.Params.description -}}
+{{- end -}}
 <title>{{ .Title }}{{ with .Site.Title }} | {{ . }}{{ end }}</title>
-{{- with .Params.description -}}
+{{- with $description -}}
 <meta name="description" content="{{ truncate 155 . }}">
 {{- end -}}
 {{- with .Params.author -}}
@@ -36,7 +43,7 @@
 {{/* Open Graph */}}
 <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
 <meta property="og:title" content="{{ .Title }}">
-{{- with .Params.description -}}
+{{- with $description -}}
 <meta property="og:description" content="{{ truncate 155 . }}">
 {{- end -}}
 <meta property="og:url" content="{{ .Permalink }}">
@@ -67,7 +74,7 @@
 {{/* Twitter Card */}}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }}">
-{{- with .Params.description -}}
+{{- with $description -}}
 <meta name="twitter:description" content="{{ truncate 155 . }}">
 {{- end -}}
 {{- with .Params.image -}}
