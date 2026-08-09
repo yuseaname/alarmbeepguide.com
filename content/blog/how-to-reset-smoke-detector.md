@@ -1,10 +1,10 @@
 ---
 title: "The Ultimate Troubleshooting Guide: How to Reset a Smoke Detector"
 slug: "how-to-reset-smoke-detector"
-description: ""
+description: "Step-by-step smoke detector reset guide for battery-powered and hardwired units. Always follow your model manual for exact reset steps and hold times."
 date: 2025-03-01
 author: "AlarmBeepGuide"
-draft: true
+draft: false
 image: "/images/editorial/smoke-detector-reset-guide.png"
 image_alt: "Four-step smoke detector reset process diagram"
 ---

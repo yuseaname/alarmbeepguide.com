@@ -1,10 +1,10 @@
 ---
 title: "The Ultimate Home Safety Audit: Do You Need a Home Security System?"
 slug: "do-you-need-a-home-security-system"
-description: ""
+description: "Is a home security system worth it? We weigh the real benefits, costs, and practical alternatives to help you decide for your home."
 date: 2025-03-01
 author: "AlarmBeepGuide"
-draft: true
+draft: false
 image: "/images/editorial/do-you-need-home-security.svg"
 social_image: "/images/editorial/do-you-need-home-security.png"
 image_alt: "House silhouette with question mark and checklist of pros and cons"

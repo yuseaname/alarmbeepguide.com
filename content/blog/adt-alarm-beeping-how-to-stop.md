@@ -1,10 +1,10 @@
 ---
 title: "The Ultimate Guide: ADT Alarm Beeping—How to Stop the Noise and Fix the Issue"
 slug: "adt-alarm-beeping-how-to-stop"
-description: ""
+description: "Your ADT security panel is beeping. Learn how to identify trouble codes, silence the alert, and fix the underlying issue safely."
 date: 2025-03-01
 author: "AlarmBeepGuide"
-draft: true
+draft: false
 image: "/images/editorial/adt-alarm-beeping.svg"
 social_image: "/images/editorial/adt-alarm-beeping.png"
 image_alt: "ADT security panel with colored status indicators and beeping troubleshooting prompt"

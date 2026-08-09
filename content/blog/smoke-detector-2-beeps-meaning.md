@@ -1,10 +1,10 @@
 ---
 title: "Smoke Detector 2 Beeps: What It Means and How to Fix It"
 slug: "smoke-detector-2-beeps-meaning"
-description: ""
+description: "Two beeps from your smoke detector? Learn what the double-chirp pattern means by brand and how to troubleshoot safely using your model manual."
 date: 2025-03-01
 author: "AlarmBeepGuide"
-draft: true
+draft: false
 image: "/images/editorial/smoke-detector-2-beeps.png"
 image_alt: "Illustration of a smoke alarm showing two beeps with model manual check guidance"
 ---

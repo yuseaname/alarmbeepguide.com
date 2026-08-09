@@ -1,10 +1,10 @@
 ---
 title: "Ring Alarm vs ADT: Finding the Right Security Solution for Your Home"
 slug: "ring-alarm-vs-adt"
-description: ""
+description: "Ring Alarm vs ADT: a detailed comparison of cost, monitoring options, installation, equipment, and smart home features to help you choose."
 date: 2025-03-01
 author: "AlarmBeepGuide"
-draft: true
+draft: false
 image: "/images/editorial/ring-vs-adt.svg"
 social_image: "/images/editorial/ring-vs-adt.png"
 image_alt: "Side-by-side comparison of Ring and ADT security systems with feature labels"
