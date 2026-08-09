@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/best-hardwired-replacement.png"
+social_image: "/images/editorial/best-hardwired-replacement.png"
 image_alt: "Illustration of a hardwired smoke alarm with interconnect wire and UL listing badge"
 ---
 

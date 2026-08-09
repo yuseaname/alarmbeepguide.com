@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/smoke-detector-every-30-sec.png"
+social_image: "/images/editorial/smoke-detector-every-30-sec.png"
 image_alt: "Illustration of a smoke alarm with a 30-second chirp interval diagnostic chart"
 ---
 

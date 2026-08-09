@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/first-alert-hardwired-chirp.png"
+social_image: "/images/editorial/first-alert-hardwired-chirp.png"
 image_alt: "Illustration of a hardwired smoke alarm connected to AC power with breaker safety warning"
 ---
 

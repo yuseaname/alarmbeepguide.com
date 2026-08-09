@@ -11,6 +11,7 @@ keywords: ["kidde hardwired smoke alarm beeping", "kidde smoke detector reset", 
 readTime: 8
 featured: false
 image: "/images/editorial/kidde-hardwired-beeping.png"
+social_image: "/images/editorial/kidde-hardwired-beeping.png"
 image_alt: "Illustration of a Kidde hardwired smoke alarm with breaker and reset guidance"
 ---
 

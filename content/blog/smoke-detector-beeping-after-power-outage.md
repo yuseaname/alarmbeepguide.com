@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Hardwired smoke detectors often chirp after a power outage. Here's why it happens, when to worry, and the exact steps to silence your alarm after the storm."
 slug: "smoke-detector-beeping-after-power-outage"
+image: "/images/editorial/smoke-detector-power-outage.svg"
+social_image: "/images/editorial/smoke-detector-power-outage.png"
+image_alt: "Smoke alarm with power outage indicator and backup battery warning"
 tags: ["smoke detector", "power outage", "hardwired", "beeping", "troubleshooting", "backup battery"]
 categories: ["household-alert-fixes"]
 ---

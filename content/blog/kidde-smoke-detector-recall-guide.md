@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Kidde has recalled over a million smoke detectors across four separate recalls. Check your model numbers, verify if you're affected, and learn how to get a free replacement."
 slug: "kidde-smoke-detector-recall-guide"
+image: "/images/editorial/kidde-recall-check.svg"
+social_image: "/images/editorial/kidde-recall-check.png"
+image_alt: "Recall check card with model number PI2010 and recall status indicator"
 tags: ["kidde", "recall", "smoke detector", "safety", "replacement", "CPSC"]
 categories: ["alarm-lifespan-replacement-maintenance"]
 ---

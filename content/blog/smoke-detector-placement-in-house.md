@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/smoke-detector-placement-guide.png"
+social_image: "/images/editorial/smoke-detector-placement-guide.png"
 image_alt: "Two-story house cross-section showing correct smoke detector placement per NFPA 72"
 ---
 

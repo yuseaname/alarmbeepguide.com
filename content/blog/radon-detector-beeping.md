@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Your radon detector is beeping or showing high readings. Learn what the alarm means, safe radon levels, when to take action, and how to reduce radon in your home."
 slug: "radon-detector-beeping"
+image: "/images/editorial/radon-detector-beeping.svg"
+social_image: "/images/editorial/radon-detector-beeping.png"
+image_alt: "Radon detector displaying 4.2 pCi/L reading with safety zone indicators"
 tags: ["radon detector", "beeping", "radon levels", "home safety", "radon mitigation"]
 categories: ["household-alert-fixes"]
 ---

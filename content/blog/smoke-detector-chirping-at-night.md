@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/smoke-alarm-nighttime-chirp.png"
+social_image: "/images/editorial/smoke-alarm-nighttime-chirp.png"
 image_alt: "Nighttime scene with a moon, stars, and a chirping ceiling smoke alarm"
 ---
 

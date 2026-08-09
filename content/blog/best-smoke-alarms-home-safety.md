@@ -11,6 +11,7 @@ keywords: ["smoke alarm", "smoke detector", "home safety", "battery", "brands"]
 readTime: 11
 featured: false
 image: "/images/editorial/best-smoke-alarms-guide.png"
+social_image: "/images/editorial/best-smoke-alarms-guide.png"
 image_alt: "Illustration of four smoke alarm types: battery, 10-year sealed, hardwired, and smart"
 ---
 

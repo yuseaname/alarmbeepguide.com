@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/best-battery-bedroom.png"
+social_image: "/images/editorial/best-battery-bedroom.png"
 image_alt: "Illustration of a bedroom with a UL-listed sealed 10-year smoke alarm"
 ---
 

@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/how-often-replace-detectors.png"
+social_image: "/images/editorial/how-often-replace-detectors.png"
 image_alt: "Chart showing replacement timelines by detector type: smoke, combo, CO-only, and smart"
 ---
 

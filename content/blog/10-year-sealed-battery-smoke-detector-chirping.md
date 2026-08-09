@@ -11,6 +11,7 @@ keywords: ["10 year smoke detector", "sealed battery", "chirping", "end of life"
 readTime: 10
 featured: false
 image: "/images/editorial/sealed-battery-chirping.png"
+social_image: "/images/editorial/sealed-battery-chirping.png"
 image_alt: "Illustration of a sealed 10-year battery smoke alarm with no replaceable battery showing end of life signal"
 ---
 

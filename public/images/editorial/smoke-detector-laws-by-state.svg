@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a2a3a"/><stop offset="100%" stop-color="#243447"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#bg)"/><rect x="0" y="0" width="1200" height="8" fill="#2ecc71"/>
+<path d="M 350 180 L 850 180 L 850 420 L 350 420 Z" fill="#ffffff11" stroke="#ffffff22" stroke-width="1"/>
+<text x="600" y="160" text-anchor="middle" fill="#2ecc71" font-size="18" font-weight="bold" font-family="Arial">U.S. Smoke Alarm Laws</text>
+<rect x="400" y="200" width="120" height="30" rx="4" fill="#2ecc7133"/><text x="460" y="220" text-anchor="middle" fill="#2ecc71" font-size="11" font-family="Arial">CA · 10-yr sealed</text>
+<rect x="540" y="200" width="120" height="30" rx="4" fill="#f39c1233"/><text x="600" y="220" text-anchor="middle" fill="#f39c12" font-size="11" font-family="Arial">NY · 10-yr sealed</text>
+<rect x="680" y="200" width="120" height="30" rx="4" fill="#3498db33"/><text x="740" y="220" text-anchor="middle" fill="#3498db" font-size="11" font-family="Arial">OR · photoelectric</text>
+<rect x="400" y="250" width="120" height="30" rx="4" fill="#3498db33"/><text x="460" y="270" text-anchor="middle" fill="#3498db" font-size="11" font-family="Arial">TX · NFPA 72</text>
+<rect x="540" y="250" width="120" height="30" rx="4" fill="#9b59b633"/><text x="600" y="270" text-anchor="middle" fill="#9b59b6" font-size="11" font-family="Arial">MA · photo+</text>
+<rect x="680" y="250" width="120" height="30" rx="4" fill="#2ecc7133"/><text x="740" y="270" text-anchor="middle" fill="#2ecc71" font-size="11" font-family="Arial">FL · 10-yr sealed</text>
+<rect x="400" y="310" width="400" height="50" rx="8" fill="#ffffff11"/>
+<text x="600" y="330" text-anchor="middle" fill="#ffffff66" font-size="12" font-family="Arial">All states: smoke alarms on every level</text>
+<text x="600" y="350" text-anchor="middle" fill="#ffffff66" font-size="12" font-family="Arial">Replace after 10 years (NFPA standard)</text>
+<text x="600" y="595" text-anchor="middle" fill="#ffffff66" font-size="20" font-family="Arial">AlarmBeepGuide.com</text>
+</svg>

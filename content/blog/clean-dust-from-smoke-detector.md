@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Dust is the #1 cause of smoke detector false alarms and chirping. Here's the safe, step-by-step method to clean your smoke detector and prevent future problems."
 slug: "clean-dust-from-smoke-detector"
+image: "/images/editorial/clean-dust-smoke-detector.svg"
+social_image: "/images/editorial/clean-dust-smoke-detector.png"
+image_alt: "Smoke alarm being cleaned with soft brush and compressed air"
 tags: ["smoke detector", "cleaning", "dust", "false alarms", "maintenance", "home safety"]
 categories: ["household-alert-fixes"]
 ---

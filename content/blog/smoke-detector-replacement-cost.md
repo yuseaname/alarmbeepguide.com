@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/smoke-detector-replacement-cost.png"
+social_image: "/images/editorial/smoke-detector-replacement-cost.png"
 image_alt: "Bar chart comparing smoke detector replacement costs by type"
 ---
 

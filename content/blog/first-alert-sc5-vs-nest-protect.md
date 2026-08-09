@@ -9,6 +9,7 @@ category: "alarm-lifespan-replacement-maintenance"
 tags: ["first alert sc5", "nest protect", "smart smoke detector", "replacement guide", "google home"]
 keywords: ["first alert sc5", "nest protect replacement", "smart smoke alarm", "google home smoke detector"]
 image: "/images/editorial/sc5-vs-nest-protect-comparison.svg"
+social_image: "/images/editorial/sc5-vs-nest-protect-comparison.png"
 image_alt: "Illustration comparing the First Alert SC5 and Nest Protect smart smoke alarms side by side"
 draft: false
 aliases: ["/guides/first-alert-sc5-review/", "/guides/first-alert-sc5-vs-nest-protect/", "/blog/first-alert-sc5-review/"]

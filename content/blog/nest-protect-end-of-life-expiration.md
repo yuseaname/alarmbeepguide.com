@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Nest Protect expires 10 years after manufacture. Learn how to check your expiration date, what the end-of-life warning sounds like, and your best replacement options."
 slug: "nest-protect-end-of-life-expiration"
+image: "/images/editorial/nest-protect-end-of-life.svg"
+social_image: "/images/editorial/nest-protect-end-of-life.png"
+image_alt: "Nest Protect with expiration timeline showing 10-year end-of-life warning"
 tags: ["nest protect", "expiration", "end of life", "replacement", "google nest", "home safety"]
 categories: ["alarm-lifespan-replacement-maintenance"]
 ---

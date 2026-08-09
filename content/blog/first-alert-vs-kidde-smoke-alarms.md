@@ -11,6 +11,7 @@ keywords: ["first alert", "kidde", "smoke alarms", "comparison", "home safety"]
 readTime: 11
 featured: false
 image: "/images/editorial/first-alert-vs-kidde.png"
+social_image: "/images/editorial/first-alert-vs-kidde.png"
 image_alt: "Illustration comparing First Alert and Kidde smoke alarms side by side"
 ---
 

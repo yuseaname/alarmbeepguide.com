@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Your water leak detector is beeping. Learn what the alarm means, how to find the leak, when it's a false alarm, and what to do to prevent water damage."
 slug: "water-leak-detector-beeping"
+image: "/images/editorial/water-leak-detector-beeping.svg"
+social_image: "/images/editorial/water-leak-detector-beeping.png"
+image_alt: "Water leak detector with water drop icon and placement guidance"
 tags: ["water leak detector", "beeping", "water damage", "smart home", "leak detection", "troubleshooting"]
 categories: ["household-alert-fixes"]
 ---

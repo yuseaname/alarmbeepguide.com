@@ -11,6 +11,7 @@ keywords: ["end-of-life beep", "smoke alarm chirp", "replacement", "troubleshoot
 readTime: 13
 featured: false
 image: "/images/editorial/smoke-alarm-end-of-life.png"
+social_image: "/images/editorial/smoke-alarm-end-of-life.png"
 image_alt: "Illustration of a smoke alarm with a calendar showing the 10-year expiration date"
 ---
 

@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Smoke detector requirements vary by state. Learn who's responsible for installation, testing, and replacement — and what the law says about landlord and tenant duties."
 slug: "smoke-detector-laws-by-state"
+image: "/images/editorial/smoke-detector-laws-by-state.svg"
+social_image: "/images/editorial/smoke-detector-laws-by-state.png"
+image_alt: "US state-by-state smoke alarm law requirements summary card"
 tags: ["smoke detector", "laws", "landlord", "tenant", "state requirements", "legal"]
 categories: ["alarm-lifespan-replacement-maintenance"]
 ---

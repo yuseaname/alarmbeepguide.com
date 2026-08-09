@@ -11,6 +11,7 @@ keywords: ["smoke detector", "false alarms", "cooking", "photoelectric", "ioniza
 readTime: 8
 featured: true
 image: "/images/editorial/smoke-detector-false-alarms.png"
+social_image: "/images/editorial/smoke-detector-false-alarms.png"
 image_alt: "Kitchen scene showing cooking steam triggering a nearby smoke alarm with distance guideline"
 ---
 

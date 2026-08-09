@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/kidde-chirp-after-battery.png"
+social_image: "/images/editorial/kidde-chirp-after-battery.png"
 image_alt: "Illustration of a Kidde smoke alarm with fresh batteries and a hard reset indicator"
 ---
 

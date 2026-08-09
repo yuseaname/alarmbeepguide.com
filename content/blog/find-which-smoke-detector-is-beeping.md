@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Interconnected smoke alarms all beep together. Here's a practical method to identify exactly which unit is causing the problem and silence it for good."
 slug: "find-which-smoke-detector-is-beeping"
+image: "/images/editorial/find-beeping-detector.svg"
+social_image: "/images/editorial/find-beeping-detector.png"
+image_alt: "Four interconnected smoke alarms with one highlighted as the beeping source"
 tags: ["smoke detector", "interconnected", "beeping", "troubleshooting", "hardwired", "home safety"]
 categories: ["chirp-beep-codes"]
 ---

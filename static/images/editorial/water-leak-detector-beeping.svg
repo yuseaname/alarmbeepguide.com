@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a2a3a"/><stop offset="100%" stop-color="#243447"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#bg)"/><rect x="0" y="0" width="1200" height="8" fill="#3498db"/>
+<rect x="480" y="160" width="240" height="160" rx="12" fill="#2d3e50" stroke="#ffffff22" stroke-width="2"/>
+<circle cx="600" cy="220" r="30" fill="#3498db"/>
+<path d="M 590 210 Q 600 195 610 210 Q 610 225 600 235 Q 590 225 590 210 Z" fill="white" opacity="0.8"/>
+<rect x="510" y="265" width="180" height="6" rx="3" fill="#ffffff33"/>
+<rect x="520" y="280" width="140" height="6" rx="3" fill="#ffffff22"/>
+<rect x="510" y="295" width="160" height="6" rx="3" fill="#ffffff33"/>
+<path d="M 690 200 Q 720 190 720 220" stroke="#3498db" stroke-width="3" fill="none" opacity="0.7"/>
+<path d="M 700 185 Q 740 175 740 235" stroke="#3498db" stroke-width="3" fill="none" opacity="0.5"/>
+<circle cx="420" cy="400" r="15" fill="#3498db66"/>
+<circle cx="500" cy="390" r="20" fill="#3498db44"/>
+<circle cx="580" cy="410" r="12" fill="#3498db66"/>
+<circle cx="660" cy="395" r="18" fill="#3498db44"/>
+<circle cx="740" cy="410" r="10" fill="#3498db66"/>
+<text x="600" y="470" text-anchor="middle" fill="#ffffff66" font-size="13" font-family="Arial">Place near water heater, washing machine, sinks</text>
+<text x="600" y="595" text-anchor="middle" fill="#ffffff66" font-size="20" font-family="Arial">AlarmBeepGuide.com</text>
+</svg>

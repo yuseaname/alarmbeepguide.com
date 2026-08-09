@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Wrong placement makes your CO detector useless. Learn the exact height, room, and distance requirements for carbon monoxide detector placement in your home."
 slug: "carbon-monoxide-detector-placement-guide"
+image: "/images/editorial/co-detector-placement-guide.svg"
+social_image: "/images/editorial/co-detector-placement-guide.png"
+image_alt: "Floor plan showing CO detector placement in bedroom, hallway, and near furnace"
 tags: ["carbon monoxide", "CO detector", "placement", "installation", "safety", "NFPA"]
 categories: ["household-alert-fixes"]
 ---

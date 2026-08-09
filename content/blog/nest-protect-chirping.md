@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/nest-protect-chirp-guide.png"
+social_image: "/images/editorial/nest-protect-chirp-guide.png"
 image_alt: "Illustration of a Nest Protect alarm with diagnostic indicators for chirping troubleshooting"
 ---
 

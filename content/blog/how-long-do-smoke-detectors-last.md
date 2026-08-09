@@ -11,6 +11,7 @@ keywords: ["smoke alarm lifespan", "replacement timeline", "end-of-life", "maint
 readTime: 14
 featured: false
 image: "/images/editorial/how-long-smoke-detectors-last.png"
+social_image: "/images/editorial/how-long-smoke-detectors-last.png"
 image_alt: "Timeline showing the 10-year smoke detector lifespan with aging and replacement zones"
 ---
 

@@ -4,6 +4,9 @@ date: 2026-08-09
 draft: false
 description: "Google stopped making Nest Protect. Here's what happened, what it means for current owners, and the best smart smoke alarm replacements available in 2026."
 slug: "nest-protect-discontinued-replacement-guide"
+image: "/images/editorial/nest-protect-discontinued.svg"
+social_image: "/images/editorial/nest-protect-discontinued.png"
+image_alt: "Nest Protect with discontinued overlay and First Alert SC5 replacement label"
 tags: ["nest protect", "smart smoke alarm", "discontinued", "replacement", "first alert sc5", "home safety"]
 categories: ["alarm-lifespan-replacement-maintenance"]
 ---
