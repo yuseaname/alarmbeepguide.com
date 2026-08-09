@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "First Alert vs Kidde Smoke Alarms: What's the Difference?"
 slug: "first-alert-vs-kidde-smoke-alarms"
 description: "A practical comparison of First Alert and Kidde smoke alarms, focused on fit, battery style, and real-life use."
 date: 2024-03-05
