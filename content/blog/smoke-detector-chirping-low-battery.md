@@ -10,8 +10,9 @@ tags: ["smoke detector", "low battery", "chirping", "troubleshooting"]
 keywords: ["smoke detector", "low battery", "chirping", "troubleshooting"]
 readTime: 5
 featured: true
-image: "/images/categories/chirp-beep-codes.png"
-image_alt: "Home smoke alarm with a fresh battery and manufacturer label"
+image: "/images/editorial/smoke-alarm-battery-and-date.svg"
+social_image: "/images/editorial/smoke-alarm-battery-and-date.png"
+image_alt: "Illustration of a smoke alarm, battery, and replacement-date label"
 ---
 
 A short chirp from a home smoke alarm is commonly a maintenance signal, not the same sound as a fire alarm. The National Fire Protection Association says a **single chirp every 30 or 60 seconds** means the battery is low and must be changed. But sound and light meanings still vary by make and model, especially on hardwired and combination smoke/CO alarms. Check the label and manual before assuming the cause.

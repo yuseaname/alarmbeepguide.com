@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Carbon monoxide alarm sound guide illustration</title><desc id="desc">A carbon monoxide alarm with sound waves and a model label.</desc>
+<rect width="1200" height="630" fill="#123047"/><path d="M0 510C210 392 330 620 552 492s360-25 648-172v310H0z" fill="#0a6374" opacity=".45"/>
+<g transform="translate(144 128)"><rect width="430" height="330" rx="48" fill="#f8fafc"/><circle cx="215" cy="148" r="104" fill="#e2e8f0"/><circle cx="215" cy="148" r="72" fill="#0f172a"/><circle cx="215" cy="148" r="18" fill="#fbbf24"/><rect x="105" y="271" width="220" height="24" rx="12" fill="#94a3b8"/></g>
+<g fill="none" stroke="#fbbf24" stroke-width="16" stroke-linecap="round"><path d="M682 203c38 39 38 95 0 134"/><path d="M747 153c69 69 69 165 0 234"/><path d="M833 102c98 99 98 236 0 334"/></g>
+<rect x="650" y="435" width="383" height="60" rx="30" fill="#dbeafe"/><text x="695" y="475" fill="#123047" font-family="Arial, sans-serif" font-size="28" font-weight="700">CHECK THE MODEL MANUAL</text>
+<text x="650" y="105" fill="#f8fafc" font-family="Arial, sans-serif" font-size="38" font-weight="700">ALARM SOUNDS ARE MODEL-SPECIFIC</text><text x="650" y="555" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">When in doubt about a loud alarm, leave first.</text>
+</svg>

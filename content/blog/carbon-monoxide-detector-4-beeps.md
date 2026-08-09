@@ -6,8 +6,9 @@ date: 2025-03-01
 lastmod: 2026-08-09
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
-image_alt: "Carbon monoxide alarm mounted on an interior wall"
+image: "/images/editorial/co-four-beep-emergency.svg"
+social_image: "/images/editorial/co-four-beep-emergency.png"
+image_alt: "Illustration of a carbon monoxide alarm and a route to fresh air"
 ---
 
 **If a CO alarm is sounding loudly and repeatedly, get everyone outside to fresh air. Call 911, your fire department, or local emergency services from outside, and do not re-enter until responders say it is safe.** This is the [U.S. Consumer Product Safety Commission's guidance](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Carbon-Monoxide-Questions-and-Answers) for a sounding CO alarm.

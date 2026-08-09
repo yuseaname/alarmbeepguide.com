@@ -32,8 +32,9 @@
   {{- with .Params.description -}}
     {{- $article = dict "description" (truncate 200 .) | merge $article -}}
   {{- end -}}
-  {{- with .Params.image -}}
-    {{- $article = dict "image" . | merge $article -}}
+  {{- $articleImage := (index .Params "social_image") | default .Params.image -}}
+  {{- with $articleImage -}}
+    {{- $article = dict "image" (. | absURL) | merge $article -}}
   {{- end -}}
   {{- $authorName := .Params.author | default "" -}}
   {{- with $authorName -}}

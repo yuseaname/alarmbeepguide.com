@@ -1,72 +1,24 @@
 ---
-title: "Contact AlarmBeepGuide"
+title: "Contact and Corrections"
 slug: "contact"
-description: "Contact AlarmBeepGuide to report a correction, flag an outdated page, or suggest a home-alarm troubleshooting topic. Do not use this page for emergencies."
+description: "Learn how to use AlarmBeepGuide safely, where to find model-specific help, and how the site handles corrections. This page is not emergency support."
 date: 2025-01-01
+lastmod: 2026-08-09
 layout: "single"
 ---
 
-**We're Here to Help**
+AlarmBeepGuide is an educational resource, not an emergency service, an alarm-monitoring company, or a substitute for a manufacturer or qualified professional.
 
-Have a question about a mysterious beep? Found an error? Want to suggest a topic? We'd love to hear from you.
+## If there is an immediate danger
 
-**What We Can Help With**
+For smoke, fire, carbon monoxide, or another immediate threat, get to safety and call 911 or your local emergency number. Do not wait for a response from this website. For a CO alarm that is sounding loudly and repeatedly, move outside to fresh air and follow the [CPSC emergency guidance](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Carbon-Monoxide-Questions-and-Answers).
 
-• Identifying alarm beep patterns
-• Troubleshooting safety device issues
-• Clarifying our guidance
-• Reporting errors or outdated information
-• Suggesting new content topics
-• General safety device questions
+## For a device-specific question
 
-**What We Can't Help With**
+Find the make and model on the label, then use the manufacturer's current manual or support channel. Alarm sounds, reset procedures, installation requirements, and replacement dates vary by model. Our [Chirp & Beep Codes hub](/chirp-beep-codes/) can help you select a relevant guide, but it should not override the instructions for your device.
 
-• Emergency situations (call 911 or your local emergency number)
-• Professional electrical or fire safety inspections
-• Legal or medical advice
-• Brand-specific support (contact manufacturer directly)
-• Installation or repair quotes
+## Corrections and updates
 
-**Response Time**
+We review high-risk safety guidance against manufacturer, government, and recognized fire-safety sources. See the [Corrections Policy](/corrections-policy/), [Editorial Policy](/editorial-policy/), and [Fact-Checking Policy](/fact-checking/) for how pages are researched and updated.
 
-We typically respond within 24-48 hours during business days. Emergency situations require immediate professional help—please don't wait for our response if safety is at risk.
-
-**Before You Contact Us**
-
-Check if your question is already answered:
-• Search our site using the search bar
-• Browse our category pages
-• Review our FAQ sections
-
-**Urgent Safety Issues**
-
-If you smell smoke, suspect carbon monoxide, or face an immediate safety threat:
-1. Get to safety immediately
-2. Call emergency services
-3. Contact us later if you'd like to share your experience
-
-**Partnership Inquiries**
-
-For business partnerships, advertising questions, or collaboration opportunities, please include "PARTNERSHIP" in your subject line.
-
-**Website Issues**
-
-If you're experiencing technical problems with our website:
-• Clear your browser cache and try again
-• Try a different browser
-• Report the specific page and error message
-
-**Your Privacy**
-
-Information you share through our contact form is used only to respond to your inquiry. See our Privacy Policy for details.
-
-**Mailing Address**
-
-AlarmBeepGuide
-[Address to be configured]
-
-**Thank You**
-
-Your questions help us improve this resource for everyone. Every beep pattern you ask about becomes content that helps the next homeowner solve their problem faster.
-
-We're grateful you're here, and we're committed to helping you decode those confusing alerts.
+This site does not currently offer real-time, one-to-one troubleshooting support. If an alarm, appliance, or electrical system needs inspection, contact the relevant manufacturer, property manager, qualified electrician, appliance technician, or local fire authority as appropriate.

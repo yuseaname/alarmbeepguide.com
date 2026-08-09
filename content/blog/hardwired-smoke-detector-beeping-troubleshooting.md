@@ -10,8 +10,10 @@ tags: ["hardwired smoke detector", "beeping", "interconnected alarms", "troubles
 keywords: ["hardwired smoke detector", "beeping", "interconnected alarms", "troubleshooting"]
 readTime: 5
 featured: true
-image: "/images/categories/chirp-beep-codes.png"
-image_alt: "Hardwired smoke alarm mounted on a ceiling"
+aliases: ["/blog/hardwired-smoke-detector-keeps-chirping/"]
+image: "/images/editorial/hardwired-alarm-troubleshooting.svg"
+social_image: "/images/editorial/hardwired-alarm-troubleshooting.png"
+image_alt: "Illustration of a hardwired smoke alarm with household power and a backup battery"
 ---
 
 A hardwired smoke alarm usually has two power sources: household AC power and a backup battery. A short chirp can come from the battery, a battery door that is not fully closed, a retained trouble condition, the alarm's environment, or an end-of-life warning. The exact signal and reset sequence are model-specific, so start with the label on the unit and its manufacturer manual.
