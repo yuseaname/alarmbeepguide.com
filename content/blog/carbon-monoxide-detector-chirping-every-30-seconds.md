@@ -5,7 +5,8 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/co-detector-chirping-30-sec.png"
+image_alt: "Illustration of a CO detector with 30-second chirp cycle and diagnostic checklist"
 ---
 
 ---

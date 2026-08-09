@@ -5,7 +5,8 @@ description: "Your Kidde hardwired smoke alarm is beeping and you need the brand
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/kidde-hardwired-beeping.png"
+image_alt: "Illustration of a Kidde hardwired smoke alarm with breaker and reset guidance"
 ---
 
 Kidde hardwired smoke alarms have specific quirks that differ from First Alert and other brands. The beeping pattern, reset procedure, and interconnect behavior all have Kidde-specific characteristics. This guide covers Kidde's brand-specific troubleshooting steps that resolve beeping in hardwired interconnected systems.

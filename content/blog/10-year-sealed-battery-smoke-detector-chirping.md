@@ -10,7 +10,8 @@ tags: ["10 year smoke detector", "sealed battery", "chirping", "end of life", "r
 keywords: ["10 year smoke detector", "sealed battery", "chirping", "end of life", "replacement"]
 readTime: 10
 featured: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/sealed-battery-chirping.png"
+image_alt: "Illustration of a sealed 10-year battery smoke alarm with no replaceable battery showing end of life signal"
 ---
 
 Sealed 10-year smoke alarms reduce maintenance, but they can still chirp. The difference is that the battery is not meant to be replaced. That makes the chirp feel more confusing because the usual fix is not available. This guide explains the common causes, what you can safely try, and when replacement is the correct answer.

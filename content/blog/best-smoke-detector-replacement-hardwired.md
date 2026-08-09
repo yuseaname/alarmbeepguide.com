@@ -5,7 +5,8 @@ description: "Upgrading your hardwired smoke detectors? Here are the top picks f
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/best-hardwired-replacement.png"
+image_alt: "Illustration of a hardwired smoke alarm with interconnect wire and UL listing badge"
 ---
 
 The best hardwired smoke detector for replacement in 2026 is one that fits your existing wiring, has a photoelectric sensor, and includes a reliable backup battery. This guide evaluates the top hardwired detectors specifically for replacing existing hardwired units, with a focus on compatibility, reliability, and code compliance.

@@ -5,7 +5,8 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/smoke-detector-2-beeps.png"
+image_alt: "Illustration of a smoke alarm showing two beeps with model manual check guidance"
 ---
 
 If you searched **"smoke detector 2 beeps meaning"**, you need a fast, reliable answer. Two beeps or chirps from a smoke detector — whether every 30 seconds, every minute, or a double-chirp pattern — each signal something specific. This US-focused guide explains every two-beep pattern, gives you a safe diagnostic order, and tells you when to replace instead of reset.

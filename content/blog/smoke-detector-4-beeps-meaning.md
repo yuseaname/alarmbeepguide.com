@@ -5,7 +5,8 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/smoke-detector-4-beeps.png"
+image_alt: "Illustration of a smoke alarm with four beeps indicating possible CO alarm"
 ---
 
 If your smoke detector is sounding 4 beeps — either as a continuous alarm pattern or as a periodic chirp sequence — the meaning depends on the alarm type and brand. This guide covers every common 4-beep scenario for US smoke alarms and combination detectors.

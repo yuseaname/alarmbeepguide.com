@@ -5,7 +5,8 @@ description: "Bedroom smoke detectors need to be quiet, reliable, and code-compl
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/best-battery-bedroom.png"
+image_alt: "Illustration of a bedroom with a UL-listed sealed 10-year smoke alarm"
 ---
 
 The best battery smoke detector for bedrooms in 2026 is one that detects smoke reliably, doesn't false-alarm from cooking or steam, and runs for 10 years without battery changes. This guide evaluates the top battery-powered detectors specifically for bedroom use, with a focus on low false-alarm rates, reliability, and ease of maintenance.
