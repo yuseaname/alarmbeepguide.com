@@ -35,7 +35,7 @@ Your ADT control panel is plugged into your home's electrical outlet, but it als
 ### 3. Sensor Tamper Alerts
 If a sensor has been bumped, moved, or if the casing has been opened, the system detects a "Tamper" state. This is a security feature designed to alert you if someone is attempting to disable your hardware.
 
-### sensor 4. Communication Failures
+### 4. Communication Failures
 Modern ADT systems use cellular or internet connections to communicate with the monitoring center. If your Wi-Fi goes down or if there is a cellular signal disruption, the panel may beep to notify you that it can no longer "call home" to report emergencies.
 
 ### 5. Zone Faults or Open Windows
@@ -105,7 +105,7 @@ If the beep is accompanied by a communication error, your system is "blind."
 
 ---
 
-0## Step-by-Step Guide to Maintaining Your ADT System
+## Step-by-Step Guide to Maintaining Your ADT System
 
 To avoid the stress of unexpected beeping in the future, you should adopt a proactive maintenance routine. Think of your alarm system like a car; regular "oil changes" (battery replacements) prevent major breakdowns.
 
@@ -147,7 +147,7 @@ While the steps above cover about 90% of ADT beeping issues, some problems are b
 | **"Low Batt: [Zone Name]"** | Sensor battery is dying. | Replace the specific sensor battery. |
 | **"AC Loss"** | No power to the panel. | Check breakers and the transformer plug. |
 | **"Tamper"** | A sensor cover is loose. | Resnap all sensor covers tightly. |
-        | **"Comm Fail"** | Internet/Cellular issue. | Restart your router/modem. |
+| **"Comm Fail"** | Internet/Cellular issue. | Restart your router/modem. |
 | **"Zone Open"** | A door/window is unlatched. | Close all doors and windows. |
 
 ---
@@ -159,7 +159,7 @@ Dealing with an **ADT alarm beeping** is incredibly annoying, but it is ultimate
 Don't let a simple beep turn into a security vulnerability. Tackle those batteries, check those windows, and enjoy the peace and quiet of a well-maintained home security system.
 
 **Are you experiencing recurring issues with your home security?**
-If your system continues to malfunction despite your best efforts, it might be time for a professional system upgrade or a comprehensive system health check. [Contact a local security expert today] to ensure your home remains a fortress of safety.
+If your system continues to malfunction despite your best efforts, it might be time for a professional system upgrade or a comprehensive system health check. Contact ADT support at 1-800-ADT-ASAP (1-800-238-2727) or visit adt.com/support to ensure your home remains a fortress of safety.
 
 ---
 *Disclaimer: This article is for informational purposes only. Always refer to your specific ADT user manual for instructions regarding your exact model and keypad configuration. If you are unsure about handling electrical components, please consult a licensed professional.*

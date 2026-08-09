@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/smoke-detector-2-beeps.png"
+social_image: "/images/editorial/smoke-detector-2-beeps.png"
 image_alt: "Illustration of a smoke alarm showing two beeps with model manual check guidance"
 ---
 

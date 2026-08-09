@@ -6,6 +6,7 @@ date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
 image: "/images/editorial/smoke-detector-reset-guide.png"
+social_image: "/images/editorial/smoke-detector-reset-guide.png"
 image_alt: "Four-step smoke detector reset process diagram"
 ---
 
