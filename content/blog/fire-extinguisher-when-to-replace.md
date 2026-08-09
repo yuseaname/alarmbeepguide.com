@@ -10,7 +10,9 @@ tags: ["fire extinguisher", "replacement", "safety", "maintenance"]
 keywords: ["fire extinguisher", "replacement", "safety", "maintenance"]
 readTime: 7
 featured: true
-image: "/images/categories/fire-extinguishers.png"
+image: "/images/editorial/fire-extinguisher-replace.svg"
+social_image: "/images/editorial/fire-extinguisher-replace.png"
+image_alt: "Three fire extinguishers showing old, new, and serviced states with replacement timeline"
 ---
 
 Fire extinguishers feel sturdy, but they still have service lives and warning signs worth noting. Here is when replacement is recommended and why it improves reliability.

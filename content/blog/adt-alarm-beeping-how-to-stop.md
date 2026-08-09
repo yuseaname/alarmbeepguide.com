@@ -5,7 +5,9 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/adt-alarm-beeping.svg"
+social_image: "/images/editorial/adt-alarm-beeping.png"
+image_alt: "ADT security panel with colored status indicators and beeping troubleshooting prompt"
 ---
 
 There is perhaps no sound more jarring than a persistent, high-elicit chirp or a rhythmic beep echoing through your home in the middle of the night. If you are currently searching for **ADT alarm beeping how to stop** the noise, you are likely experiencing the frustration of a security system that is trying to tell you something is wrong. While these sounds are designed to alert you to potential threats, they are also used by the system to signal maintenance needs, power issues, or sensor malfunctions.
