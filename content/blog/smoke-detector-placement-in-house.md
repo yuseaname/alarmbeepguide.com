@@ -5,7 +5,8 @@ description: "Where you place smoke detectors matters as much as having them. He
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/smoke-detector-placement-guide.png"
+image_alt: "Two-story house cross-section showing correct smoke detector placement per NFPA 72"
 ---
 
 Proper smoke detector placement can be the difference between early warning and tragedy. A smoke detector in the wrong location may not detect smoke in time, may trigger false alarms that cause you to disable it, or may fail building code inspection. This guide explains the placement rules based on NFPA 72 (the US national fire alarm code), how to apply them room by room in a typical US home, and the practical pitfalls to avoid.

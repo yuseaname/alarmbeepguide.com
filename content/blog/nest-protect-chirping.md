@@ -5,7 +5,8 @@ description: "Your Nest Protect is chirping and you need to know why. Here are t
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/nest-protect-chirp-guide.png"
+image_alt: "Illustration of a Nest Protect alarm with diagnostic indicators for chirping troubleshooting"
 ---
 
 If your Nest Protect is chirping, you're hearing one of two things: a low-battery warning or a sensor trouble alert. Both are designed to wake you up at inconvenient times — usually 2 a.m. — and both have specific fixes. The good news is that Nest Protect tells you exactly what's wrong through its app, color codes, and chirp pattern. The bad news is that if your unit was manufactured in 2014 or earlier, the fix is replacement, not troubleshooting.

@@ -5,7 +5,8 @@ description: ""
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: true
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/smoke-detector-reset-guide.png"
+image_alt: "Four-step smoke detector reset process diagram"
 ---
 
 That piercing, rhythmic chirp in the middle of the night is a sound no homeowner wants to hear. You wake up, disoriented and frustrated, only to realize your smoke detector is acting up again. Whether it’s a continuous siren or a persistent, annoying beep every sixty seconds, knowing **how to reset a smoke detector** is a critical skill for maintaining a safe and peaceful home.

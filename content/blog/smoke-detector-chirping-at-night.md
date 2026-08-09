@@ -5,7 +5,8 @@ description: "Smoke detectors seem to always chirp at 2 AM. Here is why, plus th
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/smoke-alarm-nighttime-chirp.png"
+image_alt: "Nighttime scene with a moon, stars, and a chirping ceiling smoke alarm"
 ---
 
 If your smoke detector chirps at night, you're not imagining things — there's a real reason it happens at 2 AM and not during the day. The combination of cooler nighttime temperatures, lower humidity, and reduced battery voltage creates the perfect conditions for a low-battery chirp. This guide explains exactly why nighttime chirping happens and gives you a step-by-step fix that works the same night.

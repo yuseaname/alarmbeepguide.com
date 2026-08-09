@@ -5,10 +5,13 @@ description: "Replaced the battery and your Kidde detector still chirps? Here ar
 date: 2025-03-01
 author: "AlarmBeepGuide"
 draft: false
-image: "/images/categories/chirp-beep-codes.png"
+image: "/images/editorial/kidde-chirp-after-battery.png"
+image_alt: "Illustration of a Kidde smoke alarm with fresh batteries and a hard reset indicator"
 ---
 
-Replacing the battery should silence a chirping smoke detector. But if you replaced the battery in your Kidde detector and it still chirps, there's a specific issue that needs addressing. Kidde detectors have unique reset procedures that differ from First Alert, X-Sense, and other brands. This guide walks through every Kidde-specific fix for chirping after battery replacement.
+**Important:** Kidde chirp patterns and reset procedures vary significantly by model. The steps below cover common Kidde models, but always check your specific model's user manual. Find your model number on the back of the detector. You can also check [Kidde's recall page](https://www.kidde.com/recalls) to verify your unit is not affected by a safety recall.
+
+Replacing the battery should silence a chirping smoke detector. But if you replaced the battery in your Kidde detector and it still chirps, there's a specific issue that needs addressing. Kidde detectors have reset procedures that differ from First Alert, X-Sense, and other brands. This guide walks through common Kidde fixes for chirping after battery replacement.
 
 ## Why Kidde Detectors Chirp After Battery Replacement
 
