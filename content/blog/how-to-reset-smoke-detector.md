@@ -14,7 +14,11 @@ That piercing, rhythmic chirp in the middle of the night is a sound no homeowner
 
 While a sudden alarm can be terrifying, a "chirping" alarm is usually a signal of a technical hiccup rather than an immediate fire threat. However, ignoring these sounds is dangerous. A malfunctioning detector might fail to alert you during a real emergency, or it might leave you in a state of constant "alarm fatigue," where you become desensitized to the sound of the siren.
 
+> **Always read the manual for your exact model before performing any reset.** Reset steps, hold times, and chirp meanings vary by manufacturer, model, and production year. The guidance below is general — your alarm may require different steps.
+
 In this comprehensive guide, we will walk you through every stage of smoke detector troubleshooting. From simple battery swaps to complex hardwired resets and deep-cleaning techniques, you will learn how to identify the problem and implement the right solution.
+
+> **Always read the manual for your exact model before performing any reset.** Reset steps, hold times, and chirp meanings vary by manufacturer, model, and production year. The procedures below are general guidance — your alarm may require different steps.
 
 ## Identifying the Problem: Why is Your Smoke Detector Beeping?
 
