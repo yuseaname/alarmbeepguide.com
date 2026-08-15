@@ -15,6 +15,8 @@ social_image: "/images/editorial/sealed-battery-chirping.png"
 image_alt: "Illustration of a sealed 10-year battery smoke alarm with no replaceable battery showing end of life signal"
 ---
 
+
+{{< affiliate-disclosure >}}
 Sealed 10-year smoke alarms reduce maintenance, but they can still chirp. The difference is that the battery is not meant to be replaced. That makes the chirp feel more confusing because the usual fix is not available. This guide explains the common causes, what you can safely try, and when replacement is the correct answer.
 
 
@@ -220,6 +222,8 @@ If they were installed at the same time, replacing them together simplifies main
 It can reduce low-battery chirps, but it will still chirp at end of life and during certain trouble states.
 {{< /faq >}}
 
+
+{{< product-box asin="B08XY8VNPS" name="Kidde P4010ACSCO 10-Year Sealed Combo (2-Pack)" label="The no-chirp upgrade" description="Sealed 10-year lithium units cannot chirp for a low battery — the fix that ends the 3AM wake-ups for good. Wire-free interconnect, voice alerts, smoke + CO in one unit." button="Check price on Amazon" >}}
 
 ## Related Articles
 

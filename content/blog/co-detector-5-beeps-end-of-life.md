@@ -11,6 +11,8 @@ social_image: "/images/editorial/co-model-replacement.png"
 image_alt: "Illustration of a carbon monoxide alarm label and replacement date"
 ---
 
+
+{{< affiliate-disclosure >}}
 "Five beeps" is not a universal carbon-monoxide alarm code. Manufacturers use different sound patterns, displays, lights, and voice alerts for low battery, end of life, tamper warnings, faults, and CO events. Do not decide that a pattern is harmless—or that it definitely means end of life—without the exact make and model.
 
 **If the alarm is loud and repeating, or you cannot tell whether it is an active CO alarm, get everyone outside to fresh air and call emergency services from outside.** The [CPSC](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Carbon-Monoxide-Questions-and-Answers) says not to search for the source before leaving and not to re-enter until responders say it is safe.
@@ -108,6 +110,8 @@ The model number is printed on a label on the back or side of the detector. You 
 - [First Alert SC5 Specification Sheet (official)](https://www.firstalert.com/products/sc5-battery-smart-smoke-carbon-monoxide-alarm)
 - [Kidde: Why Is My Carbon Monoxide Alarm Beeping or Chirping?](https://www.kidde.com/support/carbon-monoxide-alarms/why-is-my-carbon-monoxide-alarm-beeping-or-chirping)
 - [Google Support: Replace Your Nest Protect After Expiration](https://support.google.com/googlehome/answer/15731767)
+
+{{< product-box asin="B08KSM8Q5V" name="Kidde Nighthawk Plug-In CO Detector" label="The standard replacement" description="Five beeps means the sensor is done — not the batteries. This plug-in Nighthawk with digital display and battery backup is the drop-in most households choose when replacing an end-of-life unit." button="Check price on Amazon" >}}
 
 ## Related Articles
 

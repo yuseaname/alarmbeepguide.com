@@ -15,6 +15,8 @@ social_image: "/images/editorial/best-smoke-alarms-guide.png"
 image_alt: "Illustration of four smoke alarm types: battery, 10-year sealed, hardwired, and smart"
 ---
 
+
+{{< affiliate-disclosure >}}
 Choosing a smoke alarm is less about hype and more about fit: the right sensor type for your space, a battery that does not chirp constantly, and a brand that feels straightforward to live with. This guide breaks down the parts that actually matter so you can make a calm, informed choice and avoid the common mistakes that lead to nuisance alarms.
 
 
@@ -267,6 +269,8 @@ Smart alarms offer notifications and features, but detection quality still depen
 Placement and sensor type matter. Photoelectric alarms and better placement can reduce nuisance alarms.
 {{< /faq >}}
 
+
+{{< product-box asin="B018A3AEDG" name="Google Nest Protect (Wired, 2nd Gen)" label="Best smart pick" description="Phone alerts, self-testing, split-spectrum sensing, and a spoken warning instead of a shriek — the alarm that tells you dinner is burning before it tells the neighbors." button="Check price on Amazon" >}}
 
 ## Related Articles
 

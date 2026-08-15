@@ -11,6 +11,8 @@ social_image: "/images/editorial/co-four-beep-emergency.png"
 image_alt: "Illustration of a carbon monoxide alarm and a route to fresh air"
 ---
 
+
+{{< affiliate-disclosure >}}
 **If a CO alarm is sounding loudly and repeatedly, get everyone outside to fresh air. Call 911, your fire department, or local emergency services from outside, and do not re-enter until responders say it is safe.** This is the [U.S. Consumer Product Safety Commission's guidance](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Carbon-Monoxide-Questions-and-Answers) for a sounding CO alarm.
 
 On many residential CO alarms, including current Kidde models, a CO event is signaled by **four short beeps, a pause, then four short beeps again**. Sound patterns are not universal: the make, model, age, and whether the unit is a combination smoke/CO alarm all matter. If you hear a loud repeating alarm and cannot positively identify it as a documented maintenance signal, respond as though it could be CO.
@@ -119,6 +121,8 @@ No. The CPSC warns that portable generators must be used outdoors at least 20 fe
 - [Kidde: Why Is My Carbon Monoxide Alarm Beeping or Chirping?](https://www.kidde.com/support/carbon-monoxide-alarms/why-is-my-carbon-monoxide-alarm-beeping-or-chirping)
 - [First Alert SC5 Specification Sheet](https://www.firstalert.com/products/sc5-battery-smart-smoke-carbon-monoxide-alarm)
 - [CPSC: Portable Generator Safety](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Generators-and-Carbon-Monoxide)
+
+{{< product-box asin="B08KSM8Q5V" name="Kidde Nighthawk Plug-In CO Detector" label="Add a second layer" description="Four beeps means CO is present right now. A plug-in digital-display unit for bedrooms and living areas adds the redundancy every CO plan needs after the event." button="Check price on Amazon" >}}
 
 ## Related Articles
 

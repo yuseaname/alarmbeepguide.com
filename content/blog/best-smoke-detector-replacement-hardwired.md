@@ -10,6 +10,8 @@ social_image: "/images/editorial/best-hardwired-replacement.png"
 image_alt: "Illustration of a hardwired smoke alarm with interconnect wire and UL listing badge"
 ---
 
+
+{{< affiliate-disclosure >}}
 The best hardwired smoke detector for replacement in 2026 is one that fits your existing wiring, has a photoelectric sensor, and includes a reliable backup battery. This guide evaluates the top hardwired detectors specifically for replacing existing hardwired units, with a focus on compatibility, reliability, and code compliance.
 
 ## What to Look for in a Hardwired Replacement
@@ -357,6 +359,8 @@ For most homes, the First Alert SA511CN3 is the best balance of price, features,
 ### Can I use a smart detector with my existing hardwired system?
 
 Yes, if the smart detector is hardwired-compatible. The First Alert SC5 is hardwired-compatible and works with most existing interconnected systems.
+
+{{< product-box asin="B07CS2GZP7" name="Kidde KN-COSM-IBA Hardwired Combo" label="Our hardwired pick" description="Interconnectable hardwired smoke + CO with battery backup and voice warnings — the direct replacement for aging hardwired units, compatible with existing Kidde interconnect wiring." button="Check price on Amazon" >}}
 
 ## Related Articles
 

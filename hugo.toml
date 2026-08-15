@@ -4,6 +4,8 @@ title = 'AlarmBeepGuide'
 theme = 'adsense-base'
 
 [params]
+  # Central affiliate swap-point — change here, every Amazon link updates sitewide.
+  amazon_tag = 'litwd-20'
   site_name = 'AlarmBeepGuide'
   description = 'Decode confusing alarm beeps, troubleshoot smoke detectors, fix chirping alerts, and solve household safety device problems without manuals.'
   tagline = 'Decode the beep. Fix the problem.'

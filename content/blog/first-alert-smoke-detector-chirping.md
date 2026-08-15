@@ -10,6 +10,8 @@ social_image: "/images/editorial/first-alert-chirp-guide.png"
 image_alt: "Illustration of a First Alert smoke alarm showing chirp patterns and diagnostic steps"
 ---
 
+
+{{< affiliate-disclosure >}}
 **Important:** Chirp patterns vary by model and manufacture year. The patterns below are common across many First Alert models, but always verify against your specific model's user manual. Find your model number on the back of the detector.
 
 First Alert is the most common smoke detector brand in US homes, and its chirps follow specific patterns that tell you exactly what's wrong. This guide decodes common First Alert chirp patterns, identifies the cause, and gives you the fix for each one. Most First Alert chirping is resolved within 5 minutes using the steps below.
@@ -268,6 +270,8 @@ First Alert offers a 10-year warranty on most detectors. Check your purchase rec
 ### Can I clean a First Alert detector instead of replacing it?
 
 For sensor trouble chirps, cleaning may resolve the issue. For end-of-life chirps, cleaning won't help — the sensor is permanently degraded.
+
+{{< product-box asin="B000MXJ498" name="First Alert SCO5CN Smoke + CO Combo" label="First Alert replacement path" description="When cleaning and fresh batteries do not stop the chirp, the unit is end-of-life. This battery combo is the like-for-like First Alert replacement — no rewiring, no new mounts." button="Check price on Amazon" >}}
 
 ## Related Articles
 
