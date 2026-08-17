@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-<title id="title">Hardwired smoke alarm troubleshooting illustration</title><desc id="desc">A ceiling-mounted smoke alarm connected to household power with a backup battery symbol.</desc>
-<rect width="1200" height="630" fill="#102a43"/><path d="M0 0h1200v142H0z" fill="#dbeafe"/><path d="M0 142h1200" stroke="#94a3b8" stroke-width="8"/>
-<path d="M403 142v105c0 50 32 81 81 81h54" fill="none" stroke="#fbbf24" stroke-width="16" stroke-linecap="round"/><path d="M538 328h115" stroke="#fbbf24" stroke-width="16" stroke-linecap="round"/>
-<g transform="translate(486 245)"><ellipse cx="178" cy="110" rx="161" ry="98" fill="#f8fafc"/><ellipse cx="178" cy="100" rx="127" ry="69" fill="#dbeafe"/><circle cx="178" cy="100" r="15" fill="#22c55e"/><path d="M98 151h160M123 177h110" stroke="#94a3b8" stroke-width="11" stroke-linecap="round"/></g>
-<g transform="translate(867 274)"><rect width="137" height="194" rx="14" fill="#f8fafc"/><rect x="29" y="-16" width="78" height="28" rx="7" fill="#cbd5e1"/><path d="M42 91h51M68 65v52" stroke="#ef4444" stroke-width="12" stroke-linecap="round"/></g>
-<text x="94" y="535" fill="#f8fafc" font-family="Arial, sans-serif" font-size="38" font-weight="700">HARDWIRED ALARM</text><text x="94" y="578" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="25">Use model-specific reset instructions. Do not repair damaged wiring.</text>
-</svg>
