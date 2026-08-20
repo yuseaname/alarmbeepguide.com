@@ -1,0 +1,44 @@
+{{/* Related Posts: show up to 3 related posts from the same section, excluding current */}}
+{{ $current := . }}
+{{ $related := where .Site.RegularPages ".Permalink" "!=" $current.Permalink }}
+
+{{/* Prefer same-section articles */}}
+{{ $sectionPages := where $related ".CurrentSection.Title" $current.CurrentSection.Title }}
+{{ if gt (len $sectionPages) 0 }}
+  {{ $related = $sectionPages }}
+{{ end }}
+
+{{ $related = $related | first 3 }}
+
+{{ if gt (len $related) 0 }}
+  <section class="related-section" aria-label="Related articles">
+    <h2 class="related-title">Related Articles</h2>
+    <div class="section-grid">
+      {{ range $related }}
+        <article class="card">
+          <a href="{{ .RelPermalink }}" class="block">
+            {{ $relatedPage := . }}
+            {{ with $relatedPage.Params.image }}
+              <div class="overflow-hidden">
+                <img src="{{ . }}" alt="{{ $relatedPage.Params.image_alt | default $relatedPage.Title }}" class="card-image" loading="lazy">
+              </div>
+            {{ end }}
+            <div class="card-body">
+              {{ with .CurrentSection }}
+                {{ if and (not .IsHome) (ne .Title "Blog") }}
+                  <span class="badge badge-primary mb-2 inline-block">{{ .Title }}</span>
+                {{ end }}
+              {{ end }}
+              <h3 class="card-title">{{ .Title }}</h3>
+              <p class="card-text">{{ .Params.description | default (truncate 100 .Plain) }}</p>
+              <div class="flex items-center gap-3 mt-2">
+                <time datetime="{{ .Date.Format "2006-01-02" }}" class="card-meta">{{ .Date.Format "Jan 2, 2006" }}</time>
+                <span class="text-xs text-gray-400">{{ .ReadingTime }} min read</span>
+              </div>
+            </div>
+          </a>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

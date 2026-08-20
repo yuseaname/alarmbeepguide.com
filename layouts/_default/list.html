@@ -9,10 +9,13 @@
     {{ with .Params.description }}<p class="text-lg text-gray-600 mt-2 max-w-2xl">{{ . }}</p>{{ end }}
   </header>
 
-  {{/* Page body content */}}
-  {{ .Content }}
-
   {{/* Ad: top of list */}}
+  {{ with .Content }}
+  <div class="article-content max-w-3xl mt-8 mb-10">
+    {{ . }}
+  </div>
+  {{ end }}
+
   {{ if .Site.Params.adsense.client_id }}{{ partial "adsense.html" (dict "position" "below_title" "ctx" .) }}{{ end }}
 
   <!-- Articles Grid -->
@@ -20,9 +23,10 @@
     {{ range .RegularPages }}
       <article class="card">
         <a href="{{ .RelPermalink }}" class="block">
-          {{ with .Params.image }}
+          {{ $card := . }}
+          {{ with $card.Params.image }}
             <div class="overflow-hidden">
-              <img src="{{ . }}" alt="{{ $.Title }}" class="card-image" loading="lazy">
+              <img src="{{ . }}" alt="{{ $card.Params.image_alt | default $card.Title }}" class="card-image" loading="lazy">
             </div>
           {{ end }}
           <div class="card-body">

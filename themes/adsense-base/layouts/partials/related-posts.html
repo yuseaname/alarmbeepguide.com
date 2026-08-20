@@ -1,39 +1,71 @@
-{{/* Related Posts: show up to 3 related posts from the same section, excluding current */}}
+{{/* Related Posts: topically-matched, ranked by shared category + tags.
+     Falls back to most-recent same-section pages only if no topical match.
+     Renders using the design-system card pattern for visual consistency. */}}
 {{ $current := . }}
-{{ $related := where .Site.RegularPages ".Permalink" "!=" $current.Permalink }}
+{{ $currentCat := .Params.category }}
+{{ $currentTags := .Params.tags }}
 
-{{/* Prefer same-section articles */}}
-{{ $sectionPages := where $related ".CurrentSection.Title" $current.CurrentSection.Title }}
-{{ if gt (len $sectionPages) 0 }}
-  {{ $related = $sectionPages }}
+{{ $allPages := where .Site.RegularPages ".Permalink" "!=" $current.Permalink }}
+
+{{/* Score every candidate: +2 for same category, +1 per shared tag */}}
+{{ $scored := slice }}
+{{ range $allPages }}
+  {{ $candidate := . }}
+  {{ $score := 0 }}
+  {{ if and $currentCat (eq .Params.category $currentCat) }}
+    {{ $score = add $score 2 }}
+  {{ end }}
+  {{ with $currentTags }}
+    {{ range $t := . }}
+      {{ if in ($candidate.Params.tags | default slice) $t }}
+        {{ $score = add $score 1 }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if gt $score 0 }}
+    {{ $scored = $scored | append (dict "page" $candidate "score" $score) }}
+  {{ end }}
 {{ end }}
 
-{{ $related = $related | first 3 }}
+{{/* Sort by score (desc), tiebreak by date (desc), take 3 */}}
+{{ $related := sort $scored "score" "desc" }}
 
-{{ if gt (len $related) 0 }}
+{{ $top := slice }}
+{{ range first 3 $related }}
+  {{ $top = $top | append .page }}
+{{ end }}
+
+{{/* Fallback: if no topical match, use 3 most recent non-current pages */}}
+{{ if eq (len $top) 0 }}
+  {{ $top = first 3 $allPages }}
+{{ end }}
+
+{{ if gt (len $top) 0 }}
   <section class="related-section" aria-label="Related articles">
-    <h2 class="related-title">Related Articles</h2>
+    <div class="section-heading">
+      <h2 class="related-title">Keep Reading</h2>
+    </div>
     <div class="section-grid">
-      {{ range $related }}
+      {{ range $top }}
         <article class="card">
           <a href="{{ .RelPermalink }}" class="block">
-            {{ $relatedPage := . }}
-            {{ with $relatedPage.Params.image }}
+            {{ with .Params.image }}
               <div class="overflow-hidden">
-                <img src="{{ . }}" alt="{{ $relatedPage.Params.image_alt | default $relatedPage.Title }}" class="card-image" loading="lazy">
+                {{/* Decorative card art: the visible card heading labels the link,
+                     so alt stays empty instead of duplicating (or mislabeling) text. */}}
+                <img src="{{ . }}" alt="" class="card-image" loading="lazy" decoding="async">
               </div>
+            {{ else }}
+              {{/* Intentional no-image fallback: branded monogram block keeps card
+                   geometry stable instead of a missing-image gap. */}}
+              <div class="card-fallback" aria-hidden="true">{{ substr .Title 0 1 }}</div>
             {{ end }}
             <div class="card-body">
-              {{ with .CurrentSection }}
-                {{ if and (not .IsHome) (ne .Title "Blog") }}
-                  <span class="badge badge-primary mb-2 inline-block">{{ .Title }}</span>
-                {{ end }}
-              {{ end }}
               <h3 class="card-title">{{ .Title }}</h3>
-              <p class="card-text">{{ .Params.description | default (truncate 100 .Plain) }}</p>
-              <div class="flex items-center gap-3 mt-2">
+              <p class="card-text">{{ .Params.description | default (truncate 110 .Plain) }}</p>
+              <div class="flex items-center justify-between mt-3">
                 <time datetime="{{ .Date.Format "2006-01-02" }}" class="card-meta">{{ .Date.Format "Jan 2, 2006" }}</time>
-                <span class="text-xs text-gray-400">{{ .ReadingTime }} min read</span>
+                <span class="text-xs" style="color: var(--color-text-muted)">{{ .ReadingTime }} min read</span>
               </div>
             </div>
           </a>

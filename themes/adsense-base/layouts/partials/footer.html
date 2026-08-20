@@ -1,62 +1,60 @@
-<footer class="bg-gray-50 border-t border-gray-200 mt-16" role="contentinfo">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<footer class="site-footer" role="contentinfo">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-14">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
       <!-- Brand column -->
       <div class="sm:col-span-2 lg:col-span-1">
-        <a href="{{ .Site.BaseURL | relURL }}" class="flex items-center gap-2 text-sm font-bold text-gray-900 hover:text-primary-600 transition-colors">
-          <svg class="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+        <a href="{{ .Site.BaseURL | relURL }}" class="flex items-center gap-2 text-sm font-bold footer-brand">
+          <svg class="w-5 h-5 footer-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
           </svg>
           {{ .Site.Params.site_name | default .Site.Title }}
         </a>
         {{ with .Site.Params.description }}
-        <p class="text-xs text-gray-500 mt-3 leading-relaxed max-w-xs">{{ . }}</p>
+        <p class="footer-desc mt-3">{{ . }}</p>
         {{ end }}
-        <p class="text-xs text-gray-400 mt-4">© {{ now.Year }} All rights reserved.</p>
+        <p class="footer-copy mt-4">© {{ now.Year }} {{ .Site.Params.site_name | default .Site.Title }}. All rights reserved.</p>
       </div>
 
       <!-- Quick Links -->
       <div>
-        <h3 class="footer-heading">Quick Links</h3>
-        <ul class="space-y-2">
-          <li><a href="/" class="text-sm text-gray-500 hover:text-primary-600 transition-colors">Home</a></li>
-          <li><a href="/blog/" class="text-sm text-gray-500 hover:text-primary-600 transition-colors">Blog</a></li>
-          <li><a href="/about/" class="text-sm text-gray-500 hover:text-primary-600 transition-colors">About</a></li>
-          <li><a href="/contact/" class="text-sm text-gray-500 hover:text-primary-600 transition-colors">Contact</a></li>
+        <h3 class="footer-heading">Guides</h3>
+        <ul class="footer-list">
+          <li><a href="/" class="footer-link">Home</a></li>
+          <li><a href="/blog/" class="footer-link">All Guides</a></li>
+          <li><a href="/about/" class="footer-link">About</a></li>
+          <li><a href="/contact/" class="footer-link">Contact</a></li>
         </ul>
       </div>
 
-      <!-- Popular Categories -->
+      <!-- Categories -->
       <div>
-        <h3 class="footer-heading">Categories</h3>
-        <ul class="space-y-2">
-          {{ range first 6 .Site.Sections }}
-          <li><a href="{{ .RelPermalink }}" class="text-sm text-gray-500 hover:text-primary-600 transition-colors">{{ .Title }}</a></li>
+        <h3 class="footer-heading">Topics</h3>
+        <ul class="footer-list">
+          {{ $cats := .Site.Taxonomies.categories }}
+          {{ range first 6 (sort $cats "Count" "desc") }}
+          <li><a href="{{ .Page.RelPermalink }}" class="footer-link">{{ .Page.Title | default (humanize (path.Base .Page.RelPermalink)) | title }}</a></li>
           {{ end }}
         </ul>
       </div>
 
-      <!-- Policies -->
+      <!-- Trust & Policies -->
       <div>
-        <h3 class="footer-heading">Policies</h3>
-        <ul class="space-y-2">
-          {{ $allPages := where .Site.Pages "Kind" "page" }}
-          {{ $slugs := slice "privacy" "privacy-policy" "disclosure" "editorial-policy" "terms" "terms-of-service" }}
-          {{ range $slugs }}
-            {{ $slug := . }}
-            {{ range $allPages }}
-              {{ if or (eq .File.BaseFileName $slug) (eq .File.TranslationBaseName $slug) }}
-                <li><a href="{{ .RelPermalink }}" class="text-sm text-gray-500 hover:text-primary-600 transition-colors capitalize">{{ replace $slug "-" " " }}</a></li>
-              {{ end }}
-            {{ end }}
-          {{ end }}
+        <h3 class="footer-heading">Trust &amp; Legal</h3>
+        <ul class="footer-list">
+          <li><a href="/editorial-team/" class="footer-link">Editorial Team</a></li>
+          <li><a href="/editorial-policy/" class="footer-link">Editorial Policy</a></li>
+          <li><a href="/methodology/" class="footer-link">Methodology</a></li>
+          <li><a href="/corrections/" class="footer-link">Corrections</a></li>
+          <li><a href="/privacy-policy/" class="footer-link">Privacy Policy</a></li>
+          <li><a href="/terms/" class="footer-link">Terms</a></li>
+          <li><a href="/disclaimer/" class="footer-link">Disclaimer</a></li>
         </ul>
       </div>
     </div>
 
     <!-- AdSense disclosure -->
-    <div class="mt-10 pt-6 border-t border-gray-200">
-      <p class="text-xs text-gray-400 max-w-3xl">
+    <div class="footer-disclosure">
+      <p>
         This site may display advertisements provided by third parties. Ad placements are automated and not personally endorsed.
         {{ with .Site.Params.adsense.client_id }}We use Google AdSense to serve ads.{{ end }}
       </p>
