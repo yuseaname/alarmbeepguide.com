@@ -95,6 +95,8 @@ These picks are based on verified specifications and current retail price bands 
 
 **Honest limitation:** No digital display means you cannot see current PPM or peak levels. If you suspect a chronic low-level leak, this is not the unit for you.
 
+{{< product-box asin="B000ND74XA" name="First Alert CO605 Basic Plug-In CO Detector" label="Best basic plug-in" description="No-frills UL-listed plug-in with battery backup; reliable where you want continuous power without paying for a display." button="Check price on Amazon" >}}
+
 ### Kidde Nighthawk KN-COPP-3 — Best Plug-In With Display
 
 - **Power:** AC plug-in with 9V battery backup
@@ -106,6 +108,8 @@ These picks are based on verified specifications and current retail price bands 
 **Best at:** Diagnosing. The digital display and peak memory let you see the highest CO level recorded, which is invaluable when you are trying to find an intermittent source.
 
 **Honest limitation:** It occupies an outlet and the 9V backup battery needs periodic replacement. The display is useful but adds cost.
+
+{{< product-box asin="B00002N86A" name="Kidde Nighthawk KN-COPP-3 Plug-In CO Detector With Display" label="Best with a PPM readout" description="Digital parts-per-million display with peak-level memory — the pick for diagnosing an intermittent low-level source." button="Check price on Amazon" >}}
 
 ### Kidde 30CUD10-Class — Best Sealed 10-Year Combination
 
@@ -173,7 +177,7 @@ Yes. A UL 2034-listed smart detector must still sound its local alarm when CO is
 {{< /faq >}}
 
 {{< faq question="When should I replace my carbon monoxide detector?" >}}
-Replace it at the end of its stated service life, typically 7–10 years from the manufacture date printed on the label. Do not wait for it to fail. See [When to Replace a Carbon Monoxide Detector](/blog/when-to-replace-a-carbon-monoxide-detector) for details.
+Replace it at the end of its stated service life, typically 7–10 years from the manufacture date printed on the label. Do not wait for it to fail. See [When to Replace a Carbon Monoxide Detector](/blog/when-to-replace-a-carbon-monoxide-detector) for details. For what replacement units cost and how to budget for them, see [Smoke Detector Replacement Cost](/blog/smoke-detector-replacement-cost).
 {{< /faq >}}
 
 ## Related Articles

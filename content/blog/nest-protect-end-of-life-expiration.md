@@ -11,7 +11,8 @@ tags: ["nest protect", "expiration", "end of life", "replacement", "google nest"
 categories: ["alarm-lifespan-replacement-maintenance"]
 ---
 
-Your Nest Protect has been on your ceiling for years, quietly doing its job. But like every smoke and carbon monoxide detector, it has a limited lifespan — and Nest Protect will tell you when that time is coming.
+{{< affiliate-disclosure >}}
+Your Nest Protect has been on your ceiling for years, quietly doing its job. But like every smoke and carbon monoxide detector, it has a limited lifespan — and Nest Protect will tell you when that time is coming. The guidance below is based on manufacturer documentation and public specifications; we have not physically tested these products.
 
 The key thing to understand is that Nest Protect doesn't expire based on when you installed it. It expires based on when it was **manufactured**. If you bought a Nest Protect that sat in a warehouse for two years before you installed it, you've already lost two years of its life.
 
@@ -132,6 +133,8 @@ The [full Nest Protect replacement guide](/blog/nest-protect-discontinued-replac
 - **First Alert SC5:** Google's recommended replacement. Works with Google Home, uses six replaceable CR123A lithium batteries (3–5 year life per First Alert), and supports voice alerts. See our [First Alert SC5 vs Nest Protect guide](/blog/first-alert-sc5-vs-nest-protect/) for a full breakdown.
 - **X-Sense smart detectors:** More affordable, good smart features, but less Google Home integration.
 - **Any UL-listed smoke/CO detector:** If you don't need smart features, a basic $20-40 detector from [First Alert or Kidde](/blog/first-alert-vs-kidde-smoke-alarms/) meets all safety requirements. See our [smoke detector replacement cost guide](/blog/smoke-detector-replacement-cost/) for pricing.
+
+{{< product-box asin="B0DS2W3794" name="First Alert SC5 Smart Smoke & CO Alarm" label="Best Nest Protect replacement" description="Six CR123A batteries, voice alerts, wireless interconnect up to 18 units, and Google Home integration — the direct successor that interoperates with your existing Nest Protects." button="Check price on Amazon" >}}
 
 For more on smoke detector lifespans in general, see our guide on [how long smoke detectors last](/blog/how-long-do-smoke-detectors-last/) and the [smoke alarm end-of-life beep guide](/blog/smoke-alarm-end-of-life-beeps/).
 

@@ -13,6 +13,9 @@ featured: true
 image: "/images/editorial/co-alarm-model-guide.svg"
 social_image: "/images/editorial/co-alarm-model-guide.png"
 image_alt: "Illustration of a carbon monoxide alarm with sound waves and a model guide"
+aliases:
+  - "/blog/carbon-monoxide-detector-beeping/"
+
 ---
 
 A CO alarm is not a device to decode from memory. Alarm sounds vary by brand and model, and a loud repeating signal can mean a potentially deadly CO hazard. **If the alarm is sounding loudly and repeatedly, or you are not certain that it is only a documented maintenance chirp, get everyone outside to fresh air and call 911, your fire department, or local emergency services from outside. Do not re-enter until responders say it is safe.** This is the [CPSC guidance for a sounding CO alarm](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Carbon-Monoxide-Questions-and-Answers).

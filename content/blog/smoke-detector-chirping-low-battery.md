@@ -13,6 +13,9 @@ featured: true
 image: "/images/editorial/smoke-alarm-battery-and-date.svg"
 social_image: "/images/editorial/smoke-alarm-battery-and-date.png"
 image_alt: "Illustration of a smoke alarm, battery, and replacement-date label"
+aliases:
+  - "/blog/why-is-my-smoke-detector-chirping/"
+
 ---
 
 > **Always check your model's manual for the exact chirp meaning and reset steps.** Beep patterns vary by manufacturer, model, and production year. The guidance below is based on NFPA recommendations and manufacturer support documentation, but your alarm may differ.

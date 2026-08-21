@@ -13,6 +13,9 @@ featured: true
 image: "/images/editorial/smoke-detector-false-alarms.png"
 social_image: "/images/editorial/smoke-detector-false-alarms.png"
 image_alt: "Kitchen scene showing cooking steam triggering a nearby smoke alarm with distance guideline"
+aliases:
+  - "/blog/smoke-detector-false-alarm-and-chirping/"
+
 ---
 
 Smoke detector false alarms are so annoying that people disconnect detectors entirely—reducing protection in the home. Here's how to stop false alarms from cooking, showers, and dust without removing your fire protection.

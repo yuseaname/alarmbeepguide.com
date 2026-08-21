@@ -9,6 +9,9 @@ draft: false
 image: "/images/editorial/smoke-three-beep-safety.svg"
 social_image: "/images/editorial/smoke-three-beep-safety.png"
 image_alt: "Illustration of a smoke alarm sounding three loud beeps with an exit arrow"
+aliases:
+  - "/blog/smoke-detector-3-beeps-meaning/"
+
 ---
 
 A continuing set of three loud beeps—**beep, beep, beep, pause, then repeat**—should be treated as a smoke or fire alarm. The [National Fire Protection Association](https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms) says to get out, call 911, and stay out. Do not remain inside to decide whether the smoke is visible, whether cooking caused it, or whether the sound will stop.

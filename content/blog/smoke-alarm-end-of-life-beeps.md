@@ -13,6 +13,10 @@ featured: false
 image: "/images/editorial/smoke-alarm-end-of-life.png"
 social_image: "/images/editorial/smoke-alarm-end-of-life.png"
 image_alt: "Illustration of a smoke alarm with a calendar showing the 10-year expiration date"
+aliases:
+  - "/blog/smoke-detector-end-of-life-chirp/"
+  - "/blog/smoke-detector-5-beeps-meaning/"
+
 ---
 
 ![Smoke alarm on a ceiling in soft, calm light.](/images/generated/fc43bc319eb1.webp "1600x900 slot:fc43bc319eb1")

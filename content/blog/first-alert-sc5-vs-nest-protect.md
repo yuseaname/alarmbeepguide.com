@@ -15,6 +15,7 @@ draft: false
 aliases: ["/guides/first-alert-sc5-review/", "/guides/first-alert-sc5-vs-nest-protect/", "/blog/first-alert-sc5-review/"]
 ---
 
+{{< affiliate-disclosure >}}
 Google discontinued the Nest Protect in March 2025 and partnered with First Alert to offer the SC5 Smart Smoke & Carbon Monoxide Alarm as a compatible replacement. If your Nest Protect is nearing its 10-year expiration — or you're setting up a new home — the SC5 is the device Google's own support pages point you toward.
 
 This guide compares the two alarms using verified specifications from First Alert's product documentation and Google's support pages, so you can decide whether the SC5 is the right replacement for your home.
@@ -44,6 +45,8 @@ According to Google's own support documentation:
 > "We partnered with First Alert, a trusted brand in fire safety, to offer the First Alert Smart Smoke & Carbon Monoxide Alarm as a compatible replacement for your 2nd gen Nest Protect when used with the Google Home app."
 
 The SC5 is available on [FirstAlert.com](https://www.firstalert.com/products/sc5-battery-smart-smoke-carbon-monoxide-alarm) and at select retailers including Lowe's and Amazon.
+
+{{< product-box asin="B0DS2W3794" name="First Alert SC5 Smart Smoke & CO Alarm" label="Google's recommended replacement" description="Six CR123A batteries, voice alerts, wireless interconnect up to 18 units, and Google Home integration — the direct Nest Protect successor." button="Check price on Amazon" >}}
 
 ### Key Specifications (Verified)
 
@@ -115,7 +118,7 @@ The Nest Protect worked natively within the Google Home (and formerly Nest) app.
 
 ### Discontinuation and Support
 
-Nest Protect is discontinued. While existing units continue to work until their 10-year expiration, Google will not release firmware updates or new features. The SC5 is an actively manufactured and supported product, meaning it receives app updates and manufacturer support.
+Nest Protect is discontinued. While existing units continue to work until their 10-year expiration, Google will not release firmware updates or new features. The SC5 is an actively manufactured and supported product, meaning it receives app updates and manufacturer support. The 10-year sensor life applies to every CO detector on the market — including the SC5 itself. See [How Long Do Smoke Detectors Last?](/blog/how-long-do-smoke-detectors-last/) for the certification basis behind that limit.
 
 ## SC5 Alarm Patterns
 

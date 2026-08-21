@@ -11,6 +11,9 @@ tags: ["nest protect", "smart smoke alarm", "discontinued", "replacement", "firs
 categories: ["alarm-lifespan-replacement-maintenance"]
 ---
 
+{{< affiliate-disclosure >}}
+Replacing a discontinued Nest Protect means choosing a current, UL-listed unit with 10-year sensor certification — we have not physically tested these products; specifications come from manufacturer documentation.
+
 If you own a Nest Protect — or you were thinking about buying one — you've probably heard the news: Google has discontinued it. The smart smoke and carbon monoxide detector that many homeowners trusted for phone alerts, self-tests, and that reassuring green glow at night is no longer being manufactured.
 
 So what does that actually mean for you? Do you need to rip it off your ceiling today? Is it still safe to use? And if it's time to replace it, what's the best option in 2026?
@@ -42,7 +45,7 @@ But Google never updated the second-generation model, and the smart home landsca
 
 Discontinued does not mean defective or dangerous. Google continues to support the Nest Protect app, and the device itself continues to function normally. The key date isn't when Google stopped making it — it's when your specific unit was manufactured.
 
-Nest Protect units are certified for 10 years from the **manufacture date**, not the date you installed it. After 10 years, the carbon monoxide sensor inside degrades and can no longer reliably detect CO. That's a certification requirement, not a Google policy — every CO detector on the market has the same 10-year limit.
+Nest Protect units are certified for 10 years from the **manufacture date**, not the date you installed it. After 10 years, the carbon monoxide sensor inside degrades and can no longer reliably detect CO. That's a certification requirement, not a Google policy — every CO detector on the market has the same 10-year limit — including the Nest Protect itself. See [How Long Do Smoke Detectors Last?](/blog/how-long-do-smoke-detectors-last/) for the certification basis behind that limit.
 
 So if you installed a Nest Protect in 2020 that was manufactured in 2019, it needs to be replaced by 2029 — regardless of the discontinuation. But if you have a unit manufactured in 2016, it's already expired or about to expire.
 
@@ -79,6 +82,8 @@ When it is time to replace your Nest Protect, here are the options worth conside
 Google partnered with First Alert to develop the SC5 as a replacement for the Nest Protect. Google's own support pages state: "We partnered with First Alert, a trusted brand in fire safety, to offer the First Alert Smart Smoke & Carbon Monoxide Alarm as a compatible replacement for your 2nd gen Nest Protect when used with the Google Home app."
 
 The SC5 is a smart smoke and CO detector that integrates with the Google Home app, offers phone notifications, and interconnects wirelessly with existing Nest Protect units — so you can replace expired units one at a time.
+
+{{< product-box asin="B0DS2W3794" name="First Alert SC5 Smart Smoke & CO Alarm" label="Google's recommended replacement" description="Six CR123A batteries, voice alerts, wireless interconnect up to 18 units, and Google Home integration — the direct successor that interoperates with your remaining Nest Protects." button="Check price on Amazon" >}}
 
 Key features:
 - Six CR123A lithium batteries (replaceable, ~3–5 year battery life per First Alert)
